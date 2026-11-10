@@ -62,6 +62,12 @@ models:
       aliases: {small: "llama3.1:8b", large: "llama3.1:8b"}
       fallback: {small: "llama3.1:8b", large: "llama3.1:8b"}
       pricing_usd_per_mtok: {}
+    fake:                          # deterministic stand-in for CI / Playwright; never used for reported numbers
+      provider: fake
+      nodes: {default: small}
+      aliases: {small: fake, large: fake}
+      fallback: {small: fake, large: fake}
+      pricing_usd_per_mtok: {}
     paid:
       provider: openai_compatible
       base_url_env: PAID_LLM_BASE_URL

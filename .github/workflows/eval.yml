@@ -1,0 +1,26 @@
+name: Smoke eval
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    env:
+      # real open model when the secret exists (forks/PRs without secrets fall back to the fake profile;
+      # the claim gate only applies to real-model runs)
+      MODEL_PROFILE: ${{ secrets.OPEN_LLM_API_KEY != '' && 'open' || 'fake' }}
+      OPEN_LLM_API_KEY: ${{ secrets.OPEN_LLM_API_KEY }}
+      OPEN_LLM_BASE_URL: https://api.groq.com/openai/v1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/fastembed, key: fastembed-bge-small-minilm-v1}
+      - run: pip install uv==0.7.8 && uv pip install --system -e .
+      - name: 30-job smoke eval with failure thresholds
+        run: python -m evals.runners.smoke_eval
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: smoke-eval, path: evals/results/smoke_*.json}

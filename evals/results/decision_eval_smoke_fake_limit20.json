@@ -1,0 +1,91 @@
+{
+  "profile": "fake",
+  "rag_variant": "v0_naive",
+  "limit_per_persona": 20,
+  "overall": {
+    "n": 60,
+    "bid_skip": {
+      "precision": 0.8696,
+      "recall": 0.625,
+      "f1": 0.7273
+    },
+    "accuracy": 0.75,
+    "scam": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "price_in_band": 0.7,
+    "injection_flag_recall": 1.0,
+    "latency_p50_s": 3.091,
+    "latency_p95_s": 6.967,
+    "tokens_per_job": 0.0,
+    "cost_per_job_usd": 0.0,
+    "errors": 0
+  },
+  "by_persona": {
+    "ml_engineer": {
+      "n": 20,
+      "bid_skip": {
+        "precision": 0.8571,
+        "recall": 0.6667,
+        "f1": 0.75
+      },
+      "accuracy": 0.8,
+      "scam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "price_in_band": 0.8333,
+      "injection_flag_recall": 1.0,
+      "latency_p50_s": 3.415,
+      "latency_p95_s": 9.238,
+      "tokens_per_job": 0.0,
+      "cost_per_job_usd": 0.0,
+      "errors": 0
+    },
+    "fullstack_dev": {
+      "n": 20,
+      "bid_skip": {
+        "precision": 0.8333,
+        "recall": 0.5556,
+        "f1": 0.6667
+      },
+      "accuracy": 0.75,
+      "scam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "price_in_band": 0.6,
+      "injection_flag_recall": 1.0,
+      "latency_p50_s": 3.014,
+      "latency_p95_s": 4.291,
+      "tokens_per_job": 0.0,
+      "cost_per_job_usd": 0.0,
+      "errors": 0
+    },
+    "data_analyst": {
+      "n": 20,
+      "bid_skip": {
+        "precision": 0.9,
+        "recall": 0.6429,
+        "f1": 0.75
+      },
+      "accuracy": 0.7,
+      "scam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "price_in_band": 0.6667,
+      "injection_flag_recall": 1.0,
+      "latency_p50_s": 3.162,
+      "latency_p95_s": 4.535,
+      "tokens_per_job": 0.0,
+      "cost_per_job_usd": 0.0,
+      "errors": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# CI smoke-eval gates (30 jobs: 10 per persona). Set a little below the measured full-dev values so
+# noise on 30 jobs does not flap, but a real regression fails the PR. Revisit after each full eval.
+bid_skip_f1_min: 0.60
+scam_recall_min: 0.85
+recall_at_5_min: 0.55
+max_errors: 0
+unsupported_claims_max: 0.5   # per proposal, after verification (real-model runs only)

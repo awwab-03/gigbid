@@ -179,13 +179,25 @@ async def _invoke(node: str, messages: list[tuple[str, str]]) -> tuple[str, str]
     raise RuntimeError("unreachable")
 
 
+def _fake() -> bool:
+    return profile()["provider"] == "fake"
+
+
 async def call_text(node: str, prompt: str, variables: dict[str, Any]) -> str:
+    if _fake():
+        from agent.fake_llm import respond
+
+        return respond(prompt, variables)
     _, system, user = load_prompt(prompt)
     out, _ = await _invoke(node, [("system", system), ("user", render(user, variables))])
     return re.sub(r"<think>.*?</think>", "", out, flags=re.S).strip()
 
 
 async def call_json(node: str, prompt: str, variables: dict[str, Any], schema: type[T]) -> T:
+    if _fake():
+        from agent.fake_llm import respond
+
+        return schema.model_validate(json.loads(respond(prompt, variables)))
     _, system, user = load_prompt(prompt)
     schema_hint = json.dumps(schema.model_json_schema(), separators=(",", ":"))
     messages = [("system", system + "\n\nReturn ONLY one JSON object that validates against this JSON Schema:\n" + schema_hint),

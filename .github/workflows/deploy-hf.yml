@@ -1,0 +1,35 @@
+name: Deploy to Hugging Face Space
+# Needs: repository secret HF_TOKEN (write token) and repository variable HF_SPACE (e.g. awwab-03/gigbid).
+# Runtime secrets (API keys, DATABASE_URL, reviewer login) are set in the Space settings, never here.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    if: ${{ vars.HF_SPACE != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install huggingface_hub==0.33.0
+      - name: Assemble the Space (repo + single-container Dockerfile)
+        run: |
+          mkdir -p /tmp/space
+          rsync -a --exclude .git --exclude node_modules --exclude 'evals/datasets/hidden*' ./ /tmp/space/
+          cp infra/deploy/hf/Dockerfile /tmp/space/Dockerfile
+          cp infra/deploy/hf/SPACE_README.md /tmp/space/README.md
+      - name: Upload
+        env: {HF_TOKEN: "${{ secrets.HF_TOKEN }}"}
+        run: |
+          python - <<'EOF'
+          import os
+          from huggingface_hub import HfApi
+          HfApi(token=os.environ["HF_TOKEN"]).upload_folder(folder_path="/tmp/space", repo_id=os.environ["SPACE"], repo_type="space",
+                                                            commit_message=f"deploy {os.environ['GITHUB_SHA'][:7]}", delete_patterns=["*"])
+          EOF
+        shell: bash
+    env:
+      SPACE: ${{ vars.HF_SPACE }}

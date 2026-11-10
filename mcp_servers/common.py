@@ -76,7 +76,7 @@ class RateLimiter:
                     return
                 wait = 60 - (t - q[0]) + 0.05
             if time.monotonic() - start + wait > max_wait:
-                raise RuntimeError(f"rate limit: more than {self.per_minute} calls/min for {key}; try again later")
+                raise RuntimeError(f"RATE_LIMITED: more than {self.per_minute} calls/min for {key}; queued, try again later")
             await asyncio.sleep(min(wait, 2.0))
 
 

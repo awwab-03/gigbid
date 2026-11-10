@@ -34,7 +34,7 @@ async def analyst(state: dict) -> dict:
             call_json("analyst", "analyst", {"meta": json.dumps(meta), "job_post": wrap_untrusted(f"{job.get('title', '')}\n{text}")}, JobSpec),
             timeout=ANALYST_LLM_TIMEOUT_S * TIMEOUT_SCALE)
         # trusted marketplace fields win over the model's reading of the text
-        spec.job_id, spec.category = job["job_id"], job.get("category", spec.category)
+        spec.job_id, spec.category, spec.title = job["job_id"], job.get("category", spec.category), job.get("title", spec.title)
         spec.budget_type, spec.budget_min, spec.budget_max = base.budget_type, base.budget_min, base.budget_max
         spec.screening_questions = base.screening_questions or spec.screening_questions
         if not spec.requirements:

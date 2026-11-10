@@ -21,6 +21,7 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.types import Send, interrupt
 
 from agent.handoffs import ApprovalDecision
+from agent.mcp_client import ToolError
 from agent.memory.store import record_edit
 from agent.nodes._runtime import node, toolbox
 from agent.nodes.analyst import analyst
@@ -98,6 +99,14 @@ async def submit(state: dict) -> dict:
     text = final_text(d, comp)
     k_draft, k_submit = keys(state["thread_id"], text, price["amount"])
     tb = toolbox(state, "submitter")
+    try:
+        return await _submit(tb, state, text, price, d, k_draft, k_submit)
+    except ToolError as e:  # platform refused (already applied, not enough Connects, policy): visible, not a crash
+        return {"status": "needs_attention", "status_reason": f"marketplace refused the submission: {e}"[:300],
+                "_summary": "refused by marketplace"}
+
+
+async def _submit(tb, state: dict, text: str, price: dict, d: dict, k_draft: str, k_submit: str) -> dict:
     draft = await tb.call("marketplace.create_proposal_draft", {
         "job_id": state["job"]["job_id"], "cover_letter": text, "bid_amount": price["amount"], "bid_type": price["bid_type"],
         "screening_answers": [a["answer"] for a in d.get("screening_answers_verified", [])], "idempotency_key": k_draft})
@@ -122,7 +131,8 @@ def route_approval(state: BidState) -> str:
     return {"approved": "submit", "edited": "compliance"}.get(st, "end")
 
 
-def build_bid_graph(checkpointer=None, store=None):
+def build_bid_graph(checkpointer=None, store=None, stop_before: list[str] | None = None):
+    """stop_before=['writer'] runs analysis + decision + pricing only (decision evals)."""
     g = StateGraph(BidState)
     for name, fn in [("intake", intake), ("analyst", analyst), ("risk_assessor", risk_assessor), ("fit_matcher", fit_matcher),
                      ("decide", decide_node), ("pricing", pricing), ("writer", writer), ("verifier", verifier), ("critic", critic),
@@ -140,4 +150,4 @@ def build_bid_graph(checkpointer=None, store=None):
     g.add_conditional_edges("compliance", route_simple("approval"), {"approval": "approval", "end": END})
     g.add_conditional_edges("approval", route_approval, {"submit": "submit", "compliance": "compliance", "end": END})
     g.add_edge("submit", END)
-    return g.compile(checkpointer=checkpointer, store=store)
+    return g.compile(checkpointer=checkpointer, store=store, interrupt_before=stop_before)

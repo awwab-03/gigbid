@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import importlib
+import os
 
 from rag.index.models import CFG
 from rag.index.store import get_index
@@ -12,7 +13,7 @@ VARIANTS = ["v0_naive", "v1_decompose", "v2_hybrid", "v3_rerank", "v4_outcome", 
 
 
 def get_variant(name: str | None = None):
-    name = name or CFG["rag"]["variant"]
+    name = name or os.getenv("RAG_VARIANT") or CFG["rag"]["variant"]
     if name not in VARIANTS:
         raise ValueError(f"unknown RAG variant {name}; choose from {VARIANTS}")
     return importlib.import_module(f"rag.variants.{name}")
