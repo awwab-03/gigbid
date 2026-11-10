@@ -1,0 +1,17 @@
+.git
+.venv
+**/__pycache__
+**/node_modules
+apps/web/dist
+apps/web/playwright-report
+apps/web/test-results
+logs
+data/raw
+data/processed
+evals/datasets/hidden*
+*.sqlite
+*.zip
+.env
+.env.*
+!.env.example
+.claude

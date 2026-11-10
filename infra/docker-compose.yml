@@ -1,3 +1,121 @@
-# TODO: Define web, API, worker, MCP servers, GigSim, Postgres, Redis,
-# vector store and local model service as appropriate.
-services: {}
+# docker compose -f infra/docker-compose.yml --env-file .env up --build
+# Starts web, API, worker, the three MCP servers, GigSim, Postgres (+pgvector), Redis and Ollama.
+name: gigbid
+
+x-py-env: &py-env
+  APP_ENV: ${APP_ENV:-production}
+  APP_SECRET_KEY: ${APP_SECRET_KEY:?set APP_SECRET_KEY}
+  MCP_SHARED_SECRET: ${MCP_SHARED_SECRET:?set MCP_SHARED_SECRET}
+  TOKEN_ENCRYPTION_KEY: ${TOKEN_ENCRYPTION_KEY:-}
+  DATABASE_URL: postgresql+psycopg://gigbid:${POSTGRES_PASSWORD:-gigbid}@postgres:5432/gigbid
+  REDIS_URL: redis://redis:6379/0
+  MARKETPLACE_MODE: ${MARKETPLACE_MODE:-gigsim}
+  GIGSIM_BASE_URL: http://gigsim:8081
+  GIGSIM_SECRET: ${GIGSIM_SECRET:?set GIGSIM_SECRET}
+  MODEL_PROFILE: ${MODEL_PROFILE:-open}
+  OPEN_LLM_BASE_URL: ${OPEN_LLM_BASE_URL:-https://api.groq.com/openai/v1}
+  OPEN_LLM_API_KEY: ${OPEN_LLM_API_KEY:-}
+  OLLAMA_BASE_URL: http://ollama:11434
+  PORTFOLIO_MCP_URL: http://mcp-portfolio:8091/mcp
+  MARKETPLACE_MCP_URL: http://mcp-marketplace:8092/mcp
+  WORKSPACE_MCP_URL: http://mcp-workspace:8093/mcp
+  GITHUB_MCP_TOKEN: ${GITHUB_MCP_TOKEN:-}
+  MCP_TRANSPORT: http
+  MCP_STATE_DIR: /state
+  LANGSMITH_TRACING: ${LANGSMITH_TRACING:-false}
+  LANGSMITH_API_KEY: ${LANGSMITH_API_KEY:-}
+  LANGSMITH_PROJECT: ${LANGSMITH_PROJECT:-gigbid}
+  UPWORK_MCP_URL: ${UPWORK_MCP_URL:-https://mcp.upwork.com/mcp}
+  UPWORK_OAUTH_REDIRECT_URI: ${UPWORK_OAUTH_REDIRECT_URI:-http://localhost:8080/api/auth/upwork/callback}
+  WEB_ORIGIN: ${WEB_ORIGIN:-http://localhost:8080}
+  VECTOR_BACKEND: ${VECTOR_BACKEND:-pgvector}
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment: {POSTGRES_USER: gigbid, POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:-gigbid}", POSTGRES_DB: gigbid}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U gigbid"], interval: 5s, retries: 20}
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.4-alpine
+    healthcheck: {test: ["CMD", "redis-cli", "ping"], interval: 5s, retries: 20}
+    restart: unless-stopped
+
+  gigsim:
+    build: {context: .., dockerfile: infra/docker/gigsim.Dockerfile}
+    environment:
+      GIGSIM_SECRET: ${GIGSIM_SECRET}
+      GIGSIM_ADMIN_TOKEN: ${GIGSIM_ADMIN_TOKEN:?set GIGSIM_ADMIN_TOKEN}
+      GIGSIM_DB: /state/gigsim.sqlite
+      GIGSIM_TIME_SCALE: ${GIGSIM_TIME_SCALE:-20}
+      GIGSIM_EXTRA_JOBS: ${GIGSIM_EXTRA_JOBS:-}
+    volumes: [gigsim:/state]
+    ports: ["8081:8081"]
+    healthcheck: {test: ["CMD", "curl", "-fs", "http://localhost:8081/health"], interval: 10s, retries: 10}
+    restart: unless-stopped
+
+  mcp-portfolio:
+    build: {context: .., dockerfile: infra/docker/mcp.Dockerfile}
+    environment: {<<: *py-env, SERVER: portfolio, PORTFOLIO_MCP_PORT: "8091"}
+    volumes: [state:/state, portfolios:/app/data/personas]
+    depends_on: {postgres: {condition: service_healthy}}
+    restart: unless-stopped
+
+  mcp-marketplace:
+    build: {context: .., dockerfile: infra/docker/mcp.Dockerfile}
+    environment: {<<: *py-env, SERVER: marketplace, MARKETPLACE_MCP_PORT: "8092"}
+    volumes: [state:/state]
+    depends_on: {gigsim: {condition: service_healthy}}
+    restart: unless-stopped
+
+  mcp-workspace:
+    build: {context: .., dockerfile: infra/docker/mcp.Dockerfile}
+    environment: {<<: *py-env, SERVER: workspace, WORKSPACE_MCP_PORT: "8093"}
+    volumes: [state:/state]
+    restart: unless-stopped
+
+  api:
+    build: {context: .., dockerfile: infra/docker/api.Dockerfile}
+    environment:
+      <<: *py-env
+      REVIEWER_EMAIL: ${REVIEWER_EMAIL:-}
+      REVIEWER_PASSWORD: ${REVIEWER_PASSWORD:-}
+      REVIEWER_PERSONA: ${REVIEWER_PERSONA:-ml_engineer}
+    volumes: [state:/state, portfolios:/app/data/personas]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+      mcp-marketplace: {condition: service_started}
+      mcp-portfolio: {condition: service_started}
+    ports: ["8000:8000"]
+    restart: unless-stopped
+
+  worker:
+    build: {context: .., dockerfile: infra/docker/worker.Dockerfile}
+    environment: {<<: *py-env}
+    volumes: [state:/state, portfolios:/app/data/personas]
+    depends_on: {api: {condition: service_started}, redis: {condition: service_healthy}}
+    restart: unless-stopped
+
+  web:
+    build: {context: .., dockerfile: infra/docker/web.Dockerfile}
+    environment: {SITE_ADDRESS: "${SITE_ADDRESS::80}", API_UPSTREAM: "api:8000"}
+    ports: ["8080:80", "443:443"]
+    volumes: [caddy:/data]
+    depends_on: [api]
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:0.9.0
+    volumes: [ollama:/root/.ollama]
+    restart: unless-stopped
+
+  ollama-pull:      # optional: docker compose --profile local up ollama-pull
+    image: ollama/ollama:0.9.0
+    profiles: [local]
+    entrypoint: ["sh", "-c", "OLLAMA_HOST=ollama:11434 ollama pull qwen3:4b"]
+    depends_on: [ollama]
+
+volumes: {pgdata: {}, gigsim: {}, state: {}, portfolios: {}, caddy: {}, ollama: {}}

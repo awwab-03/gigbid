@@ -1,0 +1,13 @@
+{$SITE_ADDRESS::80} {
+	encode gzip
+	handle_path /api/* {
+		reverse_proxy {$API_UPSTREAM:api:8000} {
+			flush_interval -1
+		}
+	}
+	handle {
+		root * /srv
+		try_files {path} /index.html
+		file_server
+	}
+}

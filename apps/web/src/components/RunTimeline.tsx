@@ -27,7 +27,7 @@ export function RunTimeline({ threadId, onFinished }: { threadId: string; onFini
             last.current = Math.max(last.current, id)
             const d = raw as { node?: string; data?: Record<string, unknown>; at?: string }
             setEvents((e) => (e.some((x) => x.id === id) ? e : [...e, { id, type, node: d.node, data: d.data, at: d.at }]))
-            if (type === 'run_finished' || type === 'approval_required') done.current?.(String(d.data?.status ?? type))
+            if (type === 'node' || type === 'run_finished' || type === 'approval_required') done.current?.(String(d.data?.status ?? type))
           }, ctl.signal, last.current)
         } catch { if (stop) return }
         setLive(false)

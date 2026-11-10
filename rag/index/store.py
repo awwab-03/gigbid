@@ -55,14 +55,53 @@ class Hit:
         return [self.meta["project"]] if self.meta.get("project") else []
 
 
+class PgVectorStore:
+    """Deployed vector store: Postgres + pgvector (VECTOR_BACKEND=pgvector). Exact cosine search with
+    `<=>`; rows are upserted incrementally, so only new chunks are written."""
+
+    def __init__(self, persona: str, name: str):
+        import psycopg
+        from pgvector.psycopg import register_vector
+
+        self.persona, self.name = persona, name
+        self.conn = psycopg.connect(os.environ["DATABASE_URL"].replace("postgresql+psycopg://", "postgresql://"), autocommit=True)
+        self.conn.execute("CREATE EXTENSION IF NOT EXISTS vector")
+        register_vector(self.conn)
+        self.conn.execute("CREATE TABLE IF NOT EXISTS vec_chunks (persona text, chunk_set text, chunk_id text, text_hash text, "
+                          "emb vector(384), PRIMARY KEY (persona, chunk_set, chunk_id))")
+
+    def sync(self, ids: list[str], hashes: list[str], vecs: np.ndarray) -> None:
+        have = {r[0]: r[1] for r in self.conn.execute("SELECT chunk_id, text_hash FROM vec_chunks WHERE persona=%s AND chunk_set=%s",
+                                                       (self.persona, self.name)).fetchall()}
+        with self.conn.cursor() as cur:
+            for cid, h, v in zip(ids, hashes, vecs, strict=False):
+                if have.get(cid) != h:
+                    cur.execute("INSERT INTO vec_chunks VALUES (%s,%s,%s,%s,%s) ON CONFLICT (persona, chunk_set, chunk_id) "
+                                "DO UPDATE SET text_hash=EXCLUDED.text_hash, emb=EXCLUDED.emb", (self.persona, self.name, cid, h, v))
+            stale = set(have) - set(ids)
+            if stale:
+                cur.execute("DELETE FROM vec_chunks WHERE persona=%s AND chunk_set=%s AND chunk_id = ANY(%s)",
+                            (self.persona, self.name, list(stale)))
+
+    def search(self, qvec: np.ndarray, k: int) -> list[tuple[str, float]]:
+        rows = self.conn.execute("SELECT chunk_id, 1 - (emb <=> %s) FROM vec_chunks WHERE persona=%s AND chunk_set=%s "
+                                 "ORDER BY emb <=> %s LIMIT %s", (qvec, self.persona, self.name, qvec, k)).fetchall()
+        return [(r[0], float(r[1])) for r in rows]
+
+
 class ChunkSet:
-    def __init__(self, name: str, chunks: list[Document], cache_dir: Path):
+    def __init__(self, name: str, chunks: list[Document], cache_dir: Path, persona: str = ""):
         self.name = name
         self.chunks = chunks
         self.ids = [c.doc_id for c in chunks]
         self.by_id = {c.doc_id: c for c in chunks}
+        self.pos = {cid: i for i, cid in enumerate(self.ids)}
         self.vecs = self._embed_cached([c.text for c in chunks], cache_dir / f"emb_cache_{name}.npz")
         self.bm25 = BM25Okapi([tokenize(c.text) for c in chunks])
+        self.pg = None
+        if os.getenv("VECTOR_BACKEND") == "pgvector" and os.getenv("DATABASE_URL", "").startswith("postgres"):
+            self.pg = PgVectorStore(persona, name)
+            self.pg.sync(self.ids, [hashlib.sha256(c.text.encode()).hexdigest() for c in chunks], self.vecs)
 
     @staticmethod
     def _embed_cached(texts: list[str], path: Path) -> np.ndarray:
@@ -84,6 +123,13 @@ class ChunkSet:
         return [Hit(self.ids[i], float(scores[i]), self.chunks[i].text, self.chunks[i].meta) for i in idx]
 
     def dense(self, qvec: np.ndarray, k: int, where=None) -> list[Hit]:
+        if self.pg is not None:
+            out = []
+            for cid, score in self.pg.search(qvec, k * (6 if where else 1)):
+                c = self.by_id.get(cid)
+                if c is not None and (not where or where(c.meta)):
+                    out.append(Hit(cid, score, c.text, c.meta))
+            return out[:k]
         s = self.vecs @ qvec
         if where:
             s = np.where([where(c.meta) for c in self.chunks], s, -1e9)
@@ -109,8 +155,8 @@ class PortfolioIndex:
         self.docs = load_portfolio(self.dir)
         self.doc_by_id = {d.doc_id: d for d in self.docs}
         rc = CFG["rag"]
-        self.fixed = ChunkSet("fixed", fixed_chunks(self.docs, rc["chunk_size"], rc["chunk_overlap"]), self.cache)
-        self.struct = ChunkSet("struct", structured_chunks(self.docs), self.cache)
+        self.fixed = ChunkSet("fixed", fixed_chunks(self.docs, rc["chunk_size"], rc["chunk_overlap"]), self.cache, self.persona)
+        self.struct = ChunkSet("struct", structured_chunks(self.docs), self.cache, self.persona)
         projects = json.loads((self.dir / "projects.json").read_text(encoding="utf-8")) if (self.dir / "projects.json").exists() else []
         self.projects = {p["id"]: p for p in projects}
         self.proposals = [d for d in self.docs if d.meta.get("type") == "proposal"]

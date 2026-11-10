@@ -31,11 +31,11 @@ async def _arq():
     return _pool
 
 
-async def enqueue(fn: str, job_id: str, **kwargs) -> dict:
+async def enqueue(fn: str, queue_id: str, **kwargs) -> dict:
     if mode() == "arq":
         pool = await _arq()
-        j = await pool.enqueue_job(fn, _job_id=job_id, **kwargs)
-        return {"queued": True, "job_id": job_id, "duplicate": j is None, "mode": "arq"}
+        j = await pool.enqueue_job(fn, _job_id=queue_id, **kwargs)
+        return {"queued": True, "job_id": queue_id, "duplicate": j is None, "mode": "arq"}
     from worker import tasks
 
     async def run():
@@ -47,7 +47,7 @@ async def enqueue(fn: str, job_id: str, **kwargs) -> dict:
     t = asyncio.create_task(run())
     _tasks.add(t)
     t.add_done_callback(_tasks.discard)
-    return {"queued": True, "job_id": job_id, "mode": "inline"}
+    return {"queued": True, "job_id": queue_id, "mode": "inline"}
 
 
 def user(user_id: str) -> dict:
