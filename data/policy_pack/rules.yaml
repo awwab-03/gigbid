@@ -1,0 +1,47 @@
+# Compliance Guard rules (machine-readable form of marketplace_policy.md).
+# Platform policy updates (e.g. the 2 Nov 2026 change request) are absorbed here and in
+# agent/config.yaml - no code changes. Each rule: id, kind, pattern(s), severity (fix|block), message.
+version: 1
+rules:
+  - id: no_contact_details
+    kind: regex_remove
+    severity: fix
+    patterns:
+      - '[\w.+-]+@[\w-]+\.[\w.]+'
+      - '\+?\d[\d\s().-]{8,}\d'
+      - '\b(?:https?://)?(?:wa\.me|t\.me|calendly\.com|zoom\.us)/\S+'
+    message: "Contact details and off-platform links are not allowed; removed."
+  - id: no_off_platform
+    kind: regex_sentence_remove
+    severity: fix
+    patterns:
+      - '\b(whats\s?app|telegram|skype|signal|wechat|email me|call me directly|outside (the|this) platform|off[- ]platform)\b'
+      - '\b(pay|payment)\b.{0,30}\b(paypal|wise|crypto|usdt|bank transfer|directly)\b'
+    message: "Off-platform contact or payment is not allowed; sentence removed."
+  - id: no_guarantees
+    kind: regex_sentence_remove
+    severity: fix
+    patterns:
+      - '\b(i|we) guarantee\b'
+      - '\b100% (success|satisfaction|accuracy|guaranteed)\b'
+      - '\brisk[- ]free\b'
+      - '\bguaranteed (results|ranking|sales|top)\b'
+    message: "Guarantees of outcomes are not allowed; sentence removed."
+  - id: no_fabricated_claims
+    kind: verifier
+    severity: fix
+    max_unsupported_after_fix: 0
+    message: "Claims not supported by the portfolio were removed by claim verification."
+  - id: scam_job
+    kind: risk
+    severity: block
+    message: "The job looks like a scam or unsafe request; GigBid will not bid on it."
+  - id: injection_echo
+    kind: injection
+    severity: block
+    message: "The draft repeats instruction-like text injected into the job post."
+  - id: cover_letter_length
+    kind: length
+    severity: block
+    source: platform_policy          # min/max words come from GET /policy at run time
+    message: "Cover letter length violates the platform policy."

@@ -59,8 +59,8 @@ models:
       provider: ollama
       base_url_env: OLLAMA_BASE_URL
       nodes: {default: small}
-      aliases: {small: "qwen3:4b", large: "qwen3:8b"}
-      fallback: {small: "qwen3:4b", large: "qwen3:4b"}
+      aliases: {small: "llama3.1:8b", large: "llama3.1:8b"}
+      fallback: {small: "llama3.1:8b", large: "llama3.1:8b"}
       pricing_usd_per_mtok: {}
     paid:
       provider: openai_compatible
@@ -87,6 +87,10 @@ rag:
   chunk_size: 700
   chunk_overlap: 100
   outcome_boost: {won: 0.15, replied: 0.08, ignored: -0.05}
+  # cross-encoder logit above which a requirement counts as supported; calibrated on the dev set
+  # (Youden J) by evals/runners/calibrate_support.py -> evals/results/support_threshold.json
+  crag_good_logit: -7.9
+  crag_max_attempts: 2
 
 budgets:
   max_graph_steps: 40
@@ -103,6 +107,8 @@ thresholds:
   claim_support_min: 0.55          # verifier similarity needed for "supported"
   critic_pass_score: 7             # out of 10
 
+risk_llm_band: [0.35, 0.6]     # ask the small model only when deterministic risk is ambiguous
+
 autonomy:
   default_level: suggest           # suggest | auto_skip  (never auto_send)
 
@@ -111,10 +117,10 @@ tool_allowlist:
   scout: [marketplace.search_jobs, marketplace.get_job]
   analyst: []
   risk_assessor: [marketplace.get_client_history]
-  fit_matcher: [portfolio.search_evidence, portfolio.get_case_study, portfolio.list_skills]
+  fit_matcher: [portfolio.match_requirements, portfolio.search_evidence, portfolio.get_case_study, portfolio.list_skills]
   pricing: [marketplace.get_pricing_stats, marketplace.get_client_history, marketplace.get_connects_balance, marketplace.get_policy]
   writer: [portfolio.search_evidence, portfolio.get_case_study]
-  verifier: [portfolio.search_evidence]
+  verifier: [portfolio.verify_claims, portfolio.search_evidence]
   critic: [portfolio.get_case_study]
   compliance: [marketplace.get_policy]
   client_liaison: [marketplace.list_threads, marketplace.list_messages, marketplace.send_message, workspace.free_slots,
