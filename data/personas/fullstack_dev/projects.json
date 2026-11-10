@@ -1,0 +1,377 @@
+[
+  {
+    "id": "fs-01",
+    "title": "Subscription SaaS dashboard",
+    "industry": "SaaS",
+    "date": "2023-04",
+    "explicit": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "implied": [
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "mentioned": [],
+    "problem": "a founder with a prototype but no billing or admin",
+    "approach": "a typed React front end, an Express API and plan-based billing with renewal webhooks",
+    "result": "launched in 6 weeks; 340 paying teams in the first quarter",
+    "client": "TeamPulse (synthetic)",
+    "weeks": 6
+  },
+  {
+    "id": "fs-02",
+    "title": "Marketplace for local tutors",
+    "industry": "Education",
+    "date": "2023-08",
+    "explicit": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "implied": [
+      "OAuth",
+      "Stripe"
+    ],
+    "mentioned": [
+      "GraphQL"
+    ],
+    "problem": "a tutoring agency matching students by phone calls",
+    "approach": "server-rendered search pages, booking calendar and payouts",
+    "result": "1,800 bookings in the first two months, page load under 1.2 s",
+    "client": "TutorNest (synthetic)",
+    "weeks": 8
+  },
+  {
+    "id": "fs-03",
+    "title": "Real-time logistics tracking",
+    "industry": "Logistics",
+    "date": "2024-01",
+    "explicit": [
+      "React",
+      "Node.js"
+    ],
+    "implied": [
+      "WebSockets",
+      "Redis",
+      "MongoDB"
+    ],
+    "mentioned": [],
+    "problem": "dispatchers refreshing a spreadsheet to see truck locations",
+    "approach": "a live map that receives positions pushed from the server every few seconds",
+    "result": "dispatch call volume down 40%",
+    "client": "SwiftHaul Logistics (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "fs-04",
+    "title": "Django CRM for a property agency",
+    "industry": "Real estate",
+    "date": "2022-10",
+    "explicit": [
+      "Django",
+      "PostgreSQL",
+      "REST API"
+    ],
+    "implied": [
+      "Celery",
+      "Docker"
+    ],
+    "mentioned": [],
+    "problem": "agents tracking leads in WhatsApp groups",
+    "approach": "a Django app with an admin panel, lead pipeline and scheduled email reminders",
+    "result": "lead response time fell from 1 day to 2 hours",
+    "client": "Skyline Estates (synthetic)",
+    "weeks": 7
+  },
+  {
+    "id": "fs-05",
+    "title": "Shopify theme and custom checkout upsell",
+    "industry": "E-commerce",
+    "date": "2023-12",
+    "explicit": [
+      "Shopify",
+      "JavaScript"
+    ],
+    "implied": [
+      "Tailwind CSS"
+    ],
+    "mentioned": [
+      "WordPress"
+    ],
+    "problem": "a skincare brand with a slow, generic theme",
+    "approach": "a custom theme with lazy media and a post-purchase upsell block",
+    "result": "mobile conversion rose from 1.4% to 2.2%",
+    "client": "GlowRoot Skincare (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "fs-06",
+    "title": "GraphQL API for a mobile fitness app",
+    "industry": "Health & fitness",
+    "date": "2024-04",
+    "explicit": [
+      "GraphQL",
+      "Node.js",
+      "TypeScript"
+    ],
+    "implied": [
+      "NestJS",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "mentioned": [],
+    "problem": "a mobile team blocked by 30 bespoke REST endpoints",
+    "approach": "a single typed schema with data loaders and field-level auth",
+    "result": "mobile releases went from monthly to weekly",
+    "client": "FitLoop (synthetic)",
+    "weeks": 6
+  },
+  {
+    "id": "fs-07",
+    "title": "Firebase chat for a community app",
+    "industry": "Social",
+    "date": "2022-06",
+    "explicit": [
+      "Firebase",
+      "React"
+    ],
+    "implied": [
+      "JavaScript"
+    ],
+    "mentioned": [
+      "Supabase"
+    ],
+    "problem": "a hobby community needing chat without running servers",
+    "approach": "realtime chat rooms with hosted auth and moderation rules",
+    "result": "12,000 monthly active users with zero server management",
+    "client": "Craftfolk (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "fs-08",
+    "title": "Supabase migration for a booking app",
+    "industry": "Hospitality",
+    "date": "2025-02",
+    "explicit": [
+      "Supabase",
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "implied": [
+      "TypeScript",
+      "OAuth"
+    ],
+    "mentioned": [
+      "Firebase"
+    ],
+    "problem": "a boutique hotel group outgrowing a no-code backend",
+    "approach": "moved data to Postgres with row-level security and rebuilt the booking flow",
+    "result": "monthly backend cost cut by 60%; zero downtime cut-over",
+    "client": "Haven Stays (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "fs-09",
+    "title": "End-to-end test suite for a fintech web app",
+    "industry": "Fintech",
+    "date": "2024-07",
+    "explicit": [
+      "Playwright",
+      "Jest",
+      "TypeScript"
+    ],
+    "implied": [
+      "CI/CD"
+    ],
+    "mentioned": [],
+    "problem": "a fintech shipping regressions in its signup flow",
+    "approach": "unit tests for components and browser tests for the money flows, run on every pull request",
+    "result": "production incidents from the signup flow fell from 5 a month to 0 over a quarter",
+    "client": "Paywise (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "fs-10",
+    "title": "WordPress membership site",
+    "industry": "Media",
+    "date": "2022-03",
+    "explicit": [
+      "WordPress",
+      "JavaScript"
+    ],
+    "implied": [
+      "Stripe"
+    ],
+    "mentioned": [],
+    "problem": "a cooking blog wanting paid recipes",
+    "approach": "a custom plugin for members-only content and recurring payments",
+    "result": "900 paying members in the first six months",
+    "client": "SpiceTrail Kitchen (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "fs-11",
+    "title": "Vue admin panel for inventory",
+    "industry": "Retail",
+    "date": "2023-02",
+    "explicit": [
+      "Vue.js",
+      "Flask",
+      "REST API"
+    ],
+    "implied": [
+      "PostgreSQL"
+    ],
+    "mentioned": [
+      "React"
+    ],
+    "problem": "a hardware store chain reconciling stock by phone",
+    "approach": "a reactive admin UI over a small Python API with barcode lookups",
+    "result": "stock discrepancies down 75% after two months",
+    "client": "BoltBox Hardware (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "fs-12",
+    "title": "Containerised deployment pipeline",
+    "industry": "SaaS",
+    "date": "2024-09",
+    "explicit": [
+      "Docker",
+      "CI/CD",
+      "AWS"
+    ],
+    "implied": [
+      "Kubernetes"
+    ],
+    "mentioned": [],
+    "problem": "a startup deploying by SSH-ing into one server",
+    "approach": "container images, automated tests and blue-green deploys",
+    "result": "deploys went from 40 minutes and manual to 6 minutes and automatic",
+    "client": "Launchpad Labs (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "fs-13",
+    "title": "Restaurant ordering PWA",
+    "industry": "Food & beverage",
+    "date": "2025-05",
+    "explicit": [
+      "Next.js",
+      "Tailwind CSS",
+      "Stripe"
+    ],
+    "implied": [
+      "TypeScript",
+      "Supabase"
+    ],
+    "mentioned": [],
+    "problem": "a restaurant group paying 25% commission to delivery apps",
+    "approach": "an installable ordering app with card checkout and a kitchen screen",
+    "result": "direct orders reached 31% of volume within 3 months",
+    "client": "Tandoor House (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "fs-14",
+    "title": "Express API hardening and rate limiting",
+    "industry": "Fintech",
+    "date": "2025-07",
+    "explicit": [
+      "Express",
+      "Node.js",
+      "Redis"
+    ],
+    "implied": [
+      "OAuth"
+    ],
+    "mentioned": [],
+    "problem": "a payments API hit by credential stuffing",
+    "approach": "token rotation, per-client rate limits and audit logging",
+    "result": "blocked 99.6% of malicious login attempts with no customer complaints",
+    "client": "ClearPay (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "fs-15",
+    "title": "Open-source React form library (personal)",
+    "industry": "Personal",
+    "date": "2023-07",
+    "explicit": [
+      "React",
+      "TypeScript",
+      "Jest"
+    ],
+    "implied": [],
+    "mentioned": [],
+    "problem": "repetitive form validation code across projects",
+    "approach": "a small hook-based library with schema validation",
+    "result": "1,100 GitHub stars and 40 contributors",
+    "client": "personal project",
+    "weeks": 8
+  },
+  {
+    "id": "fs-16",
+    "title": "Async report generation for a SaaS admin",
+    "industry": "SaaS",
+    "date": "2024-11",
+    "explicit": [
+      "Django",
+      "Python"
+    ],
+    "implied": [
+      "Celery",
+      "Redis"
+    ],
+    "mentioned": [],
+    "problem": "CSV exports timing out for large customers",
+    "approach": "queued export jobs with email links when ready",
+    "result": "exports of 2 million rows complete without timeouts",
+    "client": "Insightly HR (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "fs-17",
+    "title": "MongoDB event store for an IoT dashboard",
+    "industry": "Energy",
+    "date": "2024-03",
+    "explicit": [
+      "MongoDB",
+      "Node.js",
+      "React"
+    ],
+    "implied": [
+      "WebSockets"
+    ],
+    "mentioned": [],
+    "problem": "a solar installer with sensor data in CSV dumps",
+    "approach": "time-bucketed documents and a live dashboard per site",
+    "result": "faults spotted 2 days sooner on average",
+    "client": "SunGrid Solar (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "fs-18",
+    "title": "FastAPI backend for an ML demo",
+    "industry": "AI",
+    "date": "2025-08",
+    "explicit": [
+      "FastAPI",
+      "React"
+    ],
+    "implied": [
+      "Docker",
+      "Python"
+    ],
+    "mentioned": [],
+    "problem": "a research group whose model only ran in a notebook",
+    "approach": "a typed API and a simple React front end with upload progress",
+    "result": "used by 300 external testers in a week",
+    "client": "Vision Lab (synthetic)",
+    "weeks": 2
+  }
+]

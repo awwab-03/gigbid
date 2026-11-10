@@ -1,0 +1,713 @@
+[
+ {
+  "freelancer_id": "ml_engineer",
+  "name": "Ayesha Raza",
+  "connects_balance": 140,
+  "weekly_connects": 80,
+  "skills": [
+   "AWS",
+   "AWS SageMaker",
+   "Airflow",
+   "CI/CD",
+   "Celery",
+   "Churn prediction",
+   "Computer vision",
+   "Docker",
+   "FAISS",
+   "FastAPI",
+   "Hugging Face Transformers",
+   "LLM fine-tuning",
+   "LangChain",
+   "LangGraph",
+   "LightGBM",
+   "MLflow",
+   "Model evaluation",
+   "NLP",
+   "NumPy",
+   "ONNX",
+   "OpenAI API",
+   "OpenCV",
+   "Pinecone",
+   "Prophet",
+   "PyTorch",
+   "Python",
+   "RAG",
+   "Recommendation systems",
+   "Redis",
+   "SQL",
+   "Time series forecasting",
+   "XGBoost",
+   "YOLO",
+   "pandas",
+   "scikit-learn",
+   "spaCy"
+  ],
+  "projects": [
+   {
+    "title": "Support-ticket triage classifier",
+    "explicit": [
+     "Python",
+     "scikit-learn",
+     "NLP",
+     "Model evaluation"
+    ],
+    "implied": [
+     "pandas",
+     "FastAPI"
+    ]
+   },
+   {
+    "title": "Customer churn early-warning model",
+    "explicit": [
+     "Python",
+     "XGBoost",
+     "Churn prediction",
+     "Model evaluation"
+    ],
+    "implied": [
+     "pandas",
+     "MLflow"
+    ]
+   },
+   {
+    "title": "Internal policy assistant with citations",
+    "explicit": [
+     "Python",
+     "RAG",
+     "LangChain",
+     "OpenAI API"
+    ],
+    "implied": [
+     "FAISS",
+     "FastAPI",
+     "Docker"
+    ]
+   },
+   {
+    "title": "Retail demand forecasting for 300 SKUs",
+    "explicit": [
+     "Python",
+     "Time series forecasting",
+     "Prophet"
+    ],
+    "implied": [
+     "pandas",
+     "Airflow"
+    ]
+   },
+   {
+    "title": "Defect detection on a bottling line",
+    "explicit": [
+     "Computer vision",
+     "PyTorch",
+     "YOLO"
+    ],
+    "implied": [
+     "OpenCV",
+     "ONNX"
+    ]
+   },
+   {
+    "title": "Multi-agent research assistant",
+    "explicit": [
+     "Python",
+     "LangGraph",
+     "RAG"
+    ],
+    "implied": [
+     "FastAPI",
+     "Redis",
+     "Docker"
+    ]
+   },
+   {
+    "title": "Product recommendation engine",
+    "explicit": [
+     "Python",
+     "Recommendation systems"
+    ],
+    "implied": [
+     "pandas",
+     "NumPy",
+     "Redis"
+    ]
+   },
+   {
+    "title": "Fine-tuned tone model for customer emails",
+    "explicit": [
+     "LLM fine-tuning",
+     "Hugging Face Transformers",
+     "PyTorch"
+    ],
+    "implied": [
+     "Python"
+    ]
+   },
+   {
+    "title": "Invoice field extraction",
+    "explicit": [
+     "NLP",
+     "spaCy",
+     "Python"
+    ],
+    "implied": [
+     "OpenCV",
+     "FastAPI"
+    ]
+   },
+   {
+    "title": "Semantic product search",
+    "explicit": [
+     "RAG",
+     "Python"
+    ],
+    "implied": [
+     "Pinecone",
+     "FastAPI"
+    ]
+   },
+   {
+    "title": "Model training on Amazon with a hosted endpoint",
+    "explicit": [
+     "AWS SageMaker",
+     "scikit-learn",
+     "Model evaluation"
+    ],
+    "implied": [
+     "Docker",
+     "AWS"
+    ]
+   },
+   {
+    "title": "Sentiment dashboard for app reviews",
+    "explicit": [
+     "NLP",
+     "Hugging Face Transformers"
+    ],
+    "implied": [
+     "pandas"
+    ]
+   },
+   {
+    "title": "Lead scoring for a B2B sales team",
+    "explicit": [
+     "LightGBM",
+     "Model evaluation",
+     "Python"
+    ],
+    "implied": [
+     "SQL",
+     "pandas"
+    ]
+   },
+   {
+    "title": "Async document-processing pipeline",
+    "explicit": [
+     "Python",
+     "FastAPI"
+    ],
+    "implied": [
+     "Celery",
+     "Redis",
+     "Docker"
+    ]
+   },
+   {
+    "title": "Experiment tracking rollout",
+    "explicit": [
+     "MLflow",
+     "Python"
+    ],
+    "implied": [
+     "Docker",
+     "CI/CD"
+    ]
+   },
+   {
+    "title": "Image tagging for a stock-photo library",
+    "explicit": [
+     "Computer vision",
+     "PyTorch"
+    ],
+    "implied": [
+     "ONNX",
+     "Python"
+    ]
+   },
+   {
+    "title": "Kaggle-style tabular competition (personal)",
+    "explicit": [
+     "Python",
+     "XGBoost",
+     "LightGBM",
+     "Model evaluation"
+    ],
+    "implied": [
+     "pandas"
+    ]
+   }
+  ]
+ },
+ {
+  "freelancer_id": "fullstack_dev",
+  "name": "Bilal Ahmed",
+  "connects_balance": 140,
+  "weekly_connects": 80,
+  "skills": [
+   "AWS",
+   "CI/CD",
+   "Celery",
+   "Django",
+   "Docker",
+   "Express",
+   "FastAPI",
+   "Firebase",
+   "Flask",
+   "GraphQL",
+   "JavaScript",
+   "Jest",
+   "Kubernetes",
+   "MongoDB",
+   "NestJS",
+   "Next.js",
+   "Node.js",
+   "OAuth",
+   "Playwright",
+   "PostgreSQL",
+   "Prisma",
+   "Python",
+   "REST API",
+   "React",
+   "Redis",
+   "Shopify",
+   "Stripe",
+   "Supabase",
+   "Tailwind CSS",
+   "TypeScript",
+   "Vue.js",
+   "WebSockets",
+   "WordPress"
+  ],
+  "projects": [
+   {
+    "title": "Subscription SaaS dashboard",
+    "explicit": [
+     "React",
+     "TypeScript",
+     "Node.js",
+     "PostgreSQL"
+    ],
+    "implied": [
+     "Stripe",
+     "Tailwind CSS"
+    ]
+   },
+   {
+    "title": "Marketplace for local tutors",
+    "explicit": [
+     "Next.js",
+     "TypeScript",
+     "Prisma",
+     "PostgreSQL"
+    ],
+    "implied": [
+     "OAuth",
+     "Stripe"
+    ]
+   },
+   {
+    "title": "Real-time logistics tracking",
+    "explicit": [
+     "React",
+     "Node.js"
+    ],
+    "implied": [
+     "WebSockets",
+     "Redis",
+     "MongoDB"
+    ]
+   },
+   {
+    "title": "Django CRM for a property agency",
+    "explicit": [
+     "Django",
+     "PostgreSQL",
+     "REST API"
+    ],
+    "implied": [
+     "Celery",
+     "Docker"
+    ]
+   },
+   {
+    "title": "Shopify theme and custom checkout upsell",
+    "explicit": [
+     "Shopify",
+     "JavaScript"
+    ],
+    "implied": [
+     "Tailwind CSS"
+    ]
+   },
+   {
+    "title": "GraphQL API for a mobile fitness app",
+    "explicit": [
+     "GraphQL",
+     "Node.js",
+     "TypeScript"
+    ],
+    "implied": [
+     "NestJS",
+     "PostgreSQL",
+     "Docker"
+    ]
+   },
+   {
+    "title": "Firebase chat for a community app",
+    "explicit": [
+     "Firebase",
+     "React"
+    ],
+    "implied": [
+     "JavaScript"
+    ]
+   },
+   {
+    "title": "Supabase migration for a booking app",
+    "explicit": [
+     "Supabase",
+     "Next.js",
+     "PostgreSQL"
+    ],
+    "implied": [
+     "TypeScript",
+     "OAuth"
+    ]
+   },
+   {
+    "title": "End-to-end test suite for a fintech web app",
+    "explicit": [
+     "Playwright",
+     "Jest",
+     "TypeScript"
+    ],
+    "implied": [
+     "CI/CD"
+    ]
+   },
+   {
+    "title": "WordPress membership site",
+    "explicit": [
+     "WordPress",
+     "JavaScript"
+    ],
+    "implied": [
+     "Stripe"
+    ]
+   },
+   {
+    "title": "Vue admin panel for inventory",
+    "explicit": [
+     "Vue.js",
+     "Flask",
+     "REST API"
+    ],
+    "implied": [
+     "PostgreSQL"
+    ]
+   },
+   {
+    "title": "Containerised deployment pipeline",
+    "explicit": [
+     "Docker",
+     "CI/CD",
+     "AWS"
+    ],
+    "implied": [
+     "Kubernetes"
+    ]
+   },
+   {
+    "title": "Restaurant ordering PWA",
+    "explicit": [
+     "Next.js",
+     "Tailwind CSS",
+     "Stripe"
+    ],
+    "implied": [
+     "TypeScript",
+     "Supabase"
+    ]
+   },
+   {
+    "title": "Express API hardening and rate limiting",
+    "explicit": [
+     "Express",
+     "Node.js",
+     "Redis"
+    ],
+    "implied": [
+     "OAuth"
+    ]
+   },
+   {
+    "title": "Open-source React form library (personal)",
+    "explicit": [
+     "React",
+     "TypeScript",
+     "Jest"
+    ],
+    "implied": []
+   },
+   {
+    "title": "Async report generation for a SaaS admin",
+    "explicit": [
+     "Django",
+     "Python"
+    ],
+    "implied": [
+     "Celery",
+     "Redis"
+    ]
+   },
+   {
+    "title": "MongoDB event store for an IoT dashboard",
+    "explicit": [
+     "MongoDB",
+     "Node.js",
+     "React"
+    ],
+    "implied": [
+     "WebSockets"
+    ]
+   },
+   {
+    "title": "FastAPI backend for an ML demo",
+    "explicit": [
+     "FastAPI",
+     "React"
+    ],
+    "implied": [
+     "Docker",
+     "Python"
+    ]
+   }
+  ]
+ },
+ {
+  "freelancer_id": "data_analyst",
+  "name": "Sana Malik",
+  "connects_balance": 140,
+  "weekly_connects": 80,
+  "skills": [
+   "A/B testing",
+   "AWS",
+   "Airflow",
+   "BigQuery",
+   "Dashboarding",
+   "Data cleaning",
+   "Data visualization",
+   "Docker",
+   "ETL",
+   "Excel",
+   "Fivetran",
+   "Forecasting",
+   "GA4",
+   "Google Sheets",
+   "Looker Studio",
+   "Metabase",
+   "PostgreSQL",
+   "Power BI",
+   "Python",
+   "R",
+   "Redshift",
+   "SQL",
+   "Snowflake",
+   "Statistics",
+   "Tableau",
+   "dbt",
+   "pandas"
+  ],
+  "projects": [
+   {
+    "title": "Executive sales dashboard",
+    "explicit": [
+     "Power BI",
+     "SQL",
+     "Dashboarding"
+    ],
+    "implied": [
+     "Excel"
+    ]
+   },
+   {
+    "title": "Marketing attribution warehouse",
+    "explicit": [
+     "BigQuery",
+     "SQL",
+     "GA4"
+    ],
+    "implied": [
+     "dbt",
+     "Looker Studio"
+    ]
+   },
+   {
+    "title": "dbt project for a fintech warehouse",
+    "explicit": [
+     "dbt",
+     "Snowflake",
+     "SQL"
+    ],
+    "implied": [
+     "Airflow",
+     "Fivetran"
+    ]
+   },
+   {
+    "title": "Churn analysis for a subscription box",
+    "explicit": [
+     "Python",
+     "pandas",
+     "Statistics"
+    ],
+    "implied": [
+     "SQL",
+     "Data visualization"
+    ]
+   },
+   {
+    "title": "A/B test analysis for pricing page",
+    "explicit": [
+     "A/B testing",
+     "Statistics",
+     "Python"
+    ],
+    "implied": [
+     "SQL"
+    ]
+   },
+   {
+    "title": "Tableau operations workbook",
+    "explicit": [
+     "Tableau",
+     "SQL"
+    ],
+    "implied": [
+     "Data cleaning",
+     "Excel"
+    ]
+   },
+   {
+    "title": "Nightly ETL from five SaaS tools",
+    "explicit": [
+     "ETL",
+     "Python",
+     "PostgreSQL"
+    ],
+    "implied": [
+     "Airflow",
+     "Data cleaning"
+    ]
+   },
+   {
+    "title": "Google Sheets automation for a non-profit",
+    "explicit": [
+     "Google Sheets",
+     "Looker Studio"
+    ],
+    "implied": [
+     "Data cleaning"
+    ]
+   },
+   {
+    "title": "Revenue forecasting model",
+    "explicit": [
+     "Forecasting",
+     "Python",
+     "Excel"
+    ],
+    "implied": [
+     "Statistics",
+     "pandas"
+    ]
+   },
+   {
+    "title": "Redshift cost and performance tuning",
+    "explicit": [
+     "Redshift",
+     "SQL"
+    ],
+    "implied": [
+     "AWS"
+    ]
+   },
+   {
+    "title": "Metabase self-serve analytics",
+    "explicit": [
+     "Metabase",
+     "PostgreSQL",
+     "SQL"
+    ],
+    "implied": [
+     "Docker"
+    ]
+   },
+   {
+    "title": "Survey analysis in R",
+    "explicit": [
+     "R",
+     "Statistics",
+     "Data visualization"
+    ],
+    "implied": [
+     "Data cleaning"
+    ]
+   },
+   {
+    "title": "E-commerce cohort and LTV dashboard",
+    "explicit": [
+     "Looker Studio",
+     "BigQuery",
+     "SQL"
+    ],
+    "implied": [
+     "GA4",
+     "Dashboarding"
+    ]
+   },
+   {
+    "title": "Data cleaning of a 2-million-row CRM export",
+    "explicit": [
+     "Data cleaning",
+     "Python",
+     "pandas"
+    ],
+    "implied": [
+     "Excel"
+    ]
+   },
+   {
+    "title": "Fivetran and Snowflake setup",
+    "explicit": [
+     "Snowflake",
+     "Fivetran"
+    ],
+    "implied": [
+     "dbt",
+     "SQL"
+    ]
+   },
+   {
+    "title": "Inventory KPI dashboard in Excel",
+    "explicit": [
+     "Excel",
+     "Dashboarding"
+    ],
+    "implied": [
+     "Data visualization"
+    ]
+   }
+  ]
+ }
+]

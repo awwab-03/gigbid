@@ -1,0 +1,192 @@
+[
+  {
+    "review_id": "rev:da-01:0",
+    "project": "da-01",
+    "client": "UrbanMart (synthetic)",
+    "industry": "Retail",
+    "date": "2023-02",
+    "rating": 5,
+    "text": "Sana understood the problem quickly, built a star schema and one-page KPI report with drill-through by region, and documented everything. Loved that it included spreadsheet models with pivot tables and lookups.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-01:1",
+    "project": "da-01",
+    "client": "UrbanMart (synthetic)",
+    "industry": "Retail",
+    "date": "2023-02",
+    "rating": 5,
+    "text": "Sana understood the problem quickly, built a star schema and one-page KPI report with drill-through by region, and documented everything. Loved that it included spreadsheet models with pivot tables and lookups.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-02:0",
+    "project": "da-02",
+    "client": "Wildthread Apparel (synthetic)",
+    "industry": "E-commerce",
+    "date": "2023-07",
+    "rating": 5,
+    "text": "Solid work on marketing attribution warehouse. A few small delays in week two but the final result was excellent. Loved that it included version-controlled SQL transformation models with tests.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-03:0",
+    "project": "da-03",
+    "client": "Coinvault (synthetic)",
+    "industry": "Fintech",
+    "date": "2024-02",
+    "rating": 4.8,
+    "text": "Sana understood the problem quickly, built layered staging, intermediate and mart models with tests and docs, and documented everything. Loved that it included scheduled DAGs that orchestrated the nightly loads.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-04:0",
+    "project": "da-04",
+    "client": "BoxChef (synthetic)",
+    "industry": "Subscription",
+    "date": "2023-10",
+    "rating": 5,
+    "text": "Great experience. The churn analysis for a subscription box Sana built is now part of our daily workflow. Loved that it included hand-written queries with window functions.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-05:0",
+    "project": "da-05",
+    "client": "Formstack Lite (synthetic)",
+    "industry": "SaaS",
+    "date": "2024-05",
+    "rating": 5,
+    "text": "Sana understood the problem quickly, built pre-registered metrics, sample-size checks and a sequential test, and documented everything. Loved that it included hand-written queries with window functions.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-06:0",
+    "project": "da-06",
+    "client": "CityCare Hospital (synthetic)",
+    "industry": "Healthcare",
+    "date": "2022-11",
+    "rating": 5,
+    "text": "Sana delivered a workbook fed from the admissions database with hourly refresh. Loved that it included deduplicating and standardising messy records. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-07:0",
+    "project": "da-07",
+    "client": "Brightpath Agency (synthetic)",
+    "industry": "Agency",
+    "date": "2024-08",
+    "rating": 4.8,
+    "text": "Sana delivered scheduled loaders with retries, deduplication and a reconciliation report. Loved that it included scheduled DAGs that orchestrated the nightly loads. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-08:0",
+    "project": "da-08",
+    "client": "HopeBridge Foundation (synthetic)",
+    "industry": "Non-profit",
+    "date": "2022-05",
+    "rating": 5,
+    "text": "Sana delivered scripted imports, duplicate detection and a free donor dashboard. Loved that it included deduplicating and standardising messy records. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-09:0",
+    "project": "da-09",
+    "client": "Ledgerly (synthetic)",
+    "industry": "SaaS",
+    "date": "2025-01",
+    "rating": 5,
+    "text": "Great experience. The revenue forecasting model Sana built is now part of our daily workflow. Loved that it included confidence intervals and significance tests.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-10:0",
+    "project": "da-10",
+    "client": "StreamWave Media (synthetic)",
+    "industry": "Media",
+    "date": "2024-11",
+    "rating": 4.8,
+    "text": "Great experience. The redshift cost and performance tuning Sana built is now part of our daily workflow. Loved that it included hosting on Amazon's cloud with object storage and managed databases.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-11:0",
+    "project": "da-11",
+    "client": "FleetFlow (synthetic)",
+    "industry": "Logistics",
+    "date": "2023-04",
+    "rating": 4.5,
+    "text": "Sana delivered curated models and 25 saved questions with plain-language descriptions. Loved that it included a containerised build that runs the same everywhere. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-11:1",
+    "project": "da-11",
+    "client": "FleetFlow (synthetic)",
+    "industry": "Logistics",
+    "date": "2023-04",
+    "rating": 5,
+    "text": "Solid work on metabase self-serve analytics. A few small delays in week two but the final result was excellent. Loved that it included a containerised build that runs the same everywhere.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-12:0",
+    "project": "da-12",
+    "client": "Pakistan Youth Survey (synthetic)",
+    "industry": "Research",
+    "date": "2022-08",
+    "rating": 5,
+    "text": "Sana delivered weighted estimates, regression on outcomes and a clear PDF report. Loved that it included deduplicating and standardising messy records. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-13:0",
+    "project": "da-13",
+    "client": "Kettle & Co (synthetic)",
+    "industry": "E-commerce",
+    "date": "2025-04",
+    "rating": 4.5,
+    "text": "Sana understood the problem quickly, built monthly cohorts, repeat-purchase curves and LTV by first product, and documented everything. Loved that it included web analytics events and conversion funnels.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-14:0",
+    "project": "da-14",
+    "client": "Prime Distributors (synthetic)",
+    "industry": "B2B",
+    "date": "2023-12",
+    "rating": 5,
+    "text": "Sana understood the problem quickly, built fuzzy matching, address standardisation and a review sheet for edge cases, and documented everything. Loved that it included spreadsheet models with pivot tables and lookups.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-14:1",
+    "project": "da-14",
+    "client": "Prime Distributors (synthetic)",
+    "industry": "B2B",
+    "date": "2023-12",
+    "rating": 4,
+    "text": "Solid work on data cleaning of a 2-million-row crm export. A few small delays in week two but the final result was excellent. Loved that it included spreadsheet models with pivot tables and lookups.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-15:0",
+    "project": "da-15",
+    "client": "Orbitly (synthetic)",
+    "industry": "SaaS",
+    "date": "2025-06",
+    "rating": 4.5,
+    "text": "Great experience. The fivetran and snowflake setup Sana built is now part of our daily workflow. Loved that it included version-controlled SQL transformation models with tests.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:da-16:0",
+    "project": "da-16",
+    "client": "Indus Textiles (synthetic)",
+    "industry": "Manufacturing",
+    "date": "2022-02",
+    "rating": 5,
+    "text": "Solid work on inventory kpi dashboard in excel. A few small delays in week two but the final result was excellent. Loved that it included clear charts that tell one story each.",
+    "synthetic": true
+  }
+]

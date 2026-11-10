@@ -1,0 +1,372 @@
+[
+  {
+    "id": "ml-01",
+    "title": "Support-ticket triage classifier",
+    "industry": "SaaS",
+    "date": "2023-03",
+    "explicit": [
+      "Python",
+      "scikit-learn",
+      "NLP",
+      "Model evaluation"
+    ],
+    "implied": [
+      "pandas",
+      "FastAPI"
+    ],
+    "mentioned": [],
+    "problem": "a support team drowning in 2,000 untagged tickets a week",
+    "approach": "TF-IDF features with a calibrated linear model, served behind a small HTTP service",
+    "result": "cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month",
+    "client": "Helpwise (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "ml-02",
+    "title": "Customer churn early-warning model",
+    "industry": "Telecom",
+    "date": "2023-06",
+    "explicit": [
+      "Python",
+      "XGBoost",
+      "Churn prediction",
+      "Model evaluation"
+    ],
+    "implied": [
+      "pandas",
+      "MLflow"
+    ],
+    "mentioned": [
+      "Spark"
+    ],
+    "problem": "a regional telecom losing subscribers without warning",
+    "approach": "gradient-boosted trees on usage and billing history, with SHAP explanations for account managers",
+    "result": "flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts",
+    "client": "NorthLine Telecom (synthetic)",
+    "weeks": 6
+  },
+  {
+    "id": "ml-03",
+    "title": "Internal policy assistant with citations",
+    "industry": "Insurance",
+    "date": "2024-02",
+    "explicit": [
+      "Python",
+      "RAG",
+      "LangChain",
+      "OpenAI API"
+    ],
+    "implied": [
+      "FAISS",
+      "FastAPI",
+      "Docker"
+    ],
+    "mentioned": [
+      "Pinecone"
+    ],
+    "problem": "claims staff searching 900 pages of policy PDFs by hand",
+    "approach": "hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched",
+    "result": "answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds",
+    "client": "Crescent Insurance (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "ml-04",
+    "title": "Retail demand forecasting for 300 SKUs",
+    "industry": "Retail",
+    "date": "2023-09",
+    "explicit": [
+      "Python",
+      "Time series forecasting",
+      "Prophet"
+    ],
+    "implied": [
+      "pandas",
+      "Airflow"
+    ],
+    "mentioned": [],
+    "problem": "a grocery chain over-ordering perishables every holiday",
+    "approach": "per-SKU forecasters with holiday regressors, retrained weekly",
+    "result": "reduced MAPE from 31% to 18% and cut waste on perishables by 12%",
+    "client": "FreshMart (synthetic)",
+    "weeks": 6
+  },
+  {
+    "id": "ml-05",
+    "title": "Defect detection on a bottling line",
+    "industry": "Manufacturing",
+    "date": "2024-05",
+    "explicit": [
+      "Computer vision",
+      "PyTorch",
+      "YOLO"
+    ],
+    "implied": [
+      "OpenCV",
+      "ONNX"
+    ],
+    "mentioned": [
+      "TensorFlow"
+    ],
+    "problem": "a bottling plant catching cracked caps only in manual spot checks",
+    "approach": "a fine-tuned object detector exported for CPU inference on the line PC",
+    "result": "98.2% recall on cracked caps at 25 frames per second on a CPU",
+    "client": "AquaPure Bottlers (synthetic)",
+    "weeks": 7
+  },
+  {
+    "id": "ml-06",
+    "title": "Multi-agent research assistant",
+    "industry": "Consulting",
+    "date": "2025-01",
+    "explicit": [
+      "Python",
+      "LangGraph",
+      "RAG"
+    ],
+    "implied": [
+      "FastAPI",
+      "Redis",
+      "Docker"
+    ],
+    "mentioned": [],
+    "problem": "analysts spending a day per market brief",
+    "approach": "a planner, researcher and writer agent with a human review step before export",
+    "result": "first drafts in 15 minutes, analysts kept 70% of generated text after review",
+    "client": "Meridian Advisory (synthetic)",
+    "weeks": 6
+  },
+  {
+    "id": "ml-07",
+    "title": "Product recommendation engine",
+    "industry": "E-commerce",
+    "date": "2023-11",
+    "explicit": [
+      "Python",
+      "Recommendation systems"
+    ],
+    "implied": [
+      "pandas",
+      "NumPy",
+      "Redis"
+    ],
+    "mentioned": [],
+    "problem": "an online fashion store with a generic 'popular items' carousel",
+    "approach": "implicit-feedback matrix factorisation blended with recent-view similarity",
+    "result": "click-through on recommendations rose 23% in a two-week A/B test",
+    "client": "StyleLane (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "ml-08",
+    "title": "Fine-tuned tone model for customer emails",
+    "industry": "SaaS",
+    "date": "2025-04",
+    "explicit": [
+      "LLM fine-tuning",
+      "Hugging Face Transformers",
+      "PyTorch"
+    ],
+    "implied": [
+      "Python"
+    ],
+    "mentioned": [
+      "OpenAI API"
+    ],
+    "problem": "a SaaS company whose AI replies sounded nothing like their brand",
+    "approach": "LoRA adapters on a 7B open model trained on 4,000 approved replies",
+    "result": "brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5",
+    "client": "Brightdesk (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "ml-09",
+    "title": "Invoice field extraction",
+    "industry": "Finance",
+    "date": "2024-08",
+    "explicit": [
+      "NLP",
+      "spaCy",
+      "Python"
+    ],
+    "implied": [
+      "OpenCV",
+      "FastAPI"
+    ],
+    "mentioned": [],
+    "problem": "an accounting firm keying invoice totals by hand",
+    "approach": "OCR plus entity extraction with validation rules for totals and dates",
+    "result": "94% field accuracy, saving roughly 30 staff hours a week",
+    "client": "LedgerPoint (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "ml-10",
+    "title": "Semantic product search",
+    "industry": "E-commerce",
+    "date": "2024-10",
+    "explicit": [
+      "RAG",
+      "Python"
+    ],
+    "implied": [
+      "Pinecone",
+      "FastAPI"
+    ],
+    "mentioned": [
+      "FAISS"
+    ],
+    "problem": "shoppers getting zero results for 'shoes for a beach wedding'",
+    "approach": "embedding search over product text with a keyword fallback",
+    "result": "zero-result searches fell from 14% to 3%",
+    "client": "Kicks & Co (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "ml-11",
+    "title": "Model training on Amazon with a hosted endpoint",
+    "industry": "Healthcare",
+    "date": "2024-12",
+    "explicit": [
+      "AWS SageMaker",
+      "scikit-learn",
+      "Model evaluation"
+    ],
+    "implied": [
+      "Docker",
+      "AWS"
+    ],
+    "mentioned": [
+      "Kubernetes"
+    ],
+    "problem": "a clinic network needing no-show predictions inside their existing cloud",
+    "approach": "managed training jobs and a real-time endpoint behind their API gateway",
+    "result": "no-show prediction AUC 0.84; reminder calls targeted to the riskiest 20% of bookings",
+    "client": "CareBridge Clinics (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "ml-12",
+    "title": "Sentiment dashboard for app reviews",
+    "industry": "Mobile apps",
+    "date": "2023-01",
+    "explicit": [
+      "NLP",
+      "Hugging Face Transformers"
+    ],
+    "implied": [
+      "pandas"
+    ],
+    "mentioned": [],
+    "problem": "a mobile studio unable to read 40,000 app-store reviews",
+    "approach": "a pretrained sentiment model plus topic clustering, refreshed nightly",
+    "result": "surfaced 3 crash-related themes that drove the next two releases",
+    "client": "PixelForge Studio (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "ml-13",
+    "title": "Lead scoring for a B2B sales team",
+    "industry": "SaaS",
+    "date": "2025-06",
+    "explicit": [
+      "LightGBM",
+      "Model evaluation",
+      "Python"
+    ],
+    "implied": [
+      "SQL",
+      "pandas"
+    ],
+    "mentioned": [],
+    "problem": "sales reps calling leads in random order",
+    "approach": "boosted trees on CRM activity with monotonic constraints the sales lead could reason about",
+    "result": "top-scored 20% of leads converted at 3.1x the base rate",
+    "client": "Pipeline Pro (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "ml-14",
+    "title": "Async document-processing pipeline",
+    "industry": "Legal",
+    "date": "2025-03",
+    "explicit": [
+      "Python",
+      "FastAPI"
+    ],
+    "implied": [
+      "Celery",
+      "Redis",
+      "Docker"
+    ],
+    "mentioned": [],
+    "problem": "a law firm whose upload page timed out on 300-page bundles",
+    "approach": "moved OCR and classification into background workers with retries and progress polling",
+    "result": "uploads of any size returned in under a second; 0 lost documents in 3 months",
+    "client": "Hale & Rowe LLP (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "ml-15",
+    "title": "Experiment tracking rollout",
+    "industry": "Fintech",
+    "date": "2024-03",
+    "explicit": [
+      "MLflow",
+      "Python"
+    ],
+    "implied": [
+      "Docker",
+      "CI/CD"
+    ],
+    "mentioned": [],
+    "problem": "a fintech data team that could not reproduce last quarter's credit model",
+    "approach": "central experiment tracking, a model registry and promotion gates in the pipeline",
+    "result": "every production model traceable to code, data and metrics; audit passed first time",
+    "client": "Nimbus Credit (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "ml-16",
+    "title": "Image tagging for a stock-photo library",
+    "industry": "Media",
+    "date": "2023-05",
+    "explicit": [
+      "Computer vision",
+      "PyTorch"
+    ],
+    "implied": [
+      "ONNX",
+      "Python"
+    ],
+    "mentioned": [
+      "YOLO"
+    ],
+    "problem": "120,000 photos with no searchable tags",
+    "approach": "a multi-label classifier fine-tuned from a pretrained backbone",
+    "result": "tag precision 0.88 at 5 tags per image; search usage doubled",
+    "client": "Frameworks Media (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "ml-17",
+    "title": "Kaggle-style tabular competition (personal)",
+    "industry": "Personal",
+    "date": "2022-11",
+    "explicit": [
+      "Python",
+      "XGBoost",
+      "LightGBM",
+      "Model evaluation"
+    ],
+    "implied": [
+      "pandas"
+    ],
+    "mentioned": [],
+    "problem": "a public credit-default competition",
+    "approach": "stacked boosted models with careful validation",
+    "result": "finished in the top 6% of 2,400 teams",
+    "client": "personal project",
+    "weeks": 3
+  }
+]

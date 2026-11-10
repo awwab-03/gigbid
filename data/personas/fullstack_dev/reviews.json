@@ -1,0 +1,212 @@
+[
+  {
+    "review_id": "rev:fs-01:0",
+    "project": "fs-01",
+    "client": "TeamPulse (synthetic)",
+    "industry": "SaaS",
+    "date": "2023-04",
+    "rating": 4.5,
+    "text": "Bilal delivered a typed React front end, an Express API and plan-based billing with renewal webhooks. Loved that it included subscription billing and checkout. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-02:0",
+    "project": "fs-02",
+    "client": "TutorNest (synthetic)",
+    "industry": "Education",
+    "date": "2023-08",
+    "rating": 5,
+    "text": "Great experience. The marketplace for local tutors Bilal built is now part of our daily workflow. Loved that it included sign in with Google and GitHub.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-03:0",
+    "project": "fs-03",
+    "client": "SwiftHaul Logistics (synthetic)",
+    "industry": "Logistics",
+    "date": "2024-01",
+    "rating": 5,
+    "text": "Solid work on real-time logistics tracking. A few small delays in week two but the final result was excellent. Loved that it included live updates pushed to the browser without refresh.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-04:0",
+    "project": "fs-04",
+    "client": "Skyline Estates (synthetic)",
+    "industry": "Real estate",
+    "date": "2022-10",
+    "rating": 5,
+    "text": "Bilal delivered a Django app with an admin panel, lead pipeline and scheduled email reminders. Loved that it included a background task queue that retried failed jobs. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-05:0",
+    "project": "fs-05",
+    "client": "GlowRoot Skincare (synthetic)",
+    "industry": "E-commerce",
+    "date": "2023-12",
+    "rating": 4.8,
+    "text": "Solid work on shopify theme and custom checkout upsell. A few small delays in week two but the final result was excellent. Loved that it included utility-first styling.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-06:0",
+    "project": "fs-06",
+    "client": "FitLoop (synthetic)",
+    "industry": "Health & fitness",
+    "date": "2024-04",
+    "rating": 5,
+    "text": "Bilal delivered a single typed schema with data loaders and field-level auth. Loved that it included a modular, decorator-based TypeScript backend. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-07:0",
+    "project": "fs-07",
+    "client": "Craftfolk (synthetic)",
+    "industry": "Social",
+    "date": "2022-06",
+    "rating": 5,
+    "text": "Solid work on firebase chat for a community app. A few small delays in week two but the final result was excellent. Loved that it included interactive browser code.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-08:0",
+    "project": "fs-08",
+    "client": "Haven Stays (synthetic)",
+    "industry": "Hospitality",
+    "date": "2025-02",
+    "rating": 4.8,
+    "text": "Great experience. The supabase migration for a booking app Bilal built is now part of our daily workflow. Loved that it included strictly typed front-end code.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-09:0",
+    "project": "fs-09",
+    "client": "Paywise (synthetic)",
+    "industry": "Fintech",
+    "date": "2024-07",
+    "rating": 5,
+    "text": "Bilal understood the problem quickly, built unit tests for components and browser tests for the money flows, run on every pull request, and documented everything. Loved that it included every push tested and deployed automatically.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-10:0",
+    "project": "fs-10",
+    "client": "SpiceTrail Kitchen (synthetic)",
+    "industry": "Media",
+    "date": "2022-03",
+    "rating": 4.5,
+    "text": "Bilal delivered a custom plugin for members-only content and recurring payments. Loved that it included subscription billing and checkout. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-11:0",
+    "project": "fs-11",
+    "client": "BoltBox Hardware (synthetic)",
+    "industry": "Retail",
+    "date": "2023-02",
+    "rating": 5,
+    "text": "Bilal delivered a reactive admin UI over a small Python API with barcode lookups. Loved that it included a relational database with proper migrations and indexes. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-11:1",
+    "project": "fs-11",
+    "client": "BoltBox Hardware (synthetic)",
+    "industry": "Retail",
+    "date": "2023-02",
+    "rating": 5,
+    "text": "Bilal understood the problem quickly, built a reactive admin UI over a small Python API with barcode lookups, and documented everything. Loved that it included a relational database with proper migrations and indexes.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-12:0",
+    "project": "fs-12",
+    "client": "Launchpad Labs (synthetic)",
+    "industry": "SaaS",
+    "date": "2024-09",
+    "rating": 4.5,
+    "text": "Bilal understood the problem quickly, built container images, automated tests and blue-green deploys, and documented everything. Loved that it included container orchestration with autoscaling pods.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-12:1",
+    "project": "fs-12",
+    "client": "Launchpad Labs (synthetic)",
+    "industry": "SaaS",
+    "date": "2024-09",
+    "rating": 5,
+    "text": "Great experience. The containerised deployment pipeline Bilal built is now part of our daily workflow. Loved that it included container orchestration with autoscaling pods.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-13:0",
+    "project": "fs-13",
+    "client": "Tandoor House (synthetic)",
+    "industry": "Food & beverage",
+    "date": "2025-05",
+    "rating": 5,
+    "text": "Bilal understood the problem quickly, built an installable ordering app with card checkout and a kitchen screen, and documented everything. Loved that it included strictly typed front-end code.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-14:0",
+    "project": "fs-14",
+    "client": "ClearPay (synthetic)",
+    "industry": "Fintech",
+    "date": "2025-07",
+    "rating": 4.8,
+    "text": "Solid work on express api hardening and rate limiting. A few small delays in week two but the final result was excellent. Loved that it included sign in with Google and GitHub.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-14:1",
+    "project": "fs-14",
+    "client": "ClearPay (synthetic)",
+    "industry": "Fintech",
+    "date": "2025-07",
+    "rating": 4.8,
+    "text": "Solid work on express api hardening and rate limiting. A few small delays in week two but the final result was excellent. Loved that it included sign in with Google and GitHub.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-16:0",
+    "project": "fs-16",
+    "client": "Insightly HR (synthetic)",
+    "industry": "SaaS",
+    "date": "2024-11",
+    "rating": 5,
+    "text": "Bilal understood the problem quickly, built queued export jobs with email links when ready, and documented everything. Loved that it included a background task queue that retried failed jobs.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-16:1",
+    "project": "fs-16",
+    "client": "Insightly HR (synthetic)",
+    "industry": "SaaS",
+    "date": "2024-11",
+    "rating": 4.5,
+    "text": "Great experience. The async report generation for a saas admin Bilal built is now part of our daily workflow. Loved that it included asynchronous workers pulling tasks off a broker.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-17:0",
+    "project": "fs-17",
+    "client": "SunGrid Solar (synthetic)",
+    "industry": "Energy",
+    "date": "2024-03",
+    "rating": 4,
+    "text": "Bilal understood the problem quickly, built time-bucketed documents and a live dashboard per site, and documented everything. Loved that it included live updates pushed to the browser without refresh.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:fs-18:0",
+    "project": "fs-18",
+    "client": "Vision Lab (synthetic)",
+    "industry": "AI",
+    "date": "2025-08",
+    "rating": 5,
+    "text": "Bilal delivered a typed API and a simple React front end with upload progress. Loved that it included a containerised build that runs the same everywhere. Communication was clear and every deadline was met.",
+    "synthetic": true
+  }
+]

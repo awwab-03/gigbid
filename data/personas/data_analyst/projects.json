@@ -1,0 +1,339 @@
+[
+  {
+    "id": "da-01",
+    "title": "Executive sales dashboard",
+    "industry": "Retail",
+    "date": "2023-02",
+    "explicit": [
+      "Power BI",
+      "SQL",
+      "Dashboarding"
+    ],
+    "implied": [
+      "Excel"
+    ],
+    "mentioned": [
+      "Tableau"
+    ],
+    "problem": "a retail chain whose leadership got a 40-tab spreadsheet every Monday",
+    "approach": "a star schema and one-page KPI report with drill-through by region",
+    "result": "weekly reporting time fell from 6 hours to 20 minutes",
+    "client": "UrbanMart (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "da-02",
+    "title": "Marketing attribution warehouse",
+    "industry": "E-commerce",
+    "date": "2023-07",
+    "explicit": [
+      "BigQuery",
+      "SQL",
+      "GA4"
+    ],
+    "implied": [
+      "dbt",
+      "Looker Studio"
+    ],
+    "mentioned": [],
+    "problem": "a D2C brand unable to tell which channel drove sales",
+    "approach": "joined ad spend with web events and orders, then built tested models for each channel",
+    "result": "reallocated 18% of ad budget and lowered cost per order by 22%",
+    "client": "Wildthread Apparel (synthetic)",
+    "weeks": 5
+  },
+  {
+    "id": "da-03",
+    "title": "dbt project for a fintech warehouse",
+    "industry": "Fintech",
+    "date": "2024-02",
+    "explicit": [
+      "dbt",
+      "Snowflake",
+      "SQL"
+    ],
+    "implied": [
+      "Airflow",
+      "Fivetran"
+    ],
+    "mentioned": [],
+    "problem": "a fintech with 200 untested SQL views nobody trusted",
+    "approach": "layered staging, intermediate and mart models with tests and docs",
+    "result": "data incidents fell from weekly to one per quarter",
+    "client": "Coinvault (synthetic)",
+    "weeks": 6
+  },
+  {
+    "id": "da-04",
+    "title": "Churn analysis for a subscription box",
+    "industry": "Subscription",
+    "date": "2023-10",
+    "explicit": [
+      "Python",
+      "pandas",
+      "Statistics"
+    ],
+    "implied": [
+      "SQL",
+      "Data visualization"
+    ],
+    "mentioned": [
+      "XGBoost"
+    ],
+    "problem": "a meal-kit company losing 9% of subscribers monthly",
+    "approach": "cohort retention curves and survival analysis by acquisition channel",
+    "result": "identified a first-box issue; fixing it cut month-1 churn by 3 points",
+    "client": "BoxChef (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "da-05",
+    "title": "A/B test analysis for pricing page",
+    "industry": "SaaS",
+    "date": "2024-05",
+    "explicit": [
+      "A/B testing",
+      "Statistics",
+      "Python"
+    ],
+    "implied": [
+      "SQL"
+    ],
+    "mentioned": [],
+    "problem": "a SaaS team arguing over a pricing-page test with no clear result",
+    "approach": "pre-registered metrics, sample-size checks and a sequential test",
+    "result": "declared a winner with 95% confidence; annual-plan uptake rose 11%",
+    "client": "Formstack Lite (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "da-06",
+    "title": "Tableau operations workbook",
+    "industry": "Healthcare",
+    "date": "2022-11",
+    "explicit": [
+      "Tableau",
+      "SQL"
+    ],
+    "implied": [
+      "Data cleaning",
+      "Excel"
+    ],
+    "mentioned": [
+      "Power BI"
+    ],
+    "problem": "a hospital tracking bed occupancy on whiteboards",
+    "approach": "a workbook fed from the admissions database with hourly refresh",
+    "result": "average discharge delay reduced by 50 minutes",
+    "client": "CityCare Hospital (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "da-07",
+    "title": "Nightly ETL from five SaaS tools",
+    "industry": "Agency",
+    "date": "2024-08",
+    "explicit": [
+      "ETL",
+      "Python",
+      "PostgreSQL"
+    ],
+    "implied": [
+      "Airflow",
+      "Data cleaning"
+    ],
+    "mentioned": [
+      "Snowflake"
+    ],
+    "problem": "an agency copying CSVs from five tools every morning",
+    "approach": "scheduled loaders with retries, deduplication and a reconciliation report",
+    "result": "saved 10 staff hours a week; zero missed loads in 4 months",
+    "client": "Brightpath Agency (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "da-08",
+    "title": "Google Sheets automation for a non-profit",
+    "industry": "Non-profit",
+    "date": "2022-05",
+    "explicit": [
+      "Google Sheets",
+      "Looker Studio"
+    ],
+    "implied": [
+      "Data cleaning"
+    ],
+    "mentioned": [],
+    "problem": "a non-profit merging donor lists by hand",
+    "approach": "scripted imports, duplicate detection and a free donor dashboard",
+    "result": "duplicate donor records cut by 92%",
+    "client": "HopeBridge Foundation (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "da-09",
+    "title": "Revenue forecasting model",
+    "industry": "SaaS",
+    "date": "2025-01",
+    "explicit": [
+      "Forecasting",
+      "Python",
+      "Excel"
+    ],
+    "implied": [
+      "Statistics",
+      "pandas"
+    ],
+    "mentioned": [
+      "Prophet"
+    ],
+    "problem": "a SaaS finance team forecasting revenue with gut feel",
+    "approach": "a driver-based model of new, expansion and churned revenue with scenario inputs",
+    "result": "quarterly forecast error fell from 14% to 4%",
+    "client": "Ledgerly (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "da-10",
+    "title": "Redshift cost and performance tuning",
+    "industry": "Media",
+    "date": "2024-11",
+    "explicit": [
+      "Redshift",
+      "SQL"
+    ],
+    "implied": [
+      "AWS"
+    ],
+    "mentioned": [
+      "BigQuery"
+    ],
+    "problem": "a media company whose dashboards took two minutes to load",
+    "approach": "sort and distribution keys, materialised aggregates and query rewrites",
+    "result": "median dashboard query from 110 s to 9 s and 30% lower cluster spend",
+    "client": "StreamWave Media (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "da-11",
+    "title": "Metabase self-serve analytics",
+    "industry": "Logistics",
+    "date": "2023-04",
+    "explicit": [
+      "Metabase",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "implied": [
+      "Docker"
+    ],
+    "mentioned": [],
+    "problem": "ops managers waiting days for every data question",
+    "approach": "curated models and 25 saved questions with plain-language descriptions",
+    "result": "ad-hoc data requests to the engineering team down 65%",
+    "client": "FleetFlow (synthetic)",
+    "weeks": 3
+  },
+  {
+    "id": "da-12",
+    "title": "Survey analysis in R",
+    "industry": "Research",
+    "date": "2022-08",
+    "explicit": [
+      "R",
+      "Statistics",
+      "Data visualization"
+    ],
+    "implied": [
+      "Data cleaning"
+    ],
+    "mentioned": [],
+    "problem": "an NGO with 6,000 survey responses and no analyst",
+    "approach": "weighted estimates, regression on outcomes and a clear PDF report",
+    "result": "report cited in the NGO's grant renewal that secured funding for two more years",
+    "client": "Pakistan Youth Survey (synthetic)",
+    "weeks": 4
+  },
+  {
+    "id": "da-13",
+    "title": "E-commerce cohort and LTV dashboard",
+    "industry": "E-commerce",
+    "date": "2025-04",
+    "explicit": [
+      "Looker Studio",
+      "BigQuery",
+      "SQL"
+    ],
+    "implied": [
+      "GA4",
+      "Dashboarding"
+    ],
+    "mentioned": [],
+    "problem": "a Shopify brand guessing customer lifetime value",
+    "approach": "monthly cohorts, repeat-purchase curves and LTV by first product",
+    "result": "shifted acquisition to two hero products with 1.8x higher LTV",
+    "client": "Kettle & Co (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "da-14",
+    "title": "Data cleaning of a 2-million-row CRM export",
+    "industry": "B2B",
+    "date": "2023-12",
+    "explicit": [
+      "Data cleaning",
+      "Python",
+      "pandas"
+    ],
+    "implied": [
+      "Excel"
+    ],
+    "mentioned": [],
+    "problem": "a B2B distributor with duplicated, mis-typed customer records",
+    "approach": "fuzzy matching, address standardisation and a review sheet for edge cases",
+    "result": "2.1 million rows reduced to 640,000 unique customers with an audit trail",
+    "client": "Prime Distributors (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "da-15",
+    "title": "Fivetran and Snowflake setup",
+    "industry": "SaaS",
+    "date": "2025-06",
+    "explicit": [
+      "Snowflake",
+      "Fivetran"
+    ],
+    "implied": [
+      "dbt",
+      "SQL"
+    ],
+    "mentioned": [],
+    "problem": "a startup with data scattered across HubSpot, Stripe and Postgres",
+    "approach": "managed connectors into a raw layer, then tested models for finance",
+    "result": "first trustworthy MRR number within 10 days",
+    "client": "Orbitly (synthetic)",
+    "weeks": 2
+  },
+  {
+    "id": "da-16",
+    "title": "Inventory KPI dashboard in Excel",
+    "industry": "Manufacturing",
+    "date": "2022-02",
+    "explicit": [
+      "Excel",
+      "Dashboarding"
+    ],
+    "implied": [
+      "Data visualization"
+    ],
+    "mentioned": [
+      "Power BI"
+    ],
+    "problem": "a small factory with no view of slow-moving stock",
+    "approach": "pivot models, lookups and a printable KPI sheet",
+    "result": "freed PKR 4 million of tied-up inventory within a quarter",
+    "client": "Indus Textiles (synthetic)",
+    "weeks": 1
+  }
+]

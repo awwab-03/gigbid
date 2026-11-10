@@ -1,0 +1,44 @@
+{
+  "persona_id": "ml_engineer",
+  "name": "Ayesha Raza",
+  "headline": "AI/ML Engineer - LLM apps, RAG and predictive models",
+  "location": "Lahore, Pakistan (synthetic)",
+  "years": 5,
+  "hourly_floor": 30,
+  "hourly_target": 45,
+  "min_fixed": 300,
+  "categories": [
+    "ai_ml",
+    "data_science"
+  ],
+  "education": "BS Computer Science (synthetic university)",
+  "certs": [
+    "AWS Certified Machine Learning - Specialty (2024)"
+  ],
+  "skills": [
+    "AWS SageMaker",
+    "Churn prediction",
+    "Computer vision",
+    "FastAPI",
+    "Hugging Face Transformers",
+    "LLM fine-tuning",
+    "LangChain",
+    "LangGraph",
+    "LightGBM",
+    "MLflow",
+    "Model evaluation",
+    "NLP",
+    "OpenAI API",
+    "Prophet",
+    "PyTorch",
+    "Python",
+    "RAG",
+    "Recommendation systems",
+    "Time series forecasting",
+    "XGBoost",
+    "YOLO",
+    "scikit-learn",
+    "spaCy"
+  ],
+  "synthetic": true
+}

@@ -1,0 +1,319 @@
+[
+  {
+    "item_id": "cv:data_analyst",
+    "type": "cv",
+    "path": "cv.pdf",
+    "project": null
+  },
+  {
+    "item_id": "case:da-01",
+    "type": "case_study",
+    "path": "case_studies/da-01.md",
+    "project": "da-01",
+    "date": "2023-02",
+    "client_industry": "Retail",
+    "skills": [
+      "Power BI",
+      "SQL",
+      "Dashboarding"
+    ]
+  },
+  {
+    "item_id": "repo:da-01",
+    "type": "repo",
+    "path": "repos/executive-sales-dashboard",
+    "project": "da-01",
+    "date": "2023-02",
+    "client_industry": "Retail",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-02",
+    "type": "case_study",
+    "path": "case_studies/da-02.md",
+    "project": "da-02",
+    "date": "2023-07",
+    "client_industry": "E-commerce",
+    "skills": [
+      "BigQuery",
+      "SQL",
+      "GA4"
+    ]
+  },
+  {
+    "item_id": "repo:da-02",
+    "type": "repo",
+    "path": "repos/marketing-attribution-warehouse",
+    "project": "da-02",
+    "date": "2023-07",
+    "client_industry": "E-commerce",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-03",
+    "type": "case_study",
+    "path": "case_studies/da-03.md",
+    "project": "da-03",
+    "date": "2024-02",
+    "client_industry": "Fintech",
+    "skills": [
+      "dbt",
+      "Snowflake",
+      "SQL"
+    ]
+  },
+  {
+    "item_id": "case:da-04",
+    "type": "case_study",
+    "path": "case_studies/da-04.md",
+    "project": "da-04",
+    "date": "2023-10",
+    "client_industry": "Subscription",
+    "skills": [
+      "Python",
+      "pandas",
+      "Statistics"
+    ]
+  },
+  {
+    "item_id": "case:da-05",
+    "type": "case_study",
+    "path": "case_studies/da-05.md",
+    "project": "da-05",
+    "date": "2024-05",
+    "client_industry": "SaaS",
+    "skills": [
+      "A/B testing",
+      "Statistics",
+      "Python"
+    ]
+  },
+  {
+    "item_id": "case:da-06",
+    "type": "case_study",
+    "path": "case_studies/da-06.md",
+    "project": "da-06",
+    "date": "2022-11",
+    "client_industry": "Healthcare",
+    "skills": [
+      "Tableau",
+      "SQL"
+    ]
+  },
+  {
+    "item_id": "repo:da-06",
+    "type": "repo",
+    "path": "repos/tableau-operations-workbook",
+    "project": "da-06",
+    "date": "2022-11",
+    "client_industry": "Healthcare",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:da-07",
+    "type": "case_study",
+    "path": "case_studies/da-07.md",
+    "project": "da-07",
+    "date": "2024-08",
+    "client_industry": "Agency",
+    "skills": [
+      "ETL",
+      "Python",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "item_id": "case:da-08",
+    "type": "case_study",
+    "path": "case_studies/da-08.md",
+    "project": "da-08",
+    "date": "2022-05",
+    "client_industry": "Non-profit",
+    "skills": [
+      "Google Sheets",
+      "Looker Studio"
+    ]
+  },
+  {
+    "item_id": "repo:da-08",
+    "type": "repo",
+    "path": "repos/google-sheets-automation-for-a-non-profit",
+    "project": "da-08",
+    "date": "2022-05",
+    "client_industry": "Non-profit",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:da-09",
+    "type": "case_study",
+    "path": "case_studies/da-09.md",
+    "project": "da-09",
+    "date": "2025-01",
+    "client_industry": "SaaS",
+    "skills": [
+      "Forecasting",
+      "Python",
+      "Excel"
+    ]
+  },
+  {
+    "item_id": "repo:da-09",
+    "type": "repo",
+    "path": "repos/revenue-forecasting-model",
+    "project": "da-09",
+    "date": "2025-01",
+    "client_industry": "SaaS",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:da-10",
+    "type": "case_study",
+    "path": "case_studies/da-10.md",
+    "project": "da-10",
+    "date": "2024-11",
+    "client_industry": "Media",
+    "skills": [
+      "Redshift",
+      "SQL"
+    ]
+  },
+  {
+    "item_id": "repo:da-10",
+    "type": "repo",
+    "path": "repos/redshift-cost-and-performance-tuning",
+    "project": "da-10",
+    "date": "2024-11",
+    "client_industry": "Media",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-11",
+    "type": "case_study",
+    "path": "case_studies/da-11.md",
+    "project": "da-11",
+    "date": "2023-04",
+    "client_industry": "Logistics",
+    "skills": [
+      "Metabase",
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "item_id": "repo:da-11",
+    "type": "repo",
+    "path": "repos/metabase-self-serve-analytics",
+    "project": "da-11",
+    "date": "2023-04",
+    "client_industry": "Logistics",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-12",
+    "type": "case_study",
+    "path": "case_studies/da-12.md",
+    "project": "da-12",
+    "date": "2022-08",
+    "client_industry": "Research",
+    "skills": [
+      "R",
+      "Statistics",
+      "Data visualization"
+    ]
+  },
+  {
+    "item_id": "repo:da-12",
+    "type": "repo",
+    "path": "repos/survey-analysis-in-r",
+    "project": "da-12",
+    "date": "2022-08",
+    "client_industry": "Research",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-13",
+    "type": "case_study",
+    "path": "case_studies/da-13.md",
+    "project": "da-13",
+    "date": "2025-04",
+    "client_industry": "E-commerce",
+    "skills": [
+      "Looker Studio",
+      "BigQuery",
+      "SQL"
+    ]
+  },
+  {
+    "item_id": "repo:da-13",
+    "type": "repo",
+    "path": "repos/e-commerce-cohort-and-ltv-dashboard",
+    "project": "da-13",
+    "date": "2025-04",
+    "client_industry": "E-commerce",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-14",
+    "type": "case_study",
+    "path": "case_studies/da-14.md",
+    "project": "da-14",
+    "date": "2023-12",
+    "client_industry": "B2B",
+    "skills": [
+      "Data cleaning",
+      "Python",
+      "pandas"
+    ]
+  },
+  {
+    "item_id": "repo:da-14",
+    "type": "repo",
+    "path": "repos/data-cleaning-of-a-2-million-row-crm-export",
+    "project": "da-14",
+    "date": "2023-12",
+    "client_industry": "B2B",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-15",
+    "type": "case_study",
+    "path": "case_studies/da-15.md",
+    "project": "da-15",
+    "date": "2025-06",
+    "client_industry": "SaaS",
+    "skills": [
+      "Snowflake",
+      "Fivetran"
+    ]
+  },
+  {
+    "item_id": "repo:da-15",
+    "type": "repo",
+    "path": "repos/fivetran-and-snowflake-setup",
+    "project": "da-15",
+    "date": "2025-06",
+    "client_industry": "SaaS",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:da-16",
+    "type": "case_study",
+    "path": "case_studies/da-16.md",
+    "project": "da-16",
+    "date": "2022-02",
+    "client_industry": "Manufacturing",
+    "skills": [
+      "Excel",
+      "Dashboarding"
+    ]
+  },
+  {
+    "item_id": "repo:da-16",
+    "type": "repo",
+    "path": "repos/inventory-kpi-dashboard-in-excel",
+    "project": "da-16",
+    "date": "2022-02",
+    "client_industry": "Manufacturing",
+    "terse_readme": false
+  }
+]

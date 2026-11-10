@@ -1,0 +1,114 @@
+[
+  {
+    "item_id": "blurb:da-01",
+    "project": "da-01",
+    "text": "Executive sales dashboard: for a retail client, weekly reporting time fell from 6 hours to 20 minutes. Tools: Power BI, SQL, Dashboarding.",
+    "date": "2023-02",
+    "client_industry": "Retail"
+  },
+  {
+    "item_id": "blurb:da-02",
+    "project": "da-02",
+    "text": "Marketing attribution warehouse: for a e-commerce client, reallocated 18% of ad budget and lowered cost per order by 22%. Tools: BigQuery, SQL, GA4.",
+    "date": "2023-07",
+    "client_industry": "E-commerce"
+  },
+  {
+    "item_id": "blurb:da-03",
+    "project": "da-03",
+    "text": "dbt project for a fintech warehouse: for a fintech client, data incidents fell from weekly to one per quarter. Tools: dbt, Snowflake, SQL.",
+    "date": "2024-02",
+    "client_industry": "Fintech"
+  },
+  {
+    "item_id": "blurb:da-04",
+    "project": "da-04",
+    "text": "Churn analysis for a subscription box: for a subscription client, identified a first-box issue; fixing it cut month-1 churn by 3 points. Tools: Python, pandas, Statistics.",
+    "date": "2023-10",
+    "client_industry": "Subscription"
+  },
+  {
+    "item_id": "blurb:da-05",
+    "project": "da-05",
+    "text": "A/B test analysis for pricing page: for a saas client, declared a winner with 95% confidence; annual-plan uptake rose 11%. Tools: A/B testing, Statistics, Python.",
+    "date": "2024-05",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:da-06",
+    "project": "da-06",
+    "text": "Tableau operations workbook: for a healthcare client, average discharge delay reduced by 50 minutes. Tools: Tableau, SQL.",
+    "date": "2022-11",
+    "client_industry": "Healthcare"
+  },
+  {
+    "item_id": "blurb:da-07",
+    "project": "da-07",
+    "text": "Nightly ETL from five SaaS tools: for a agency client, saved 10 staff hours a week; zero missed loads in 4 months. Tools: ETL, Python, PostgreSQL.",
+    "date": "2024-08",
+    "client_industry": "Agency"
+  },
+  {
+    "item_id": "blurb:da-08",
+    "project": "da-08",
+    "text": "Google Sheets automation for a non-profit: for a non-profit client, duplicate donor records cut by 92%. Tools: Google Sheets, Looker Studio.",
+    "date": "2022-05",
+    "client_industry": "Non-profit"
+  },
+  {
+    "item_id": "blurb:da-09",
+    "project": "da-09",
+    "text": "Revenue forecasting model: for a saas client, quarterly forecast error fell from 14% to 4%. Tools: Forecasting, Python, Excel.",
+    "date": "2025-01",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:da-10",
+    "project": "da-10",
+    "text": "Redshift cost and performance tuning: for a media client, median dashboard query from 110 s to 9 s and 30% lower cluster spend. Tools: Redshift, SQL.",
+    "date": "2024-11",
+    "client_industry": "Media"
+  },
+  {
+    "item_id": "blurb:da-11",
+    "project": "da-11",
+    "text": "Metabase self-serve analytics: for a logistics client, ad-hoc data requests to the engineering team down 65%. Tools: Metabase, PostgreSQL, SQL.",
+    "date": "2023-04",
+    "client_industry": "Logistics"
+  },
+  {
+    "item_id": "blurb:da-12",
+    "project": "da-12",
+    "text": "Survey analysis in R: for a research client, report cited in the NGO's grant renewal that secured funding for two more years. Tools: R, Statistics, Data visualization.",
+    "date": "2022-08",
+    "client_industry": "Research"
+  },
+  {
+    "item_id": "blurb:da-13",
+    "project": "da-13",
+    "text": "E-commerce cohort and LTV dashboard: for a e-commerce client, shifted acquisition to two hero products with 1.8x higher LTV. Tools: Looker Studio, BigQuery, SQL.",
+    "date": "2025-04",
+    "client_industry": "E-commerce"
+  },
+  {
+    "item_id": "blurb:da-14",
+    "project": "da-14",
+    "text": "Data cleaning of a 2-million-row CRM export: for a b2b client, 2.1 million rows reduced to 640,000 unique customers with an audit trail. Tools: Data cleaning, Python, pandas.",
+    "date": "2023-12",
+    "client_industry": "B2B"
+  },
+  {
+    "item_id": "blurb:da-15",
+    "project": "da-15",
+    "text": "Fivetran and Snowflake setup: for a saas client, first trustworthy MRR number within 10 days. Tools: Snowflake, Fivetran.",
+    "date": "2025-06",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:da-16",
+    "project": "da-16",
+    "text": "Inventory KPI dashboard in Excel: for a manufacturing client, freed PKR 4 million of tied-up inventory within a quarter. Tools: Excel, Dashboarding.",
+    "date": "2022-02",
+    "client_industry": "Manufacturing"
+  }
+]

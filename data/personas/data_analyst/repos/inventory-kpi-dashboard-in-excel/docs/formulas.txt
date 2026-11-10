@@ -1,0 +1,1 @@
+=XLOOKUP(A2, Orders!A:A, Orders!F:F)

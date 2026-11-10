@@ -1,0 +1,121 @@
+[
+  {
+    "item_id": "blurb:ml-01",
+    "project": "ml-01",
+    "text": "Support-ticket triage classifier: for a saas client, cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. Tools: Python, scikit-learn, NLP.",
+    "date": "2023-03",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:ml-02",
+    "project": "ml-02",
+    "text": "Customer churn early-warning model: for a telecom client, flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. Tools: Python, XGBoost, Churn prediction.",
+    "date": "2023-06",
+    "client_industry": "Telecom"
+  },
+  {
+    "item_id": "blurb:ml-03",
+    "project": "ml-03",
+    "text": "Internal policy assistant with citations: for a insurance client, answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. Tools: Python, RAG, LangChain.",
+    "date": "2024-02",
+    "client_industry": "Insurance"
+  },
+  {
+    "item_id": "blurb:ml-04",
+    "project": "ml-04",
+    "text": "Retail demand forecasting for 300 SKUs: for a retail client, reduced MAPE from 31% to 18% and cut waste on perishables by 12%. Tools: Python, Time series forecasting, Prophet.",
+    "date": "2023-09",
+    "client_industry": "Retail"
+  },
+  {
+    "item_id": "blurb:ml-05",
+    "project": "ml-05",
+    "text": "Defect detection on a bottling line: for a manufacturing client, 98.2% recall on cracked caps at 25 frames per second on a CPU. Tools: Computer vision, PyTorch, YOLO.",
+    "date": "2024-05",
+    "client_industry": "Manufacturing"
+  },
+  {
+    "item_id": "blurb:ml-06",
+    "project": "ml-06",
+    "text": "Multi-agent research assistant: for a consulting client, first drafts in 15 minutes, analysts kept 70% of generated text after review. Tools: Python, LangGraph, RAG.",
+    "date": "2025-01",
+    "client_industry": "Consulting"
+  },
+  {
+    "item_id": "blurb:ml-07",
+    "project": "ml-07",
+    "text": "Product recommendation engine: for a e-commerce client, click-through on recommendations rose 23% in a two-week A/B test. Tools: Python, Recommendation systems.",
+    "date": "2023-11",
+    "client_industry": "E-commerce"
+  },
+  {
+    "item_id": "blurb:ml-08",
+    "project": "ml-08",
+    "text": "Fine-tuned tone model for customer emails: for a saas client, brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. Tools: LLM fine-tuning, Hugging Face Transformers, PyTorch.",
+    "date": "2025-04",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:ml-09",
+    "project": "ml-09",
+    "text": "Invoice field extraction: for a finance client, 94% field accuracy, saving roughly 30 staff hours a week. Tools: NLP, spaCy, Python.",
+    "date": "2024-08",
+    "client_industry": "Finance"
+  },
+  {
+    "item_id": "blurb:ml-10",
+    "project": "ml-10",
+    "text": "Semantic product search: for a e-commerce client, zero-result searches fell from 14% to 3%. Tools: RAG, Python.",
+    "date": "2024-10",
+    "client_industry": "E-commerce"
+  },
+  {
+    "item_id": "blurb:ml-11",
+    "project": "ml-11",
+    "text": "Model training on Amazon with a hosted endpoint: for a healthcare client, no-show prediction AUC 0.84; reminder calls targeted to the riskiest 20% of bookings. Tools: AWS SageMaker, scikit-learn, Model evaluation.",
+    "date": "2024-12",
+    "client_industry": "Healthcare"
+  },
+  {
+    "item_id": "blurb:ml-12",
+    "project": "ml-12",
+    "text": "Sentiment dashboard for app reviews: for a mobile apps client, surfaced 3 crash-related themes that drove the next two releases. Tools: NLP, Hugging Face Transformers.",
+    "date": "2023-01",
+    "client_industry": "Mobile apps"
+  },
+  {
+    "item_id": "blurb:ml-13",
+    "project": "ml-13",
+    "text": "Lead scoring for a B2B sales team: for a saas client, top-scored 20% of leads converted at 3.1x the base rate. Tools: LightGBM, Model evaluation, Python.",
+    "date": "2025-06",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:ml-14",
+    "project": "ml-14",
+    "text": "Async document-processing pipeline: for a legal client, uploads of any size returned in under a second; 0 lost documents in 3 months. Tools: Python, FastAPI.",
+    "date": "2025-03",
+    "client_industry": "Legal"
+  },
+  {
+    "item_id": "blurb:ml-15",
+    "project": "ml-15",
+    "text": "Experiment tracking rollout: for a fintech client, every production model traceable to code, data and metrics; audit passed first time. Tools: MLflow, Python.",
+    "date": "2024-03",
+    "client_industry": "Fintech"
+  },
+  {
+    "item_id": "blurb:ml-16",
+    "project": "ml-16",
+    "text": "Image tagging for a stock-photo library: for a media client, tag precision 0.88 at 5 tags per image; search usage doubled. Tools: Computer vision, PyTorch.",
+    "date": "2023-05",
+    "client_industry": "Media"
+  },
+  {
+    "item_id": "blurb:ml-17",
+    "project": "ml-17",
+    "text": "Kaggle-style tabular competition (personal): for a personal client, finished in the top 6% of 2,400 teams. Tools: Python, XGBoost, LightGBM.",
+    "date": "2022-11",
+    "client_industry": "Personal"
+  }
+]

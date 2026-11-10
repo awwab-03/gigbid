@@ -1,0 +1,382 @@
+[
+  {
+    "item_id": "cv:fullstack_dev",
+    "type": "cv",
+    "path": "cv.pdf",
+    "project": null
+  },
+  {
+    "item_id": "case:fs-01",
+    "type": "case_study",
+    "path": "case_studies/fs-01.md",
+    "project": "fs-01",
+    "date": "2023-04",
+    "client_industry": "SaaS",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "item_id": "repo:fs-01",
+    "type": "repo",
+    "path": "repos/subscription-saas-dashboard",
+    "project": "fs-01",
+    "date": "2023-04",
+    "client_industry": "SaaS",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:fs-02",
+    "type": "case_study",
+    "path": "case_studies/fs-02.md",
+    "project": "fs-02",
+    "date": "2023-08",
+    "client_industry": "Education",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "item_id": "repo:fs-02",
+    "type": "repo",
+    "path": "repos/marketplace-for-local-tutors",
+    "project": "fs-02",
+    "date": "2023-08",
+    "client_industry": "Education",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:fs-03",
+    "type": "case_study",
+    "path": "case_studies/fs-03.md",
+    "project": "fs-03",
+    "date": "2024-01",
+    "client_industry": "Logistics",
+    "skills": [
+      "React",
+      "Node.js"
+    ]
+  },
+  {
+    "item_id": "repo:fs-03",
+    "type": "repo",
+    "path": "repos/real-time-logistics-tracking",
+    "project": "fs-03",
+    "date": "2024-01",
+    "client_industry": "Logistics",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-04",
+    "type": "case_study",
+    "path": "case_studies/fs-04.md",
+    "project": "fs-04",
+    "date": "2022-10",
+    "client_industry": "Real estate",
+    "skills": [
+      "Django",
+      "PostgreSQL",
+      "REST API"
+    ]
+  },
+  {
+    "item_id": "repo:fs-04",
+    "type": "repo",
+    "path": "repos/django-crm-for-a-property-agency",
+    "project": "fs-04",
+    "date": "2022-10",
+    "client_industry": "Real estate",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-05",
+    "type": "case_study",
+    "path": "case_studies/fs-05.md",
+    "project": "fs-05",
+    "date": "2023-12",
+    "client_industry": "E-commerce",
+    "skills": [
+      "Shopify",
+      "JavaScript"
+    ]
+  },
+  {
+    "item_id": "case:fs-06",
+    "type": "case_study",
+    "path": "case_studies/fs-06.md",
+    "project": "fs-06",
+    "date": "2024-04",
+    "client_industry": "Health & fitness",
+    "skills": [
+      "GraphQL",
+      "Node.js",
+      "TypeScript"
+    ]
+  },
+  {
+    "item_id": "repo:fs-06",
+    "type": "repo",
+    "path": "repos/graphql-api-for-a-mobile-fitness-app",
+    "project": "fs-06",
+    "date": "2024-04",
+    "client_industry": "Health & fitness",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-07",
+    "type": "case_study",
+    "path": "case_studies/fs-07.md",
+    "project": "fs-07",
+    "date": "2022-06",
+    "client_industry": "Social",
+    "skills": [
+      "Firebase",
+      "React"
+    ]
+  },
+  {
+    "item_id": "repo:fs-07",
+    "type": "repo",
+    "path": "repos/firebase-chat-for-a-community-app",
+    "project": "fs-07",
+    "date": "2022-06",
+    "client_industry": "Social",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-08",
+    "type": "case_study",
+    "path": "case_studies/fs-08.md",
+    "project": "fs-08",
+    "date": "2025-02",
+    "client_industry": "Hospitality",
+    "skills": [
+      "Supabase",
+      "Next.js",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "item_id": "repo:fs-08",
+    "type": "repo",
+    "path": "repos/supabase-migration-for-a-booking-app",
+    "project": "fs-08",
+    "date": "2025-02",
+    "client_industry": "Hospitality",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-09",
+    "type": "case_study",
+    "path": "case_studies/fs-09.md",
+    "project": "fs-09",
+    "date": "2024-07",
+    "client_industry": "Fintech",
+    "skills": [
+      "Playwright",
+      "Jest",
+      "TypeScript"
+    ]
+  },
+  {
+    "item_id": "repo:fs-09",
+    "type": "repo",
+    "path": "repos/end-to-end-test-suite-for-a-fintech-web-app",
+    "project": "fs-09",
+    "date": "2024-07",
+    "client_industry": "Fintech",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:fs-10",
+    "type": "case_study",
+    "path": "case_studies/fs-10.md",
+    "project": "fs-10",
+    "date": "2022-03",
+    "client_industry": "Media",
+    "skills": [
+      "WordPress",
+      "JavaScript"
+    ]
+  },
+  {
+    "item_id": "repo:fs-10",
+    "type": "repo",
+    "path": "repos/wordpress-membership-site",
+    "project": "fs-10",
+    "date": "2022-03",
+    "client_industry": "Media",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-11",
+    "type": "case_study",
+    "path": "case_studies/fs-11.md",
+    "project": "fs-11",
+    "date": "2023-02",
+    "client_industry": "Retail",
+    "skills": [
+      "Vue.js",
+      "Flask",
+      "REST API"
+    ]
+  },
+  {
+    "item_id": "repo:fs-11",
+    "type": "repo",
+    "path": "repos/vue-admin-panel-for-inventory",
+    "project": "fs-11",
+    "date": "2023-02",
+    "client_industry": "Retail",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-12",
+    "type": "case_study",
+    "path": "case_studies/fs-12.md",
+    "project": "fs-12",
+    "date": "2024-09",
+    "client_industry": "SaaS",
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "AWS"
+    ]
+  },
+  {
+    "item_id": "repo:fs-12",
+    "type": "repo",
+    "path": "repos/containerised-deployment-pipeline",
+    "project": "fs-12",
+    "date": "2024-09",
+    "client_industry": "SaaS",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-13",
+    "type": "case_study",
+    "path": "case_studies/fs-13.md",
+    "project": "fs-13",
+    "date": "2025-05",
+    "client_industry": "Food & beverage",
+    "skills": [
+      "Next.js",
+      "Tailwind CSS",
+      "Stripe"
+    ]
+  },
+  {
+    "item_id": "repo:fs-13",
+    "type": "repo",
+    "path": "repos/restaurant-ordering-pwa",
+    "project": "fs-13",
+    "date": "2025-05",
+    "client_industry": "Food & beverage",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-14",
+    "type": "case_study",
+    "path": "case_studies/fs-14.md",
+    "project": "fs-14",
+    "date": "2025-07",
+    "client_industry": "Fintech",
+    "skills": [
+      "Express",
+      "Node.js",
+      "Redis"
+    ]
+  },
+  {
+    "item_id": "repo:fs-14",
+    "type": "repo",
+    "path": "repos/express-api-hardening-and-rate-limiting",
+    "project": "fs-14",
+    "date": "2025-07",
+    "client_industry": "Fintech",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:fs-15",
+    "type": "case_study",
+    "path": "case_studies/fs-15.md",
+    "project": "fs-15",
+    "date": "2023-07",
+    "client_industry": "Personal",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Jest"
+    ]
+  },
+  {
+    "item_id": "case:fs-16",
+    "type": "case_study",
+    "path": "case_studies/fs-16.md",
+    "project": "fs-16",
+    "date": "2024-11",
+    "client_industry": "SaaS",
+    "skills": [
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "item_id": "repo:fs-16",
+    "type": "repo",
+    "path": "repos/async-report-generation-for-a-saas-admin",
+    "project": "fs-16",
+    "date": "2024-11",
+    "client_industry": "SaaS",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:fs-17",
+    "type": "case_study",
+    "path": "case_studies/fs-17.md",
+    "project": "fs-17",
+    "date": "2024-03",
+    "client_industry": "Energy",
+    "skills": [
+      "MongoDB",
+      "Node.js",
+      "React"
+    ]
+  },
+  {
+    "item_id": "repo:fs-17",
+    "type": "repo",
+    "path": "repos/mongodb-event-store-for-an-iot-dashboard",
+    "project": "fs-17",
+    "date": "2024-03",
+    "client_industry": "Energy",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:fs-18",
+    "type": "case_study",
+    "path": "case_studies/fs-18.md",
+    "project": "fs-18",
+    "date": "2025-08",
+    "client_industry": "AI",
+    "skills": [
+      "FastAPI",
+      "React"
+    ]
+  },
+  {
+    "item_id": "repo:fs-18",
+    "type": "repo",
+    "path": "repos/fastapi-backend-for-an-ml-demo",
+    "project": "fs-18",
+    "date": "2025-08",
+    "client_industry": "AI",
+    "terse_readme": true
+  }
+]

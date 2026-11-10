@@ -1,0 +1,46 @@
+{
+  "persona_id": "data_analyst",
+  "name": "Sana Malik",
+  "headline": "Data Analyst - SQL, dashboards, dbt and Python analytics",
+  "location": "Islamabad, Pakistan (synthetic)",
+  "years": 4,
+  "hourly_floor": 20,
+  "hourly_target": 32,
+  "min_fixed": 150,
+  "categories": [
+    "data_analytics",
+    "data_science"
+  ],
+  "education": "BS Economics, minor in Statistics (synthetic university)",
+  "certs": [
+    "Microsoft Power BI Data Analyst Associate (2023)",
+    "Google Data Analytics Certificate (2021)"
+  ],
+  "skills": [
+    "A/B testing",
+    "BigQuery",
+    "Dashboarding",
+    "Data cleaning",
+    "Data visualization",
+    "ETL",
+    "Excel",
+    "Fivetran",
+    "Forecasting",
+    "GA4",
+    "Google Sheets",
+    "Looker Studio",
+    "Metabase",
+    "PostgreSQL",
+    "Power BI",
+    "Python",
+    "R",
+    "Redshift",
+    "SQL",
+    "Snowflake",
+    "Statistics",
+    "Tableau",
+    "dbt",
+    "pandas"
+  ],
+  "synthetic": true
+}

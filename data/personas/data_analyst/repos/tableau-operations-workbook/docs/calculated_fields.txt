@@ -1,0 +1,1 @@
+-- Tableau calculated field: IF [Profit] < 0 THEN 'Loss' END

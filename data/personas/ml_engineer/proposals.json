@@ -1,0 +1,3945 @@
+[
+  {
+    "proposal_id": "prop:ml_engineer:000",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "CI/CD",
+      "Python"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "ml-15",
+      "ml-03"
+    ],
+    "bid_usd": 1910.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Experiment tracking rollout I central experiment tracking. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. I would start with Docker and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:001",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a text classification pipeline for customer messages",
+    "job_category": "data_science",
+    "job_skills": [
+      "NLP",
+      "Hugging Face Transformers",
+      "pandas"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 920.0,
+    "text": "I read that you need a text classification pipeline for customer messages - I recently shipped Sentiment dashboard for app reviews, which surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with NLP and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:002",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a transformer-based NLP model",
+    "job_category": "data_science",
+    "job_skills": [
+      "Hugging Face Transformers",
+      "pandas",
+      "NLP"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 900.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with Hugging Face Transformers and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:003",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Redis",
+      "Recommendation systems"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-07",
+      "ml-06"
+    ],
+    "bid_usd": 1690.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Multi-agent research assistant I a planner, and it first drafts in 15 minutes, analysts kept 70% of generated text after review. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:004",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "Hugging Face Transformers",
+      "pandas",
+      "Recommendation systems"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "ml-01",
+      "ml-16"
+    ],
+    "bid_usd": 670.0,
+    "text": "I read that you need a text classification pipeline for customer messages - I recently shipped Support-ticket triage classifier, which cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. I would start with NLP and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:005",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for caching and queues with Redis",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Redis",
+      "Python",
+      "pandas"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "ml-07",
+      "ml-01"
+    ],
+    "bid_usd": 1690.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Redis and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:006",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a deep learning model in PyTorch",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "PyTorch",
+      "Computer vision",
+      "Python",
+      "Docker"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "ml-07",
+      "ml-01"
+    ],
+    "bid_usd": 460.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with PyTorch and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:007",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for an image recognition model",
+    "job_category": "data_science",
+    "job_skills": [
+      "Computer vision",
+      "OpenCV",
+      "ONNX"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-05",
+      "ml-16"
+    ],
+    "bid_usd": 1510.0,
+    "text": "For an image recognition model, the hard part is usually edge cases; I solved that last year for a manufacturing client. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. I would start with Computer vision and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:008",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for optimising a model for CPU inference",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "ONNX",
+      "YOLO",
+      "PyTorch"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "ml-05",
+      "ml-16"
+    ],
+    "bid_usd": 250.0,
+    "text": "Your optimising a model for CPU inference sounds close to what I built for AquaPure Bottlers (synthetic): 98.2% recall on cracked caps at 25 frames per second on a CPU. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. I would start with ONNX and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:009",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a gradient-boosting prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "XGBoost",
+      "LightGBM",
+      "pandas"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "ml-17",
+      "ml-02"
+    ],
+    "bid_usd": 2950.0,
+    "text": "Your a gradient-boosting prediction model sounds close to what I built for personal project: finished in the top 6% of 2,400 teams. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. I would start with XGBoost and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:010",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "Python",
+      "CI/CD"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "ml-15",
+      "ml-03"
+    ],
+    "bid_usd": 500.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Experiment tracking rollout I central experiment tracking. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. I would start with Docker and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:011",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a deep learning model in PyTorch",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "PyTorch",
+      "ONNX",
+      "OpenCV"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-05",
+      "ml-16"
+    ],
+    "bid_usd": 1210.0,
+    "text": "For a deep learning model in PyTorch, the hard part is usually edge cases; I solved that last year for a manufacturing client. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with PyTorch and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:012",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a transformer-based NLP model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Hugging Face Transformers",
+      "NLP",
+      "pandas"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "ml-04",
+      "ml-08"
+    ],
+    "bid_usd": 980.0,
+    "text": "Your a transformer-based NLP model sounds close to what I built for FreshMart (synthetic): reduced MAPE from 31% to 18% and cut waste on perishables by 12%. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors, and it reduced MAPE from 31% to 18% and cut waste on perishables by 12%. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with Hugging Face Transformers and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:013",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "Python",
+      "Celery"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "ml-14",
+      "ml-01"
+    ],
+    "bid_usd": 980.0,
+    "text": "Your a FastAPI backend service sounds close to what I built for Hale & Rowe LLP (synthetic): uploads of any size returned in under a second. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling, and it uploads of any size returned in under a second; 0 lost documents in 3 months. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with FastAPI and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:014",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a transformer-based NLP model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Hugging Face Transformers",
+      "LLM fine-tuning",
+      "Python"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-02",
+      "ml-08"
+    ],
+    "bid_usd": 2520.0,
+    "text": "Your a transformer-based NLP model sounds close to what I built for NorthLine Telecom (synthetic): flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. I would start with Hugging Face Transformers and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:015",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for product recommendations for our store",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Recommendation systems",
+      "Redis",
+      "pandas"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-07",
+      "ml-01"
+    ],
+    "bid_usd": 410.0,
+    "text": "Your product recommendations for our store sounds close to what I built for StyleLane (synthetic): click-through on recommendations rose 23% in a two-week A/B test. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Recommendation systems and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:016",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Redis",
+      "FastAPI"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "ml-05",
+      "ml-13"
+    ],
+    "bid_usd": 650.0,
+    "text": "Your a Python automation script sounds close to what I built for AquaPure Bottlers (synthetic): 98.2% recall on cracked caps at 25 frames per second on a CPU. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:017",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "Celery",
+      "Python"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "ml-14",
+      "ml-03"
+    ],
+    "bid_usd": 1930.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling, and it uploads of any size returned in under a second; 0 lost documents in 3 months. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. I would start with Docker and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:018",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for deploying our model on SageMaker",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "AWS SageMaker",
+      "AWS",
+      "scikit-learn",
+      "GA4"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "ml-08",
+      "ml-01"
+    ],
+    "bid_usd": 1280.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with AWS SageMaker and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:019",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for vector search for our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Pinecone",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-05",
+      "ml-10"
+    ],
+    "bid_usd": 2640.0,
+    "text": "I read that you need vector search for our app - I recently shipped Defect detection on a bottling line, which 98.2% recall on cracked caps at 25 frames per second on a CPU. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Semantic product search I embedding search over product text with a keyword fallback. I would start with Pinecone and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:020",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for an object detection model for camera footage",
+    "job_category": "data_science",
+    "job_skills": [
+      "YOLO",
+      "Computer vision",
+      "OpenCV"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "ml-04",
+      "ml-13"
+    ],
+    "bid_usd": 460.0,
+    "text": "I read that you need an object detection model for camera footage - I recently shipped Retail demand forecasting for 300 SKUs, which reduced MAPE from 31% to 18% and cut waste on perishables by 12%. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with YOLO and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:021",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "OpenAI API",
+      "RAG",
+      "Stripe"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-03",
+      "ml-06"
+    ],
+    "bid_usd": 970.0,
+    "text": "For a Python automation script, the hard part is usually getting adoption; I solved that last year for a insurance client. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Multi-agent research assistant I a planner, and it first drafts in 15 minutes, analysts kept 70% of generated text after review. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:022",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "Python",
+      "RAG",
+      "FastAPI"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "ml-03",
+      "ml-06"
+    ],
+    "bid_usd": 950.0,
+    "text": "Your a FastAPI backend service sounds close to what I built for Crescent Insurance (synthetic): answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. In Multi-agent research assistant I a planner. I would start with FastAPI and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:023",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Docker",
+      "CI/CD"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-15",
+      "ml-03"
+    ],
+    "bid_usd": 660.0,
+    "text": "For a Python automation script, the hard part is usually keeping it fast; I solved that last year for a fintech client. In Experiment tracking rollout I central experiment tracking. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:024",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for numerical data processing",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NumPy",
+      "pandas",
+      "Redis"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "ml-07",
+      "ml-01"
+    ],
+    "bid_usd": 630.0,
+    "text": "For numerical data processing, the hard part is usually getting adoption; I solved that last year for a e-commerce client. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with NumPy and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:025",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Docker",
+      "CI/CD"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "ml-13",
+      "ml-04"
+    ],
+    "bid_usd": 340.0,
+    "text": "I read that you need a Python automation script - I recently shipped Lead scoring for a B2B sales team, which top-scored 20% of leads converted at 3.1x the base rate. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors, and it reduced MAPE from 31% to 18% and cut waste on perishables by 12%. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:026",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "LightGBM",
+      "Model evaluation"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-05",
+      "ml-08"
+    ],
+    "bid_usd": 450.0,
+    "text": "For data processing in Python, the hard part is usually getting adoption; I solved that last year for a manufacturing client. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with pandas and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:027",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "Model evaluation",
+      "Python",
+      "Prisma"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-01",
+      "ml-02"
+    ],
+    "bid_usd": 460.0,
+    "text": "For data processing in Python, the hard part is usually keeping it fast; I solved that last year for a saas client. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. I would start with pandas and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:028",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "NLP",
+      "spaCy"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "ml-09",
+      "ml-01"
+    ],
+    "bid_usd": 280.0,
+    "text": "For a Python automation script, the hard part is usually getting adoption; I solved that last year for a finance client. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:029",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a transformer-based NLP model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Hugging Face Transformers",
+      "Python",
+      "LLM fine-tuning"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "ml-14",
+      "ml-13"
+    ],
+    "bid_usd": 700.0,
+    "text": "For a transformer-based NLP model, the hard part is usually messy data; I solved that last year for a legal client. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling, and it uploads of any size returned in under a second; 0 lost documents in 3 months. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. I would start with Hugging Face Transformers and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:030",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an object detection model for camera footage",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "YOLO",
+      "ONNX",
+      "Computer vision",
+      "LangChain"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "ml-01",
+      "ml-05"
+    ],
+    "bid_usd": 1380.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. I would start with YOLO and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:031",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "SQL",
+      "Model evaluation",
+      "Docker"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "ml-15",
+      "ml-03"
+    ],
+    "bid_usd": 640.0,
+    "text": "Your data processing in Python sounds close to what I built for Nimbus Credit (synthetic): every production model traceable to code, data and metrics. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. I would start with pandas and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:032",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for entity extraction from documents",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "spaCy",
+      "Python",
+      "OpenCV"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "ml-09",
+      "ml-01"
+    ],
+    "bid_usd": 700.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with spaCy and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:033",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "PyTorch",
+      "Hugging Face Transformers"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "ml-08",
+      "ml-16"
+    ],
+    "bid_usd": 1310.0,
+    "text": "For a Python automation script, the hard part is usually edge cases; I solved that last year for a saas client. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:034",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Hugging Face Transformers",
+      "LLM fine-tuning"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "ml-17",
+      "ml-03"
+    ],
+    "bid_usd": 1350.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:035",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a FastAPI backend service",
+    "job_category": "data_science",
+    "job_skills": [
+      "FastAPI",
+      "Python",
+      "Pinecone"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "ml-05",
+      "ml-13"
+    ],
+    "bid_usd": 1590.0,
+    "text": "Hello, I am a ata scientist with many years of experience. I have read your job description carefully. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:036",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for SQL reporting queries",
+    "job_category": "data_science",
+    "job_skills": [
+      "SQL",
+      "Python",
+      "pandas",
+      "Data cleaning"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-13",
+      "ml-01"
+    ],
+    "bid_usd": 640.0,
+    "text": "For SQL reporting queries, the hard part is usually keeping it fast; I solved that last year for a saas client. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:037",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a FastAPI backend service",
+    "job_category": "data_science",
+    "job_skills": [
+      "FastAPI",
+      "Docker",
+      "RAG"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-03",
+      "ml-06"
+    ],
+    "bid_usd": 2110.0,
+    "text": "Your a FastAPI backend service sounds close to what I built for Crescent Insurance (synthetic): answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. In Multi-agent research assistant I a planner. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:038",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "Python",
+      "MLflow"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "ml-15",
+      "ml-02"
+    ],
+    "bid_usd": 1630.0,
+    "text": "Your containerising and deploying our app sounds close to what I built for Nimbus Credit (synthetic): every production model traceable to code, data and metrics. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. I would start with Docker and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:039",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "scikit-learn",
+      "AWS SageMaker"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "ml-10",
+      "ml-01"
+    ],
+    "bid_usd": 600.0,
+    "text": "Your containerising and deploying our app sounds close to what I built for Kicks & Co (synthetic): zero-result searches fell from 14% to 3%. In Semantic product search I embedding search over product text with a keyword fallback. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Docker and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:040",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Docker",
+      "MLflow"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "ml-05",
+      "ml-08"
+    ],
+    "bid_usd": 1400.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:041",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "Python",
+      "Docker"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "ml-03",
+      "ml-09"
+    ],
+    "bid_usd": 1880.0,
+    "text": "I read that you need a FastAPI backend service - I recently shipped Internal policy assistant with citations, which answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:042",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "MLflow",
+      "CI/CD"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "ml-07",
+      "ml-15"
+    ],
+    "bid_usd": 730.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. I would start with Docker and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:043",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "spaCy",
+      "OpenCV"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-15",
+      "ml-12"
+    ],
+    "bid_usd": 490.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. I would start with NLP and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:044",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for numerical data processing",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NumPy",
+      "Recommendation systems",
+      "Redis"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "ml-07",
+      "ml-06"
+    ],
+    "bid_usd": 620.0,
+    "text": "Your numerical data processing sounds close to what I built for StyleLane (synthetic): click-through on recommendations rose 23% in a two-week A/B test. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. In Multi-agent research assistant I a planner. I would start with NumPy and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:045",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "NLP",
+      "spaCy"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-09",
+      "ml-01"
+    ],
+    "bid_usd": 860.0,
+    "text": "Your a FastAPI backend service sounds close to what I built for LedgerPoint (synthetic): 94% field accuracy, saving roughly 30 staff hours a week. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with FastAPI and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:046",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "FAISS",
+      "LangChain"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-03",
+      "ml-01"
+    ],
+    "bid_usd": 660.0,
+    "text": "Your a Python automation script sounds close to what I built for Crescent Insurance (synthetic): answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:047",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for evaluating our ML models",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Model evaluation",
+      "LightGBM",
+      "pandas"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "ml-13",
+      "ml-17"
+    ],
+    "bid_usd": 260.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with Model evaluation and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:048",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "Hugging Face Transformers",
+      "NLP"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 480.0,
+    "text": "Your data processing in Python sounds close to what I built for PixelForge Studio (synthetic): surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with pandas and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:049",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a tabular prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LightGBM",
+      "Model evaluation",
+      "Python"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "ml-13",
+      "ml-17"
+    ],
+    "bid_usd": 1020.0,
+    "text": "Your a tabular prediction model sounds close to what I built for Pipeline Pro (synthetic): top-scored 20% of leads converted at 3.1x the base rate. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with LightGBM and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:050",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for numerical data processing",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NumPy",
+      "pandas",
+      "Recommendation systems"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "ml-14",
+      "ml-10"
+    ],
+    "bid_usd": 1540.0,
+    "text": "For numerical data processing, the hard part is usually getting adoption; I solved that last year for a legal client. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling, and it uploads of any size returned in under a second; 0 lost documents in 3 months. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. I would start with NumPy and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:051",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Computer vision",
+      "ONNX"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "ml-16",
+      "ml-05"
+    ],
+    "bid_usd": 1400.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:052",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "MLflow",
+      "Churn prediction"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "ml-05",
+      "ml-01"
+    ],
+    "bid_usd": 3100.0,
+    "text": "Your data processing in Python sounds close to what I built for AquaPure Bottlers (synthetic): 98.2% recall on cracked caps at 25 frames per second on a CPU. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with pandas and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:053",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for vector search for our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Pinecone",
+      "Python",
+      "FastAPI",
+      "OAuth"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-10",
+      "ml-01"
+    ],
+    "bid_usd": 690.0,
+    "text": "For vector search for our app, the hard part is usually edge cases; I solved that last year for a e-commerce client. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with Pinecone and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:054",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a deep learning model in PyTorch",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "PyTorch",
+      "LLM fine-tuning",
+      "Hugging Face Transformers",
+      "Power BI"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-08",
+      "ml-05"
+    ],
+    "bid_usd": 860.0,
+    "text": "I read that you need a deep learning model in PyTorch - I recently shipped Fine-tuned tone model for customer emails, which brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. I would start with PyTorch and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:055",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Time series forecasting",
+      "pandas"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "ml-15",
+      "ml-08"
+    ],
+    "bid_usd": 720.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Experiment tracking rollout I central experiment tracking. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:056",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for AWS cloud deployment",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "AWS",
+      "scikit-learn",
+      "Model evaluation",
+      "YOLO"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "ml-11",
+      "ml-01"
+    ],
+    "bid_usd": 1250.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with AWS and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:057",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Model evaluation",
+      "XGBoost"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "ml-02",
+      "ml-17"
+    ],
+    "bid_usd": 380.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:058",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Python automation script",
+    "job_category": "data_science",
+    "job_skills": [
+      "Python",
+      "OpenCV",
+      "FastAPI",
+      "TensorFlow"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "ml-16",
+      "ml-08"
+    ],
+    "bid_usd": 1800.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:059",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a churn prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Churn prediction",
+      "pandas",
+      "MLflow",
+      "GraphQL"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-17",
+      "ml-10"
+    ],
+    "bid_usd": 2660.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. In Semantic product search I embedding search over product text with a keyword fallback. I would start with Churn prediction and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:060",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for SQL reporting queries",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "SQL",
+      "pandas",
+      "LightGBM"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "ml-04",
+      "ml-11"
+    ],
+    "bid_usd": 610.0,
+    "text": "For SQL reporting queries, the hard part is usually messy data; I solved that last year for a retail client. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:061",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for caching and queues with Redis",
+    "job_category": "data_science",
+    "job_skills": [
+      "Redis",
+      "FastAPI",
+      "Docker"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "ml-06",
+      "ml-14"
+    ],
+    "bid_usd": 700.0,
+    "text": "Your caching and queues with Redis sounds close to what I built for Meridian Advisory (synthetic): first drafts in 15 minutes, analysts kept 70% of generated text after review. In Multi-agent research assistant I a planner. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling. I would start with Redis and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:062",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "PyTorch",
+      "LLM fine-tuning"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "ml-10",
+      "ml-07"
+    ],
+    "bid_usd": 250.0,
+    "text": "Your a Python automation script sounds close to what I built for Kicks & Co (synthetic): zero-result searches fell from 14% to 3%. In Semantic product search I embedding search over product text with a keyword fallback. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:063",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a multi-step AI agent workflow",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LangGraph",
+      "FastAPI",
+      "Docker",
+      "FAISS"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "ml-03",
+      "ml-06"
+    ],
+    "bid_usd": 490.0,
+    "text": "I read that you need a multi-step AI agent workflow - I recently shipped Internal policy assistant with citations, which answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Multi-agent research assistant I a planner, and it first drafts in 15 minutes, analysts kept 70% of generated text after review. I would start with LangGraph and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:064",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for fine-tuning an open-source LLM on our data",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LLM fine-tuning",
+      "Hugging Face Transformers",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "ml-07",
+      "ml-10"
+    ],
+    "bid_usd": 570.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. I would start with LLM fine-tuning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:065",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "pandas",
+      "Hugging Face Transformers"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 1700.0,
+    "text": "I read that you need a text classification pipeline for customer messages - I recently shipped Sentiment dashboard for app reviews, which surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with NLP and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:066",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for background job processing for our app",
+    "job_category": "data_science",
+    "job_skills": [
+      "Celery",
+      "Docker",
+      "Python"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "ml-06",
+      "ml-16"
+    ],
+    "bid_usd": 450.0,
+    "text": "I read that you need background job processing for our app - I recently shipped Multi-agent research assistant, which first drafts in 15 minutes, analysts kept 70% of generated text after review. In Multi-agent research assistant I a planner. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with Celery and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:067",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Hugging Face Transformers",
+      "PyTorch"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-11",
+      "ml-12"
+    ],
+    "bid_usd": 1310.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:068",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "Model evaluation",
+      "scikit-learn",
+      "Tableau"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "ml-05",
+      "ml-02"
+    ],
+    "bid_usd": 1440.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. I would start with NLP and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:069",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Redis",
+      "LangGraph"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "ml-06",
+      "ml-07"
+    ],
+    "bid_usd": 1610.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Multi-agent research assistant I a planner. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:070",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a machine learning model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "scikit-learn",
+      "Docker",
+      "AWS",
+      "Google Sheets"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "ml-11",
+      "ml-01"
+    ],
+    "bid_usd": 310.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway, and it no-show prediction AUC 0.84; reminder calls targeted to the riskiest 20% of bookings. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with scikit-learn and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:071",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Prophet",
+      "Time series forecasting"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "ml-15",
+      "ml-01"
+    ],
+    "bid_usd": 1790.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Experiment tracking rollout I central experiment tracking. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:072",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "Redis",
+      "FastAPI",
+      "Excel"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "ml-08",
+      "ml-13"
+    ],
+    "bid_usd": 550.0,
+    "text": "For containerising and deploying our app, the hard part is usually getting adoption; I solved that last year for a saas client. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with Docker and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:073",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for caching and queues with Redis",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Redis",
+      "Docker",
+      "FastAPI"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "ml-06",
+      "ml-14"
+    ],
+    "bid_usd": 1240.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Multi-agent research assistant I a planner. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling. I would start with Redis and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:074",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "MLflow",
+      "Python"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "ml-07",
+      "ml-06"
+    ],
+    "bid_usd": 570.0,
+    "text": "I read that you need containerising and deploying our app - I recently shipped Product recommendation engine, which click-through on recommendations rose 23% in a two-week A/B test. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity. In Multi-agent research assistant I a planner. I would start with Docker and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:075",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for SQL reporting queries",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "SQL",
+      "LightGBM",
+      "pandas",
+      "Prophet"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-13",
+      "ml-04"
+    ],
+    "bid_usd": 640.0,
+    "text": "For SQL reporting queries, the hard part is usually getting adoption; I solved that last year for a saas client. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:076",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a document Q&A assistant that cites its sources",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "RAG",
+      "Python",
+      "FAISS"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "ml-14",
+      "ml-15"
+    ],
+    "bid_usd": 460.0,
+    "text": "For a document Q&A assistant that cites its sources, the hard part is usually keeping it fast; I solved that last year for a legal client. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling. In Experiment tracking rollout I central experiment tracking. I would start with RAG and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:077",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "NLP",
+      "spaCy",
+      "MLflow"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-03",
+      "ml-12"
+    ],
+    "bid_usd": 1070.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:078",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an object detection model for camera footage",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "YOLO",
+      "OpenCV",
+      "PyTorch"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "ml-05",
+      "ml-08"
+    ],
+    "bid_usd": 670.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with YOLO and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:079",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "Model evaluation",
+      "Python"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "ml-10",
+      "ml-07"
+    ],
+    "bid_usd": 270.0,
+    "text": "For data processing in Python, the hard part is usually messy data; I solved that last year for a e-commerce client. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. I would start with pandas and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:080",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for fine-tuning an open-source LLM on our data",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LLM fine-tuning",
+      "Python",
+      "PyTorch"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "ml-08",
+      "ml-16"
+    ],
+    "bid_usd": 580.0,
+    "text": "For fine-tuning an open-source LLM on our data, the hard part is usually getting adoption; I solved that last year for a saas client. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with LLM fine-tuning and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:081",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a document Q&A assistant that cites its sources",
+    "job_category": "data_science",
+    "job_skills": [
+      "RAG",
+      "Pinecone",
+      "Python"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "ml-01",
+      "ml-02"
+    ],
+    "bid_usd": 440.0,
+    "text": "Your a document Q&A assistant that cites its sources sounds close to what I built for Helpwise (synthetic): cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. I would start with RAG and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:082",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for MLOps and experiment tracking",
+    "job_category": "data_science",
+    "job_skills": [
+      "MLflow",
+      "Python",
+      "pandas"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "ml-02",
+      "ml-01"
+    ],
+    "bid_usd": 710.0,
+    "text": "For MLOps and experiment tracking, the hard part is usually messy data; I solved that last year for a telecom client. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with MLflow and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:083",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "ONNX",
+      "PyTorch"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "ml-16",
+      "ml-05"
+    ],
+    "bid_usd": 670.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:084",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for data processing in Python",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "pandas",
+      "SQL",
+      "Python"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-02",
+      "ml-13"
+    ],
+    "bid_usd": 250.0,
+    "text": "I read that you need data processing in Python - I recently shipped Customer churn early-warning model, which flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with pandas and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:085",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "CI/CD",
+      "MLflow"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "ml-15",
+      "ml-02"
+    ],
+    "bid_usd": 350.0,
+    "text": "For containerising and deploying our app, the hard part is usually keeping it fast; I solved that last year for a fintech client. In Experiment tracking rollout I central experiment tracking. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. I would start with Docker and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:086",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "pandas",
+      "FastAPI"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "ml-13",
+      "ml-15"
+    ],
+    "bid_usd": 360.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. In Experiment tracking rollout I central experiment tracking. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:087",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for Airflow data pipelines",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Airflow",
+      "Time series forecasting",
+      "pandas"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-04",
+      "ml-01"
+    ],
+    "bid_usd": 1170.0,
+    "text": "Your Airflow data pipelines sounds close to what I built for FreshMart (synthetic): reduced MAPE from 31% to 18% and cut waste on perishables by 12%. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors, and it reduced MAPE from 31% to 18% and cut waste on perishables by 12%. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with Airflow and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:088",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "PyTorch",
+      "Hugging Face Transformers"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "ml-16",
+      "ml-15"
+    ],
+    "bid_usd": 380.0,
+    "text": "Your a Python automation script sounds close to what I built for Frameworks Media (synthetic): tag precision 0.88 at 5 tags per image. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. In Experiment tracking rollout I central experiment tracking. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:089",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an LLM-powered assistant",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LangChain",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "ml-15",
+      "ml-16"
+    ],
+    "bid_usd": 1680.0,
+    "text": "For an LLM-powered assistant, the hard part is usually edge cases; I solved that last year for a fintech client. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. I would start with LangChain and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:090",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for SQL reporting queries",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "SQL",
+      "Python",
+      "pandas"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "ml-11",
+      "ml-01"
+    ],
+    "bid_usd": 2130.0,
+    "text": "For SQL reporting queries, the hard part is usually edge cases; I solved that last year for a healthcare client. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:091",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "LLM fine-tuning",
+      "Hugging Face Transformers"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-02",
+      "ml-10"
+    ],
+    "bid_usd": 740.0,
+    "text": "I read that you need a Python automation script - I recently shipped Customer churn early-warning model, which flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. In Semantic product search I embedding search over product text with a keyword fallback. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:092",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a deep learning model in PyTorch",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "PyTorch",
+      "Python",
+      "Computer vision"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-08",
+      "ml-10"
+    ],
+    "bid_usd": 1630.0,
+    "text": "Your a deep learning model in PyTorch sounds close to what I built for Brightdesk (synthetic): brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Semantic product search I embedding search over product text with a keyword fallback. I would start with PyTorch and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:093",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for SQL reporting queries",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "SQL",
+      "LightGBM",
+      "Python"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "ml-13",
+      "ml-17"
+    ],
+    "bid_usd": 440.0,
+    "text": "Your SQL reporting queries sounds close to what I built for Pipeline Pro (synthetic): top-scored 20% of leads converted at 3.1x the base rate. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:094",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "RAG",
+      "Pinecone"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "ml-10",
+      "ml-03"
+    ],
+    "bid_usd": 590.0,
+    "text": "Your a Python automation script sounds close to what I built for Kicks & Co (synthetic): zero-result searches fell from 14% to 3%. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:095",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for entity extraction from documents",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "spaCy",
+      "FastAPI",
+      "Python",
+      "Time series forecasting"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "ml-09",
+      "ml-01"
+    ],
+    "bid_usd": 1910.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with spaCy and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:096",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for deploying our model on SageMaker",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "AWS SageMaker",
+      "scikit-learn",
+      "Model evaluation",
+      "Celery"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-03",
+      "ml-13"
+    ],
+    "bid_usd": 590.0,
+    "text": "For deploying our model on SageMaker, the hard part is usually edge cases; I solved that last year for a insurance client. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with AWS SageMaker and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:097",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a gradient-boosting prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "XGBoost",
+      "Model evaluation",
+      "pandas"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-02",
+      "ml-17"
+    ],
+    "bid_usd": 460.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with XGBoost and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:098",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an image recognition model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Computer vision",
+      "Python",
+      "PyTorch"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "ml-16",
+      "ml-05"
+    ],
+    "bid_usd": 510.0,
+    "text": "For an image recognition model, the hard part is usually getting adoption; I solved that last year for a media client. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. I would start with Computer vision and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:099",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Python automation script",
+    "job_category": "data_science",
+    "job_skills": [
+      "Python",
+      "FastAPI",
+      "RAG"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-03",
+      "ml-06"
+    ],
+    "bid_usd": 1830.0,
+    "text": "For a Python automation script, the hard part is usually edge cases; I solved that last year for a insurance client. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. In Multi-agent research assistant I a planner, and it first drafts in 15 minutes, analysts kept 70% of generated text after review. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:100",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a tabular prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LightGBM",
+      "pandas",
+      "Model evaluation"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "ml-13",
+      "ml-17"
+    ],
+    "bid_usd": 530.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with LightGBM and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:101",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "spaCy",
+      "FastAPI",
+      "Looker Studio"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-09",
+      "ml-01"
+    ],
+    "bid_usd": 910.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:102",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for data processing in Python",
+    "job_category": "data_science",
+    "job_skills": [
+      "pandas",
+      "Redis",
+      "Python",
+      "GraphQL"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-04",
+      "ml-13"
+    ],
+    "bid_usd": 1040.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with pandas and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:103",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "pandas",
+      "NLP"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "ml-01",
+      "ml-02"
+    ],
+    "bid_usd": 1790.0,
+    "text": "Your a Python automation script sounds close to what I built for Helpwise (synthetic): cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:104",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a document Q&A assistant that cites its sources",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "RAG",
+      "Docker",
+      "OpenAI API"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-07",
+      "ml-10"
+    ],
+    "bid_usd": 720.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. I would start with RAG and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:105",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a text classification pipeline for customer messages",
+    "job_category": "data_science",
+    "job_skills": [
+      "NLP",
+      "pandas",
+      "Hugging Face Transformers",
+      "Prisma"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 1480.0,
+    "text": "I read that you need a text classification pipeline for customer messages - I recently shipped Sentiment dashboard for app reviews, which surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with NLP and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:106",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for data processing in Python",
+    "job_category": "data_science",
+    "job_skills": [
+      "pandas",
+      "NLP",
+      "Hugging Face Transformers",
+      "LangChain"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 840.0,
+    "text": "I read that you need data processing in Python - I recently shipped Sentiment dashboard for app reviews, which surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with pandas and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:107",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an image recognition model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Computer vision",
+      "ONNX",
+      "YOLO",
+      "GA4"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "ml-05",
+      "ml-16"
+    ],
+    "bid_usd": 910.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with Computer vision and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:108",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for evaluating our ML models",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Model evaluation",
+      "XGBoost",
+      "LightGBM"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "ml-17",
+      "ml-02"
+    ],
+    "bid_usd": 590.0,
+    "text": "For evaluating our ML models, the hard part is usually edge cases; I solved that last year for a personal client. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. I would start with Model evaluation and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:109",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for fine-tuning an open-source LLM on our data",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LLM fine-tuning",
+      "PyTorch",
+      "Python"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "ml-08",
+      "ml-16"
+    ],
+    "bid_usd": 340.0,
+    "text": "Your fine-tuning an open-source LLM on our data sounds close to what I built for Brightdesk (synthetic): brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. I would start with LLM fine-tuning and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:110",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for evaluating our ML models",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Model evaluation",
+      "Docker",
+      "AWS SageMaker"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "ml-11",
+      "ml-01"
+    ],
+    "bid_usd": 2030.0,
+    "text": "Your evaluating our ML models sounds close to what I built for CareBridge Clinics (synthetic): no-show prediction AUC 0.84. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Model evaluation and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:111",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a tabular prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LightGBM",
+      "Model evaluation",
+      "pandas"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-02",
+      "ml-17"
+    ],
+    "bid_usd": 1430.0,
+    "text": "I read that you need a tabular prediction model - I recently shipped Customer churn early-warning model, which flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. I would start with LightGBM and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:112",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a gradient-boosting prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "XGBoost",
+      "Churn prediction",
+      "Model evaluation",
+      "AWS"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "ml-04",
+      "ml-02"
+    ],
+    "bid_usd": 390.0,
+    "text": "For a gradient-boosting prediction model, the hard part is usually messy data; I solved that last year for a retail client. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. I would start with XGBoost and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:113",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a deep learning model in PyTorch",
+    "job_category": "data_science",
+    "job_skills": [
+      "PyTorch",
+      "Computer vision",
+      "OpenCV",
+      "Model evaluation"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "ml-05",
+      "ml-16"
+    ],
+    "bid_usd": 2130.0,
+    "text": "I read that you need a deep learning model in PyTorch - I recently shipped Defect detection on a bottling line, which 98.2% recall on cracked caps at 25 frames per second on a CPU. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with PyTorch and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:114",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "pandas",
+      "Hugging Face Transformers"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 580.0,
+    "text": "Your a text classification pipeline for customer messages sounds close to what I built for PixelForge Studio (synthetic): surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with NLP and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:115",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for image processing",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "OpenCV",
+      "NLP",
+      "Python",
+      "AWS SageMaker"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "ml-17",
+      "ml-13"
+    ],
+    "bid_usd": 430.0,
+    "text": "I read that you need image processing - I recently shipped Kaggle-style tabular competition (personal), which finished in the top 6% of 2,400 teams. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. I would start with OpenCV and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:116",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "Redis",
+      "Celery"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "ml-16",
+      "ml-09"
+    ],
+    "bid_usd": 540.0,
+    "text": "Your a FastAPI backend service sounds close to what I built for Frameworks Media (synthetic): tag precision 0.88 at 5 tags per image. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:117",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a demand forecasting model",
+    "job_category": "data_science",
+    "job_skills": [
+      "Time series forecasting",
+      "pandas",
+      "Python",
+      "MLflow"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "ml-10",
+      "ml-12"
+    ],
+    "bid_usd": 2020.0,
+    "text": "Hello, I am a ata scientist with many years of experience. I have read your job description carefully. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. I would start with Time series forecasting and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:118",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Python automation script",
+    "job_category": "data_science",
+    "job_skills": [
+      "Python",
+      "ONNX",
+      "PyTorch",
+      "MongoDB"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "ml-16",
+      "ml-05"
+    ],
+    "bid_usd": 1850.0,
+    "text": "Your a Python automation script sounds close to what I built for Frameworks Media (synthetic): tag precision 0.88 at 5 tags per image. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:119",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "scikit-learn",
+      "NLP"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-17",
+      "ml-14"
+    ],
+    "bid_usd": 2600.0,
+    "text": "For a FastAPI backend service, the hard part is usually getting adoption; I solved that last year for a personal client. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling, and it uploads of any size returned in under a second; 0 lost documents in 3 months. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:120",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a transformer-based NLP model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Hugging Face Transformers",
+      "LLM fine-tuning",
+      "PyTorch"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "ml-08",
+      "ml-05"
+    ],
+    "bid_usd": 2360.0,
+    "text": "I read that you need a transformer-based NLP model - I recently shipped Fine-tuned tone model for customer emails, which brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. I would start with Hugging Face Transformers and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:121",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for vector similarity search",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FAISS",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "ml-11",
+      "ml-14"
+    ],
+    "bid_usd": 650.0,
+    "text": "Your vector similarity search sounds close to what I built for CareBridge Clinics (synthetic): no-show prediction AUC 0.84. In Model training on Amazon with a hosted endpoint I managed training jobs and a real-time endpoint behind their API gateway, and it no-show prediction AUC 0.84; reminder calls targeted to the riskiest 20% of bookings. In Async document-processing pipeline I moved OCR and classification into background workers with retries and progress polling, and it uploads of any size returned in under a second; 0 lost documents in 3 months. I would start with FAISS and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:122",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Airflow",
+      "pandas"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-13",
+      "ml-04"
+    ],
+    "bid_usd": 1060.0,
+    "text": "For a Python automation script, the hard part is usually keeping it fast; I solved that last year for a saas client. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:123",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an object detection model for camera footage",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "YOLO",
+      "ONNX",
+      "PyTorch"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "ml-05",
+      "ml-16"
+    ],
+    "bid_usd": 2810.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. I would start with YOLO and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:124",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a machine learning model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "scikit-learn",
+      "pandas",
+      "NLP",
+      "LLM fine-tuning"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "ml-03",
+      "ml-12"
+    ],
+    "bid_usd": 590.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. I would start with scikit-learn and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:125",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a CI/CD pipeline",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "CI/CD",
+      "MLflow",
+      "Python",
+      "CI/CD"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "ml-15",
+      "ml-10"
+    ],
+    "bid_usd": 2130.0,
+    "text": "Your a CI/CD pipeline sounds close to what I built for Nimbus Credit (synthetic): every production model traceable to code, data and metrics. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. I would start with CI/CD and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:126",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "LLM fine-tuning",
+      "PyTorch"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "ml-08",
+      "ml-16"
+    ],
+    "bid_usd": 490.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:127",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "ml-13",
+      "ml-01"
+    ],
+    "bid_usd": 1010.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:128",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for an image recognition model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Computer vision",
+      "ONNX",
+      "PyTorch"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "ml-06",
+      "ml-12"
+    ],
+    "bid_usd": 3050.0,
+    "text": "I read that you need an image recognition model - I recently shipped Multi-agent research assistant, which first drafts in 15 minutes, analysts kept 70% of generated text after review. In Multi-agent research assistant I a planner. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. I would start with Computer vision and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:129",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Redis",
+      "Recommendation systems",
+      "LightGBM"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-07",
+      "ml-06"
+    ],
+    "bid_usd": 1730.0,
+    "text": "Your a Python automation script sounds close to what I built for StyleLane (synthetic): click-through on recommendations rose 23% in a two-week A/B test. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Multi-agent research assistant I a planner, and it first drafts in 15 minutes, analysts kept 70% of generated text after review. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:130",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a tabular prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "LightGBM",
+      "Model evaluation",
+      "SQL",
+      "Data visualization"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "ml-13",
+      "ml-17"
+    ],
+    "bid_usd": 640.0,
+    "text": "For a tabular prediction model, the hard part is usually edge cases; I solved that last year for a saas client. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with LightGBM and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:131",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a deep learning model in PyTorch",
+    "job_category": "data_science",
+    "job_skills": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "LLM fine-tuning",
+      "Power BI"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-05",
+      "ml-09"
+    ],
+    "bid_usd": 1770.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. I would start with PyTorch and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:132",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for containerising and deploying our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Docker",
+      "Python",
+      "MLflow"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "ml-02",
+      "ml-13"
+    ],
+    "bid_usd": 760.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Customer churn early-warning model I gradient-boosted trees on usage and billing history, and it flagged 64% of churners in the top decile, retention campaign saved an estimated 1,100 accounts. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. I would start with Docker and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:133",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for vector search for our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Pinecone",
+      "Python",
+      "FastAPI"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-10",
+      "ml-01"
+    ],
+    "bid_usd": 1050.0,
+    "text": "I read that you need vector search for our app - I recently shipped Semantic product search, which zero-result searches fell from 14% to 3%. In Semantic product search I embedding search over product text with a keyword fallback, and it zero-result searches fell from 14% to 3%. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with Pinecone and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:134",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for MLOps and experiment tracking",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "MLflow",
+      "Churn prediction",
+      "XGBoost"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "ml-13",
+      "ml-08"
+    ],
+    "bid_usd": 1080.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and it top-scored 20% of leads converted at 3.1x the base rate. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with MLflow and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:135",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a gradient-boosting prediction model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "XGBoost",
+      "LightGBM",
+      "Python"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "ml-17",
+      "ml-02"
+    ],
+    "bid_usd": 1780.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. I would start with XGBoost and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:136",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a deep learning model in PyTorch",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "PyTorch",
+      "Hugging Face Transformers",
+      "Python",
+      "OAuth"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "ml-16",
+      "ml-17"
+    ],
+    "bid_usd": 720.0,
+    "text": "Hello, I am a AI/ML engineer with many years of experience. I have read your job description carefully. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation, and it finished in the top 6% of 2,400 teams. I would start with PyTorch and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:137",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for vector search for our app",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Pinecone",
+      "Python",
+      "FastAPI"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-10",
+      "ml-01"
+    ],
+    "bid_usd": 420.0,
+    "text": "For vector search for our app, the hard part is usually edge cases; I solved that last year for a e-commerce client. In Semantic product search I embedding search over product text with a keyword fallback. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Pinecone and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:138",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "Hugging Face Transformers",
+      "pandas",
+      "MLflow"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 260.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering, and it surfaced 3 crash-related themes that drove the next two releases. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model, and it cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. I would start with NLP and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:139",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "CI/CD",
+      "Docker"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-15",
+      "ml-03"
+    ],
+    "bid_usd": 400.0,
+    "text": "Your a Python automation script sounds close to what I built for Nimbus Credit (synthetic): every production model traceable to code, data and metrics. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. In Internal policy assistant with citations I hybrid retrieval over chunked policies with page-level citations and a refusal when nothing matched, and it answered 82% of a 120-question test set correctly with citations, average answer time 4 seconds. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:140",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a text classification pipeline for customer messages",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "NLP",
+      "FastAPI",
+      "Python"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-01",
+      "ml-09"
+    ],
+    "bid_usd": 1710.0,
+    "text": "Your a text classification pipeline for customer messages sounds close to what I built for Helpwise (synthetic): cut manual tagging time by 70% and reached 0.91 macro-F1 on a hold-out month. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates. I would start with NLP and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:141",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for evaluating our ML models",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Model evaluation",
+      "AWS SageMaker",
+      "Docker"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "ml-09",
+      "ml-08"
+    ],
+    "bid_usd": 1070.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. I would start with Model evaluation and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:142",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "ONNX",
+      "Computer vision"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "ml-16",
+      "ml-05"
+    ],
+    "bid_usd": 300.0,
+    "text": "For a Python automation script, the hard part is usually getting adoption; I solved that last year for a media client. In Image tagging for a stock-photo library I a multi-label classifier fine-tuned from a pretrained backbone, and it tag precision 0.88 at 5 tags per image; search usage doubled. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC, and it 98.2% recall on cracked caps at 25 frames per second on a CPU. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:143",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "pandas",
+      "Python",
+      "Dashboarding"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "ml-01",
+      "ml-02"
+    ],
+    "bid_usd": 2120.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:144",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for MLOps and experiment tracking",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "MLflow",
+      "Python",
+      "CI/CD"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-05",
+      "ml-13"
+    ],
+    "bid_usd": 2570.0,
+    "text": "Your MLOps and experiment tracking sounds close to what I built for AquaPure Bottlers (synthetic): 98.2% recall on cracked caps at 25 frames per second on a CPU. In Defect detection on a bottling line I a fine-tuned object detector exported for CPU inference on the line PC. In Lead scoring for a B2B sales team I boosted trees on CRM activity with monotonic constraints the sales lead could reason about. I would start with MLflow and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:145",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a FastAPI backend service",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "FastAPI",
+      "Python",
+      "Redis"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-08",
+      "ml-15"
+    ],
+    "bid_usd": 850.0,
+    "text": "I read that you need a FastAPI backend service - I recently shipped Fine-tuned tone model for customer emails, which brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Fine-tuned tone model for customer emails I LoRA adapters on a 7B open model trained on 4, and it brand-voice rating from reviewers rose from 2.9 to 4.3 out of 5. In Experiment tracking rollout I central experiment tracking, and it every production model traceable to code, data and metrics; audit passed first time. I would start with FastAPI and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:146",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "Docker",
+      "CI/CD",
+      "GraphQL"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "ml-07",
+      "ml-09"
+    ],
+    "bid_usd": 370.0,
+    "text": "I read that you need a Python automation script - I recently shipped Product recommendation engine, which click-through on recommendations rose 23% in a two-week A/B test. In Product recommendation engine I implicit-feedback matrix factorisation blended with recent-view similarity, and it click-through on recommendations rose 23% in a two-week A/B test. In Invoice field extraction I OCR plus entity extraction with validation rules for totals and dates, and it 94% field accuracy, saving roughly 30 staff hours a week. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:147",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a document Q&A assistant that cites its sources",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "RAG",
+      "LangChain",
+      "Docker"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "ml-04",
+      "ml-17"
+    ],
+    "bid_usd": 1720.0,
+    "text": "Your a document Q&A assistant that cites its sources sounds close to what I built for FreshMart (synthetic): reduced MAPE from 31% to 18% and cut waste on perishables by 12%. In Retail demand forecasting for 300 SKUs I per-SKU forecasters with holiday regressors. In Kaggle-style tabular competition (personal) I stacked boosted models with careful validation. I would start with RAG and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:148",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a Python automation script",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Python",
+      "MLflow",
+      "Churn prediction"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "ml-02",
+      "ml-15"
+    ],
+    "bid_usd": 1690.0,
+    "text": "Dear Hiring Manager, I am passionate about ai ml and I am the perfect fit for this job. In Customer churn early-warning model I gradient-boosted trees on usage and billing history. In Experiment tracking rollout I central experiment tracking. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:ml_engineer:149",
+    "persona": "ml_engineer",
+    "type": "proposal",
+    "job_title": "Need an AI/ML engineer for a transformer-based NLP model",
+    "job_category": "ai_ml",
+    "job_skills": [
+      "Hugging Face Transformers",
+      "NLP",
+      "pandas"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "ml-12",
+      "ml-01"
+    ],
+    "bid_usd": 330.0,
+    "text": "Your a transformer-based NLP model sounds close to what I built for PixelForge Studio (synthetic): surfaced 3 crash-related themes that drove the next two releases. In Sentiment dashboard for app reviews I a pretrained sentiment model plus topic clustering. In Support-ticket triage classifier I TF-IDF features with a calibrated linear model. I would start with Hugging Face Transformers and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  }
+]

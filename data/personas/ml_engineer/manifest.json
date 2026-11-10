@@ -1,0 +1,353 @@
+[
+  {
+    "item_id": "cv:ml_engineer",
+    "type": "cv",
+    "path": "cv.pdf",
+    "project": null
+  },
+  {
+    "item_id": "case:ml-01",
+    "type": "case_study",
+    "path": "case_studies/ml-01.md",
+    "project": "ml-01",
+    "date": "2023-03",
+    "client_industry": "SaaS",
+    "skills": [
+      "Python",
+      "scikit-learn",
+      "NLP",
+      "Model evaluation"
+    ]
+  },
+  {
+    "item_id": "repo:ml-01",
+    "type": "repo",
+    "path": "repos/support-ticket-triage-classifier",
+    "project": "ml-01",
+    "date": "2023-03",
+    "client_industry": "SaaS",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:ml-02",
+    "type": "case_study",
+    "path": "case_studies/ml-02.md",
+    "project": "ml-02",
+    "date": "2023-06",
+    "client_industry": "Telecom",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "Churn prediction",
+      "Model evaluation"
+    ]
+  },
+  {
+    "item_id": "repo:ml-02",
+    "type": "repo",
+    "path": "repos/customer-churn-early-warning-model",
+    "project": "ml-02",
+    "date": "2023-06",
+    "client_industry": "Telecom",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:ml-03",
+    "type": "case_study",
+    "path": "case_studies/ml-03.md",
+    "project": "ml-03",
+    "date": "2024-02",
+    "client_industry": "Insurance",
+    "skills": [
+      "Python",
+      "RAG",
+      "LangChain",
+      "OpenAI API"
+    ]
+  },
+  {
+    "item_id": "repo:ml-03",
+    "type": "repo",
+    "path": "repos/internal-policy-assistant-with-citations",
+    "project": "ml-03",
+    "date": "2024-02",
+    "client_industry": "Insurance",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:ml-04",
+    "type": "case_study",
+    "path": "case_studies/ml-04.md",
+    "project": "ml-04",
+    "date": "2023-09",
+    "client_industry": "Retail",
+    "skills": [
+      "Python",
+      "Time series forecasting",
+      "Prophet"
+    ]
+  },
+  {
+    "item_id": "repo:ml-04",
+    "type": "repo",
+    "path": "repos/retail-demand-forecasting-for-300-skus",
+    "project": "ml-04",
+    "date": "2023-09",
+    "client_industry": "Retail",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-05",
+    "type": "case_study",
+    "path": "case_studies/ml-05.md",
+    "project": "ml-05",
+    "date": "2024-05",
+    "client_industry": "Manufacturing",
+    "skills": [
+      "Computer vision",
+      "PyTorch",
+      "YOLO"
+    ]
+  },
+  {
+    "item_id": "repo:ml-05",
+    "type": "repo",
+    "path": "repos/defect-detection-on-a-bottling-line",
+    "project": "ml-05",
+    "date": "2024-05",
+    "client_industry": "Manufacturing",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-06",
+    "type": "case_study",
+    "path": "case_studies/ml-06.md",
+    "project": "ml-06",
+    "date": "2025-01",
+    "client_industry": "Consulting",
+    "skills": [
+      "Python",
+      "LangGraph",
+      "RAG"
+    ]
+  },
+  {
+    "item_id": "repo:ml-06",
+    "type": "repo",
+    "path": "repos/multi-agent-research-assistant",
+    "project": "ml-06",
+    "date": "2025-01",
+    "client_industry": "Consulting",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-07",
+    "type": "case_study",
+    "path": "case_studies/ml-07.md",
+    "project": "ml-07",
+    "date": "2023-11",
+    "client_industry": "E-commerce",
+    "skills": [
+      "Python",
+      "Recommendation systems"
+    ]
+  },
+  {
+    "item_id": "repo:ml-07",
+    "type": "repo",
+    "path": "repos/product-recommendation-engine",
+    "project": "ml-07",
+    "date": "2023-11",
+    "client_industry": "E-commerce",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-08",
+    "type": "case_study",
+    "path": "case_studies/ml-08.md",
+    "project": "ml-08",
+    "date": "2025-04",
+    "client_industry": "SaaS",
+    "skills": [
+      "LLM fine-tuning",
+      "Hugging Face Transformers",
+      "PyTorch"
+    ]
+  },
+  {
+    "item_id": "case:ml-09",
+    "type": "case_study",
+    "path": "case_studies/ml-09.md",
+    "project": "ml-09",
+    "date": "2024-08",
+    "client_industry": "Finance",
+    "skills": [
+      "NLP",
+      "spaCy",
+      "Python"
+    ]
+  },
+  {
+    "item_id": "repo:ml-09",
+    "type": "repo",
+    "path": "repos/invoice-field-extraction",
+    "project": "ml-09",
+    "date": "2024-08",
+    "client_industry": "Finance",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-10",
+    "type": "case_study",
+    "path": "case_studies/ml-10.md",
+    "project": "ml-10",
+    "date": "2024-10",
+    "client_industry": "E-commerce",
+    "skills": [
+      "RAG",
+      "Python"
+    ]
+  },
+  {
+    "item_id": "repo:ml-10",
+    "type": "repo",
+    "path": "repos/semantic-product-search",
+    "project": "ml-10",
+    "date": "2024-10",
+    "client_industry": "E-commerce",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-11",
+    "type": "case_study",
+    "path": "case_studies/ml-11.md",
+    "project": "ml-11",
+    "date": "2024-12",
+    "client_industry": "Healthcare",
+    "skills": [
+      "AWS SageMaker",
+      "scikit-learn",
+      "Model evaluation"
+    ]
+  },
+  {
+    "item_id": "repo:ml-11",
+    "type": "repo",
+    "path": "repos/model-training-on-amazon-with-a-hosted-endpoint",
+    "project": "ml-11",
+    "date": "2024-12",
+    "client_industry": "Healthcare",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-12",
+    "type": "case_study",
+    "path": "case_studies/ml-12.md",
+    "project": "ml-12",
+    "date": "2023-01",
+    "client_industry": "Mobile apps",
+    "skills": [
+      "NLP",
+      "Hugging Face Transformers"
+    ]
+  },
+  {
+    "item_id": "repo:ml-12",
+    "type": "repo",
+    "path": "repos/sentiment-dashboard-for-app-reviews",
+    "project": "ml-12",
+    "date": "2023-01",
+    "client_industry": "Mobile apps",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-13",
+    "type": "case_study",
+    "path": "case_studies/ml-13.md",
+    "project": "ml-13",
+    "date": "2025-06",
+    "client_industry": "SaaS",
+    "skills": [
+      "LightGBM",
+      "Model evaluation",
+      "Python"
+    ]
+  },
+  {
+    "item_id": "case:ml-14",
+    "type": "case_study",
+    "path": "case_studies/ml-14.md",
+    "project": "ml-14",
+    "date": "2025-03",
+    "client_industry": "Legal",
+    "skills": [
+      "Python",
+      "FastAPI"
+    ]
+  },
+  {
+    "item_id": "repo:ml-14",
+    "type": "repo",
+    "path": "repos/async-document-processing-pipeline",
+    "project": "ml-14",
+    "date": "2025-03",
+    "client_industry": "Legal",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:ml-15",
+    "type": "case_study",
+    "path": "case_studies/ml-15.md",
+    "project": "ml-15",
+    "date": "2024-03",
+    "client_industry": "Fintech",
+    "skills": [
+      "MLflow",
+      "Python"
+    ]
+  },
+  {
+    "item_id": "repo:ml-15",
+    "type": "repo",
+    "path": "repos/experiment-tracking-rollout",
+    "project": "ml-15",
+    "date": "2024-03",
+    "client_industry": "Fintech",
+    "terse_readme": true
+  },
+  {
+    "item_id": "case:ml-16",
+    "type": "case_study",
+    "path": "case_studies/ml-16.md",
+    "project": "ml-16",
+    "date": "2023-05",
+    "client_industry": "Media",
+    "skills": [
+      "Computer vision",
+      "PyTorch"
+    ]
+  },
+  {
+    "item_id": "repo:ml-16",
+    "type": "repo",
+    "path": "repos/image-tagging-for-a-stock-photo-library",
+    "project": "ml-16",
+    "date": "2023-05",
+    "client_industry": "Media",
+    "terse_readme": false
+  },
+  {
+    "item_id": "case:ml-17",
+    "type": "case_study",
+    "path": "case_studies/ml-17.md",
+    "project": "ml-17",
+    "date": "2022-11",
+    "client_industry": "Personal",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "LightGBM",
+      "Model evaluation"
+    ]
+  }
+]

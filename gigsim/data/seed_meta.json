@@ -1,0 +1,67 @@
+{
+  "seed": 7,
+  "kaggle_rows": 0,
+  "historical_jobs": 1500,
+  "historical_from_kaggle": 0,
+  "jobs_total": 840,
+  "stream_jobs": 240,
+  "clients": 420,
+  "personas": {
+    "ml_engineer": {
+      "projects": 17,
+      "reviews": 21,
+      "proposals": 150,
+      "outcomes": {
+        "won": 24,
+        "replied": 30,
+        "ignored": 96
+      },
+      "repos": 14
+    },
+    "fullstack_dev": {
+      "projects": 18,
+      "reviews": 21,
+      "proposals": 150,
+      "outcomes": {
+        "won": 15,
+        "replied": 21,
+        "ignored": 114
+      },
+      "repos": 16
+    },
+    "data_analyst": {
+      "projects": 16,
+      "reviews": 19,
+      "proposals": 150,
+      "outcomes": {
+        "won": 23,
+        "replied": 35,
+        "ignored": 92
+      },
+      "repos": 12
+    }
+  },
+  "dev_labels": {
+    "ml_engineer": {
+      "n": 200,
+      "bid": 98,
+      "scam": 24,
+      "injection": 22,
+      "duplicate": 10
+    },
+    "fullstack_dev": {
+      "n": 200,
+      "bid": 99,
+      "scam": 27,
+      "injection": 24,
+      "duplicate": 10
+    },
+    "data_analyst": {
+      "n": 200,
+      "bid": 99,
+      "scam": 26,
+      "injection": 25,
+      "duplicate": 10
+    }
+  }
+}

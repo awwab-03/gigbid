@@ -1,0 +1,128 @@
+[
+  {
+    "item_id": "blurb:fs-01",
+    "project": "fs-01",
+    "text": "Subscription SaaS dashboard: for a saas client, launched in 6 weeks; 340 paying teams in the first quarter. Tools: React, TypeScript, Node.js.",
+    "date": "2023-04",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:fs-02",
+    "project": "fs-02",
+    "text": "Marketplace for local tutors: for a education client, 1,800 bookings in the first two months, page load under 1.2 s. Tools: Next.js, TypeScript, Prisma.",
+    "date": "2023-08",
+    "client_industry": "Education"
+  },
+  {
+    "item_id": "blurb:fs-03",
+    "project": "fs-03",
+    "text": "Real-time logistics tracking: for a logistics client, dispatch call volume down 40%. Tools: React, Node.js.",
+    "date": "2024-01",
+    "client_industry": "Logistics"
+  },
+  {
+    "item_id": "blurb:fs-04",
+    "project": "fs-04",
+    "text": "Django CRM for a property agency: for a real estate client, lead response time fell from 1 day to 2 hours. Tools: Django, PostgreSQL, REST API.",
+    "date": "2022-10",
+    "client_industry": "Real estate"
+  },
+  {
+    "item_id": "blurb:fs-05",
+    "project": "fs-05",
+    "text": "Shopify theme and custom checkout upsell: for a e-commerce client, mobile conversion rose from 1.4% to 2.2%. Tools: Shopify, JavaScript.",
+    "date": "2023-12",
+    "client_industry": "E-commerce"
+  },
+  {
+    "item_id": "blurb:fs-06",
+    "project": "fs-06",
+    "text": "GraphQL API for a mobile fitness app: for a health & fitness client, mobile releases went from monthly to weekly. Tools: GraphQL, Node.js, TypeScript.",
+    "date": "2024-04",
+    "client_industry": "Health & fitness"
+  },
+  {
+    "item_id": "blurb:fs-07",
+    "project": "fs-07",
+    "text": "Firebase chat for a community app: for a social client, 12,000 monthly active users with zero server management. Tools: Firebase, React.",
+    "date": "2022-06",
+    "client_industry": "Social"
+  },
+  {
+    "item_id": "blurb:fs-08",
+    "project": "fs-08",
+    "text": "Supabase migration for a booking app: for a hospitality client, monthly backend cost cut by 60%; zero downtime cut-over. Tools: Supabase, Next.js, PostgreSQL.",
+    "date": "2025-02",
+    "client_industry": "Hospitality"
+  },
+  {
+    "item_id": "blurb:fs-09",
+    "project": "fs-09",
+    "text": "End-to-end test suite for a fintech web app: for a fintech client, production incidents from the signup flow fell from 5 a month to 0 over a quarter. Tools: Playwright, Jest, TypeScript.",
+    "date": "2024-07",
+    "client_industry": "Fintech"
+  },
+  {
+    "item_id": "blurb:fs-10",
+    "project": "fs-10",
+    "text": "WordPress membership site: for a media client, 900 paying members in the first six months. Tools: WordPress, JavaScript.",
+    "date": "2022-03",
+    "client_industry": "Media"
+  },
+  {
+    "item_id": "blurb:fs-11",
+    "project": "fs-11",
+    "text": "Vue admin panel for inventory: for a retail client, stock discrepancies down 75% after two months. Tools: Vue.js, Flask, REST API.",
+    "date": "2023-02",
+    "client_industry": "Retail"
+  },
+  {
+    "item_id": "blurb:fs-12",
+    "project": "fs-12",
+    "text": "Containerised deployment pipeline: for a saas client, deploys went from 40 minutes and manual to 6 minutes and automatic. Tools: Docker, CI/CD, AWS.",
+    "date": "2024-09",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:fs-13",
+    "project": "fs-13",
+    "text": "Restaurant ordering PWA: for a food & beverage client, direct orders reached 31% of volume within 3 months. Tools: Next.js, Tailwind CSS, Stripe.",
+    "date": "2025-05",
+    "client_industry": "Food & beverage"
+  },
+  {
+    "item_id": "blurb:fs-14",
+    "project": "fs-14",
+    "text": "Express API hardening and rate limiting: for a fintech client, blocked 99.6% of malicious login attempts with no customer complaints. Tools: Express, Node.js, Redis.",
+    "date": "2025-07",
+    "client_industry": "Fintech"
+  },
+  {
+    "item_id": "blurb:fs-15",
+    "project": "fs-15",
+    "text": "Open-source React form library (personal): for a personal client, 1,100 GitHub stars and 40 contributors. Tools: React, TypeScript, Jest.",
+    "date": "2023-07",
+    "client_industry": "Personal"
+  },
+  {
+    "item_id": "blurb:fs-16",
+    "project": "fs-16",
+    "text": "Async report generation for a SaaS admin: for a saas client, exports of 2 million rows complete without timeouts. Tools: Django, Python.",
+    "date": "2024-11",
+    "client_industry": "SaaS"
+  },
+  {
+    "item_id": "blurb:fs-17",
+    "project": "fs-17",
+    "text": "MongoDB event store for an IoT dashboard: for a energy client, faults spotted 2 days sooner on average. Tools: MongoDB, Node.js, React.",
+    "date": "2024-03",
+    "client_industry": "Energy"
+  },
+  {
+    "item_id": "blurb:fs-18",
+    "project": "fs-18",
+    "text": "FastAPI backend for an ML demo: for a ai client, used by 300 external testers in a week. Tools: FastAPI, React.",
+    "date": "2025-08",
+    "client_industry": "AI"
+  }
+]

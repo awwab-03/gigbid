@@ -1,0 +1,3943 @@
+[
+  {
+    "proposal_id": "prop:data_analyst:000",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Redshift performance tuning",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Redshift",
+      "AWS",
+      "SQL",
+      "Data visualization"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-10",
+      "da-04"
+    ],
+    "bid_usd": 380.0,
+    "text": "Your Redshift performance tuning sounds close to what I built for StreamWave Media (synthetic): median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Redshift and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:001",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of survey data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "R",
+      "Statistics",
+      "Data cleaning",
+      "Playwright"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 1120.0,
+    "text": "Your statistical analysis of survey data sounds close to what I built for Pakistan Youth Survey (synthetic): report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with R and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:002",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for self-serve analytics in Metabase",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Metabase",
+      "SQL",
+      "Docker"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-07",
+      "da-11"
+    ],
+    "bid_usd": 1030.0,
+    "text": "Your self-serve analytics in Metabase sounds close to what I built for Brightpath Agency (synthetic): saved 10 staff hours a week. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions, and it ad-hoc data requests to the engineering team down 65%. I would start with Metabase and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:003",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a BigQuery analytics setup",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "BigQuery",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "da-02",
+      "da-03"
+    ],
+    "bid_usd": 1150.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. I would start with BigQuery and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:004",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "SQL",
+      "Statistics",
+      "Supabase"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-04",
+      "da-05"
+    ],
+    "bid_usd": 1560.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:005",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for self-serve analytics in Metabase",
+    "job_category": "data_science",
+    "job_skills": [
+      "Metabase",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-02",
+      "da-10"
+    ],
+    "bid_usd": 480.0,
+    "text": "For self-serve analytics in Metabase, the hard part is usually messy data; I solved that last year for a e-commerce client. In Marketing attribution warehouse I joined ad spend with web events and orders. In Redshift cost and performance tuning I sort and distribution keys. I would start with Metabase and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:006",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a KPI dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Dashboarding",
+      "Power BI",
+      "SQL"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "da-01",
+      "da-13"
+    ],
+    "bid_usd": 1790.0,
+    "text": "For a KPI dashboard, the hard part is usually keeping it fast; I solved that last year for a retail client. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. I would start with Dashboarding and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:007",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Python",
+      "SQL",
+      "MLflow"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "da-04",
+      "da-05"
+    ],
+    "bid_usd": 320.0,
+    "text": "Your data visualisations for a report sounds close to what I built for BoxChef (synthetic): identified a first-box issue. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. I would start with Data visualization and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:008",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Dashboarding",
+      "Data visualization"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "da-16",
+      "da-01"
+    ],
+    "bid_usd": 1200.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Inventory KPI dashboard in Excel I pivot models. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with Excel and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:009",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Looker Studio",
+      "Google Sheets"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "da-12",
+      "da-07"
+    ],
+    "bid_usd": 1750.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. I would start with Data cleaning and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:010",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "A/B testing",
+      "Python"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 510.0,
+    "text": "Your statistical analysis of our experiment data sounds close to what I built for Formstack Lite (synthetic): declared a winner with 95% confidence. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Statistics and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:011",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an automated ETL pipeline",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "ETL",
+      "PostgreSQL",
+      "Airflow"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "da-05",
+      "da-12"
+    ],
+    "bid_usd": 530.0,
+    "text": "I read that you need an automated ETL pipeline - I recently shipped A/B test analysis for pricing page, which declared a winner with 95% confidence. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. I would start with ETL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:012",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Data cleaning",
+      "Python"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-14",
+      "da-06"
+    ],
+    "bid_usd": 550.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh, and it average discharge delay reduced by 50 minutes. I would start with Excel and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:013",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a PostgreSQL database design",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "PostgreSQL",
+      "Python",
+      "Airflow",
+      "GraphQL"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-10",
+      "da-11"
+    ],
+    "bid_usd": 1670.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Redshift cost and performance tuning, which median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions, and it ad-hoc data requests to the engineering team down 65%. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:014",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Fivetran data sync",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Fivetran",
+      "SQL",
+      "Airflow",
+      "Django"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 1910.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Fivetran and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:015",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "dbt",
+      "Fivetran"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 330.0,
+    "text": "Your SQL reporting queries sounds close to what I built for Coinvault (synthetic): data incidents fell from weekly to one per quarter. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:016",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Looker Studio marketing dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Looker Studio",
+      "SQL",
+      "BigQuery"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-02",
+      "da-13"
+    ],
+    "bid_usd": 2570.0,
+    "text": "For a Looker Studio marketing dashboard, the hard part is usually getting adoption; I solved that last year for a e-commerce client. In Marketing attribution warehouse I joined ad spend with web events and orders. In E-commerce cohort and LTV dashboard I monthly cohorts. I would start with Looker Studio and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:017",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a PostgreSQL database design",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "PostgreSQL",
+      "Data cleaning",
+      "ETL"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "da-07",
+      "da-06"
+    ],
+    "bid_usd": 1020.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh, and it average discharge delay reduced by 50 minutes. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:018",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Redshift performance tuning",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Redshift",
+      "AWS",
+      "SQL"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 570.0,
+    "text": "I read that you need Redshift performance tuning - I recently shipped Redshift cost and performance tuning, which median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Redshift and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:019",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "AWS",
+      "Redshift",
+      "spaCy"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 610.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:020",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Redshift performance tuning",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Redshift",
+      "SQL",
+      "AWS",
+      "Kubernetes"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-13",
+      "da-09"
+    ],
+    "bid_usd": 700.0,
+    "text": "Your Redshift performance tuning sounds close to what I built for Kettle & Co (synthetic): shifted acquisition to two hero products with 1.8x higher LTV. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. I would start with Redshift and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:021",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "Python",
+      "SQL"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "da-08",
+      "da-02"
+    ],
+    "bid_usd": 530.0,
+    "text": "For statistical analysis of our experiment data, the hard part is usually keeping it fast; I solved that last year for a non-profit client. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. I would start with Statistics and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:022",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Airflow data pipelines",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Airflow",
+      "dbt",
+      "Fivetran"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-03",
+      "da-01"
+    ],
+    "bid_usd": 290.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Airflow and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:023",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Fivetran data sync",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Fivetran",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "da-04",
+      "da-09"
+    ],
+    "bid_usd": 580.0,
+    "text": "Your a Fivetran data sync sounds close to what I built for BoxChef (synthetic): identified a first-box issue. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. I would start with Fivetran and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:024",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "ETL",
+      "PostgreSQL"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-07",
+      "da-04"
+    ],
+    "bid_usd": 1120.0,
+    "text": "Your a Python automation script sounds close to what I built for Brightpath Agency (synthetic): saved 10 staff hours a week. In Nightly ETL from five SaaS tools I scheduled loaders with retries. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:025",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a PostgreSQL database design",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "PostgreSQL",
+      "SQL",
+      "Metabase"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "da-14",
+      "da-08"
+    ],
+    "bid_usd": 3120.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Data cleaning of a 2-million-row CRM export I fuzzy matching. In Google Sheets automation for a non-profit I scripted imports. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:026",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for analysis of our A/B tests",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "A/B testing",
+      "Statistics",
+      "Python"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 820.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In A/B test analysis for pricing page I pre-registered metrics. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with A/B testing and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:027",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "pandas",
+      "Excel"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-10",
+      "da-07"
+    ],
+    "bid_usd": 990.0,
+    "text": "For cleaning a messy customer database, the hard part is usually edge cases; I solved that last year for a media client. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. I would start with Data cleaning and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:028",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Fivetran data sync",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Fivetran",
+      "dbt",
+      "Snowflake"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "da-09",
+      "da-15"
+    ],
+    "bid_usd": 2590.0,
+    "text": "For a Fivetran data sync, the hard part is usually edge cases; I solved that last year for a saas client. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Fivetran and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:029",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Fivetran data sync",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Fivetran",
+      "dbt",
+      "Snowflake"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-11",
+      "da-14"
+    ],
+    "bid_usd": 450.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions, and it ad-hoc data requests to the engineering team down 65%. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Fivetran and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:030",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Power BI",
+      "Excel"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "da-01",
+      "da-06"
+    ],
+    "bid_usd": 470.0,
+    "text": "Your SQL reporting queries sounds close to what I built for UrbanMart (synthetic): weekly reporting time fell from 6 hours to 20 minutes. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh, and it average discharge delay reduced by 50 minutes. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:031",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Statistics",
+      "R"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 1860.0,
+    "text": "Your cleaning a messy customer database sounds close to what I built for Pakistan Youth Survey (synthetic): report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Data cleaning and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:032",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Docker",
+      "Metabase"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-11",
+      "da-01"
+    ],
+    "bid_usd": 2760.0,
+    "text": "I read that you need SQL reporting queries - I recently shipped Metabase self-serve analytics, which ad-hoc data requests to the engineering team down 65%. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:033",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for dbt models for our warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "dbt",
+      "SQL",
+      "Snowflake"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 530.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with dbt and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:034",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for GA4 conversion tracking and reporting",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "GA4",
+      "BigQuery",
+      "SQL"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "da-02",
+      "da-13"
+    ],
+    "bid_usd": 330.0,
+    "text": "Your GA4 conversion tracking and reporting sounds close to what I built for Wildthread Apparel (synthetic): reallocated 18% of ad budget and lowered cost per order by 22%. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. I would start with GA4 and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:035",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Excel",
+      "Dashboarding"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "da-16",
+      "da-01"
+    ],
+    "bid_usd": 1040.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Inventory KPI dashboard in Excel I pivot models. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with Data visualization and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:036",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Dashboarding",
+      "Excel"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-16",
+      "da-09"
+    ],
+    "bid_usd": 1610.0,
+    "text": "I read that you need data visualisations for a report - I recently shipped Inventory KPI dashboard in Excel, which freed PKR 4 million of tied-up inventory within a quarter. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. I would start with Data visualization and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:037",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a KPI dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Dashboarding",
+      "Power BI",
+      "Excel"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-09",
+      "da-11"
+    ],
+    "bid_usd": 810.0,
+    "text": "Your a KPI dashboard sounds close to what I built for Ledgerly (synthetic): quarterly forecast error fell from 14% to 4%. In Revenue forecasting model I a driver-based model of new. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions. I would start with Dashboarding and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:038",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "AWS",
+      "Redshift"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-01",
+      "da-07"
+    ],
+    "bid_usd": 2530.0,
+    "text": "Your SQL reporting queries sounds close to what I built for UrbanMart (synthetic): weekly reporting time fell from 6 hours to 20 minutes. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. In Nightly ETL from five SaaS tools I scheduled loaders with retries. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:039",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Looker Studio marketing dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Looker Studio",
+      "BigQuery",
+      "SQL"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "da-06",
+      "da-13"
+    ],
+    "bid_usd": 430.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh. In E-commerce cohort and LTV dashboard I monthly cohorts. I would start with Looker Studio and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:040",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for self-serve analytics in Metabase",
+    "job_category": "data_science",
+    "job_skills": [
+      "Metabase",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "da-10",
+      "da-15"
+    ],
+    "bid_usd": 1030.0,
+    "text": "Your self-serve analytics in Metabase sounds close to what I built for StreamWave Media (synthetic): median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Metabase and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:041",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "BigQuery",
+      "Dashboarding"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "da-13",
+      "da-01"
+    ],
+    "bid_usd": 440.0,
+    "text": "Your SQL reporting queries sounds close to what I built for Kettle & Co (synthetic): shifted acquisition to two hero products with 1.8x higher LTV. In E-commerce cohort and LTV dashboard I monthly cohorts. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:042",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for AWS cloud deployment",
+    "job_category": "data_science",
+    "job_skills": [
+      "AWS",
+      "SQL",
+      "Redshift"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 420.0,
+    "text": "Your AWS cloud deployment sounds close to what I built for StreamWave Media (synthetic): median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with AWS and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:043",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "Python",
+      "SQL"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-04",
+      "da-05"
+    ],
+    "bid_usd": 2020.0,
+    "text": "For statistical analysis of our experiment data, the hard part is usually messy data; I solved that last year for a subscription client. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. In A/B test analysis for pricing page I pre-registered metrics. I would start with Statistics and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:044",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Redshift",
+      "AWS"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 1340.0,
+    "text": "Your SQL reporting queries sounds close to what I built for StreamWave Media (synthetic): median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:045",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data processing in Python",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "pandas",
+      "Data cleaning",
+      "Python"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-12",
+      "da-16"
+    ],
+    "bid_usd": 2700.0,
+    "text": "For data processing in Python, the hard part is usually keeping it fast; I solved that last year for a research client. In Survey analysis in R I weighted estimates. In Inventory KPI dashboard in Excel I pivot models. I would start with pandas and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:046",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "Excel",
+      "pandas",
+      "scikit-learn"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "da-15",
+      "da-02"
+    ],
+    "bid_usd": 680.0,
+    "text": "For a Python automation script, the hard part is usually getting adoption; I solved that last year for a saas client. In Fivetran and Snowflake setup I managed connectors into a raw layer. In Marketing attribution warehouse I joined ad spend with web events and orders. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:047",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Tableau operations dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Tableau",
+      "Data cleaning",
+      "SQL"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 800.0,
+    "text": "Your a Tableau operations dashboard sounds close to what I built for Coinvault (synthetic): data incidents fell from weekly to one per quarter. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Tableau and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:048",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Redshift",
+      "AWS",
+      "LangGraph"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 360.0,
+    "text": "Your SQL reporting queries sounds close to what I built for StreamWave Media (synthetic): median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:049",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Airflow data pipelines",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Airflow",
+      "Python",
+      "ETL"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "da-15",
+      "da-11"
+    ],
+    "bid_usd": 1630.0,
+    "text": "For Airflow data pipelines, the hard part is usually messy data; I solved that last year for a saas client. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions, and it ad-hoc data requests to the engineering team down 65%. I would start with Airflow and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:050",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "pandas",
+      "Excel"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "da-09",
+      "da-14"
+    ],
+    "bid_usd": 2330.0,
+    "text": "Your a Python automation script sounds close to what I built for Ledgerly (synthetic): quarterly forecast error fell from 14% to 4%. In Revenue forecasting model I a driver-based model of new. In Data cleaning of a 2-million-row CRM export I fuzzy matching. I would start with Python and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:051",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for GA4 conversion tracking and reporting",
+    "job_category": "data_science",
+    "job_skills": [
+      "GA4",
+      "BigQuery",
+      "dbt",
+      "Data cleaning"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "da-14",
+      "da-09"
+    ],
+    "bid_usd": 400.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In Data cleaning of a 2-million-row CRM export I fuzzy matching. In Revenue forecasting model I a driver-based model of new. I would start with GA4 and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:052",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Redshift performance tuning",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Redshift",
+      "AWS",
+      "SQL"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 460.0,
+    "text": "For Redshift performance tuning, the hard part is usually getting adoption; I solved that last year for a media client. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Redshift and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:053",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Tableau",
+      "SQL"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "da-06",
+      "da-01"
+    ],
+    "bid_usd": 1120.0,
+    "text": "Your an Excel reporting model sounds close to what I built for CityCare Hospital (synthetic): average discharge delay reduced by 50 minutes. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh, and it average discharge delay reduced by 50 minutes. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Excel and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:054",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for containerising and deploying our app",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Docker",
+      "SQL",
+      "Metabase"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "da-10",
+      "da-04"
+    ],
+    "bid_usd": 1120.0,
+    "text": "I read that you need containerising and deploying our app - I recently shipped Redshift cost and performance tuning, which median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Docker and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:055",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Airflow data pipelines",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Airflow",
+      "dbt",
+      "SQL"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "da-07",
+      "da-08"
+    ],
+    "bid_usd": 950.0,
+    "text": "For Airflow data pipelines, the hard part is usually getting adoption; I solved that last year for a agency client. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. I would start with Airflow and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:056",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "SQL",
+      "A/B testing",
+      "Redshift"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 520.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In A/B test analysis for pricing page I pre-registered metrics. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Statistics and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:057",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Python",
+      "Data visualization"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "da-10",
+      "da-13"
+    ],
+    "bid_usd": 1220.0,
+    "text": "For SQL reporting queries, the hard part is usually messy data; I solved that last year for a media client. In Redshift cost and performance tuning I sort and distribution keys. In E-commerce cohort and LTV dashboard I monthly cohorts. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:058",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a PostgreSQL database design",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "PostgreSQL",
+      "ETL",
+      "Data cleaning",
+      "spaCy"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "da-07",
+      "da-06"
+    ],
+    "bid_usd": 310.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Nightly ETL from five SaaS tools, which saved 10 staff hours a week. In Nightly ETL from five SaaS tools I scheduled loaders with retries. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:059",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for dbt models for our warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "dbt",
+      "SQL",
+      "Snowflake"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "da-06",
+      "da-08"
+    ],
+    "bid_usd": 480.0,
+    "text": "For dbt models for our warehouse, the hard part is usually messy data; I solved that last year for a healthcare client. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh. In Google Sheets automation for a non-profit I scripted imports. I would start with dbt and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:060",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Looker Studio",
+      "Google Sheets",
+      "SQL"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-08",
+      "da-07"
+    ],
+    "bid_usd": 1170.0,
+    "text": "For cleaning a messy customer database, the hard part is usually messy data; I solved that last year for a non-profit client. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. I would start with Data cleaning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:061",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a KPI dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Dashboarding",
+      "Excel",
+      "Data visualization"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-16",
+      "da-02"
+    ],
+    "bid_usd": 1770.0,
+    "text": "For a KPI dashboard, the hard part is usually messy data; I solved that last year for a manufacturing client. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. I would start with Dashboarding and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:062",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "Airflow",
+      "ETL"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-04",
+      "da-16"
+    ],
+    "bid_usd": 400.0,
+    "text": "I read that you need a Python automation script - I recently shipped Churn analysis for a subscription box, which identified a first-box issue. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. In Inventory KPI dashboard in Excel I pivot models. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:063",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Looker Studio marketing dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Looker Studio",
+      "SQL",
+      "GA4"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-02",
+      "da-13"
+    ],
+    "bid_usd": 650.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. I would start with Looker Studio and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:064",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for Airflow data pipelines",
+    "job_category": "data_science",
+    "job_skills": [
+      "Airflow",
+      "dbt",
+      "SQL",
+      "Stripe"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-03",
+      "da-02"
+    ],
+    "bid_usd": 1030.0,
+    "text": "I read that you need Airflow data pipelines - I recently shipped dbt project for a fintech warehouse, which data incidents fell from weekly to one per quarter. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. I would start with Airflow and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:065",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Python",
+      "Airflow"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "da-07",
+      "da-14"
+    ],
+    "bid_usd": 3050.0,
+    "text": "I read that you need cleaning a messy customer database - I recently shipped Nightly ETL from five SaaS tools, which saved 10 staff hours a week. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Data cleaning and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:066",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "GA4",
+      "dbt"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-02",
+      "da-03"
+    ],
+    "bid_usd": 2090.0,
+    "text": "Your SQL reporting queries sounds close to what I built for Wildthread Apparel (synthetic): reallocated 18% of ad budget and lowered cost per order by 22%. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. I would start with SQL and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:067",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Data cleaning",
+      "SQL",
+      "Kubernetes"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-06",
+      "da-01"
+    ],
+    "bid_usd": 320.0,
+    "text": "I read that you need an Excel reporting model - I recently shipped Tableau operations workbook, which average discharge delay reduced by 50 minutes. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with Excel and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:068",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "PostgreSQL",
+      "Python",
+      "OAuth"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "da-07",
+      "da-14"
+    ],
+    "bid_usd": 610.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Data cleaning and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:069",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for analysis of our A/B tests",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "A/B testing",
+      "SQL",
+      "Python"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 1320.0,
+    "text": "For analysis of our A/B tests, the hard part is usually getting adoption; I solved that last year for a saas client. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with A/B testing and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:070",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "AWS",
+      "Redshift",
+      "ETL"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 1560.0,
+    "text": "I read that you need SQL reporting queries - I recently shipped Redshift cost and performance tuning, which median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with SQL and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:071",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for GA4 conversion tracking and reporting",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "GA4",
+      "dbt",
+      "SQL",
+      "Recommendation systems"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "da-12",
+      "da-02"
+    ],
+    "bid_usd": 490.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Survey analysis in R I weighted estimates. In Marketing attribution warehouse I joined ad spend with web events and orders. I would start with GA4 and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:072",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Airflow data pipelines",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Airflow",
+      "PostgreSQL",
+      "ETL"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "da-07",
+      "da-03"
+    ],
+    "bid_usd": 2060.0,
+    "text": "Your Airflow data pipelines sounds close to what I built for Brightpath Agency (synthetic): saved 10 staff hours a week. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. I would start with Airflow and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:073",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for containerising and deploying our app",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Docker",
+      "Metabase",
+      "SQL"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-11",
+      "da-01"
+    ],
+    "bid_usd": 270.0,
+    "text": "For containerising and deploying our app, the hard part is usually messy data; I solved that last year for a logistics client. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with Docker and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:074",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for cleaning a messy customer database",
+    "job_category": "data_science",
+    "job_skills": [
+      "Data cleaning",
+      "ETL",
+      "PostgreSQL"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "da-15",
+      "da-13"
+    ],
+    "bid_usd": 1810.0,
+    "text": "Your cleaning a messy customer database sounds close to what I built for Orbitly (synthetic): first trustworthy MRR number within 10 days. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. I would start with Data cleaning and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:075",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an automated ETL pipeline",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "ETL",
+      "Data cleaning",
+      "PostgreSQL"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-07",
+      "da-06"
+    ],
+    "bid_usd": 1230.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Nightly ETL from five SaaS tools I scheduled loaders with retries. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh. I would start with ETL and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:076",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for GA4 conversion tracking and reporting",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "GA4",
+      "Dashboarding",
+      "BigQuery"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "da-13",
+      "da-02"
+    ],
+    "bid_usd": 1590.0,
+    "text": "For GA4 conversion tracking and reporting, the hard part is usually messy data; I solved that last year for a e-commerce client. In E-commerce cohort and LTV dashboard I monthly cohorts. In Marketing attribution warehouse I joined ad spend with web events and orders. I would start with GA4 and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:077",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Excel",
+      "Tableau",
+      "Model evaluation"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "da-12",
+      "da-11"
+    ],
+    "bid_usd": 570.0,
+    "text": "I read that you need cleaning a messy customer database - I recently shipped Survey analysis in R, which report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions. I would start with Data cleaning and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:078",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data processing in Python",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "pandas",
+      "Excel",
+      "Python"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-15",
+      "da-01"
+    ],
+    "bid_usd": 660.0,
+    "text": "Your data processing in Python sounds close to what I built for Orbitly (synthetic): first trustworthy MRR number within 10 days. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with pandas and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:079",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for SQL reporting queries",
+    "job_category": "data_science",
+    "job_skills": [
+      "SQL",
+      "AWS",
+      "Redshift"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-10",
+      "da-01"
+    ],
+    "bid_usd": 2500.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:080",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Tableau operations dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Tableau",
+      "Excel",
+      "SQL",
+      "Flask"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-04",
+      "da-09"
+    ],
+    "bid_usd": 2400.0,
+    "text": "Hello, I am a ata scientist with many years of experience. I have read your job description carefully. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. I would start with Tableau and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:081",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data processing in Python",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "pandas",
+      "Data cleaning",
+      "Python"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "da-14",
+      "da-04"
+    ],
+    "bid_usd": 840.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with pandas and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:082",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Python",
+      "pandas"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "da-09",
+      "da-14"
+    ],
+    "bid_usd": 570.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Excel and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:083",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Fivetran data sync",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Fivetran",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 380.0,
+    "text": "For a Fivetran data sync, the hard part is usually keeping it fast; I solved that last year for a fintech client. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Fivetran and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:084",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Python",
+      "Forecasting"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-09",
+      "da-14"
+    ],
+    "bid_usd": 1590.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Excel and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:085",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for GA4 conversion tracking and reporting",
+    "job_category": "data_science",
+    "job_skills": [
+      "GA4",
+      "SQL",
+      "Dashboarding",
+      "Dashboarding"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-14",
+      "da-01"
+    ],
+    "bid_usd": 780.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Data cleaning of a 2-million-row CRM export I fuzzy matching. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with GA4 and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:086",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Fivetran data sync",
+    "job_category": "data_science",
+    "job_skills": [
+      "Fivetran",
+      "dbt",
+      "Airflow"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "da-08",
+      "da-01"
+    ],
+    "bid_usd": 1420.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In Google Sheets automation for a non-profit I scripted imports. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with Fivetran and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:087",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Python automation script",
+    "job_category": "data_science",
+    "job_skills": [
+      "Python",
+      "SQL",
+      "Statistics"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-10",
+      "da-09"
+    ],
+    "bid_usd": 420.0,
+    "text": "For a Python automation script, the hard part is usually getting adoption; I solved that last year for a media client. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:088",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for SQL reporting queries",
+    "job_category": "data_science",
+    "job_skills": [
+      "SQL",
+      "Statistics",
+      "A/B testing"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 1380.0,
+    "text": "I read that you need SQL reporting queries - I recently shipped A/B test analysis for pricing page, which declared a winner with 95% confidence. In A/B test analysis for pricing page I pre-registered metrics. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with SQL and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:089",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "Data visualization",
+      "pandas"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-04",
+      "da-09"
+    ],
+    "bid_usd": 890.0,
+    "text": "I read that you need statistical analysis of our experiment data - I recently shipped Churn analysis for a subscription box, which identified a first-box issue. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. In Revenue forecasting model I a driver-based model of new. I would start with Statistics and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:090",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Dashboarding",
+      "Data visualization",
+      "Excel"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-07",
+      "da-04"
+    ],
+    "bid_usd": 380.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Excel and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:091",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "pandas",
+      "Excel"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-09",
+      "da-14"
+    ],
+    "bid_usd": 2530.0,
+    "text": "For a Python automation script, the hard part is usually keeping it fast; I solved that last year for a saas client. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:092",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for SQL reporting queries",
+    "job_category": "data_science",
+    "job_skills": [
+      "SQL",
+      "Dashboarding",
+      "Power BI",
+      "YOLO"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-13",
+      "da-10"
+    ],
+    "bid_usd": 280.0,
+    "text": "For SQL reporting queries, the hard part is usually keeping it fast; I solved that last year for a e-commerce client. In E-commerce cohort and LTV dashboard I monthly cohorts. In Redshift cost and performance tuning I sort and distribution keys. I would start with SQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:093",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a KPI dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Dashboarding",
+      "Excel",
+      "Power BI"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-01",
+      "da-16"
+    ],
+    "bid_usd": 310.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. I would start with Dashboarding and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:094",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "R",
+      "Data visualization"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 380.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Data cleaning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:095",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data processing in Python",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "pandas",
+      "SQL",
+      "Data visualization"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "da-15",
+      "da-08"
+    ],
+    "bid_usd": 330.0,
+    "text": "I read that you need data processing in Python - I recently shipped Fivetran and Snowflake setup, which first trustworthy MRR number within 10 days. In Fivetran and Snowflake setup I managed connectors into a raw layer. In Google Sheets automation for a non-profit I scripted imports. I would start with pandas and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:096",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Data visualization",
+      "Dashboarding"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "da-16",
+      "da-01"
+    ],
+    "bid_usd": 520.0,
+    "text": "For an Excel reporting model, the hard part is usually keeping it fast; I solved that last year for a manufacturing client. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Excel and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:097",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for Redshift performance tuning",
+    "job_category": "data_science",
+    "job_skills": [
+      "Redshift",
+      "AWS",
+      "SQL"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "da-06",
+      "da-12"
+    ],
+    "bid_usd": 1530.0,
+    "text": "Hello, I am a ata scientist with many years of experience. I have read your job description carefully. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh. In Survey analysis in R I weighted estimates. I would start with Redshift and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:098",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a revenue forecast model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Forecasting",
+      "pandas",
+      "Python",
+      "RAG"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "da-09",
+      "da-04"
+    ],
+    "bid_usd": 500.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Revenue forecasting model I a driver-based model of new. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Forecasting and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:099",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Tableau operations dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Tableau",
+      "Excel",
+      "Data cleaning"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "da-06",
+      "da-14"
+    ],
+    "bid_usd": 390.0,
+    "text": "Your a Tableau operations dashboard sounds close to what I built for CityCare Hospital (synthetic): average discharge delay reduced by 50 minutes. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh, and it average discharge delay reduced by 50 minutes. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Tableau and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:100",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data processing in Python",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "pandas",
+      "Excel",
+      "Python"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "da-09",
+      "da-14"
+    ],
+    "bid_usd": 1260.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Revenue forecasting model I a driver-based model of new. In Data cleaning of a 2-million-row CRM export I fuzzy matching. I would start with pandas and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:101",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Google Sheets",
+      "Looker Studio"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-08",
+      "da-02"
+    ],
+    "bid_usd": 2270.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Google Sheets automation for a non-profit I scripted imports. In Marketing attribution warehouse I joined ad spend with web events and orders. I would start with Data cleaning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:102",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for dbt models for our warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "dbt",
+      "Fivetran",
+      "SQL",
+      "BigQuery"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-07",
+      "da-13"
+    ],
+    "bid_usd": 720.0,
+    "text": "For dbt models for our warehouse, the hard part is usually edge cases; I solved that last year for a agency client. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. I would start with dbt and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:103",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "SQL",
+      "Dashboarding",
+      "MongoDB"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "da-14",
+      "da-12"
+    ],
+    "bid_usd": 390.0,
+    "text": "I read that you need an Excel reporting model - I recently shipped Data cleaning of a 2-million-row CRM export, which 2.1 million rows reduced to 640,000 unique customers with an audit trail. In Data cleaning of a 2-million-row CRM export I fuzzy matching. In Survey analysis in R I weighted estimates. I would start with Excel and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:104",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a Snowflake data warehouse",
+    "job_category": "data_science",
+    "job_skills": [
+      "Snowflake",
+      "dbt",
+      "SQL"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 1310.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In dbt project for a fintech warehouse I layered staging. In Fivetran and Snowflake setup I managed connectors into a raw layer. I would start with Snowflake and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:105",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a KPI dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Dashboarding",
+      "Excel",
+      "Data visualization",
+      "Data visualization"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-16",
+      "da-01"
+    ],
+    "bid_usd": 2750.0,
+    "text": "Your a KPI dashboard sounds close to what I built for Indus Textiles (synthetic): freed PKR 4 million of tied-up inventory within a quarter. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Dashboarding and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:106",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Tableau",
+      "SQL"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-12",
+      "da-07"
+    ],
+    "bid_usd": 540.0,
+    "text": "Your cleaning a messy customer database sounds close to what I built for Pakistan Youth Survey (synthetic): report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. I would start with Data cleaning and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:107",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for SQL reporting queries",
+    "job_category": "data_science",
+    "job_skills": [
+      "SQL",
+      "Docker",
+      "Metabase"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-11",
+      "da-01"
+    ],
+    "bid_usd": 600.0,
+    "text": "Dear Hiring Manager, I am passionate about data science and I am the perfect fit for this job. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:108",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "Data visualization",
+      "SQL",
+      "YOLO"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "da-08",
+      "da-10"
+    ],
+    "bid_usd": 360.0,
+    "text": "Your statistical analysis of our experiment data sounds close to what I built for HopeBridge Foundation (synthetic): duplicate donor records cut by 92%. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. I would start with Statistics and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:109",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Snowflake data warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Snowflake",
+      "dbt",
+      "SQL",
+      "MongoDB"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 740.0,
+    "text": "For a Snowflake data warehouse, the hard part is usually messy data; I solved that last year for a fintech client. In dbt project for a fintech warehouse I layered staging. In Fivetran and Snowflake setup I managed connectors into a raw layer. I would start with Snowflake and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:110",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for analysis of our A/B tests",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "A/B testing",
+      "Statistics",
+      "SQL"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 280.0,
+    "text": "For analysis of our A/B tests, the hard part is usually edge cases; I solved that last year for a saas client. In A/B test analysis for pricing page I pre-registered metrics. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with A/B testing and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:111",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of survey data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "R",
+      "Data visualization",
+      "Data cleaning",
+      "NLP"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 1820.0,
+    "text": "For statistical analysis of survey data, the hard part is usually edge cases; I solved that last year for a research client. In Survey analysis in R I weighted estimates. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with R and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:112",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "SQL",
+      "pandas"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-04",
+      "da-01"
+    ],
+    "bid_usd": 2940.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. I would start with Data visualization and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:113",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Tableau operations dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Tableau",
+      "Excel",
+      "Data cleaning",
+      "Pinecone"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "da-08",
+      "da-05"
+    ],
+    "bid_usd": 700.0,
+    "text": "Your a Tableau operations dashboard sounds close to what I built for HopeBridge Foundation (synthetic): duplicate donor records cut by 92%. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. I would start with Tableau and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:114",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "Statistics",
+      "A/B testing",
+      "GA4"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 420.0,
+    "text": "I read that you need a Python automation script - I recently shipped A/B test analysis for pricing page, which declared a winner with 95% confidence. In A/B test analysis for pricing page I pre-registered metrics. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Python and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:115",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Airflow data pipelines",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Airflow",
+      "SQL",
+      "dbt"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-03",
+      "da-02"
+    ],
+    "bid_usd": 980.0,
+    "text": "Your Airflow data pipelines sounds close to what I built for Coinvault (synthetic): data incidents fell from weekly to one per quarter. In dbt project for a fintech warehouse I layered staging. In Marketing attribution warehouse I joined ad spend with web events and orders. I would start with Airflow and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:116",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Tableau operations dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Tableau",
+      "Excel",
+      "Data cleaning"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-10",
+      "da-07"
+    ],
+    "bid_usd": 370.0,
+    "text": "For a Tableau operations dashboard, the hard part is usually messy data; I solved that last year for a media client. In Redshift cost and performance tuning I sort and distribution keys, and it median dashboard query from 110 s to 9 s and 30% lower cluster spend. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. I would start with Tableau and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:117",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Dashboarding",
+      "Excel",
+      "Redshift"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "da-16",
+      "da-09"
+    ],
+    "bid_usd": 400.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:118",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of survey data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "R",
+      "Data cleaning",
+      "Data visualization"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 1280.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with R and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:119",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Fivetran data sync",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Fivetran",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 500.0,
+    "text": "For a Fivetran data sync, the hard part is usually getting adoption; I solved that last year for a fintech client. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Fivetran and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:120",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Google Sheets",
+      "Looker Studio",
+      "Tailwind CSS"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "da-09",
+      "da-13"
+    ],
+    "bid_usd": 540.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Revenue forecasting model I a driver-based model of new. In E-commerce cohort and LTV dashboard I monthly cohorts. I would start with Data cleaning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:121",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Excel",
+      "Dashboarding"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "da-16",
+      "da-01"
+    ],
+    "bid_usd": 460.0,
+    "text": "Your data visualisations for a report sounds close to what I built for Indus Textiles (synthetic): freed PKR 4 million of tied-up inventory within a quarter. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Data visualization and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:122",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Looker Studio marketing dashboard",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Looker Studio",
+      "Google Sheets",
+      "Data cleaning"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "da-05",
+      "da-10"
+    ],
+    "bid_usd": 290.0,
+    "text": "For a Looker Studio marketing dashboard, the hard part is usually messy data; I solved that last year for a saas client. In A/B test analysis for pricing page I pre-registered metrics. In Redshift cost and performance tuning I sort and distribution keys. I would start with Looker Studio and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:123",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for statistical analysis of survey data",
+    "job_category": "data_science",
+    "job_skills": [
+      "R",
+      "Data visualization",
+      "Data cleaning"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 280.0,
+    "text": "Your statistical analysis of survey data sounds close to what I built for Pakistan Youth Survey (synthetic): report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with R and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:124",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Snowflake data warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Snowflake",
+      "dbt",
+      "SQL"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "da-16",
+      "da-02"
+    ],
+    "bid_usd": 970.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Marketing attribution warehouse I joined ad spend with web events and orders, and it reallocated 18% of ad budget and lowered cost per order by 22%. I would start with Snowflake and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:125",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "Looker Studio",
+      "Google Sheets",
+      "Dashboarding"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "da-08",
+      "da-13"
+    ],
+    "bid_usd": 1650.0,
+    "text": "I read that you need cleaning a messy customer database - I recently shipped Google Sheets automation for a non-profit, which duplicate donor records cut by 92%. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. In E-commerce cohort and LTV dashboard I monthly cohorts, and it shifted acquisition to two hero products with 1.8x higher LTV. I would start with Data cleaning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:126",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for Airflow data pipelines",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Airflow",
+      "Snowflake",
+      "dbt"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "da-12",
+      "da-02"
+    ],
+    "bid_usd": 1850.0,
+    "text": "Your Airflow data pipelines sounds close to what I built for Pakistan Youth Survey (synthetic): report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In Marketing attribution warehouse I joined ad spend with web events and orders. I would start with Airflow and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:127",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for analysis of our A/B tests",
+    "job_category": "data_science",
+    "job_skills": [
+      "A/B testing",
+      "SQL",
+      "Statistics"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 390.0,
+    "text": "Your analysis of our A/B tests sounds close to what I built for Formstack Lite (synthetic): declared a winner with 95% confidence. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with A/B testing and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:128",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Power BI",
+      "Dashboarding"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-01",
+      "da-16"
+    ],
+    "bid_usd": 2390.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region. In Inventory KPI dashboard in Excel I pivot models. I would start with Excel and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:129",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a KPI dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Dashboarding",
+      "Excel",
+      "Data visualization"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "da-16",
+      "da-01"
+    ],
+    "bid_usd": 960.0,
+    "text": "For a KPI dashboard, the hard part is usually getting adoption; I solved that last year for a manufacturing client. In Inventory KPI dashboard in Excel I pivot models, and it freed PKR 4 million of tied-up inventory within a quarter. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with Dashboarding and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:130",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Python automation script",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Python",
+      "Statistics",
+      "Forecasting"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "da-09",
+      "da-04"
+    ],
+    "bid_usd": 310.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In Revenue forecasting model I a driver-based model of new. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:131",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Redshift",
+      "AWS"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "da-11",
+      "da-10"
+    ],
+    "bid_usd": 2610.0,
+    "text": "For SQL reporting queries, the hard part is usually edge cases; I solved that last year for a logistics client. In Metabase self-serve analytics I curated models and 25 saved questions with plain-language descriptions. In Redshift cost and performance tuning I sort and distribution keys. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:132",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Python",
+      "SQL",
+      "BigQuery"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "da-14",
+      "da-08"
+    ],
+    "bid_usd": 2140.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. In Google Sheets automation for a non-profit I scripted imports, and it duplicate donor records cut by 92%. I would start with Data visualization and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:133",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Data cleaning",
+      "R"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 510.0,
+    "text": "I read that you need data visualisations for a report - I recently shipped Survey analysis in R, which report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Data visualization and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:134",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for an Excel reporting model",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Excel",
+      "Dashboarding",
+      "SQL",
+      "Data visualization"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "da-03",
+      "da-05"
+    ],
+    "bid_usd": 630.0,
+    "text": "Your an Excel reporting model sounds close to what I built for Coinvault (synthetic): data incidents fell from weekly to one per quarter. In dbt project for a fintech warehouse I layered staging. In A/B test analysis for pricing page I pre-registered metrics. I would start with Excel and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:135",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "Statistics",
+      "pandas"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-07",
+      "da-15"
+    ],
+    "bid_usd": 760.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Nightly ETL from five SaaS tools I scheduled loaders with retries, and it saved 10 staff hours a week; zero missed loads in 4 months. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Data visualization and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:136",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for a KPI dashboard",
+    "job_category": "data_science",
+    "job_skills": [
+      "Dashboarding",
+      "Data visualization",
+      "Excel"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "da-08",
+      "da-16"
+    ],
+    "bid_usd": 420.0,
+    "text": "I read that you need a KPI dashboard - I recently shipped Google Sheets automation for a non-profit, which duplicate donor records cut by 92%. In Google Sheets automation for a non-profit I scripted imports. In Inventory KPI dashboard in Excel I pivot models. I would start with Dashboarding and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:137",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "Data cleaning",
+      "Data visualization"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 1010.0,
+    "text": "I read that you need statistical analysis of our experiment data - I recently shipped Survey analysis in R, which report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates, and it report cited in the NGO's grant renewal that secured funding for two more years. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with Statistics and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:138",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for cleaning a messy customer database",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data cleaning",
+      "SQL",
+      "Excel",
+      "NLP"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "da-16",
+      "da-03"
+    ],
+    "bid_usd": 310.0,
+    "text": "For cleaning a messy customer database, the hard part is usually getting adoption; I solved that last year for a manufacturing client. In Inventory KPI dashboard in Excel I pivot models. In dbt project for a fintech warehouse I layered staging. I would start with Data cleaning and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:139",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Fivetran",
+      "Snowflake"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-09",
+      "da-05"
+    ],
+    "bid_usd": 350.0,
+    "text": "Your SQL reporting queries sounds close to what I built for Ledgerly (synthetic): quarterly forecast error fell from 14% to 4%. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. I would start with SQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:140",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for dbt models for our warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "dbt",
+      "SQL",
+      "Fivetran"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "da-02",
+      "da-08"
+    ],
+    "bid_usd": 1810.0,
+    "text": "Your dbt models for our warehouse sounds close to what I built for Wildthread Apparel (synthetic): reallocated 18% of ad budget and lowered cost per order by 22%. In Marketing attribution warehouse I joined ad spend with web events and orders. In Google Sheets automation for a non-profit I scripted imports. I would start with dbt and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:141",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a PostgreSQL database design",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "PostgreSQL",
+      "SQL",
+      "Docker",
+      "ONNX"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "da-12",
+      "da-05"
+    ],
+    "bid_usd": 2610.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Survey analysis in R, which report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In A/B test analysis for pricing page I pre-registered metrics. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:142",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a PostgreSQL database design",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "PostgreSQL",
+      "Python",
+      "Data cleaning"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "da-07",
+      "da-14"
+    ],
+    "bid_usd": 650.0,
+    "text": "Your a PostgreSQL database design sounds close to what I built for Brightpath Agency (synthetic): saved 10 staff hours a week. In Nightly ETL from five SaaS tools I scheduled loaders with retries. In Data cleaning of a 2-million-row CRM export I fuzzy matching. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:143",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for statistical analysis of our experiment data",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Statistics",
+      "Data cleaning",
+      "R"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 650.0,
+    "text": "Your statistical analysis of our experiment data sounds close to what I built for Pakistan Youth Survey (synthetic): report cited in the NGO's grant renewal that secured funding for two more years. In Survey analysis in R I weighted estimates. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Statistics and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:144",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for SQL reporting queries",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "SQL",
+      "Data cleaning",
+      "Excel"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-06",
+      "da-01"
+    ],
+    "bid_usd": 750.0,
+    "text": "Dear Hiring Manager, I am passionate about data analytics and I am the perfect fit for this job. In Tableau operations workbook I a workbook fed from the admissions database with hourly refresh, and it average discharge delay reduced by 50 minutes. In Executive sales dashboard I a star schema and one-page KPI report with drill-through by region, and it weekly reporting time fell from 6 hours to 20 minutes. I would start with SQL and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:145",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for dbt models for our warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "dbt",
+      "Fivetran",
+      "SQL"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 1570.0,
+    "text": "Hello, I am a ata analyst with many years of experience. I have read your job description carefully. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with dbt and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:146",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for analysis of our A/B tests",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "A/B testing",
+      "SQL",
+      "Statistics"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "da-05",
+      "da-04"
+    ],
+    "bid_usd": 270.0,
+    "text": "I read that you need analysis of our A/B tests - I recently shipped A/B test analysis for pricing page, which declared a winner with 95% confidence. In A/B test analysis for pricing page I pre-registered metrics, and it declared a winner with 95% confidence; annual-plan uptake rose 11%. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel, and it identified a first-box issue; fixing it cut month-1 churn by 3 points. I would start with A/B testing and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:147",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for data visualisations for a report",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Data visualization",
+      "R",
+      "Statistics",
+      "OpenAI API"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "da-12",
+      "da-04"
+    ],
+    "bid_usd": 730.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Survey analysis in R I weighted estimates. In Churn analysis for a subscription box I cohort retention curves and survival analysis by acquisition channel. I would start with Data visualization and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:148",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data analyst for a Snowflake data warehouse",
+    "job_category": "data_analytics",
+    "job_skills": [
+      "Snowflake",
+      "dbt",
+      "SQL"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "da-03",
+      "da-15"
+    ],
+    "bid_usd": 1350.0,
+    "text": "Your a Snowflake data warehouse sounds close to what I built for Coinvault (synthetic): data incidents fell from weekly to one per quarter. In dbt project for a fintech warehouse I layered staging, and it data incidents fell from weekly to one per quarter. In Fivetran and Snowflake setup I managed connectors into a raw layer, and it first trustworthy MRR number within 10 days. I would start with Snowflake and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:data_analyst:149",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_title": "Need a data scientist for an Excel reporting model",
+    "job_category": "data_science",
+    "job_skills": [
+      "Excel",
+      "pandas",
+      "Python"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "da-09",
+      "da-14"
+    ],
+    "bid_usd": 2900.0,
+    "text": "Your an Excel reporting model sounds close to what I built for Ledgerly (synthetic): quarterly forecast error fell from 14% to 4%. In Revenue forecasting model I a driver-based model of new, and it quarterly forecast error fell from 14% to 4%. In Data cleaning of a 2-million-row CRM export I fuzzy matching, and it 2.1 million rows reduced to 640,000 unique customers with an audit trail. I would start with Excel and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  }
+]

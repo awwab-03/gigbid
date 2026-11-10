@@ -1,0 +1,212 @@
+[
+  {
+    "review_id": "rev:ml-01:0",
+    "project": "ml-01",
+    "client": "Helpwise (synthetic)",
+    "industry": "SaaS",
+    "date": "2023-03",
+    "rating": 5,
+    "text": "Ayesha delivered TF-IDF features with a calibrated linear model, served behind a small HTTP service. Loved that it included dataframe wrangling of messy exports. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-01:1",
+    "project": "ml-01",
+    "client": "Helpwise (synthetic)",
+    "industry": "SaaS",
+    "date": "2023-03",
+    "rating": 4.5,
+    "text": "Ayesha delivered TF-IDF features with a calibrated linear model, served behind a small HTTP service. Loved that it included dataframe wrangling of messy exports. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-02:0",
+    "project": "ml-02",
+    "client": "NorthLine Telecom (synthetic)",
+    "industry": "Telecom",
+    "date": "2023-06",
+    "rating": 5,
+    "text": "Solid work on customer churn early-warning model. A few small delays in week two but the final result was excellent. Loved that it included dataframe wrangling of messy exports.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-03:0",
+    "project": "ml-03",
+    "client": "Crescent Insurance (synthetic)",
+    "industry": "Insurance",
+    "date": "2024-02",
+    "rating": 5,
+    "text": "Great experience. The internal policy assistant with citations Ayesha built is now part of our daily workflow. Loved that it included an in-memory nearest-neighbour index over embeddings.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-03:1",
+    "project": "ml-03",
+    "client": "Crescent Insurance (synthetic)",
+    "industry": "Insurance",
+    "date": "2024-02",
+    "rating": 5,
+    "text": "Solid work on internal policy assistant with citations. A few small delays in week two but the final result was excellent. Loved that it included an in-memory nearest-neighbour index over embeddings.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-04:0",
+    "project": "ml-04",
+    "client": "FreshMart (synthetic)",
+    "industry": "Retail",
+    "date": "2023-09",
+    "rating": 5,
+    "text": "Ayesha understood the problem quickly, built per-SKU forecasters with holiday regressors, retrained weekly, and documented everything. Loved that it included dataframe wrangling of messy exports.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-05:0",
+    "project": "ml-05",
+    "client": "AquaPure Bottlers (synthetic)",
+    "industry": "Manufacturing",
+    "date": "2024-05",
+    "rating": 4.5,
+    "text": "Solid work on defect detection on a bottling line. A few small delays in week two but the final result was excellent. Loved that it included frame-by-frame image preprocessing.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-06:0",
+    "project": "ml-06",
+    "client": "Meridian Advisory (synthetic)",
+    "industry": "Consulting",
+    "date": "2025-01",
+    "rating": 4.5,
+    "text": "Ayesha delivered a planner, researcher and writer agent with a human review step before export. Loved that it included a typed async Python API with auto-generated docs. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-07:0",
+    "project": "ml-07",
+    "client": "StyleLane (synthetic)",
+    "industry": "E-commerce",
+    "date": "2023-11",
+    "rating": 5,
+    "text": "Solid work on product recommendation engine. A few small delays in week two but the final result was excellent. Loved that it included dataframe wrangling of messy exports.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-08:0",
+    "project": "ml-08",
+    "client": "Brightdesk (synthetic)",
+    "industry": "SaaS",
+    "date": "2025-04",
+    "rating": 4,
+    "text": "Ayesha delivered LoRA adapters on a 7B open model trained on 4,000 approved replies. Loved that it included scripting the pipeline end to end. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-09:0",
+    "project": "ml-09",
+    "client": "LedgerPoint (synthetic)",
+    "industry": "Finance",
+    "date": "2024-08",
+    "rating": 5,
+    "text": "Solid work on invoice field extraction. A few small delays in week two but the final result was excellent. Loved that it included frame-by-frame image preprocessing.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-09:1",
+    "project": "ml-09",
+    "client": "LedgerPoint (synthetic)",
+    "industry": "Finance",
+    "date": "2024-08",
+    "rating": 5,
+    "text": "Ayesha delivered OCR plus entity extraction with validation rules for totals and dates. Loved that it included frame-by-frame image preprocessing. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-10:0",
+    "project": "ml-10",
+    "client": "Kicks & Co (synthetic)",
+    "industry": "E-commerce",
+    "date": "2024-10",
+    "rating": 5,
+    "text": "Solid work on semantic product search. A few small delays in week two but the final result was excellent. Loved that it included a managed vector index.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-10:1",
+    "project": "ml-10",
+    "client": "Kicks & Co (synthetic)",
+    "industry": "E-commerce",
+    "date": "2024-10",
+    "rating": 4,
+    "text": "Solid work on semantic product search. A few small delays in week two but the final result was excellent. Loved that it included a hosted similarity-search service.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-11:0",
+    "project": "ml-11",
+    "client": "CareBridge Clinics (synthetic)",
+    "industry": "Healthcare",
+    "date": "2024-12",
+    "rating": 5,
+    "text": "Ayesha delivered managed training jobs and a real-time endpoint behind their API gateway. Loved that it included a containerised build that runs the same everywhere. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-12:0",
+    "project": "ml-12",
+    "client": "PixelForge Studio (synthetic)",
+    "industry": "Mobile apps",
+    "date": "2023-01",
+    "rating": 5,
+    "text": "Ayesha delivered a pretrained sentiment model plus topic clustering, refreshed nightly. Loved that it included dataframe wrangling of messy exports. Communication was clear and every deadline was met.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-13:0",
+    "project": "ml-13",
+    "client": "Pipeline Pro (synthetic)",
+    "industry": "SaaS",
+    "date": "2025-06",
+    "rating": 4,
+    "text": "Ayesha understood the problem quickly, built boosted trees on CRM activity with monotonic constraints the sales lead could reason about, and documented everything. Loved that it included hand-written queries with window functions.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-14:0",
+    "project": "ml-14",
+    "client": "Hale & Rowe LLP (synthetic)",
+    "industry": "Legal",
+    "date": "2025-03",
+    "rating": 5,
+    "text": "Great experience. The async document-processing pipeline Ayesha built is now part of our daily workflow. Loved that it included a background task queue that retried failed jobs.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-15:0",
+    "project": "ml-15",
+    "client": "Nimbus Credit (synthetic)",
+    "industry": "Fintech",
+    "date": "2024-03",
+    "rating": 4.5,
+    "text": "Ayesha understood the problem quickly, built central experiment tracking, a model registry and promotion gates in the pipeline, and documented everything. Loved that it included a containerised build that runs the same everywhere.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-15:1",
+    "project": "ml-15",
+    "client": "Nimbus Credit (synthetic)",
+    "industry": "Fintech",
+    "date": "2024-03",
+    "rating": 5,
+    "text": "Ayesha understood the problem quickly, built central experiment tracking, a model registry and promotion gates in the pipeline, and documented everything. Loved that it included a containerised build that runs the same everywhere.",
+    "synthetic": true
+  },
+  {
+    "review_id": "rev:ml-16:0",
+    "project": "ml-16",
+    "client": "Frameworks Media (synthetic)",
+    "industry": "Media",
+    "date": "2023-05",
+    "rating": 5,
+    "text": "Solid work on image tagging for a stock-photo library. A few small delays in week two but the final result was excellent. Loved that it included exporting the model to a portable runtime for CPU inference.",
+    "synthetic": true
+  }
+]

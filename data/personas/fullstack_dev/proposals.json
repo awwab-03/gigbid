@@ -1,0 +1,3947 @@
+[
+  {
+    "proposal_id": "prop:fullstack_dev:000",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for unit tests for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Jest",
+      "Playwright",
+      "CI/CD",
+      "Power BI"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "fs-09",
+      "fs-12"
+    ],
+    "bid_usd": 1620.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows, and it production incidents from the signup flow fell from 5 a month to 0 over a quarter. In Containerised deployment pipeline I container images, and it deploys went from 40 minutes and manual to 6 minutes and automatic. I would start with Jest and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:001",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a PostgreSQL database design",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "PostgreSQL",
+      "Flask",
+      "REST API",
+      "spaCy"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "fs-11",
+      "fs-04"
+    ],
+    "bid_usd": 570.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Vue admin panel for inventory, which stock discrepancies down 75% after two months. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups. In Django CRM for a property agency I a Django app with an admin panel. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:002",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Next.js web app",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Next.js",
+      "Stripe",
+      "PostgreSQL"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "fs-02",
+      "fs-01"
+    ],
+    "bid_usd": 1590.0,
+    "text": "Your a Next.js web app sounds close to what I built for TutorNest (synthetic): 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages. In Subscription SaaS dashboard I a typed React front end. I would start with Next.js and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:003",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "Flask",
+      "REST API",
+      "FastAPI"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "fs-11",
+      "fs-04"
+    ],
+    "bid_usd": 430.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Vue admin panel for inventory, which stock discrepancies down 75% after two months. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups. In Django CRM for a property agency I a Django app with an admin panel. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:004",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for background job processing for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Celery",
+      "Python",
+      "Django"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "fs-16",
+      "fs-04"
+    ],
+    "bid_usd": 1690.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Async report generation for a SaaS admin I queued export jobs with email links when ready, and it exports of 2 million rows complete without timeouts. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with Celery and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:005",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Tailwind front-end redesign",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Tailwind CSS",
+      "JavaScript",
+      "Shopify"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-05",
+      "fs-01"
+    ],
+    "bid_usd": 430.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block. In Subscription SaaS dashboard I a typed React front end. I would start with Tailwind CSS and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:006",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "GraphQL",
+      "Docker"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "fs-12",
+      "fs-13"
+    ],
+    "bid_usd": 1690.0,
+    "text": "Your a TypeScript front end sounds close to what I built for Launchpad Labs (synthetic): deploys went from 40 minutes and manual to 6 minutes and automatic. In Containerised deployment pipeline I container images, and it deploys went from 40 minutes and manual to 6 minutes and automatic. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:007",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Supabase backend for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Supabase",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "fs-13",
+      "fs-08"
+    ],
+    "bid_usd": 1100.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. I would start with Supabase and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:008",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for social login with OAuth",
+    "job_category": "web_dev",
+    "job_skills": [
+      "OAuth",
+      "Node.js",
+      "Redis",
+      "Time series forecasting"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "fs-14",
+      "fs-03"
+    ],
+    "bid_usd": 1750.0,
+    "text": "For social login with OAuth, the hard part is usually messy data; I solved that last year for a fintech client. In Express API hardening and rate limiting I token rotation. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. I would start with OAuth and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:009",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a NestJS backend",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "NestJS",
+      "PostgreSQL",
+      "Node.js",
+      "Celery"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-06",
+      "fs-01"
+    ],
+    "bid_usd": 370.0,
+    "text": "Your a NestJS backend sounds close to what I built for FitLoop (synthetic): mobile releases went from monthly to weekly. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth, and it mobile releases went from monthly to weekly. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with NestJS and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:010",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for JavaScript front-end features",
+    "job_category": "web_dev",
+    "job_skills": [
+      "JavaScript",
+      "Tailwind CSS",
+      "Shopify",
+      "ONNX"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "fs-05",
+      "fs-01"
+    ],
+    "bid_usd": 450.0,
+    "text": "For JavaScript front-end features, the hard part is usually messy data; I solved that last year for a e-commerce client. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block. In Subscription SaaS dashboard I a typed React front end. I would start with JavaScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:011",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "fs-01",
+      "fs-06"
+    ],
+    "bid_usd": 240.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Subscription SaaS dashboard I a typed React front end. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth. I would start with Node.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:012",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a FastAPI backend service",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "FastAPI",
+      "Python",
+      "Docker"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "fs-08",
+      "fs-03"
+    ],
+    "bid_usd": 290.0,
+    "text": "Dear Hiring Manager, I am passionate about ecommerce and I am the perfect fit for this job. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. I would start with FastAPI and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:013",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for social login with OAuth",
+    "job_category": "web_dev",
+    "job_skills": [
+      "OAuth",
+      "Node.js",
+      "Express"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "fs-09",
+      "fs-13"
+    ],
+    "bid_usd": 1760.0,
+    "text": "Your social login with OAuth sounds close to what I built for Paywise (synthetic): production incidents from the signup flow fell from 5 a month to 0 over a quarter. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows, and it production incidents from the signup flow fell from 5 a month to 0 over a quarter. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. I would start with OAuth and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:014",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Tailwind front-end redesign",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Tailwind CSS",
+      "JavaScript",
+      "Shopify"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "fs-07",
+      "fs-04"
+    ],
+    "bid_usd": 780.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules. In Django CRM for a property agency I a Django app with an admin panel. I would start with Tailwind CSS and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:015",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Vue.js admin panel",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Vue.js",
+      "REST API",
+      "PostgreSQL"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "fs-11",
+      "fs-04"
+    ],
+    "bid_usd": 1590.0,
+    "text": "I read that you need a Vue.js admin panel - I recently shipped Vue admin panel for inventory, which stock discrepancies down 75% after two months. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups. In Django CRM for a property agency I a Django app with an admin panel. I would start with Vue.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:016",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "WebSockets",
+      "Node.js",
+      "Tableau"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-12",
+      "fs-17"
+    ],
+    "bid_usd": 1830.0,
+    "text": "Your a React web dashboard sounds close to what I built for Launchpad Labs (synthetic): deploys went from 40 minutes and manual to 6 minutes and automatic. In Containerised deployment pipeline I container images. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site. I would start with React and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:017",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a CI/CD pipeline",
+    "job_category": "web_dev",
+    "job_skills": [
+      "CI/CD",
+      "Docker",
+      "AWS",
+      "REST API"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "fs-14",
+      "fs-04"
+    ],
+    "bid_usd": 450.0,
+    "text": "For a CI/CD pipeline, the hard part is usually keeping it fast; I solved that last year for a fintech client. In Express API hardening and rate limiting I token rotation. In Django CRM for a property agency I a Django app with an admin panel. I would start with CI/CD and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:018",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for subscription billing integration",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Stripe",
+      "JavaScript",
+      "WordPress"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "fs-17",
+      "fs-05"
+    ],
+    "bid_usd": 400.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block, and it mobile conversion rose from 1.4% to 2.2%. I would start with Stripe and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:019",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Vue.js admin panel",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Vue.js",
+      "PostgreSQL",
+      "Flask"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-09",
+      "fs-11"
+    ],
+    "bid_usd": 830.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows, and it production incidents from the signup flow fell from 5 a month to 0 over a quarter. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. I would start with Vue.js and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:020",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Firebase app backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Firebase",
+      "JavaScript",
+      "React"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 300.0,
+    "text": "I read that you need a Firebase app backend - I recently shipped Firebase chat for a community app, which 12,000 monthly active users with zero server management. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules. In Subscription SaaS dashboard I a typed React front end. I would start with Firebase and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:021",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Tailwind front-end redesign",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Tailwind CSS",
+      "JavaScript",
+      "Shopify",
+      "Hugging Face Transformers"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "fs-05",
+      "fs-01"
+    ],
+    "bid_usd": 390.0,
+    "text": "Your a Tailwind front-end redesign sounds close to what I built for GlowRoot Skincare (synthetic): mobile conversion rose from 1.4% to 2.2%. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block. In Subscription SaaS dashboard I a typed React front end. I would start with Tailwind CSS and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:022",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "React",
+      "Jest"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 320.0,
+    "text": "For a TypeScript front end, the hard part is usually messy data; I solved that last year for a personal client. In Open-source React form library (personal) I a small hook-based library with schema validation. In Subscription SaaS dashboard I a typed React front end. I would start with TypeScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:023",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Tailwind front-end redesign",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Tailwind CSS",
+      "Next.js",
+      "TypeScript",
+      "Dashboarding"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "fs-15",
+      "fs-02"
+    ],
+    "bid_usd": 280.0,
+    "text": "Your a Tailwind front-end redesign sounds close to what I built for personal project: 1,100 GitHub stars and 40 contributors. In Open-source React form library (personal) I a small hook-based library with schema validation, and it 1,100 GitHub stars and 40 contributors. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with Tailwind CSS and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:024",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "OAuth",
+      "PostgreSQL"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-02",
+      "fs-08"
+    ],
+    "bid_usd": 340.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. I would start with TypeScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:025",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Node/Express REST API",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Express",
+      "Node.js",
+      "OAuth",
+      "Pinecone"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-14",
+      "fs-01"
+    ],
+    "bid_usd": 3010.0,
+    "text": "For a Node/Express REST API, the hard part is usually edge cases; I solved that last year for a fintech client. In Express API hardening and rate limiting I token rotation, and it blocked 99.6% of malicious login attempts with no customer complaints. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Express and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:026",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for JavaScript front-end features",
+    "job_category": "web_dev",
+    "job_skills": [
+      "JavaScript",
+      "Firebase",
+      "React",
+      "Computer vision"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 3020.0,
+    "text": "I read that you need JavaScript front-end features - I recently shipped Firebase chat for a community app, which 12,000 monthly active users with zero server management. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with JavaScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:027",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Firebase app backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Firebase",
+      "React",
+      "JavaScript"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "fs-16",
+      "fs-06"
+    ],
+    "bid_usd": 300.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Async report generation for a SaaS admin I queued export jobs with email links when ready. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth. I would start with Firebase and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:028",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for JavaScript front-end features",
+    "job_category": "web_dev",
+    "job_skills": [
+      "JavaScript",
+      "WordPress",
+      "Stripe"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "fs-02",
+      "fs-14"
+    ],
+    "bid_usd": 2190.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Marketplace for local tutors I server-rendered search pages. In Express API hardening and rate limiting I token rotation. I would start with JavaScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:029",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "OAuth",
+      "Next.js",
+      "RAG"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-05",
+      "fs-10"
+    ],
+    "bid_usd": 740.0,
+    "text": "Your a TypeScript front end sounds close to what I built for GlowRoot Skincare (synthetic): mobile conversion rose from 1.4% to 2.2%. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block, and it mobile conversion rose from 1.4% to 2.2%. In WordPress membership site I a custom plugin for members-only content and recurring payments, and it 900 paying members in the first six months. I would start with TypeScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:030",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "Supabase",
+      "Next.js"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "fs-13",
+      "fs-02"
+    ],
+    "bid_usd": 730.0,
+    "text": "Your subscription billing integration sounds close to what I built for Tandoor House (synthetic): direct orders reached 31% of volume within 3 months. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with Stripe and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:031",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a React web dashboard",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "React",
+      "Redis",
+      "Node.js",
+      "SQL"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "fs-03",
+      "fs-01"
+    ],
+    "bid_usd": 390.0,
+    "text": "For a React web dashboard, the hard part is usually keeping it fast; I solved that last year for a logistics client. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. In Subscription SaaS dashboard I a typed React front end. I would start with React and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:032",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "TypeScript",
+      "Next.js"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "fs-02",
+      "fs-13"
+    ],
+    "bid_usd": 680.0,
+    "text": "Your subscription billing integration sounds close to what I built for TutorNest (synthetic): 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. I would start with Stripe and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:033",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "Docker",
+      "Python"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "fs-18",
+      "fs-01"
+    ],
+    "bid_usd": 1610.0,
+    "text": "For a React web dashboard, the hard part is usually messy data; I solved that last year for a ai client. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. In Subscription SaaS dashboard I a typed React front end. I would start with React and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:034",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a NestJS backend",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "NestJS",
+      "GraphQL",
+      "Docker"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "fs-06",
+      "fs-04"
+    ],
+    "bid_usd": 1220.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth, and it mobile releases went from monthly to weekly. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with NestJS and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:035",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "Docker"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "fs-08",
+      "fs-17"
+    ],
+    "bid_usd": 670.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:036",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "Firebase",
+      "JavaScript"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "fs-04",
+      "fs-10"
+    ],
+    "bid_usd": 890.0,
+    "text": "Your a React web dashboard sounds close to what I built for Skyline Estates (synthetic): lead response time fell from 1 day to 2 hours. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. In WordPress membership site I a custom plugin for members-only content and recurring payments, and it 900 paying members in the first six months. I would start with React and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:037",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a MongoDB-backed dashboard",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "MongoDB",
+      "WebSockets",
+      "React"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "fs-03",
+      "fs-17"
+    ],
+    "bid_usd": 240.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. I would start with MongoDB and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:038",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for caching and queues with Redis",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Redis",
+      "Express",
+      "OAuth"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "fs-14",
+      "fs-02"
+    ],
+    "bid_usd": 3090.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Express API hardening and rate limiting I token rotation, and it blocked 99.6% of malicious login attempts with no customer complaints. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with Redis and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:039",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for background job processing for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Celery",
+      "Django",
+      "Python"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "fs-14",
+      "fs-03"
+    ],
+    "bid_usd": 310.0,
+    "text": "For background job processing for our app, the hard part is usually getting adoption; I solved that last year for a fintech client. In Express API hardening and rate limiting I token rotation. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. I would start with Celery and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:040",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for JavaScript front-end features",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "JavaScript",
+      "Stripe",
+      "WordPress"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-10",
+      "fs-01"
+    ],
+    "bid_usd": 1820.0,
+    "text": "For JavaScript front-end features, the hard part is usually edge cases; I solved that last year for a media client. In WordPress membership site I a custom plugin for members-only content and recurring payments, and it 900 paying members in the first six months. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with JavaScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:041",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a FastAPI backend service",
+    "job_category": "web_dev",
+    "job_skills": [
+      "FastAPI",
+      "React",
+      "Docker"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-18",
+      "fs-01"
+    ],
+    "bid_usd": 540.0,
+    "text": "I read that you need a FastAPI backend service - I recently shipped FastAPI backend for an ML demo, which used by 300 external testers in a week. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. In Subscription SaaS dashboard I a typed React front end. I would start with FastAPI and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:042",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-01",
+      "fs-13"
+    ],
+    "bid_usd": 630.0,
+    "text": "Your a Node.js backend sounds close to what I built for TeamPulse (synthetic): launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen. I would start with Node.js and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:043",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "Express",
+      "OAuth"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-14",
+      "fs-01"
+    ],
+    "bid_usd": 550.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Express API hardening and rate limiting I token rotation, and it blocked 99.6% of malicious login attempts with no customer complaints. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Node.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:044",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "MongoDB",
+      "WebSockets"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-03",
+      "fs-17"
+    ],
+    "bid_usd": 720.0,
+    "text": "I read that you need a Node.js backend - I recently shipped Real-time logistics tracking, which dispatch call volume down 40%. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site. I would start with Node.js and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:045",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a TypeScript front end",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "TypeScript",
+      "CI/CD",
+      "Jest"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "fs-17",
+      "fs-02"
+    ],
+    "bid_usd": 610.0,
+    "text": "Your a TypeScript front end sounds close to what I built for SunGrid Solar (synthetic): faults spotted 2 days sooner on average. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with TypeScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:046",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "Jest",
+      "TypeScript",
+      "Next.js"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 390.0,
+    "text": "For a React web dashboard, the hard part is usually edge cases; I solved that last year for a personal client. In Open-source React form library (personal) I a small hook-based library with schema validation. In Subscription SaaS dashboard I a typed React front end. I would start with React and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:047",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "Next.js",
+      "OAuth"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-02",
+      "fs-08"
+    ],
+    "bid_usd": 460.0,
+    "text": "For a PostgreSQL database design, the hard part is usually keeping it fast; I solved that last year for a education client. In Marketplace for local tutors I server-rendered search pages. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:048",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "PostgreSQL",
+      "OAuth",
+      "Churn prediction"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-02",
+      "fs-01"
+    ],
+    "bid_usd": 1940.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Stripe and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:049",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Django web application",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Django",
+      "Python",
+      "Redis"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "fs-16",
+      "fs-09"
+    ],
+    "bid_usd": 910.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Async report generation for a SaaS admin I queued export jobs with email links when ready. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. I would start with Django and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:050",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Flask web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Flask",
+      "Vue.js",
+      "PostgreSQL"
+    ],
+    "date": "2023-01-31",
+    "cited_projects": [
+      "fs-11",
+      "fs-01"
+    ],
+    "bid_usd": 2230.0,
+    "text": "For a Flask web app, the hard part is usually messy data; I solved that last year for a retail client. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups. In Subscription SaaS dashboard I a typed React front end. I would start with Flask and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:051",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for subscription billing integration",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Stripe",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "fs-04",
+      "fs-14"
+    ],
+    "bid_usd": 910.0,
+    "text": "Your subscription billing integration sounds close to what I built for Skyline Estates (synthetic): lead response time fell from 1 day to 2 hours. In Django CRM for a property agency I a Django app with an admin panel. In Express API hardening and rate limiting I token rotation. I would start with Stripe and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:052",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "REST API",
+      "Docker"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "fs-04",
+      "fs-06"
+    ],
+    "bid_usd": 1110.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Django CRM for a property agency, which lead response time fell from 1 day to 2 hours. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth, and it mobile releases went from monthly to weekly. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:053",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for caching and queues with Redis",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Redis",
+      "MongoDB",
+      "React",
+      "TypeScript"
+    ],
+    "date": "2024-12-21",
+    "cited_projects": [
+      "fs-05",
+      "fs-18"
+    ],
+    "bid_usd": 2960.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. I would start with Redis and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:054",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Supabase backend for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Supabase",
+      "Stripe",
+      "TypeScript"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "fs-17",
+      "fs-09"
+    ],
+    "bid_usd": 1540.0,
+    "text": "For a Supabase backend for our app, the hard part is usually messy data; I solved that last year for a energy client. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. I would start with Supabase and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:055",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a MongoDB-backed dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "MongoDB",
+      "React",
+      "WebSockets",
+      "pandas"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "fs-03",
+      "fs-17"
+    ],
+    "bid_usd": 1120.0,
+    "text": "For a MongoDB-backed dashboard, the hard part is usually messy data; I solved that last year for a logistics client. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site. I would start with MongoDB and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:056",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a REST API",
+    "job_category": "web_dev",
+    "job_skills": [
+      "REST API",
+      "Vue.js",
+      "Flask",
+      "Hugging Face Transformers"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-01",
+      "fs-17"
+    ],
+    "bid_usd": 1650.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. I would start with REST API and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:057",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Tailwind front-end redesign",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Tailwind CSS",
+      "TypeScript",
+      "Next.js"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-13",
+      "fs-01"
+    ],
+    "bid_usd": 490.0,
+    "text": "Your a Tailwind front-end redesign sounds close to what I built for Tandoor House (synthetic): direct orders reached 31% of volume within 3 months. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Tailwind CSS and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:058",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for unit tests for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Jest",
+      "React",
+      "TypeScript",
+      "Flask"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 650.0,
+    "text": "For unit tests for our app, the hard part is usually edge cases; I solved that last year for a personal client. In Open-source React form library (personal) I a small hook-based library with schema validation. In Subscription SaaS dashboard I a typed React front end. I would start with Jest and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:059",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a WordPress membership site",
+    "job_category": "web_dev",
+    "job_skills": [
+      "WordPress",
+      "JavaScript",
+      "Stripe",
+      "Hugging Face Transformers"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-10",
+      "fs-01"
+    ],
+    "bid_usd": 2080.0,
+    "text": "Your a WordPress membership site sounds close to what I built for SpiceTrail Kitchen (synthetic): 900 paying members in the first six months. In WordPress membership site I a custom plugin for members-only content and recurring payments. In Subscription SaaS dashboard I a typed React front end. I would start with WordPress and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:060",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a TypeScript front end",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "TypeScript",
+      "Stripe",
+      "Node.js"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "fs-11",
+      "fs-18"
+    ],
+    "bid_usd": 770.0,
+    "text": "Your a TypeScript front end sounds close to what I built for BoltBox Hardware (synthetic): stock discrepancies down 75% after two months. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. I would start with TypeScript and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:061",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a CI/CD pipeline",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "CI/CD",
+      "TypeScript",
+      "Jest"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "fs-09",
+      "fs-15"
+    ],
+    "bid_usd": 1470.0,
+    "text": "Your a CI/CD pipeline sounds close to what I built for Paywise (synthetic): production incidents from the signup flow fell from 5 a month to 0 over a quarter. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows, and it production incidents from the signup flow fell from 5 a month to 0 over a quarter. In Open-source React form library (personal) I a small hook-based library with schema validation, and it 1,100 GitHub stars and 40 contributors. I would start with CI/CD and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:062",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "TypeScript",
+      "Stripe"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-01",
+      "fs-02"
+    ],
+    "bid_usd": 1900.0,
+    "text": "I read that you need a Node.js backend - I recently shipped Subscription SaaS dashboard, which launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end. In Marketplace for local tutors I server-rendered search pages. I would start with Node.js and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:063",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for Kubernetes deployment",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Kubernetes",
+      "AWS",
+      "Docker"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "fs-15",
+      "fs-03"
+    ],
+    "bid_usd": 620.0,
+    "text": "Your Kubernetes deployment sounds close to what I built for personal project: 1,100 GitHub stars and 40 contributors. In Open-source React form library (personal) I a small hook-based library with schema validation. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. I would start with Kubernetes and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:064",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Supabase backend for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Supabase",
+      "TypeScript",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "fs-01",
+      "fs-13"
+    ],
+    "bid_usd": 260.0,
+    "text": "I read that you need a Supabase backend for our app - I recently shipped Subscription SaaS dashboard, which launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen. I would start with Supabase and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:065",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Node.js backend",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Node.js",
+      "Stripe",
+      "TypeScript"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-01",
+      "fs-02"
+    ],
+    "bid_usd": 660.0,
+    "text": "For a Node.js backend, the hard part is usually messy data; I solved that last year for a saas client. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with Node.js and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:066",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Django web application",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Django",
+      "REST API",
+      "Docker",
+      "Snowflake"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "fs-01",
+      "fs-03"
+    ],
+    "bid_usd": 1590.0,
+    "text": "I read that you need a Django web application - I recently shipped Subscription SaaS dashboard, which launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. I would start with Django and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:067",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "WordPress",
+      "JavaScript"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-10",
+      "fs-01"
+    ],
+    "bid_usd": 600.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In WordPress membership site I a custom plugin for members-only content and recurring payments. In Subscription SaaS dashboard I a typed React front end. I would start with Stripe and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:068",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Python automation script",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Python",
+      "React",
+      "Docker",
+      "LLM fine-tuning"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-18",
+      "fs-01"
+    ],
+    "bid_usd": 240.0,
+    "text": "Hello, I am a e-commerce developer with many years of experience. I have read your job description carefully. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress, and it used by 300 external testers in a week. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Python and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:069",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Next.js web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Next.js",
+      "Stripe",
+      "OAuth"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "fs-02",
+      "fs-08"
+    ],
+    "bid_usd": 1610.0,
+    "text": "Your a Next.js web app sounds close to what I built for TutorNest (synthetic): 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow. I would start with Next.js and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:070",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for Shopify store customisation",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Shopify",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "fs-05",
+      "fs-01"
+    ],
+    "bid_usd": 1110.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block, and it mobile conversion rose from 1.4% to 2.2%. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Shopify and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:071",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Python automation script",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Python",
+      "Django",
+      "Celery",
+      "Supabase"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-01",
+      "fs-08"
+    ],
+    "bid_usd": 530.0,
+    "text": "Your a Python automation script sounds close to what I built for TeamPulse (synthetic): launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:072",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for AWS cloud deployment",
+    "job_category": "web_dev",
+    "job_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "date": "2023-10-28",
+    "cited_projects": [
+      "fs-12",
+      "fs-04"
+    ],
+    "bid_usd": 1850.0,
+    "text": "I read that you need AWS cloud deployment - I recently shipped Containerised deployment pipeline, which deploys went from 40 minutes and manual to 6 minutes and automatic. In Containerised deployment pipeline I container images. In Django CRM for a property agency I a Django app with an admin panel. I would start with AWS and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:073",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a TypeScript front end",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "TypeScript",
+      "React",
+      "Stripe"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "fs-01",
+      "fs-02"
+    ],
+    "bid_usd": 400.0,
+    "text": "For a TypeScript front end, the hard part is usually keeping it fast; I solved that last year for a saas client. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:074",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "JavaScript",
+      "Firebase"
+    ],
+    "date": "2024-05-25",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 1380.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with React and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:075",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "CI/CD",
+      "Playwright",
+      "PostgreSQL"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "fs-09",
+      "fs-01"
+    ],
+    "bid_usd": 400.0,
+    "text": "Your a TypeScript front end sounds close to what I built for Paywise (synthetic): production incidents from the signup flow fell from 5 a month to 0 over a quarter. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows, and it production incidents from the signup flow fell from 5 a month to 0 over a quarter. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:076",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for containerising and deploying our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Docker",
+      "CI/CD",
+      "AWS"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-12",
+      "fs-04"
+    ],
+    "bid_usd": 310.0,
+    "text": "Your containerising and deploying our app sounds close to what I built for Launchpad Labs (synthetic): deploys went from 40 minutes and manual to 6 minutes and automatic. In Containerised deployment pipeline I container images, and it deploys went from 40 minutes and manual to 6 minutes and automatic. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with Docker and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:077",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Next.js web app",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Next.js",
+      "TypeScript",
+      "OAuth",
+      "Express"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-02",
+      "fs-08"
+    ],
+    "bid_usd": 1070.0,
+    "text": "I read that you need a Next.js web app - I recently shipped Marketplace for local tutors, which 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. I would start with Next.js and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:078",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for subscription billing integration",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Stripe",
+      "JavaScript",
+      "WordPress"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-09",
+      "fs-01"
+    ],
+    "bid_usd": 930.0,
+    "text": "Dear Hiring Manager, I am passionate about ecommerce and I am the perfect fit for this job. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. In Subscription SaaS dashboard I a typed React front end. I would start with Stripe and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:079",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for background job processing for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Celery",
+      "Redis",
+      "Django"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-16",
+      "fs-04"
+    ],
+    "bid_usd": 1250.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Async report generation for a SaaS admin I queued export jobs with email links when ready, and it exports of 2 million rows complete without timeouts. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with Celery and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:080",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "Next.js",
+      "Supabase"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-13",
+      "fs-04"
+    ],
+    "bid_usd": 560.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen, and it direct orders reached 31% of volume within 3 months. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:081",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Firebase app backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Firebase",
+      "React",
+      "JavaScript",
+      "REST API"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 740.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules. In Subscription SaaS dashboard I a typed React front end. I would start with Firebase and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:082",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for unit tests for our app",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Jest",
+      "Playwright",
+      "CI/CD"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-09",
+      "fs-12"
+    ],
+    "bid_usd": 340.0,
+    "text": "Your unit tests for our app sounds close to what I built for Paywise (synthetic): production incidents from the signup flow fell from 5 a month to 0 over a quarter. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. In Containerised deployment pipeline I container images. I would start with Jest and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:083",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Flask web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Flask",
+      "PostgreSQL",
+      "Vue.js"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "fs-11",
+      "fs-01"
+    ],
+    "bid_usd": 1630.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Flask and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:084",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Firebase app backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Firebase",
+      "JavaScript",
+      "React"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 1710.0,
+    "text": "I read that you need a Firebase app backend - I recently shipped Firebase chat for a community app, which 12,000 monthly active users with zero server management. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Firebase and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:085",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "WordPress",
+      "JavaScript"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "fs-01",
+      "fs-12"
+    ],
+    "bid_usd": 360.0,
+    "text": "Your subscription billing integration sounds close to what I built for TeamPulse (synthetic): launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. In Containerised deployment pipeline I container images, and it deploys went from 40 minutes and manual to 6 minutes and automatic. I would start with Stripe and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:086",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "Docker",
+      "FastAPI",
+      "Excel"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "fs-18",
+      "fs-01"
+    ],
+    "bid_usd": 980.0,
+    "text": "Your a React web dashboard sounds close to what I built for Vision Lab (synthetic): used by 300 external testers in a week. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. In Subscription SaaS dashboard I a typed React front end. I would start with React and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:087",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a React web dashboard",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "React",
+      "TypeScript",
+      "Jest"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 980.0,
+    "text": "For a React web dashboard, the hard part is usually messy data; I solved that last year for a personal client. In Open-source React form library (personal) I a small hook-based library with schema validation. In Subscription SaaS dashboard I a typed React front end. I would start with React and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:088",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for Shopify store customisation",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Shopify",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-05",
+      "fs-01"
+    ],
+    "bid_usd": 1620.0,
+    "text": "I read that you need Shopify store customisation - I recently shipped Shopify theme and custom checkout upsell, which mobile conversion rose from 1.4% to 2.2%. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block. In Subscription SaaS dashboard I a typed React front end. I would start with Shopify and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:089",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "CI/CD",
+      "Jest"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "fs-02",
+      "fs-16"
+    ],
+    "bid_usd": 2050.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Async report generation for a SaaS admin I queued export jobs with email links when ready, and it exports of 2 million rows complete without timeouts. I would start with TypeScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:090",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "NestJS",
+      "GraphQL"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "fs-06",
+      "fs-01"
+    ],
+    "bid_usd": 410.0,
+    "text": "For a Node.js backend, the hard part is usually getting adoption; I solved that last year for a health & fitness client. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth, and it mobile releases went from monthly to weekly. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Node.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:091",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for JavaScript front-end features",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "JavaScript",
+      "Firebase",
+      "React"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 1790.0,
+    "text": "I read that you need JavaScript front-end features - I recently shipped Firebase chat for a community app, which 12,000 monthly active users with zero server management. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules. In Subscription SaaS dashboard I a typed React front end. I would start with JavaScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:092",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a TypeScript front end",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "fs-07",
+      "fs-12"
+    ],
+    "bid_usd": 1050.0,
+    "text": "Your a TypeScript front end sounds close to what I built for Craftfolk (synthetic): 12,000 monthly active users with zero server management. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In Containerised deployment pipeline I container images, and it deploys went from 40 minutes and manual to 6 minutes and automatic. I would start with TypeScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:093",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for social login with OAuth",
+    "job_category": "web_dev",
+    "job_skills": [
+      "OAuth",
+      "Next.js",
+      "Prisma"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-02",
+      "fs-08"
+    ],
+    "bid_usd": 250.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. I would start with OAuth and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:094",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a MongoDB-backed dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "MongoDB",
+      "Node.js",
+      "WebSockets"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "fs-03",
+      "fs-17"
+    ],
+    "bid_usd": 590.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. I would start with MongoDB and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:095",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "OAuth"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-18",
+      "fs-02"
+    ],
+    "bid_usd": 720.0,
+    "text": "For a TypeScript front end, the hard part is usually messy data; I solved that last year for a ai client. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. In Marketplace for local tutors I server-rendered search pages. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:096",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for background job processing for our app",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Celery",
+      "Redis",
+      "Python",
+      "RAG"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "fs-16",
+      "fs-03"
+    ],
+    "bid_usd": 540.0,
+    "text": "Your background job processing for our app sounds close to what I built for Insightly HR (synthetic): exports of 2 million rows complete without timeouts. In Async report generation for a SaaS admin I queued export jobs with email links when ready, and it exports of 2 million rows complete without timeouts. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. I would start with Celery and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:097",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "Playwright",
+      "Jest"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "fs-15",
+      "fs-07"
+    ],
+    "bid_usd": 280.0,
+    "text": "I read that you need a TypeScript front end - I recently shipped Open-source React form library (personal), which 1,100 GitHub stars and 40 contributors. In Open-source React form library (personal) I a small hook-based library with schema validation, and it 1,100 GitHub stars and 40 contributors. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:098",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "TypeScript",
+      "Jest"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 360.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Open-source React form library (personal) I a small hook-based library with schema validation, and it 1,100 GitHub stars and 40 contributors. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with React and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:099",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Flask web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Flask",
+      "REST API",
+      "PostgreSQL"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-11",
+      "fs-04"
+    ],
+    "bid_usd": 730.0,
+    "text": "I read that you need a Flask web app - I recently shipped Vue admin panel for inventory, which stock discrepancies down 75% after two months. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with Flask and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:100",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for social login with OAuth",
+    "job_category": "web_dev",
+    "job_skills": [
+      "OAuth",
+      "Redis",
+      "Node.js"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "fs-14",
+      "fs-03"
+    ],
+    "bid_usd": 810.0,
+    "text": "I read that you need social login with OAuth - I recently shipped Express API hardening and rate limiting, which blocked 99.6% of malicious login attempts with no customer complaints. In Express API hardening and rate limiting I token rotation, and it blocked 99.6% of malicious login attempts with no customer complaints. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. I would start with OAuth and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:101",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "Next.js",
+      "TypeScript"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "fs-02",
+      "fs-10"
+    ],
+    "bid_usd": 1060.0,
+    "text": "I read that you need a PostgreSQL database design - I recently shipped Marketplace for local tutors, which 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages. In WordPress membership site I a custom plugin for members-only content and recurring payments. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:102",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Node.js backend",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Node.js",
+      "Express",
+      "OAuth"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-14",
+      "fs-01"
+    ],
+    "bid_usd": 670.0,
+    "text": "I read that you need a Node.js backend - I recently shipped Express API hardening and rate limiting, which blocked 99.6% of malicious login attempts with no customer complaints. In Express API hardening and rate limiting I token rotation, and it blocked 99.6% of malicious login attempts with no customer complaints. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Node.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:103",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "WordPress",
+      "JavaScript"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-17",
+      "fs-11"
+    ],
+    "bid_usd": 490.0,
+    "text": "I read that you need subscription billing integration - I recently shipped MongoDB event store for an IoT dashboard, which faults spotted 2 days sooner on average. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. I would start with Stripe and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:104",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a PostgreSQL database design",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "PostgreSQL",
+      "REST API",
+      "Vue.js",
+      "A/B testing"
+    ],
+    "date": "2023-09-28",
+    "cited_projects": [
+      "fs-11",
+      "fs-04"
+    ],
+    "bid_usd": 2830.0,
+    "text": "Dear Hiring Manager, I am passionate about ecommerce and I am the perfect fit for this job. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:105",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for containerising and deploying our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Docker",
+      "CI/CD",
+      "Kubernetes"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "fs-08",
+      "fs-02"
+    ],
+    "bid_usd": 620.0,
+    "text": "For containerising and deploying our app, the hard part is usually keeping it fast; I solved that last year for a hospitality client. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow. In Marketplace for local tutors I server-rendered search pages. I would start with Docker and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:106",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for social login with OAuth",
+    "job_category": "web_dev",
+    "job_skills": [
+      "OAuth",
+      "Express",
+      "Redis"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "fs-05",
+      "fs-02"
+    ],
+    "bid_usd": 440.0,
+    "text": "For social login with OAuth, the hard part is usually getting adoption; I solved that last year for a e-commerce client. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block. In Marketplace for local tutors I server-rendered search pages. I would start with OAuth and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:107",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "JavaScript",
+      "Firebase",
+      "Django"
+    ],
+    "date": "2024-01-26",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 450.0,
+    "text": "For a React web dashboard, the hard part is usually getting adoption; I solved that last year for a social client. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with React and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:108",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a WordPress membership site",
+    "job_category": "web_dev",
+    "job_skills": [
+      "WordPress",
+      "Stripe",
+      "JavaScript"
+    ],
+    "date": "2024-06-24",
+    "cited_projects": [
+      "fs-17",
+      "fs-03"
+    ],
+    "bid_usd": 660.0,
+    "text": "I read that you need a WordPress membership site - I recently shipped MongoDB event store for an IoT dashboard, which faults spotted 2 days sooner on average. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. I would start with WordPress and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:109",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for AWS cloud deployment",
+    "job_category": "web_dev",
+    "job_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "fs-12",
+      "fs-04"
+    ],
+    "bid_usd": 450.0,
+    "text": "For AWS cloud deployment, the hard part is usually messy data; I solved that last year for a saas client. In Containerised deployment pipeline I container images. In Django CRM for a property agency I a Django app with an admin panel. I would start with AWS and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:110",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for social login with OAuth",
+    "job_category": "web_dev",
+    "job_skills": [
+      "OAuth",
+      "PostgreSQL",
+      "Prisma",
+      "scikit-learn"
+    ],
+    "date": "2024-08-23",
+    "cited_projects": [
+      "fs-02",
+      "fs-08"
+    ],
+    "bid_usd": 1750.0,
+    "text": "I read that you need social login with OAuth - I recently shipped Marketplace for local tutors, which 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow, and it monthly backend cost cut by 60%; zero downtime cut-over. I would start with OAuth and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:111",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a TypeScript front end",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "TypeScript",
+      "Stripe",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "date": "2025-06-19",
+    "cited_projects": [
+      "fs-07",
+      "fs-17"
+    ],
+    "bid_usd": 370.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:112",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a Tailwind front-end redesign",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "Tailwind CSS",
+      "JavaScript",
+      "Shopify",
+      "R"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-08",
+      "fs-14"
+    ],
+    "bid_usd": 1780.0,
+    "text": "Dear Hiring Manager, I am passionate about ecommerce and I am the perfect fit for this job. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow. In Express API hardening and rate limiting I token rotation. I would start with Tailwind CSS and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:113",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-04",
+      "fs-15"
+    ],
+    "bid_usd": 3030.0,
+    "text": "For a TypeScript front end, the hard part is usually messy data; I solved that last year for a real estate client. In Django CRM for a property agency I a Django app with an admin panel. In Open-source React form library (personal) I a small hook-based library with schema validation. I would start with TypeScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:114",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a MongoDB-backed dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "MongoDB",
+      "Redis",
+      "WebSockets"
+    ],
+    "date": "2024-09-22",
+    "cited_projects": [
+      "fs-08",
+      "fs-07"
+    ],
+    "bid_usd": 480.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Supabase migration for a booking app I moved data to Postgres with row-level security and rebuilt the booking flow. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules. I would start with MongoDB and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:115",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for JavaScript front-end features",
+    "job_category": "web_dev",
+    "job_skills": [
+      "JavaScript",
+      "Firebase",
+      "React",
+      "NestJS"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "fs-07",
+      "fs-01"
+    ],
+    "bid_usd": 890.0,
+    "text": "For JavaScript front-end features, the hard part is usually edge cases; I solved that last year for a social client. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules, and it 12,000 monthly active users with zero server management. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with JavaScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:116",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "MongoDB",
+      "React"
+    ],
+    "date": "2023-03-02",
+    "cited_projects": [
+      "fs-03",
+      "fs-17"
+    ],
+    "bid_usd": 380.0,
+    "text": "Your a Node.js backend sounds close to what I built for SwiftHaul Logistics (synthetic): dispatch call volume down 40%. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site. I would start with Node.js and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:117",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Python automation script",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Python",
+      "Redis",
+      "Django"
+    ],
+    "date": "2023-06-30",
+    "cited_projects": [
+      "fs-05",
+      "fs-12"
+    ],
+    "bid_usd": 670.0,
+    "text": "I read that you need a Python automation script - I recently shipped Shopify theme and custom checkout upsell, which mobile conversion rose from 1.4% to 2.2%. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block, and it mobile conversion rose from 1.4% to 2.2%. In Containerised deployment pipeline I container images, and it deploys went from 40 minutes and manual to 6 minutes and automatic. I would start with Python and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:118",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a React web dashboard",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "React",
+      "Python",
+      "Docker",
+      "FAISS"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-18",
+      "fs-01"
+    ],
+    "bid_usd": 450.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress, and it used by 300 external testers in a week. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with React and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:119",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for background job processing for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Celery",
+      "Django",
+      "Python"
+    ],
+    "date": "2024-11-21",
+    "cited_projects": [
+      "fs-16",
+      "fs-04"
+    ],
+    "bid_usd": 630.0,
+    "text": "For background job processing for our app, the hard part is usually keeping it fast; I solved that last year for a saas client. In Async report generation for a SaaS admin I queued export jobs with email links when ready. In Django CRM for a property agency I a Django app with an admin panel. I would start with Celery and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:120",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Next.js web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "FAISS"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "fs-13",
+      "fs-01"
+    ],
+    "bid_usd": 530.0,
+    "text": "Your a Next.js web app sounds close to what I built for Tandoor House (synthetic): direct orders reached 31% of volume within 3 months. In Restaurant ordering PWA I an installable ordering app with card checkout and a kitchen screen. In Subscription SaaS dashboard I a typed React front end. I would start with Next.js and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:121",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "Prisma",
+      "Stripe"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-02",
+      "fs-01"
+    ],
+    "bid_usd": 610.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with TypeScript and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:122",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for unit tests for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Jest",
+      "TypeScript",
+      "React",
+      "ONNX"
+    ],
+    "date": "2023-05-31",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 430.0,
+    "text": "Your unit tests for our app sounds close to what I built for personal project: 1,100 GitHub stars and 40 contributors. In Open-source React form library (personal) I a small hook-based library with schema validation, and it 1,100 GitHub stars and 40 contributors. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Jest and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:123",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for AWS cloud deployment",
+    "job_category": "web_dev",
+    "job_skills": [
+      "AWS",
+      "CI/CD",
+      "Kubernetes"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-12",
+      "fs-09"
+    ],
+    "bid_usd": 2340.0,
+    "text": "Your AWS cloud deployment sounds close to what I built for Launchpad Labs (synthetic): deploys went from 40 minutes and manual to 6 minutes and automatic. In Containerised deployment pipeline I container images. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. I would start with AWS and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:124",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "Node.js",
+      "GraphQL"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "fs-06",
+      "fs-01"
+    ],
+    "bid_usd": 3060.0,
+    "text": "I read that you need a TypeScript front end - I recently shipped GraphQL API for a mobile fitness app, which mobile releases went from monthly to weekly. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth, and it mobile releases went from monthly to weekly. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with TypeScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:125",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a NestJS backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "NestJS",
+      "Node.js",
+      "GraphQL",
+      "JavaScript"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-11",
+      "fs-09"
+    ],
+    "bid_usd": 2890.0,
+    "text": "I read that you need a NestJS backend - I recently shipped Vue admin panel for inventory, which stock discrepancies down 75% after two months. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows, and it production incidents from the signup flow fell from 5 a month to 0 over a quarter. I would start with NestJS and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:126",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for background job processing for our app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Celery",
+      "Redis",
+      "Django"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "fs-03",
+      "fs-05"
+    ],
+    "bid_usd": 1060.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. In Shopify theme and custom checkout upsell I a custom theme with lazy media and a post-purchase upsell block, and it mobile conversion rose from 1.4% to 2.2%. I would start with Celery and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:127",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a CI/CD pipeline",
+    "job_category": "web_dev",
+    "job_skills": [
+      "CI/CD",
+      "Playwright",
+      "Jest"
+    ],
+    "date": "2024-02-25",
+    "cited_projects": [
+      "fs-09",
+      "fs-12"
+    ],
+    "bid_usd": 1870.0,
+    "text": "Hi there, I can do this job perfectly and deliver high quality work on time. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. In Containerised deployment pipeline I container images. I would start with CI/CD and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:128",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a TypeScript front end",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "TypeScript",
+      "Playwright",
+      "Jest"
+    ],
+    "date": "2025-04-20",
+    "cited_projects": [
+      "fs-10",
+      "fs-02"
+    ],
+    "bid_usd": 1730.0,
+    "text": "Your a TypeScript front end sounds close to what I built for SpiceTrail Kitchen (synthetic): 900 paying members in the first six months. In WordPress membership site I a custom plugin for members-only content and recurring payments. In Marketplace for local tutors I server-rendered search pages. I would start with TypeScript and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:129",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "Next.js",
+      "OAuth"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-03",
+      "fs-10"
+    ],
+    "bid_usd": 450.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. In WordPress membership site I a custom plugin for members-only content and recurring payments. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:130",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "NestJS",
+      "TypeScript",
+      "Jest"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-06",
+      "fs-01"
+    ],
+    "bid_usd": 600.0,
+    "text": "Your a PostgreSQL database design sounds close to what I built for FitLoop (synthetic): mobile releases went from monthly to weekly. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth. In Subscription SaaS dashboard I a typed React front end. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:131",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Firebase app backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Firebase",
+      "JavaScript",
+      "React"
+    ],
+    "date": "2025-05-20",
+    "cited_projects": [
+      "fs-07",
+      "fs-09"
+    ],
+    "bid_usd": 1790.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Firebase chat for a community app I realtime chat rooms with hosted auth and moderation rules. In End-to-end test suite for a fintech web app I unit tests for components and browser tests for the money flows. I would start with Firebase and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:132",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for caching and queues with Redis",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Redis",
+      "Django",
+      "Python"
+    ],
+    "date": "2023-11-27",
+    "cited_projects": [
+      "fs-16",
+      "fs-03"
+    ],
+    "bid_usd": 1180.0,
+    "text": "Your caching and queues with Redis sounds close to what I built for Insightly HR (synthetic): exports of 2 million rows complete without timeouts. In Async report generation for a SaaS admin I queued export jobs with email links when ready, and it exports of 2 million rows complete without timeouts. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. I would start with Redis and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:133",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "date": "2023-07-30",
+    "cited_projects": [
+      "fs-12",
+      "fs-16"
+    ],
+    "bid_usd": 1080.0,
+    "text": "I read that you need a TypeScript front end - I recently shipped Containerised deployment pipeline, which deploys went from 40 minutes and manual to 6 minutes and automatic. In Containerised deployment pipeline I container images. In Async report generation for a SaaS admin I queued export jobs with email links when ready. I would start with TypeScript and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:134",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "JavaScript",
+      "WordPress"
+    ],
+    "date": "2024-10-22",
+    "cited_projects": [
+      "fs-10",
+      "fs-01"
+    ],
+    "bid_usd": 390.0,
+    "text": "Your subscription billing integration sounds close to what I built for SpiceTrail Kitchen (synthetic): 900 paying members in the first six months. In WordPress membership site I a custom plugin for members-only content and recurring payments. In Subscription SaaS dashboard I a typed React front end. I would start with Stripe and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:135",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a React web dashboard",
+    "job_category": "web_dev",
+    "job_skills": [
+      "React",
+      "Node.js",
+      "Stripe",
+      "MLflow"
+    ],
+    "date": "2023-08-29",
+    "cited_projects": [
+      "fs-01",
+      "fs-03"
+    ],
+    "bid_usd": 2970.0,
+    "text": "I read that you need a React web dashboard - I recently shipped Subscription SaaS dashboard, which launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds, and it dispatch call volume down 40%. I would start with React and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:136",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Django web application",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Django",
+      "Celery",
+      "REST API"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "fs-01",
+      "fs-03"
+    ],
+    "bid_usd": 630.0,
+    "text": "I read that you need a Django web application - I recently shipped Subscription SaaS dashboard, which launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end. In Real-time logistics tracking I a live map that receives positions pushed from the server every few seconds. I would start with Django and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:137",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "TypeScript",
+      "Stripe"
+    ],
+    "date": "2024-07-24",
+    "cited_projects": [
+      "fs-01",
+      "fs-02"
+    ],
+    "bid_usd": 420.0,
+    "text": "Your a Node.js backend sounds close to what I built for TeamPulse (synthetic): launched in 6 weeks. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. I would start with Node.js and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:138",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Django web application",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Django",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "fs-04",
+      "fs-06"
+    ],
+    "bid_usd": 1770.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth, and it mobile releases went from monthly to weekly. I would start with Django and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:139",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Next.js web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Next.js",
+      "Supabase",
+      "PostgreSQL"
+    ],
+    "date": "2025-01-20",
+    "cited_projects": [
+      "fs-15",
+      "fs-17"
+    ],
+    "bid_usd": 310.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Open-source React form library (personal) I a small hook-based library with schema validation, and it 1,100 GitHub stars and 40 contributors. In MongoDB event store for an IoT dashboard I time-bucketed documents and a live dashboard per site, and it faults spotted 2 days sooner on average. I would start with Next.js and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:140",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Flask web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Flask",
+      "PostgreSQL",
+      "Vue.js"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-06",
+      "fs-10"
+    ],
+    "bid_usd": 2450.0,
+    "text": "I read that you need a Flask web app - I recently shipped GraphQL API for a mobile fitness app, which mobile releases went from monthly to weekly. In GraphQL API for a mobile fitness app I a single typed schema with data loaders and field-level auth. In WordPress membership site I a custom plugin for members-only content and recurring payments. I would start with Flask and agree a clear acceptance test with you in the first week. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. I am also experienced in many other technologies and always deliver quality. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": true
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:141",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Django web application",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Django",
+      "Celery",
+      "REST API"
+    ],
+    "date": "2024-03-26",
+    "cited_projects": [
+      "fs-04",
+      "fs-16"
+    ],
+    "bid_usd": 300.0,
+    "text": "For a Django web application, the hard part is usually getting adoption; I solved that last year for a real estate client. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. In Async report generation for a SaaS admin I queued export jobs with email links when ready, and it exports of 2 million rows complete without timeouts. I would start with Django and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:142",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a TypeScript front end",
+    "job_category": "web_dev",
+    "job_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma"
+    ],
+    "date": "2023-04-01",
+    "cited_projects": [
+      "fs-02",
+      "fs-01"
+    ],
+    "bid_usd": 630.0,
+    "text": "I read that you need a TypeScript front end - I recently shipped Marketplace for local tutors, which 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages, and it 1,800 bookings in the first two months, page load under 1.2 s. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with TypeScript and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:143",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "OAuth",
+      "PostgreSQL"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-02",
+      "fs-01"
+    ],
+    "bid_usd": 1730.0,
+    "text": "Your subscription billing integration sounds close to what I built for TutorNest (synthetic): 1,800 bookings in the first two months, page load under 1.2 s. In Marketplace for local tutors I server-rendered search pages. In Subscription SaaS dashboard I a typed React front end. I would start with Stripe and agree a clear acceptance test with you in the first week. Happy to share more details on a call.",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:144",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Node.js backend",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Node.js",
+      "OAuth",
+      "Express"
+    ],
+    "date": "2025-03-21",
+    "cited_projects": [
+      "fs-14",
+      "fs-01"
+    ],
+    "bid_usd": 280.0,
+    "text": "I read that you need a Node.js backend - I recently shipped Express API hardening and rate limiting, which blocked 99.6% of malicious login attempts with no customer complaints. In Express API hardening and rate limiting I token rotation, and it blocked 99.6% of malicious login attempts with no customer complaints. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Node.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:145",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for Kubernetes deployment",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "R"
+    ],
+    "date": "2025-02-19",
+    "cited_projects": [
+      "fs-12",
+      "fs-04"
+    ],
+    "bid_usd": 270.0,
+    "text": "Hello, I am a ull-stack developer with many years of experience. I have read your job description carefully. In Containerised deployment pipeline I container images. In Django CRM for a property agency I a Django app with an admin panel. I would start with Kubernetes and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:146",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a Next.js web app",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Next.js",
+      "Stripe",
+      "TypeScript",
+      "ONNX"
+    ],
+    "date": "2024-04-25",
+    "cited_projects": [
+      "fs-18",
+      "fs-15"
+    ],
+    "bid_usd": 840.0,
+    "text": "I read that you need a Next.js web app - I recently shipped FastAPI backend for an ML demo, which used by 300 external testers in a week. In FastAPI backend for an ML demo I a typed API and a simple React front end with upload progress. In Open-source React form library (personal) I a small hook-based library with schema validation. I would start with Next.js and agree a clear acceptance test with you in the first week. Could you share a sample of the data?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:147",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for a PostgreSQL database design",
+    "job_category": "web_dev",
+    "job_skills": [
+      "PostgreSQL",
+      "Vue.js",
+      "REST API"
+    ],
+    "date": "2023-05-01",
+    "cited_projects": [
+      "fs-11",
+      "fs-04"
+    ],
+    "bid_usd": 470.0,
+    "text": "Dear Hiring Manager, I am passionate about web dev and I am the perfect fit for this job. In Vue admin panel for inventory I a reactive admin UI over a small Python API with barcode lookups, and it stock discrepancies down 75% after two months. In Django CRM for a property agency I a Django app with an admin panel, and it lead response time fell from 1 day to 2 hours. I would start with PostgreSQL and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "ignored",
+    "style": {
+      "generic_opening": true,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:148",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need an e-commerce developer for a React web dashboard",
+    "job_category": "ecommerce",
+    "job_skills": [
+      "React",
+      "TypeScript",
+      "Jest"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "fs-15",
+      "fs-01"
+    ],
+    "bid_usd": 2230.0,
+    "text": "I read that you need a React web dashboard - I recently shipped Open-source React form library (personal), which 1,100 GitHub stars and 40 contributors. In Open-source React form library (personal) I a small hook-based library with schema validation. In Subscription SaaS dashboard I a typed React front end. I would start with React and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "won",
+    "style": {
+      "generic_opening": false,
+      "metrics": false,
+      "padded": false
+    },
+    "synthetic": true
+  },
+  {
+    "proposal_id": "prop:fullstack_dev:149",
+    "persona": "fullstack_dev",
+    "type": "proposal",
+    "job_title": "Need a full-stack developer for subscription billing integration",
+    "job_category": "web_dev",
+    "job_skills": [
+      "Stripe",
+      "WordPress",
+      "JavaScript"
+    ],
+    "date": "2023-12-27",
+    "cited_projects": [
+      "fs-10",
+      "fs-01"
+    ],
+    "bid_usd": 380.0,
+    "text": "Your subscription billing integration sounds close to what I built for SpiceTrail Kitchen (synthetic): 900 paying members in the first six months. In WordPress membership site I a custom plugin for members-only content and recurring payments, and it 900 paying members in the first six months. In Subscription SaaS dashboard I a typed React front end, and it launched in 6 weeks; 340 paying teams in the first quarter. I would start with Stripe and agree a clear acceptance test with you in the first week. When would you like to start?",
+    "outcome": "replied",
+    "style": {
+      "generic_opening": false,
+      "metrics": true,
+      "padded": false
+    },
+    "synthetic": true
+  }
+]

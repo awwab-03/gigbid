@@ -1,0 +1,5 @@
+on: [push]
+jobs:
+  test:
+apiVersion: apps/v1
+kind: Deployment

@@ -1,0 +1,49 @@
+{
+  "persona_id": "fullstack_dev",
+  "name": "Bilal Ahmed",
+  "headline": "Full-stack Web Developer - React, Next.js, Node and Django",
+  "location": "Karachi, Pakistan (synthetic)",
+  "years": 6,
+  "hourly_floor": 25,
+  "hourly_target": 40,
+  "min_fixed": 250,
+  "categories": [
+    "web_dev",
+    "ecommerce"
+  ],
+  "education": "BS Software Engineering (synthetic university)",
+  "certs": [
+    "Meta Front-End Developer Certificate (2022)"
+  ],
+  "skills": [
+    "AWS",
+    "CI/CD",
+    "Django",
+    "Docker",
+    "Express",
+    "FastAPI",
+    "Firebase",
+    "Flask",
+    "GraphQL",
+    "JavaScript",
+    "Jest",
+    "MongoDB",
+    "Next.js",
+    "Node.js",
+    "Playwright",
+    "PostgreSQL",
+    "Prisma",
+    "Python",
+    "REST API",
+    "React",
+    "Redis",
+    "Shopify",
+    "Stripe",
+    "Supabase",
+    "Tailwind CSS",
+    "TypeScript",
+    "Vue.js",
+    "WordPress"
+  ],
+  "synthetic": true
+}
