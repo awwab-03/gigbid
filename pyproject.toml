@@ -36,6 +36,7 @@ dependencies = [
   "bcrypt==4.3.0",
   "tenacity==9.1.2",
   "pandas==2.2.3",
+  "xxhash==3.5.0",  # 4.x DLL blocked by Windows App Control on dev machine
 ]
 
 [project.optional-dependencies]
@@ -45,12 +46,18 @@ dev = [
   "ruff==0.11.11",
 ]
 
+[project.scripts]
+gigbid-portfolio-mcp = "mcp_servers.portfolio.server:main"
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["agent*", "apps*", "rag*", "mcp_servers*", "worker*", "gigsim*", "evals*"]
+include = ["agent*", "apps*", "rag*", "mcp_servers*", "worker*", "gigsim*", "evals*", "shared*"]
+
+[tool.setuptools.package-data]
+agent = ["config.yaml", "prompts/*.md"]
 
 [tool.ruff]
 line-length = 100
