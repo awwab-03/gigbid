@@ -1,0 +1,132 @@
+# GigBid configuration. Every model, budget, threshold, tool allowlist and platform rule lives
+# here or in agent/prompts/ / data/policy_pack/ - never in code.
+
+marketplace:
+  mode: gigsim                    # gigsim | upwork_live   (env MARKETPLACE_MODE overrides)
+  gigsim_requests_per_minute: 40  # stays under GigSim's 60/min limit
+  live_requests_per_minute: 6     # conservative for the official Upwork MCP server (see RUNBOOK)
+  live_scout_interval_minutes: 240
+  gigsim_scout_interval_minutes: 30
+  # Upwork MCP tool names -> GigBid marketplace operations. Verify against list_tools after OAuth.
+  live_tool_map:
+    search_jobs: search_jobs
+    get_job: get_job_details
+    get_client_history: get_client_info
+    get_connects_balance: get_connects
+    list_threads: list_rooms
+    list_messages: list_messages
+    list_proposals: list_proposals
+    create_proposal_draft: create_proposal_draft
+    send_message_draft: create_message_draft
+
+policy:
+  pack: data/policy_pack/marketplace_policy.md
+  rules_file: data/policy_pack/rules.yaml
+  # Platform policy version GigBid expects; a mismatch with GET /policy raises a UI warning.
+  expected_version: v1
+
+models:
+  profile: open                   # open | paid   (env MODEL_PROFILE overrides)
+  profiles:
+    open:
+      provider: openai_compatible # Groq / OpenRouter / Together / vLLM all speak this API
+      base_url_env: OPEN_LLM_BASE_URL
+      api_key_env: OPEN_LLM_API_KEY
+      nodes:
+        scout: small
+        analyst: small
+        risk_assessor: small
+        fit_matcher: small
+        pricing: small
+        writer: large
+        verifier: small
+        critic: large
+        compliance: small
+        client_liaison: large
+        intent: small
+        judge: large
+      aliases:
+        small: openai/gpt-oss-20b
+        large: openai/gpt-oss-120b
+      fallback:
+        small: llama-3.1-8b-instant
+        large: openai/gpt-oss-20b
+      pricing_usd_per_mtok:        # used for cost accounting; check provider pages
+        openai/gpt-oss-20b: {in: 0.10, out: 0.50}
+        openai/gpt-oss-120b: {in: 0.15, out: 0.75}
+        llama-3.1-8b-instant: {in: 0.05, out: 0.08}
+    local:
+      provider: ollama
+      base_url_env: OLLAMA_BASE_URL
+      nodes: {default: small}
+      aliases: {small: "qwen3:4b", large: "qwen3:8b"}
+      fallback: {small: "qwen3:4b", large: "qwen3:4b"}
+      pricing_usd_per_mtok: {}
+    paid:
+      provider: openai_compatible
+      base_url_env: PAID_LLM_BASE_URL
+      api_key_env: PAID_LLM_API_KEY
+      nodes: {default: large}
+      aliases: {small: "gpt-4.1-mini", large: "gpt-4.1"}
+      fallback: {small: "gpt-4.1-mini", large: "gpt-4.1-mini"}
+      pricing_usd_per_mtok:
+        gpt-4.1-mini: {in: 0.40, out: 1.60}
+        gpt-4.1: {in: 2.00, out: 8.00}
+  temperature: {default: 0.2, writer: 0.6}
+  timeout_s: 45
+  max_retries: 2
+
+embeddings:
+  model: BAAI/bge-small-en-v1.5   # open, CPU (fastembed)
+reranker:
+  model: Xenova/ms-marco-MiniLM-L-6-v2   # open cross-encoder, CPU (fastembed)
+
+rag:
+  variant: v0_naive                # set by evals/runners/rag_eval.py results; see docs/adr/0004
+  k: 8
+  chunk_size: 700
+  chunk_overlap: 100
+  outcome_boost: {won: 0.15, replied: 0.08, ignored: -0.05}
+
+budgets:
+  max_graph_steps: 40
+  max_revisions: 2
+  max_tokens_per_job: 60000
+  declared_p95_latency_s: {job_analysed: 25, proposal: 90}
+  declared_cost_usd: {job_analysed: 0.004, proposal: 0.02}
+
+thresholds:
+  minimum_fit_score: 0.60
+  watch_fit_score: 0.45
+  maximum_risk_score: 0.60
+  minimum_client_quality: 0.30
+  claim_support_min: 0.55          # verifier similarity needed for "supported"
+  critic_pass_score: 7             # out of 10
+
+autonomy:
+  default_level: suggest           # suggest | auto_skip  (never auto_send)
+
+# Per-agent MCP tool allowlists (A6). The client filters tools by these names.
+tool_allowlist:
+  scout: [marketplace.search_jobs, marketplace.get_job]
+  analyst: []
+  risk_assessor: [marketplace.get_client_history]
+  fit_matcher: [portfolio.search_evidence, portfolio.get_case_study, portfolio.list_skills]
+  pricing: [marketplace.get_pricing_stats, marketplace.get_client_history, marketplace.get_connects_balance, marketplace.get_policy]
+  writer: [portfolio.search_evidence, portfolio.get_case_study]
+  verifier: [portfolio.search_evidence]
+  critic: [portfolio.get_case_study]
+  compliance: [marketplace.get_policy]
+  client_liaison: [marketplace.list_threads, marketplace.list_messages, marketplace.send_message, workspace.free_slots,
+                   workspace.create_interview_hold, workspace.create_email_draft]
+  submitter: [marketplace.create_proposal_draft, marketplace.submit_proposal]
+  pipeline: [marketplace.list_proposals, marketplace.get_events]
+
+mcp:
+  timeout_s: 20
+  max_retries: 2
+  servers:
+    portfolio: {url_env: PORTFOLIO_MCP_URL, default: "http://localhost:8091/mcp"}
+    marketplace: {url_env: MARKETPLACE_MCP_URL, default: "http://localhost:8092/mcp"}
+    workspace: {url_env: WORKSPACE_MCP_URL, default: "http://localhost:8093/mcp"}
+    github: {url_env: GITHUB_MCP_URL, default: "https://api.githubcopilot.com/mcp/", token_env: GITHUB_MCP_TOKEN}

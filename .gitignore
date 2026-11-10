@@ -1,0 +1,34 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.next/
+dist/
+build/
+*.egg-info/
+
+# generated data (rebuilt by `make seed`)
+data/processed/
+data/raw/*
+!data/raw/README.md
+
+# hidden test set must never enter the repo
+evals/datasets/hidden*/
+
+# local runtime artefacts
+*.sqlite
+*.db
+logs/
+playwright-report/
+test-results/
+apps/web/playwright-report/
+apps/web/test-results/
+
+# starter kit archive
+*.zip
