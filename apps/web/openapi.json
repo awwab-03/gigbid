@@ -1946,7 +1946,8 @@
     "properties": {
      "email": {
       "type": "string",
-      "format": "email",
+      "maxLength": 255,
+      "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
       "title": "Email"
      },
      "password": {
@@ -2216,7 +2217,8 @@
     "properties": {
      "email": {
       "type": "string",
-      "format": "email",
+      "maxLength": 255,
+      "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
       "title": "Email"
      },
      "password": {
