@@ -1,0 +1,441 @@
+{
+  "get_case_study": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {
+        "project_id": {
+          "description": "e.g. ml-03",
+          "maxLength": 32,
+          "minLength": 1,
+          "title": "Project Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id"
+      ],
+      "title": "get_case_studyArguments",
+      "type": "object"
+    },
+    "output": {
+      "properties": {
+        "client_industry": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Client Industry"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Date"
+        },
+        "project_id": {
+          "title": "Project Id",
+          "type": "string"
+        },
+        "related_items": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Related Items",
+          "type": "array"
+        },
+        "skills": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Skills",
+          "type": "array"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Title"
+        }
+      },
+      "required": [
+        "project_id",
+        "title",
+        "text",
+        "skills",
+        "date",
+        "client_industry",
+        "related_items"
+      ],
+      "title": "CaseStudy",
+      "type": "object"
+    }
+  },
+  "get_proposal": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {
+        "proposal_id": {
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Proposal Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "proposal_id"
+      ],
+      "title": "get_proposalArguments",
+      "type": "object"
+    },
+    "output": {
+      "properties": {
+        "cited_projects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Cited Projects",
+          "type": "array"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Date"
+        },
+        "job_category": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Job Category"
+        },
+        "outcome": {
+          "title": "Outcome",
+          "type": "string"
+        },
+        "proposal_id": {
+          "title": "Proposal Id",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "proposal_id",
+        "text",
+        "outcome",
+        "job_category",
+        "cited_projects",
+        "date"
+      ],
+      "title": "PastProposal",
+      "type": "object"
+    }
+  },
+  "list_skills": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {},
+      "title": "list_skillsArguments",
+      "type": "object"
+    },
+    "output": {
+      "properties": {
+        "persona": {
+          "title": "Persona",
+          "type": "string"
+        },
+        "skills": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "description": "skill -> project ids that name it",
+          "title": "Skills",
+          "type": "object"
+        }
+      },
+      "required": [
+        "persona",
+        "skills"
+      ],
+      "title": "SkillMap",
+      "type": "object"
+    }
+  },
+  "search_evidence": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {
+        "k": {
+          "default": 5,
+          "maximum": 20,
+          "minimum": 1,
+          "title": "K",
+          "type": "integer"
+        },
+        "outcome": {
+          "anyOf": [
+            {
+              "enum": [
+                "won",
+                "replied",
+                "ignored"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Past proposals with this outcome",
+          "title": "Outcome"
+        },
+        "project": {
+          "anyOf": [
+            {
+              "maxLength": 32,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Project"
+        },
+        "requirement": {
+          "description": "One requirement, e.g. 'Celery background jobs'",
+          "maxLength": 300,
+          "minLength": 2,
+          "title": "Requirement",
+          "type": "string"
+        },
+        "since": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "YYYY-MM; only items dated on/after",
+          "title": "Since"
+        },
+        "types": {
+          "anyOf": [
+            {
+              "items": {
+                "enum": [
+                  "case_study",
+                  "readme",
+                  "code",
+                  "review",
+                  "profile_item",
+                  "proposal",
+                  "cv"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Only these item types",
+          "title": "Types"
+        }
+      },
+      "required": [
+        "requirement"
+      ],
+      "title": "search_evidenceArguments",
+      "type": "object"
+    },
+    "output": {
+      "$defs": {
+        "EvidenceItem": {
+          "properties": {
+            "client_industry": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Client Industry"
+            },
+            "date": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Date"
+            },
+            "evidence_id": {
+              "description": "Chunk id; cite this in proposals",
+              "title": "Evidence Id",
+              "type": "string"
+            },
+            "item_id": {
+              "description": "Parent document id",
+              "title": "Item Id",
+              "type": "string"
+            },
+            "outcome": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "For past proposals: won / replied / ignored",
+              "title": "Outcome"
+            },
+            "project": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Project"
+            },
+            "project_title": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Project Title"
+            },
+            "score": {
+              "title": "Score",
+              "type": "number"
+            },
+            "snippet": {
+              "title": "Snippet",
+              "type": "string"
+            },
+            "source": {
+              "title": "Source",
+              "type": "string"
+            },
+            "type": {
+              "title": "Type",
+              "type": "string"
+            }
+          },
+          "required": [
+            "evidence_id",
+            "item_id",
+            "project",
+            "project_title",
+            "type",
+            "source",
+            "date",
+            "score",
+            "snippet"
+          ],
+          "title": "EvidenceItem",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "items": {
+          "items": {
+            "$ref": "#/$defs/EvidenceItem"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "persona": {
+          "title": "Persona",
+          "type": "string"
+        },
+        "requirement": {
+          "title": "Requirement",
+          "type": "string"
+        }
+      },
+      "required": [
+        "requirement",
+        "persona",
+        "items"
+      ],
+      "title": "EvidenceList",
+      "type": "object"
+    }
+  }
+}
