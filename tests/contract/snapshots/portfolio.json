@@ -209,6 +209,230 @@
       "type": "object"
     }
   },
+  "match_requirements": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {
+        "category": {
+          "anyOf": [
+            {
+              "maxLength": 32,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Category"
+        },
+        "job_title": {
+          "default": "",
+          "maxLength": 200,
+          "title": "Job Title",
+          "type": "string"
+        },
+        "per_requirement": {
+          "default": 3,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Per Requirement",
+          "type": "integer"
+        },
+        "requirements": {
+          "items": {
+            "maxLength": 300,
+            "type": "string"
+          },
+          "maxItems": 12,
+          "minItems": 1,
+          "title": "Requirements",
+          "type": "array"
+        }
+      },
+      "required": [
+        "requirements"
+      ],
+      "title": "match_requirementsArguments",
+      "type": "object"
+    },
+    "output": {
+      "$defs": {
+        "EvidenceItem": {
+          "properties": {
+            "client_industry": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Client Industry"
+            },
+            "date": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Date"
+            },
+            "evidence_id": {
+              "description": "Chunk id; cite this in proposals",
+              "title": "Evidence Id",
+              "type": "string"
+            },
+            "item_id": {
+              "description": "Parent document id",
+              "title": "Item Id",
+              "type": "string"
+            },
+            "outcome": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "For past proposals: won / replied / ignored",
+              "title": "Outcome"
+            },
+            "project": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Project"
+            },
+            "project_title": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Project Title"
+            },
+            "score": {
+              "title": "Score",
+              "type": "number"
+            },
+            "snippet": {
+              "title": "Snippet",
+              "type": "string"
+            },
+            "source": {
+              "title": "Source",
+              "type": "string"
+            },
+            "type": {
+              "title": "Type",
+              "type": "string"
+            }
+          },
+          "required": [
+            "evidence_id",
+            "item_id",
+            "project",
+            "project_title",
+            "type",
+            "source",
+            "date",
+            "score",
+            "snippet"
+          ],
+          "title": "EvidenceItem",
+          "type": "object"
+        },
+        "RequirementEvidence": {
+          "properties": {
+            "evidence": {
+              "items": {
+                "$ref": "#/$defs/EvidenceItem"
+              },
+              "title": "Evidence",
+              "type": "array"
+            },
+            "requirement": {
+              "title": "Requirement",
+              "type": "string"
+            },
+            "supported": {
+              "title": "Supported",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "requirement",
+            "supported",
+            "evidence"
+          ],
+          "title": "RequirementEvidence",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "matrix": {
+          "items": {
+            "$ref": "#/$defs/RequirementEvidence"
+          },
+          "title": "Matrix",
+          "type": "array"
+        },
+        "persona": {
+          "title": "Persona",
+          "type": "string"
+        },
+        "top_projects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Top Projects",
+          "type": "array"
+        },
+        "unsupported_requirements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unsupported Requirements",
+          "type": "array"
+        },
+        "variant": {
+          "title": "Variant",
+          "type": "string"
+        }
+      },
+      "required": [
+        "persona",
+        "variant",
+        "matrix",
+        "top_projects",
+        "unsupported_requirements"
+      ],
+      "title": "MatchResult",
+      "type": "object"
+    }
+  },
   "search_evidence": {
     "annotations": {
       "destructiveHint": false,
@@ -435,6 +659,130 @@
         "items"
       ],
       "title": "EvidenceList",
+      "type": "object"
+    }
+  },
+  "verify_claims": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {
+        "evidence_ids": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 40,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "text": {
+          "maxLength": 8000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "verify_claimsArguments",
+      "type": "object"
+    },
+    "output": {
+      "$defs": {
+        "ClaimResult": {
+          "properties": {
+            "claim": {
+              "title": "Claim",
+              "type": "string"
+            },
+            "evidence_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Evidence Ids",
+              "type": "array"
+            },
+            "evidence_snippet": {
+              "title": "Evidence Snippet",
+              "type": "string"
+            },
+            "fixed": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Fixed"
+            },
+            "label": {
+              "enum": [
+                "supported",
+                "partly_supported",
+                "unsupported",
+                "not_a_claim"
+              ],
+              "title": "Label",
+              "type": "string"
+            },
+            "score": {
+              "title": "Score",
+              "type": "number"
+            }
+          },
+          "required": [
+            "claim",
+            "label",
+            "score",
+            "evidence_ids",
+            "evidence_snippet"
+          ],
+          "title": "ClaimResult",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/ClaimResult"
+          },
+          "title": "Claims",
+          "type": "array"
+        },
+        "fixed_text": {
+          "title": "Fixed Text",
+          "type": "string"
+        },
+        "n_claims": {
+          "title": "N Claims",
+          "type": "integer"
+        },
+        "unsupported_before": {
+          "title": "Unsupported Before",
+          "type": "integer"
+        },
+        "unsupported_rate_before": {
+          "title": "Unsupported Rate Before",
+          "type": "number"
+        }
+      },
+      "required": [
+        "fixed_text",
+        "claims",
+        "n_claims",
+        "unsupported_before",
+        "unsupported_rate_before"
+      ],
+      "title": "VerifyResult",
       "type": "object"
     }
   }

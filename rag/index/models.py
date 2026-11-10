@@ -18,14 +18,20 @@ CFG = yaml.safe_load(open(os.getenv("GIGBID_CONFIG", ROOT / "agent" / "config.ya
 def embedder(name: str | None = None):
     from fastembed import TextEmbedding
 
-    return TextEmbedding(name or CFG["embeddings"]["model"], cache_dir=CACHE)
+    try:  # cached copy first: avoids a network round-trip (and HF symlink errors on Windows)
+        return TextEmbedding(name or CFG["embeddings"]["model"], cache_dir=CACHE, local_files_only=True)
+    except Exception:  # noqa: BLE001
+        return TextEmbedding(name or CFG["embeddings"]["model"], cache_dir=CACHE)
 
 
 @lru_cache(maxsize=2)
 def reranker(name: str | None = None):
     from fastembed.rerank.cross_encoder import TextCrossEncoder
 
-    return TextCrossEncoder(name or CFG["reranker"]["model"], cache_dir=CACHE)
+    try:
+        return TextCrossEncoder(name or CFG["reranker"]["model"], cache_dir=CACHE, local_files_only=True)
+    except Exception:  # noqa: BLE001
+        return TextCrossEncoder(name or CFG["reranker"]["model"], cache_dir=CACHE)
 
 
 def embed(texts: list[str], query: bool = False) -> np.ndarray:

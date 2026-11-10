@@ -166,6 +166,106 @@ def get_proposal(proposal_id: Annotated[str, Field(min_length=1, max_length=64)]
                         cited_projects=m.get("cited_projects", []), date=m.get("date"))
 
 
+class RequirementEvidence(BaseModel):
+    requirement: str
+    supported: bool
+    evidence: list[EvidenceItem]
+
+
+class MatchResult(BaseModel):
+    persona: str
+    variant: str
+    matrix: list[RequirementEvidence]
+    top_projects: list[str]
+    unsupported_requirements: list[str]
+
+
+class ClaimResult(BaseModel):
+    claim: str
+    label: Literal["supported", "partly_supported", "unsupported", "not_a_claim"]
+    score: float
+    evidence_ids: list[str]
+    evidence_snippet: str
+    fixed: str | None = None
+
+
+class VerifyResult(BaseModel):
+    fixed_text: str
+    claims: list[ClaimResult]
+    n_claims: int
+    unsupported_before: int
+    unsupported_rate_before: float
+
+
+def _item(h) -> EvidenceItem:
+    return EvidenceItem(evidence_id=h.chunk_id, item_id=h.meta.get("parent", h.chunk_id), project=h.meta.get("project"),
+                        project_title=h.meta.get("project_title"), type=h.meta["type"], source=h.meta.get("source", ""),
+                        date=h.meta.get("date"), client_industry=h.meta.get("client_industry"), outcome=h.meta.get("outcome"),
+                        score=round(h.score, 4), snippet=h.text[:500])
+
+
+@mcp.tool(annotations=READ, title="Match job requirements to evidence")
+def match_requirements(
+    requirements: Annotated[list[Annotated[str, Field(max_length=300)]], Field(min_length=1, max_length=12)],
+    job_title: Annotated[str, Field(max_length=200)] = "",
+    category: Annotated[str | None, Field(max_length=32)] = None,
+    per_requirement: Annotated[int, Field(ge=1, le=6)] = 3,
+) -> MatchResult:
+    """Requirement-to-evidence matrix using the deployed retrieval variant (rag.variant in config).
+    A requirement is 'supported' only if relevant evidence was found; never claim unsupported ones."""
+    from rag.index.models import CFG
+    from rag.retriever import get_variant
+
+    t0 = time.perf_counter()
+    idx = _index()
+    variant = get_variant()
+    res = variant.retrieve({"title": job_title, "description": "\n".join(f"- {r}" for r in requirements), "category": category,
+                            "required_skills": []}, idx, k=10, requirements=requirements)
+    good = float(CFG["rag"].get("crag_good_logit", 0.0))
+    matrix = []
+    for r in requirements:
+        hits = [h for h in res.per_requirement.get(r, []) if h.meta.get("type") != "proposal"][:per_requirement]
+        if not hits and r not in res.unsupported_requirements:  # e.g. V0 surfaces mostly past proposals
+            hits = [h for h in res.hits if h.meta.get("type") != "proposal"][:per_requirement]
+        if variant.NAME in ("v3_rerank", "v8_crag"):
+            supported = bool(hits) and hits[0].score >= good and r not in res.unsupported_requirements
+        else:  # fusion scores are not calibrated; verify the best hit with the cross-encoder
+            from rag.index.models import rerank_scores
+
+            supported = bool(hits) and max(rerank_scores(r, [h.text[:1500] for h in hits])) >= good
+        matrix.append(RequirementEvidence(requirement=r, supported=supported, evidence=[_item(h) for h in hits]))
+    audit.write(server="portfolio", tool="match_requirements", args={"n": len(requirements), "variant": variant.NAME},
+                result={"supported": sum(m.supported for m in matrix)}, ok=True, ms=(time.perf_counter() - t0) * 1000)
+    return MatchResult(persona=idx.persona, variant=variant.NAME, matrix=matrix, top_projects=[p for p, _ in res.ranked_projects[:5]],
+                       unsupported_requirements=[m.requirement for m in matrix if not m.supported])
+
+
+@mcp.tool(annotations=READ, title="Verify proposal claims")
+def verify_claims(text: Annotated[str, Field(min_length=1, max_length=8000)],
+                  evidence_ids: Annotated[list[str], Field(max_length=40)] = []) -> VerifyResult:  # noqa: B006
+    """Split a draft into claims and ground each against the portfolio. Returns labels, the evidence
+    behind each claim, and a fixed text with unsupported claims removed."""
+    from rag.verify import verify_draft
+
+    t0 = time.perf_counter()
+    idx = _index()
+    ev = [h for h in (_hit(idx, e) for e in evidence_ids) if h]
+    r = verify_draft(text, idx, ev)
+    audit.write(server="portfolio", tool="verify_claims", args={"chars": len(text)}, result={"unsupported": r["unsupported_before"]},
+                ok=True, ms=(time.perf_counter() - t0) * 1000)
+    return VerifyResult(fixed_text=r["fixed_text"], n_claims=r["n_claims"], unsupported_before=r["unsupported_before"],
+                        unsupported_rate_before=r["unsupported_rate_before"],
+                        claims=[ClaimResult(**{k: c[k] for k in ("claim", "label", "score", "evidence_ids", "evidence_snippet", "fixed")})
+                                for c in r["claims"]])
+
+
+def _hit(idx, chunk_id: str):
+    from rag.index.store import Hit
+
+    c = idx.struct.by_id.get(chunk_id) or idx.fixed.by_id.get(chunk_id)
+    return Hit(chunk_id, 1.0, c.text, c.meta) if c else None
+
+
 # ------------------------------------------------------------------ resources
 @mcp.resource("portfolio://case/{project_id}", mime_type="text/markdown")
 def case_resource(project_id: str) -> str:

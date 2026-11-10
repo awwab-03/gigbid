@@ -36,7 +36,8 @@ def extract_requirements(job: dict) -> list[str]:
         line = line.strip()
         if line.startswith(("- ", "* ", "• ")):
             r = re.sub(r"^[-*•]\s+", "", line)
-            r = re.sub(r"\b(strong experience with|must know|hands-on|experience with|you have built|before|\(required\))\b", "", r, flags=re.I)
+            r = re.sub(r"\((required|must have|preferred)\)", "", r, flags=re.I)
+            r = re.sub(r"\b(strong experience with|must know|hands-on|experience with|you have built|before)\b", "", r, flags=re.I)
             r = re.sub(r"\s+", " ", r).strip(" .")
             if 2 <= len(r) <= 200:
                 reqs.append(r)
