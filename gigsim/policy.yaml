@@ -1,0 +1,28 @@
+# GigSim platform policy, versioned. GigBid reads the active version from GET /policy and
+# keeps its own copy of the rules in data/policy_pack + agent/config.yaml (never in code).
+active: v1
+versions:
+  v1:
+    published: "2026-10-27"
+    summary: "Launch policy"
+    connects_multiplier: 1.0
+    connects_flat_fee: 0
+    max_submissions_per_day: 30
+    min_cover_letter_words: 0
+    max_cover_letter_words: 5000
+    rules:
+      - "No off-platform contact or payment."
+      - "No fabricated experience."
+      - "No guarantees of outcomes."
+      - "Automation must be human-approved; no scraping."
+  # v2 placeholder for the 2 Nov 2026 change request. Replace with the official text once
+  # received; GigBid must absorb it through config only (see docs/adr/0007-change-request.md).
+  v2:
+    published: "2026-11-02"
+    summary: "PLACEHOLDER - awaiting official change-request text"
+    connects_multiplier: 1.0
+    connects_flat_fee: 0
+    max_submissions_per_day: 30
+    min_cover_letter_words: 0
+    max_cover_letter_words: 5000
+    rules: []
