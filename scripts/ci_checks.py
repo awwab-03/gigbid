@@ -32,7 +32,12 @@ def gigsim_files() -> list[Path]:
 
 
 def checksums() -> str:
-    return "".join(f"{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(ROOT).as_posix()}\n" for p in gigsim_files())
+    # hash with LF line endings so Windows working copies and Linux CI agree
+    lines = []
+    for p in gigsim_files():
+        digest = hashlib.sha256(p.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+        lines.append(f"{digest}  {p.relative_to(ROOT).as_posix()}\n")
+    return "".join(lines)
 
 
 def main() -> int:
