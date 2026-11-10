@@ -26,11 +26,13 @@ from shared.security import trace_id_var
 class GigSimBackend:
     name = "gigsim"
 
-    def __init__(self, base_url: str | None = None, timeout: float = 10.0, max_retries: int = 3):
+    def __init__(self, base_url: str | None = None, timeout: float = 10.0, max_retries: int = 3,
+                 client: httpx.AsyncClient | None = None):
         self.base_url = (base_url or os.getenv("GIGSIM_BASE_URL", "http://localhost:8081")).rstrip("/")
         self.secret = os.getenv("GIGSIM_SECRET", "gigsim-dev-secret")
         self.max_retries = max_retries
-        self.client = httpx.AsyncClient(base_url=self.base_url, timeout=timeout)
+        # tests inject an in-process ASGI client so CI needs no running simulator
+        self.client = client or httpx.AsyncClient(base_url=self.base_url, timeout=timeout)
 
     def _token(self, account: str) -> str:
         sig = hmac.new(self.secret.encode(), account.encode(), hashlib.sha256).hexdigest()[:32]
