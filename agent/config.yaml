@@ -126,7 +126,10 @@ tool_allowlist:
   client_liaison: [marketplace.list_threads, marketplace.list_messages, marketplace.send_message, workspace.free_slots,
                    workspace.create_interview_hold, workspace.create_email_draft]
   submitter: [marketplace.create_proposal_draft, marketplace.submit_proposal]
-  pipeline: [marketplace.list_proposals, marketplace.get_events]
+  pipeline: [marketplace.list_proposals, marketplace.get_events, marketplace.list_threads, marketplace.list_messages, marketplace.get_job]
+  ui: [marketplace.search_jobs, marketplace.get_job, marketplace.get_client_history, marketplace.list_threads, marketplace.list_messages,
+       marketplace.list_proposals, marketplace.get_events, marketplace.get_connects_balance, marketplace.get_policy,
+       portfolio.get_case_study, portfolio.search_evidence, portfolio.list_skills]
 
 mcp:
   timeout_s: 20

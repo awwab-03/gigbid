@@ -225,8 +225,12 @@ def match_requirements(
     matrix = []
     for r in requirements:
         hits = [h for h in res.per_requirement.get(r, []) if h.meta.get("type") != "proposal"][:per_requirement]
-        if not hits and r not in res.unsupported_requirements:  # e.g. V0 surfaces mostly past proposals
-            hits = [h for h in res.hits if h.meta.get("type") != "proposal"][:per_requirement]
+        if not hits and r not in res.unsupported_requirements:
+            # V0 failure mode: past proposals ("Proposal for: Need a ... for ...") mirror job titles and crowd out
+            # real evidence. Fall back to an evidence-only dense search for this requirement.
+            from rag.index.models import embed as _embed
+
+            hits = idx.struct.dense(_embed([r], query=True)[0], per_requirement, where=lambda m: m.get("type") != "proposal")
         if variant.NAME in ("v3_rerank", "v8_crag"):
             supported = bool(hits) and hits[0].score >= good and r not in res.unsupported_requirements
         else:  # fusion scores are not calibrated; verify the best hit with the cross-encoder

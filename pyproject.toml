@@ -36,7 +36,10 @@ dependencies = [
   "bcrypt==4.3.0",
   "tenacity==9.1.2",
   "pandas==2.2.3",
-  "xxhash==3.5.0",  # 4.x DLL blocked by Windows App Control on dev machine
+  "xxhash==3.5.0",
+  "sqlalchemy==2.0.41",
+  "email-validator==2.2.0",
+  "python-multipart==0.0.20",  # 4.x DLL blocked by Windows App Control on dev machine
 ]
 
 [project.optional-dependencies]
@@ -65,7 +68,7 @@ extend-exclude = ["apps/web", "gigsim/data", "data/personas", "data/raw"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B"]
-ignore = ["E501"]
+ignore = ["E501", "B008"]  # B008: FastAPI Depends() defaults are idiomatic
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
