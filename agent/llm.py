@@ -38,6 +38,8 @@ def profile() -> dict:
 
 
 def model_for(node: str) -> tuple[str, str]:
+    if node == "judge" and os.getenv("JUDGE_MODEL"):  # one fixed judge across every experiment arm and profile
+        return os.environ["JUDGE_MODEL"], os.environ["JUDGE_MODEL"]
     p = profile()
     alias = p["nodes"].get(node) or p["nodes"].get("default", "small")
     return p["aliases"][alias], p["fallback"][alias]
@@ -98,8 +100,15 @@ def _chat(model: str, temperature: float):
                           num_ctx=8192, client_kwargs={"timeout": timeout})
     from langchain_openai import ChatOpenAI
 
+    # LLM_PACE="gpt-oss-120b=2.4" paces a model client-side (requests/minute) to stay inside a free tier's limits
+    pace = dict(x.split("=") for x in os.getenv("LLM_PACE", "").split(",") if "=" in x)
+    limiter = None
+    if model in pace:
+        from langchain_core.rate_limiters import InMemoryRateLimiter
+
+        limiter = InMemoryRateLimiter(requests_per_second=float(pace[model]) / 60, check_every_n_seconds=0.5, max_bucket_size=1)
     return ChatOpenAI(model=model, temperature=temperature, base_url=os.getenv(p["base_url_env"]), api_key=os.getenv(p["api_key_env"], "missing"),
-                      timeout=timeout, max_retries=CFG["models"]["max_retries"])
+                      timeout=timeout, max_retries=CFG["models"]["max_retries"], rate_limiter=limiter)
 
 
 def get_llm(node: str):
@@ -156,6 +165,9 @@ def _extract_json(text: str) -> Any:
     return json.loads(text[start:end])
 
 
+FALLBACKS: dict[str, int] = {}  # node:primary->fallback -> count, reported by the eval runners
+
+
 async def _invoke(node: str, messages: list[tuple[str, str]]) -> tuple[str, str]:
     primary, fallback, pname, fname = get_llm(node)
     for model, name in ((primary, pname), (fallback, fname)):
@@ -168,6 +180,7 @@ async def _invoke(node: str, messages: list[tuple[str, str]]) -> tuple[str, str]
                 led.add(UsageRecord(node, name, 0, 0, 0.0, time.perf_counter() - t0, ok=False))
             if name == fname:
                 raise
+            FALLBACKS[f"{node}:{pname}->{fname}"] = FALLBACKS.get(f"{node}:{pname}->{fname}", 0) + 1
             continue
         um = getattr(msg, "usage_metadata", None) or {}
         tin, tout = int(um.get("input_tokens", 0)), int(um.get("output_tokens", 0))

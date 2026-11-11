@@ -246,13 +246,30 @@ def arg_ok(gold: dict, got: dict) -> bool:
     return True
 
 
+_PACE = {k: float(v) for k, v in (x.split("=") for x in os.getenv("LLM_PACE", "").split(",") if "=" in x)}  # requests/minute
+_LAST: dict[str, float] = {}
+_LOCKS: dict[str, asyncio.Lock] = {}
+
+
+async def _pace(model: str) -> None:
+    if model not in _PACE:
+        return
+    lock = _LOCKS.setdefault(model, asyncio.Lock())
+    async with lock:
+        wait = _LAST.get(model, 0) + 60 / _PACE[model] - time.monotonic()
+        if wait > 0:
+            await asyncio.sleep(wait)
+        _LAST[model] = time.monotonic()
+
+
 async def call(client: httpx.AsyncClient, model: str, tools: list[dict], task: str) -> dict:
     body = {"model": model, "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": task}],
             "tools": tools, "tool_choice": "auto", "temperature": 0}
-    for attempt in range(6):
+    for attempt in range(12):  # free tier: gpt-oss-120b allows 5 requests/minute, so wait out 429s instead of scoring them
+        await _pace(model)
         r = await client.post("/chat/completions", json=body)
         if r.status_code == 429 or r.status_code >= 500:
-            await asyncio.sleep(2 + attempt * 3)
+            await asyncio.sleep(13 * (attempt + 1))
             continue
         r.raise_for_status()
         d = r.json()

@@ -1,0 +1,105 @@
+{
+  "profile": "open",
+  "rag_variant": "v8_crag",
+  "jobs_per_persona": 1,
+  "designs": {
+    "single": {
+      "n": 3,
+      "errors": 3,
+      "bid_skip_accuracy": 0.333,
+      "bid_skip": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "proposals": 0,
+      "unsupported_claims_per_proposal": null,
+      "risky_jobs": 1,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": null,
+      "reply_rate": null,
+      "tokens_per_job": 0.0,
+      "latency_p50_s": 0.04,
+      "latency_p95_s": 0.04
+    },
+    "super": {
+      "n": 3,
+      "errors": 3,
+      "bid_skip_accuracy": 0.333,
+      "bid_skip": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "proposals": 0,
+      "unsupported_claims_per_proposal": null,
+      "risky_jobs": 1,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": null,
+      "reply_rate": null,
+      "tokens_per_job": 0.0,
+      "latency_p50_s": 0.03,
+      "latency_p95_s": 0.03
+    },
+    "graph": {
+      "n": 3,
+      "errors": 0,
+      "bid_skip_accuracy": 1.0,
+      "bid_skip": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "proposals": 2,
+      "unsupported_claims_per_proposal": 0.0,
+      "risky_jobs": 1,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": 0.2452,
+      "reply_rate": 0.5,
+      "tokens_per_job": 12527.3,
+      "latency_p50_s": 308.16,
+      "latency_p95_s": 308.16
+    }
+  },
+  "by_category": {
+    "single|ai_ml": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "single|data_analytics": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "single|web_dev": {
+      "n": 1,
+      "accuracy": 1.0
+    },
+    "super|ai_ml": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "super|data_analytics": {
+      "n": 1,
+      "accuracy": 0.0
+    },
+    "super|web_dev": {
+      "n": 1,
+      "accuracy": 1.0
+    },
+    "graph|ai_ml": {
+      "n": 1,
+      "accuracy": 1.0
+    },
+    "graph|data_analytics": {
+      "n": 1,
+      "accuracy": 1.0
+    },
+    "graph|web_dev": {
+      "n": 1,
+      "accuracy": 1.0
+    }
+  }
+}

@@ -138,7 +138,7 @@ async def run(limit: int = 15, personas: list[str] | None = None, concurrency: i
             r["p_reply"] = (pr["decision"] or {}).get("p_reply")
             r["client_reasons"] = (pr["decision"] or {}).get("reasons")
     out = {"profile": profile_name(), "rag_variant": get_variant().NAME, "fixed_job_set": f"first {limit} gold-bid dev jobs per persona",
-           "overall": summary(rows), "by_persona": {p: summary([r for r in rows if r["persona"] == p]) for p in personas}}
+           "llm_fallbacks": __import__("agent.llm", fromlist=["FALLBACKS"]).FALLBACKS, "overall": summary(rows), "by_persona": {p: summary([r for r in rows if r["persona"] == p]) for p in personas}}
     RES.mkdir(parents=True, exist_ok=True)
     name = f"proposal_eval_{tag or out['rag_variant']}_{out['profile']}"
     (RES / f"{name}.json").write_text(json.dumps(out, indent=2), encoding="utf-8")

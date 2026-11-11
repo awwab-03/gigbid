@@ -15,6 +15,7 @@ dependencies = [
   "langgraph==0.4.8",
   "langgraph-checkpoint-postgres==2.0.21",
   "langgraph-supervisor==0.0.27",
+  "langgraph-prebuilt==0.2.2",  # 0.5.x needs langgraph 0.5 (StateGraph.add_node input_schema)
   "langchain-core==0.3.63",
   "langchain-openai==0.3.18",
   "langchain-ollama==0.3.3",

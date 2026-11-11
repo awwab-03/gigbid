@@ -63,6 +63,14 @@ models:
       aliases: {small: gpt-oss-120b, large: gpt-oss-120b}
       fallback: {small: qwen-3.8-27b, large: qwen-3.8-27b}
       pricing_usd_per_mtok: {gpt-oss-120b: {in: 0.0, out: 0.0}, qwen-3.8-27b: {in: 0.0, out: 0.0}}
+    open_qwen:                      # every node on qwen-3.8-27b (450 req/min free tier); used for the proposal-level experiments
+      provider: openai_compatible   # because gpt-oss-120b's free tier allows only 5 req/min, 150 req/h, 1M tokens/day
+      base_url_env: OPEN_LLM_BASE_URL
+      api_key_env: OPEN_LLM_API_KEY
+      nodes: {default: large}
+      aliases: {small: qwen-3.8-27b, large: qwen-3.8-27b}
+      fallback: {small: qwen-3.8-27b, large: qwen-3.8-27b}
+      pricing_usd_per_mtok: {qwen-3.8-27b: {in: 0.0, out: 0.0}}
     local:
       provider: ollama
       base_url_env: OLLAMA_BASE_URL
@@ -144,6 +152,9 @@ tool_allowlist:
   ui: [marketplace.search_jobs, marketplace.get_job, marketplace.get_client_history, marketplace.list_threads, marketplace.list_messages,
        marketplace.list_proposals, marketplace.get_events, marketplace.get_connects_balance, marketplace.get_policy,
        portfolio.get_case_study, portfolio.search_evidence, portfolio.list_skills]
+  # R&D C baselines (evals/runners/agent_comparison.py): read-only, no submit/send tools
+  rnd_c: [marketplace.get_job, marketplace.get_client_history, marketplace.get_pricing_stats, marketplace.get_policy,
+          portfolio.search_evidence, portfolio.match_requirements, portfolio.verify_claims, portfolio.get_case_study]
 
 mcp:
   timeout_s: 20

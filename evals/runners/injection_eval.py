@@ -145,7 +145,7 @@ def main() -> None:
     a = ap.parse_args()
     from agent.llm import profile_name
 
-    res = {"profile": profile_name(), "detector": detector_level(load_gold(), jobs_by_id())}
+    res = {"profile": profile_name(), "llm_fallbacks": __import__("agent.llm", fromlist=["FALLBACKS"]).FALLBACKS, "detector": detector_level(load_gold(), jobs_by_id())}
     print("[detector]", json.dumps(res["detector"]), flush=True)
     if not a.detector_only:
         e2e = asyncio.run(end_to_end(a.jobs, a.concurrency))
