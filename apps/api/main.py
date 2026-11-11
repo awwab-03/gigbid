@@ -53,6 +53,10 @@ async def lifespan(app: FastAPI):
     import asyncio
 
     ensure_reviewer()
+    if os.getenv("WARM_INDEX") == "1":  # deploy: embed the reviewer's portfolio before the first click, off the event loop
+        from rag.index.store import get_index
+
+        asyncio.create_task(asyncio.to_thread(get_index, os.getenv("REVIEWER_PERSONA", "ml_engineer")))
     cron_task = asyncio.create_task(_inline_cron()) if os.getenv("INLINE_CRON") == "1" else None
     yield
     if cron_task:

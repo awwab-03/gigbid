@@ -13,6 +13,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import threading
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -174,9 +175,15 @@ class PortfolioIndex:
 _INDEXES: dict[str, PortfolioIndex] = {}
 
 
+_INDEX_LOCK = threading.Lock()
+
+
 def get_index(persona: str) -> PortfolioIndex:
+    # MCP tools now run in worker threads: build each persona's index once even under concurrent calls
     if persona not in _INDEXES:
-        _INDEXES[persona] = PortfolioIndex(persona)
+        with _INDEX_LOCK:
+            if persona not in _INDEXES:
+                _INDEXES[persona] = PortfolioIndex(persona)
     return _INDEXES[persona]
 
 

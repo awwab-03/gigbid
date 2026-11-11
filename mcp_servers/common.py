@@ -35,6 +35,31 @@ STATE_DIR = Path(os.getenv("MCP_STATE_DIR", Path(__file__).resolve().parents[1] 
 STATE_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def _run_sync_tools_in_threads() -> None:
+    """FastMCP calls synchronous tools directly on the event loop, so a CPU-heavy tool (embedding, cross-encoder
+    rerank) freezes every other request in the same process. That matters most in the single-process deploy
+    (MCP_TRANSPORT=inproc), where the API shares that loop. Run sync tools in a worker thread instead;
+    asyncio.to_thread copies contextvars, so caller_var / trace ids still reach the tool."""
+    from mcp.server.fastmcp.utilities.func_metadata import FuncMetadata
+
+    if getattr(FuncMetadata, "_gigbid_threaded", False):
+        return
+    original = FuncMetadata.call_fn_with_arg_validation
+
+    async def call(self, fn, fn_is_async, arguments_to_validate, arguments_to_pass_directly):
+        if fn_is_async:
+            return await original(self, fn, fn_is_async, arguments_to_validate, arguments_to_pass_directly)
+        parsed = self.arg_model.model_validate(self.pre_parse_json(arguments_to_validate)).model_dump_one_level()
+        parsed |= arguments_to_pass_directly or {}
+        return await asyncio.to_thread(fn, **parsed)
+
+    FuncMetadata.call_fn_with_arg_validation = call
+    FuncMetadata._gigbid_threaded = True
+
+
+_run_sync_tools_in_threads()
+
+
 class BearerAuthMiddleware(BaseHTTPMiddleware):
     def __init__(self, app, required: bool = True):
         super().__init__(app)
