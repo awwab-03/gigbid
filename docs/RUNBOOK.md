@@ -36,7 +36,9 @@ The Docker compose stack (`infra/docker-compose.yml`) is the multi-process versi
 3. On the VM: 4 GB swap, open 80/443 in iptables (`netfilter-persistent save`), `git clone` the repo.
 4. Copy `~/gigbid.env` (chmod 600; production overrides of `.env`, never committed) and the built web app
    (`VITE_API_URL=/api npx vite build`) to `~/web-dist`, then run `infra/deploy/oracle/setup.sh`.
-5. Update: `git pull && sudo systemctl restart gigbid-api gigbid-gigsim`.
+5. `~/gigbid.env` also sets `RAG_VARIANT=v2_hybrid` and `GIGBID_TIMEOUT_SCALE=5` for this slow CPU (ADR 0004).
+6. Update: `git pull && sudo systemctl restart gigbid-api gigbid-gigsim`. A restart re-queues interrupted runs,
+   which resume from their checkpoint within 2 minutes.
 
 ## Schedules and rate limits (E1, A4)
 

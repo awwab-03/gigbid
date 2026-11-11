@@ -9,7 +9,9 @@ local Postgres 16 + pgvector, native Caddy with Let's Encrypt on an sslip.io hos
 work, and the Ampere A1 shape had no capacity in the home region. The micro VM never sleeps, so the hidden test run
 after the deadline needs no keep-alive.
 
-**Consequences.** Separate MCP processes, Redis and the Arq worker are only in `infra/docker-compose.yml` (the
-reference multi-container deployment). The VM is slow at embedding, so the portfolio embedding caches are copied
-from a dev machine (same model, same keys). Sync MCP tools run in worker threads so CPU-bound retrieval never blocks
-the API event loop. The HF deploy and keep-alive workflows are unused.
+**Consequences.** Separate MCP processes, Redis and the Arq worker exist only in `infra/docker-compose.yml` (the
+reference multi-container deployment); the MCP tool code, auth, idempotency and audit log are the same, only the
+transport changes. The VM is slow at embedding, so the portfolio embedding caches are copied from a dev machine
+(same model, same keys). Sync MCP tools run in worker threads so CPU-bound retrieval never blocks the API event loop.
+Without Arq, a restart would strand in-flight runs, so startup re-queues them for the checkpoint-resume path.
+Retrieval on the VM uses V2 instead of V8 (ADR 0004). The HF deploy and keep-alive workflows are unused.
