@@ -338,7 +338,15 @@ def http_app():
 def main() -> None:
     ap = argparse.ArgumentParser(description="GigBid Portfolio MCP server")
     ap.add_argument("--stdio", action="store_true", help="serve over stdio (Claude Desktop, Cursor, MCP Inspector)")
+    ap.add_argument("--portfolio", help="folder with your portfolio (same layout as data/personas/ml_engineer); "
+                                        "required when installed with uvx/pip, where the repo's sample personas are not present")
     a = ap.parse_args()
+    if a.portfolio:
+        os.environ["PORTFOLIO_DIR"] = str(Path(a.portfolio).resolve())
+    from rag.index.store import PERSONA_DIR
+
+    if not os.getenv("PORTFOLIO_DIR") and not PERSONA_DIR.exists():
+        ap.error("no portfolio found: pass --portfolio PATH (see mcp_servers/portfolio/README.md for the folder layout)")
     if a.stdio:
         mcp.run("stdio")
     else:

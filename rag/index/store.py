@@ -149,7 +149,8 @@ class PortfolioIndex:
     def __init__(self, persona: str, portfolio_dir: Path | None = None):
         self.persona = persona
         self.dir = Path(portfolio_dir or PERSONA_DIR / persona)
-        self.cache = PROCESSED / persona
+        # a portfolio outside the repo (installed MCP server, --portfolio) keeps its embedding cache next to it
+        self.cache = PROCESSED / persona if portfolio_dir is None else Path(portfolio_dir) / ".gigbid_cache"
         self.reload()
 
     def reload(self) -> None:
