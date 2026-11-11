@@ -2,7 +2,7 @@
 # One-time setup of the Always Free VM.Standard.E2.1.Micro (1 GB RAM, Ubuntu 24.04). Run as ubuntu from ~/gigbid.
 # Expects ~/gigbid.env (secrets, chmod 600) and ~/web-dist (the built React app) to exist already.
 set -euo pipefail
-source ~/gigbid.env
+set -a; source ~/gigbid.env; set +a
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq postgresql postgresql-16-pgvector caddy >/dev/null
 DB_PW=$(python3 -c "import os,urllib.parse as u;print(u.urlparse(os.environ['DATABASE_URL']).password)")
 sudo -u postgres psql -v ON_ERROR_STOP=0 -q <<SQL
