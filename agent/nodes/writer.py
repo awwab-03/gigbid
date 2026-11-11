@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 
 from pydantic import BaseModel, Field
@@ -47,7 +48,10 @@ async def writer(state: dict) -> dict:
         feedback = last.get("revise_instructions", "") + " Issues: " + "; ".join(last.get("issues", []))
     prof = state.get("profile", {})
     user = state.get("user_id", "local")
-    out = await call_json("writer", "writer", {
+    # X2 A/B extension: WRITER_STRATEGY selects the proposal strategy (A = "writer", evidence-led; B = "writer_plan", plan-first)
+    strategy = os.getenv("WRITER_STRATEGY", "writer")
+    strategy = strategy if strategy in ("writer", "writer_plan") else "writer"
+    out = await call_json("writer", strategy, {
         "job_spec": json.dumps({k: spec.get(k) for k in ("title", "deliverables", "requirements", "hidden_needs", "screening_questions",
                                                         "timeline_days")}),
         "price": json.dumps({k: state.get("price", {}).get(k) for k in ("bid_type", "amount")}),

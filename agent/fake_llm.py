@@ -27,7 +27,7 @@ def respond(prompt: str, variables: dict[str, Any]) -> str:
         return json.dumps({"job_id": "x", "title": "x", "requirements": [], "hidden_needs": ["clear handover documentation"]})
     if prompt == "risk_assessor":
         return json.dumps({"score": 0.3, "flags": [], "scam_likely": False, "explanation": "fake model: no extra signals"})
-    if prompt == "writer":
+    if prompt in ("writer", "writer_plan"):
         spec = json.loads(variables.get("job_spec") or "{}")
         ev = _evidence_lines(variables.get("evidence", ""))
         title = spec.get("title") or "your project"
