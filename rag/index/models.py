@@ -10,7 +10,9 @@ import numpy as np
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-CACHE = os.getenv("FASTEMBED_CACHE_PATH", str(ROOT / "data" / "processed" / "models"))
+# repo checkout: data/processed/models; installed package (uvx/pip): a normal per-user cache
+CACHE = os.getenv("FASTEMBED_CACHE_PATH", str(ROOT / "data" / "processed" / "models" if (ROOT / "data").exists()
+                                              else Path.home() / ".cache" / "gigbid" / "models"))
 CFG = yaml.safe_load(open(os.getenv("GIGBID_CONFIG", ROOT / "agent" / "config.yaml"), encoding="utf-8"))
 
 
