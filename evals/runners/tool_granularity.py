@@ -267,7 +267,11 @@ async def call(client: httpx.AsyncClient, model: str, tools: list[dict], task: s
             "tools": tools, "tool_choice": "auto", "temperature": 0}
     for attempt in range(12):  # free tier: gpt-oss-120b allows 5 requests/minute, so wait out 429s instead of scoring them
         await _pace(model)
-        r = await client.post("/chat/completions", json=body)
+        try:
+            r = await client.post("/chat/completions", json=body)
+        except httpx.TimeoutException:  # slow reasoning models (Gemma 4 thinks before every answer)
+            await asyncio.sleep(5)
+            continue
         if r.status_code == 429 or r.status_code >= 500:
             await asyncio.sleep(13 * (attempt + 1))
             continue
@@ -284,7 +288,7 @@ async def call(client: httpx.AsyncClient, model: str, tools: list[dict], task: s
         u = d.get("usage", {})
         return {"tool": tc["function"]["name"] if tc else None, "args": args,
                 "tokens": int(u.get("prompt_tokens", 0)) + int(u.get("completion_tokens", 0)), "prompt_tokens": int(u.get("prompt_tokens", 0))}
-    return {"tool": None, "args": {}, "tokens": 0, "prompt_tokens": 0, "error": "rate limited"}
+    return {"tool": None, "args": {}, "tokens": 0, "prompt_tokens": 0, "error": "provider failed after retries"}
 
 
 async def run(models: list[str], concurrency: int) -> dict:
@@ -292,7 +296,7 @@ async def run(models: list[str], concurrency: int) -> dict:
     gold_idx = {"ours": 1, "ours_rw": 1, "fine": 2, "coarse": 3}
     sem = asyncio.Semaphore(concurrency)
     rows = []
-    async with httpx.AsyncClient(base_url=os.environ["OPEN_LLM_BASE_URL"], timeout=90,
+    async with httpx.AsyncClient(base_url=os.environ["OPEN_LLM_BASE_URL"], timeout=240,
                                  headers={"Authorization": f"Bearer {os.environ['OPEN_LLM_API_KEY']}"}) as client:
         async def one(model: str, sname: str, i: int):
             task = TASKS[i]
@@ -302,14 +306,18 @@ async def run(models: list[str], concurrency: int) -> dict:
                 got = await call(client, model, surfaces[sname], task[0])
             sel = got["tool"] == gtool
             rows.append({"model": model, "surface": sname, "task": i, "gold_tool": gtool, "tool": got["tool"], "tool_ok": sel,
+                         "error": got.get("error"),
                          "args_ok": sel and arg_ok(gargs, got["args"]), "tokens": got["tokens"], "prompt_tokens": got["prompt_tokens"],
                          "latency_s": round(time.perf_counter() - t, 2), "args": got["args"]})
         await asyncio.gather(*(one(m, s, i) for m in models for s in surfaces for i in range(len(TASKS))))
     summary = {}
     for m in models:
         for s in surfaces:
-            rs = [r for r in rows if r["model"] == m and r["surface"] == s]
-            summary[f"{m}|{s}"] = {"n_tools": len(surfaces[s]), "tool_selection_acc": round(sum(r["tool_ok"] for r in rs) / len(rs), 3),
+            errs = [r for r in rows if r["model"] == m and r["surface"] == s and r.get("error")]
+            rs = [r for r in rows if r["model"] == m and r["surface"] == s and not r.get("error")]  # provider failures are not wrong answers
+            if not rs:
+                continue
+            summary[f"{m}|{s}"] = {"n_scored": len(rs), "n_provider_errors": len(errs), "n_tools": len(surfaces[s]), "tool_selection_acc": round(sum(r["tool_ok"] for r in rs) / len(rs), 3),
                                    "argument_acc": round(sum(r["args_ok"] for r in rs) / len(rs), 3),
                                    "tokens_per_task": round(sum(r["tokens"] for r in rs) / len(rs), 1),
                                    "no_tool_call": sum(r["tool"] is None for r in rs)}
