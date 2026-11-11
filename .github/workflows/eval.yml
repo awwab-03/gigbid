@@ -11,7 +11,7 @@ jobs:
       # the claim gate only applies to real-model runs)
       MODEL_PROFILE: ${{ secrets.OPEN_LLM_API_KEY != '' && 'open' || 'fake' }}
       OPEN_LLM_API_KEY: ${{ secrets.OPEN_LLM_API_KEY }}
-      OPEN_LLM_BASE_URL: https://api.groq.com/openai/v1
+      OPEN_LLM_BASE_URL: https://api.cerebras.ai/v1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

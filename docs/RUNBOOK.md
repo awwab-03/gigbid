@@ -30,7 +30,7 @@ survives container restarts.
    | `DATABASE_URL` | the Neon connection string |
    | `APP_SECRET_KEY`, `MCP_SHARED_SECRET`, `GIGSIM_SECRET`, `GIGSIM_ADMIN_TOKEN` | four different long random strings |
    | `TOKEN_ENCRYPTION_KEY` | `python -c "from cryptography.fernet import Fernet;print(Fernet.generate_key().decode())"` |
-   | `OPEN_LLM_API_KEY` | Groq API key (`OPEN_LLM_BASE_URL` defaults to Groq) |
+   | `OPEN_LLM_API_KEY` | Cerebras API key (`OPEN_LLM_BASE_URL` defaults to Groq) |
    | `LANGSMITH_API_KEY` | LangSmith key; also set variable `LANGSMITH_TRACING=true` |
    | `REVIEWER_EMAIL`, `REVIEWER_PASSWORD` | the reviewer login you will paste in the private Classroom comment |
    | `WEB_ORIGIN` (variable) | `https://<user>-gigbid.hf.space` |

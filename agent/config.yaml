@@ -29,7 +29,7 @@ models:
   profile: open                   # open | paid   (env MODEL_PROFILE overrides)
   profiles:
     open:
-      provider: openai_compatible # Groq / OpenRouter / Together / vLLM all speak this API
+      provider: openai_compatible # Cerebras (free tier) here; Groq / OpenRouter / vLLM work the same way
       base_url_env: OPEN_LLM_BASE_URL
       api_key_env: OPEN_LLM_API_KEY
       nodes:
@@ -46,15 +46,23 @@ models:
         intent: small
         judge: large
       aliases:
-        small: openai/gpt-oss-20b
-        large: openai/gpt-oss-120b
+        small: qwen-3.8-27b
+        large: gpt-oss-120b
       fallback:
-        small: llama-3.1-8b-instant
-        large: openai/gpt-oss-20b
-      pricing_usd_per_mtok:        # used for cost accounting; check provider pages
-        openai/gpt-oss-20b: {in: 0.10, out: 0.50}
-        openai/gpt-oss-120b: {in: 0.15, out: 0.75}
-        llama-3.1-8b-instant: {in: 0.05, out: 0.08}
+        small: gpt-oss-120b
+        large: qwen-3.8-27b
+      # Cerebras free tier: USD 0 per token. Tokens are still counted per node; the report gives both.
+      pricing_usd_per_mtok:
+        qwen-3.8-27b: {in: 0.0, out: 0.0}
+        gpt-oss-120b: {in: 0.0, out: 0.0}
+    open_single:                    # second open configuration for the model comparison: one model everywhere
+      provider: openai_compatible
+      base_url_env: OPEN_LLM_BASE_URL
+      api_key_env: OPEN_LLM_API_KEY
+      nodes: {default: large}
+      aliases: {small: gpt-oss-120b, large: gpt-oss-120b}
+      fallback: {small: qwen-3.8-27b, large: qwen-3.8-27b}
+      pricing_usd_per_mtok: {gpt-oss-120b: {in: 0.0, out: 0.0}, qwen-3.8-27b: {in: 0.0, out: 0.0}}
     local:
       provider: ollama
       base_url_env: OLLAMA_BASE_URL

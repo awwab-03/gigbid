@@ -13,7 +13,7 @@ FROM caddy:2.10-alpine AS caddy
 
 FROM python:3.11-slim
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 \
-    FASTEMBED_CACHE_PATH=/app/data/processed/models MCP_STATE_DIR=/app/state HOME=/app     REDIS_URL=redis://127.0.0.1:6379/0 MCP_TRANSPORT=http MODEL_PROFILE=open VECTOR_BACKEND=pgvector     OPEN_LLM_BASE_URL=https://api.groq.com/openai/v1 GIGSIM_BASE_URL=http://127.0.0.1:8081 GIGSIM_TIME_SCALE=20     PORTFOLIO_MCP_URL=http://127.0.0.1:8091/mcp MARKETPLACE_MCP_URL=http://127.0.0.1:8092/mcp WORKSPACE_MCP_URL=http://127.0.0.1:8093/mcp
+    FASTEMBED_CACHE_PATH=/app/data/processed/models MCP_STATE_DIR=/app/state HOME=/app     REDIS_URL=redis://127.0.0.1:6379/0 MCP_TRANSPORT=http MODEL_PROFILE=open VECTOR_BACKEND=pgvector     OPEN_LLM_BASE_URL=https://api.cerebras.ai/v1 GIGSIM_BASE_URL=http://127.0.0.1:8081 GIGSIM_TIME_SCALE=20     PORTFOLIO_MCP_URL=http://127.0.0.1:8091/mcp MARKETPLACE_MCP_URL=http://127.0.0.1:8092/mcp WORKSPACE_MCP_URL=http://127.0.0.1:8093/mcp
 RUN apt-get update && apt-get install -y --no-install-recommends supervisor redis-server curl && rm -rf /var/lib/apt/lists/* \
     && pip install uv==0.7.8
 WORKDIR /app
