@@ -4,14 +4,35 @@
     {
       "name": "api",
       "runtimeExecutable": ".venv/Scripts/python.exe",
-      "runtimeArgs": ["scripts/dev_api.py"],
+      "runtimeArgs": [
+        "scripts/dev_api.py"
+      ],
       "port": 8000
     },
     {
       "name": "web",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "apps/web", "run", "dev"],
+      "runtimeArgs": [
+        "--prefix",
+        "apps/web",
+        "run",
+        "dev"
+      ],
       "port": 5173
+    },
+    {
+      "name": "mcp-inspector",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "-y",
+        "@modelcontextprotocol/inspector@0.16.2"
+      ],
+      "env": {
+        "RAG_VARIANT": "v8_crag",
+        "MCP_STATE_DIR": "logs/inspector",
+        "DATABASE_URL": ""
+      },
+      "port": 6274
     }
   ]
 }
