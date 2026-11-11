@@ -30,5 +30,19 @@ qwen)
   run MODEL_PROFILE=open_qwen MCP_STATE_DIR=$TEMP/q4 $PY -m evals.runners.injection_eval --jobs 4 --concurrency 3
   run MODEL_PROFILE=open_qwen RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/q5 $PY -m evals.runners.agent_comparison --limit 17 --concurrency 3
   ;;
+gemma1)
+  # from 12 Nov: Cerebras' $5 promotional credit ran out; open-weights Gemma 4 on Google AI Studio's free tier
+  export MODEL_PROFILE=gemma JUDGE_MODEL=gemma-4-31b-it GIGBID_TIMEOUT_SCALE=4
+  run RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/m1 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 3 --tag gemma_v8
+  run RAG_VARIANT=v8_crag WRITER_STRATEGY=writer_plan MCP_STATE_DIR=$TEMP/m2 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 3 --tag gemma_planfirst_v8
+  run $PY -m evals.runners.ab_test --a proposal_eval_gemma_v8_gemma --b proposal_eval_gemma_planfirst_v8_gemma
+  run RAG_VARIANT=v0_naive MCP_STATE_DIR=$TEMP/m3 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 3 --tag gemma_v0
+  run MCP_STATE_DIR=$TEMP/m4 $PY -m evals.runners.injection_eval --jobs 4 --concurrency 3
+  ;;
+gemma2)
+  export MODEL_PROFILE=gemma JUDGE_MODEL=gemma-4-31b-it GIGBID_TIMEOUT_SCALE=4
+  run MCP_STATE_DIR=$TEMP/m5 $PY -m evals.runners.tool_granularity --models gemma-4-31b-it gemma-4-26b-a4b-it --concurrency 3
+  run RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/m6 $PY -m evals.runners.agent_comparison --limit 17 --concurrency 3
+  ;;
 esac
 echo "=== $(date +%T) done ${1:-qwen}"
