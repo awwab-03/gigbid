@@ -71,8 +71,9 @@ survived the edit; outcome insights from replies/hires (`agent/memory/promotion_
 Postgres + pgvector, Caddy HTTPS (ADR 0008). Problems we hit and fixed: sync MCP tools blocked the event loop (now
 run in threads), portfolio embedding took 12 minutes on the VM (caches copied), the cross-encoder overloaded it (V2).
 
-**Models and cost?** Open models on Cerebras' free tier: qwen-3.8-27b for small nodes, gpt-oss-120b for writer/critic.
-USD 0; tokens are reported per job. gpt-oss's free tier is 5 requests/min, which shaped how experiments were run
+**Models and cost?** Open models only. First Cerebras (qwen-3.8-27b small, gpt-oss-120b large): not free, the 11 Nov runs
+cost USD 5.27, paid by a USD 5 promotional credit, and gpt-oss allowed 5 requests/min. Then Gemma 4 on Google AI Studio's
+free tier (`gemma` profile). Tokens are reported per job and per proposal, which shaped how experiments were run
 (`scripts/run_experiments.sh`).
 
 **What would you do next?** Replace the regex injection detector with a classifier trained on paraphrases; run the

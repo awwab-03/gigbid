@@ -16,7 +16,7 @@ browser automation (`mcp_servers/marketplace/adapters/upwork_live.py`).
 
 **Declared budgets** (`agent/config.yaml: budgets`): p95 latency 25 s per job analysed and 90 s per proposal;
 cost USD 0.004 per job and 0.02 per proposal; at most 40 graph steps, 2 Critic revisions, 60k tokens per job.
-Open models on Cerebras' free tier cost USD 0, so tokens are reported alongside.
+We first assumed Cerebras was free; it was not. All 11 Nov runs (RAG, decisions, model comparison) used **USD 5.27** of real usage, paid by a USD 5 promotional credit (Cerebras billing page: qwen-3.8-27b 5.09, gpt-oss-120b 0.18). When the credit ran out, the remaining experiments moved to open-weights **Gemma 4** (26B-A4B small, 31B large) on Google AI Studio's free tier (no billing account, USD 0). Because the per-run split of the Cerebras bill is not available, cost is reported as tokens per job / proposal plus that total.
 
 **Data.** No simulator or labelled data was supplied, so we built GigSim and a synthetic, seeded (seed 7) world:
 3 personas with portfolios, 840 jobs, 600 with gold labels (bid/skip and reasons, scam type, planted injections,
@@ -100,7 +100,7 @@ cross-encoder pairs 1.5 s, load average 11); claim verification stays on there.
 ## 5. R&D question C: single agent vs prebuilt supervisor vs our graph
 
 TBD: setup recap and table from `evals/results/agent_comparison.json` (51 dev jobs, same read-only tools, same
-simulated client scoring, qwen-3.8-27b for all three because gpt-oss-120b's free tier allows 5 requests/minute).
+simulated client scoring, the `gemma` profile for all three).
 
 ## 6. The change request
 

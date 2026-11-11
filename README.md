@@ -10,7 +10,7 @@ proposals grounded in the freelancer's own portfolio. Nothing reaches a client w
 | Bid/skip F1 on 150 dev jobs (real open model) | **0.95** measured, 0.98 at the dev-tuned threshold (`evals/results/decision_eval_open_v8_fixed_limit50.json`) |
 | Scam detection precision / recall | **1.0 / 1.0** (same file) |
 | Evidence Recall@5, shipped retriever (V8) vs naive (V0) | **0.798 vs 0.637** on 450 jobs (`evals/results/rag_variants.json`) |
-| Cost per job analysed | **$0** (open models on a free tier), p95 12.8 s |
+| Cost | 11 Nov runs on Cerebras: **$5.27 in total**, paid by a $5 promotional credit (Cerebras billing page); runs from 12 Nov on Gemma 4 via Google AI Studio's free tier: $0. p95 12.8 s per job analysed |
 
 ## What it does
 
@@ -90,7 +90,7 @@ pre-fix files are kept (`decision_eval_open_v8_limit50.json`).
 | Evals | `make eval` writes `evals/results/*.json`; `bash scripts/run_experiments.sh` reruns the real-model experiments |
 
 Copy `.env.example` to `.env`. The `open` model profile needs any OpenAI-compatible open-model key (we used Cerebras'
-free tier); `MODEL_PROFILE=fake` runs everything offline. Deployment: [`docs/RUNBOOK.md`](docs/RUNBOOK.md).
+promotional credit, later Gemma 4 on Google AI Studio's free tier); `MODEL_PROFILE=fake` runs everything offline. Deployment: [`docs/RUNBOOK.md`](docs/RUNBOOK.md).
 
 ## Repository map
 
