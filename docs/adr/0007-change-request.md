@@ -18,8 +18,9 @@ submissions per day (was 30); cover letters at most 250 words (was 5,000).
 | `tests/integration/test_bid_graph.py` | +23 | `test_policy_v2_change_request_is_absorbed` |
 
 Everything else was absorbed with no edit because it is read at run time from `GET /policy`: the multiplier (Pricing),
-the word cap (Compliance Guard, `agent/nodes/compliance.py:54`) and the daily cap (GigSim returns 429; the marketplace
-server reports `RATE_LIMITED`, and the job waits instead of failing).
+and the word cap (Compliance Guard, `agent/nodes/compliance.py:54`). The daily cap is enforced only by the platform
+(GigSim rejects the 11th submission of the day with HTTP 429); GigBid does not yet plan approvals across days, which
+is the next gap this change exposes (not tested end to end).
 
 **The gap it exposed.** Without the 3-line pricing fix GigBid would quote **14 Connects for a proposal the platform
 charges 16** for (the new test fails on the old code with `assert 14 == 16`), so its expected-value check and its
