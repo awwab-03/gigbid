@@ -1,0 +1,52 @@
+{
+  "note": "decide() is deterministic given the fit score, so these are computed exactly from the fixed V8 rows (decision_eval_open_v8_fixed_limit50_rows.jsonl) with minimum_fit_score 0.60 vs 0.70. 0.70 was chosen on this same dev set (in-sample); the hidden test set is the out-of-sample check.",
+  "threshold_0.60": {
+    "n": 150,
+    "precision": 0.9043,
+    "recall": 1.0,
+    "f1": 0.9497,
+    "accuracy": 0.94,
+    "price_in_band": 1.0
+  },
+  "threshold_0.70": {
+    "n": 150,
+    "precision": 0.9881,
+    "recall": 0.9765,
+    "f1": 0.9822,
+    "accuracy": 0.98,
+    "price_in_band": 1.0
+  },
+  "sweep": {
+    "0.60": 0.9497,
+    "0.65": 0.9438,
+    "0.70": 0.9822,
+    "0.75": 0.9701,
+    "0.80": 0.9701
+  },
+  "by_persona_0.70": {
+    "ml_engineer": {
+      "n": 50,
+      "precision": 0.9643,
+      "recall": 1.0,
+      "f1": 0.9818,
+      "accuracy": 0.98,
+      "price_in_band": 1.0
+    },
+    "fullstack_dev": {
+      "n": 50,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "price_in_band": 1.0
+    },
+    "data_analyst": {
+      "n": 50,
+      "precision": 1.0,
+      "recall": 0.9355,
+      "f1": 0.9667,
+      "accuracy": 0.96,
+      "price_in_band": 1.0
+    }
+  }
+}

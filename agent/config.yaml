@@ -122,7 +122,7 @@ budgets:
   declared_cost_usd: {job_analysed: 0.004, proposal: 0.02}
 
 thresholds:
-  minimum_fit_score: 0.60
+  minimum_fit_score: 0.70          # 0.60 -> 0.70 chosen on the dev set (failure analysis: over-generous evidence at fit 0.67); see report section 8
   watch_fit_score: 0.45
   maximum_risk_score: 0.60
   minimum_client_quality: 0.30
