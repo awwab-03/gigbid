@@ -53,6 +53,15 @@ async def lifespan(app: FastAPI):
     import asyncio
 
     ensure_reviewer()
+    if os.getenv("WORKER_MODE") == "inline":
+        # Crash/restart recovery without Arq: runs cut off mid-flight would stay "running" forever. Hand them to the
+        # degraded-retry path, which resumes each thread from its last Postgres checkpoint (same idempotency keys).
+        from sqlalchemy import update as sa_update
+
+        from apps.api import db
+
+        with db.engine.begin() as c:
+            c.execute(sa_update(db.runs).where(db.runs.c.status == "running").values(status="queued_degraded"))
     if os.getenv("WARM_INDEX") == "1":  # deploy: embed the reviewer's portfolio before the first click, off the event loop
         from rag.index.store import get_index
 
