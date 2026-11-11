@@ -11,7 +11,7 @@ USD_PER_CONNECT = 0.15  # Upwork's published price per Connect; GigSim mirrors i
 
 
 def quote(job: dict, client: dict, stats: dict | None, profile: dict, fit: float, connects_cost: int,
-          connects_multiplier: float = 1.0) -> PriceQuote:
+          connects_multiplier: float = 1.0, connects_flat_fee: int = 0) -> PriceQuote:
     b = job.get("budget", {})
     btype = b.get("type", "fixed")
     floor = float(profile.get("hourly_floor", 20) if btype == "hourly" else profile.get("min_fixed", 150))
@@ -28,7 +28,7 @@ def quote(job: dict, client: dict, stats: dict | None, profile: dict, fit: float
             amount = max(floor, (amount + p50) / 2)
         amount = max(floor, min(amount, hi or amount))
     amount = round(amount, 0 if btype == "fixed" else 1)
-    cost = int(round(connects_cost * connects_multiplier))
+    cost = int(round(connects_cost * connects_multiplier + connects_flat_fee))  # same formula as the platform (policy v2 fee)
     p_reply = 0.05 + 0.35 * fit + 0.1 * (client.get("hire_rate") or 0)
     job_value = amount * (40 if btype == "hourly" else 1)
     ev = p_reply * 0.35 * job_value - cost * USD_PER_CONNECT
@@ -52,7 +52,7 @@ async def pricing(state: dict) -> dict:
     policy = await tb.call("marketplace.get_policy", {})
     balance = await tb.call("marketplace.get_connects_balance", {})
     q = quote(job, state.get("client", {}), stats, state.get("profile", {}), state.get("fit_report", {}).get("score", 0.5),
-              job.get("connects_cost", 0), float(policy.get("connects_multiplier", 1.0)))
+              job.get("connects_cost", 0), float(policy.get("connects_multiplier", 1.0)), int(policy.get("connects_flat_fee", 0)))
     out = {"price": {**q.model_dump(), "connects_balance": balance["balance"], "policy_version": policy.get("version")},
            "_summary": q.rationale}
     if balance["balance"] < q.connects_cost:

@@ -15,14 +15,20 @@ versions:
       - "No fabricated experience."
       - "No guarantees of outcomes."
       - "Automation must be human-approved; no scraping."
-  # v2 placeholder for the 2 Nov 2026 change request. Replace with the official text once
-  # received; GigBid must absorb it through config only (see docs/adr/0007-change-request.md).
+  # v2: change request. No official text was published for the class, so this update was defined by the author on
+  # 12 Nov 2026, modelled on real marketplace changes (higher Connects prices, a per-proposal fee, tighter caps).
+  # Absorbed by GigBid as recorded in docs/adr/0007-change-request.md.
   v2:
     published: "2026-11-02"
-    summary: "PLACEHOLDER - awaiting official change-request text"
-    connects_multiplier: 1.0
-    connects_flat_fee: 0
-    max_submissions_per_day: 30
+    summary: "Connects cost +50%, a flat 2-Connect submission fee, at most 10 submissions per day, cover letters at most 250 words"
+    connects_multiplier: 1.5
+    connects_flat_fee: 2
+    max_submissions_per_day: 10
     min_cover_letter_words: 0
-    max_cover_letter_words: 5000
-    rules: []
+    max_cover_letter_words: 250
+    rules:
+      - "No off-platform contact or payment."
+      - "No fabricated experience."
+      - "No guarantees of outcomes."
+      - "Automation must be human-approved; no scraping."
+      - "Every proposal costs a flat 2-Connect submission fee on top of the job's Connects price."

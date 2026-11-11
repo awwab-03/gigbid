@@ -23,7 +23,7 @@ policy:
   pack: data/policy_pack/marketplace_policy.md
   rules_file: data/policy_pack/rules.yaml
   # Platform policy version GigBid expects; a mismatch with GET /policy raises a UI warning.
-  expected_version: v1
+  expected_version: v2            # change request (docs/adr/0007-change-request.md)
 
 models:
   profile: open                   # open | paid   (env MODEL_PROFILE overrides)

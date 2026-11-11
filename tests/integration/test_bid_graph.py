@@ -103,3 +103,26 @@ async def test_profile_reaches_decision_and_pricing(marketplace_mcp):
     assert st.values["profile"]["hourly_floor"] == 30
     assert st.values["decision"]["action"] == "skip"
     assert any("below your floor" in r for r in st.values["decision"]["reasons"])
+
+
+async def test_policy_v2_change_request_is_absorbed(marketplace_mcp, gigsim_client):
+    """Change request (docs/adr/0007): policy v2 raises Connects 1.5x plus a flat 2-Connect fee and caps cover letters at
+    250 words. GigBid reads both from GET /policy at run time: pricing must charge what the platform charges, and the
+    Compliance Guard must flag an over-long letter."""
+    from agent.graphs.bid_graph import build_bid_graph
+    from agent.nodes.compliance import check_text
+
+    gigsim_client.post("/admin/policy", params={"version": "v2"}, headers=ADMIN)
+    try:
+        g0 = gold("data_analyst", lambda r: r["decision"] == "bid" and not r["has_injection"] and r["coverage"] == 1)
+        job = next(j for j in json.loads((ROOT / "gigsim/data/jobs.json").read_text(encoding="utf-8")) if j["job_id"] == g0["job_id"])
+        cfg = {"configurable": {"thread_id": "it-v2"}}
+        st = await run(build_bid_graph(checkpointer=InMemorySaver(), stop_before=["writer"]), start(g0["job_id"], "data_analyst", "it-v2"), cfg)
+        price = st.values["price"]
+        assert price["policy_version"] == "v2"
+        assert price["connects_cost"] == int(round(job["connects_cost"] * 1.5 + 2))
+        policy = gigsim_client.get("/policy").json()
+        verdict = check_text(" ".join(["word"] * 300), risk={}, verification=None, policy=policy)
+        assert any("250" in v.detail for v in verdict.violations), verdict
+    finally:
+        gigsim_client.post("/admin/policy", params={"version": "v1"}, headers=ADMIN)

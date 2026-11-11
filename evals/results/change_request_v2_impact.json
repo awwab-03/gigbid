@@ -1,0 +1,19 @@
+{
+  "v1": {
+    "bids": 84,
+    "connects_per_proposal": 8.14,
+    "usd_connects_per_proposal": 1.22,
+    "connects_worth_it": 84,
+    "connects_not_worth_it": 0,
+    "connects_for_all_bids": 684
+  },
+  "v2": {
+    "bids": 84,
+    "connects_per_proposal": 14.26,
+    "usd_connects_per_proposal": 2.14,
+    "connects_worth_it": 84,
+    "connects_not_worth_it": 0,
+    "connects_for_all_bids": 1198
+  },
+  "note": "Offline: agent.nodes.pricing.quote on the shipped-threshold V8 bids (decision_eval_open_v8_fixed_limit50_rows.jsonl), policy v1 vs v2. Daily cap: 10 submissions/day under v2 vs 30."
+}
