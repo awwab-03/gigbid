@@ -104,8 +104,23 @@ simulated client scoring, the `gemma` profile for all three).
 
 ## 6. The change request
 
-TBD: needs the 2 November change-request text. The design absorbs policy changes through `GET /policy`
-(Connects multiplier, fees, submission caps, length rules are read at run time by Pricing and Compliance).
+**What changed.** No official policy text was published for the class (checked 12 Nov), so we defined one, modelled on
+real marketplace changes, and absorbed it exactly as we would an official one (ADR 0007): Connects cost x1.5, a flat
+2-Connect fee per proposal, at most 10 submissions a day (was 30), cover letters at most 250 words.
+
+**What we had to edit** (commit d988242, about 10 minutes including the test): the platform side, `gigsim/policy.yaml`
+(+14/-8); one config line, `policy.expected_version: v2`; and **one GigBid code change, 3 lines** in
+`agent/nodes/pricing.py`. The multiplier, the word cap and the policy version flowed through `GET /policy` with no edit.
+A new integration test switches the simulator to v2 and checks both pricing and compliance.
+
+**What it says about the design.** Keeping the numbers in configuration worked; re-implementing the platform's
+*formula* did not. Pricing knew `connects_multiplier` but not `connects_flat_fee`, so without the fix it quoted 14
+Connects for a proposal the platform charged 16, and both the expected-value and the balance checks would have been
+wrong. The test fails on the old code with exactly that (`assert 14 == 16`). The sturdier design is to ask the platform
+for the cost of this proposal (the draft endpoint already returns it in `dry_run`) rather than recompute it. Effect on
+bidding (`change_request_v2_impact.json`): Connects per proposal 8.1 -> 14.3, no bid becomes negative expected value,
+and the same 84 dev bids need 1,198 Connects instead of 684 and nine days instead of three at 10 a day. The daily cap is
+enforced only by the platform; GigBid does not yet plan approvals across days.
 
 ## 7. Signature extension: X2 proposal A/B test
 
