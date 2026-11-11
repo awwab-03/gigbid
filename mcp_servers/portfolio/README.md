@@ -59,7 +59,7 @@ Same layout as `data/personas/ml_engineer/`; every file is optional except at le
 
 | Tool | What it returns |
 |---|---|
-| `search_evidence(query, k, types)` | ranked evidence chunks with ids, type, project, snippet |
+| `search_evidence(requirement, k, types, project, since, outcome)` | ranked evidence chunks with ids, type, project, snippet |
 | `match_requirements(requirements)` | per requirement: supported or not, best evidence, top projects |
 | `verify_claims(text, evidence_ids)` | each claim labelled supported / partly / unsupported, plus a fixed text with unsupported claims removed |
 | `get_case_study(project_id)` | the full case study |
