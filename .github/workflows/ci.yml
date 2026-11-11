@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       MODEL_PROFILE: fake
+      GIGBID_TIMEOUT_SCALE: "5"  # first V8 call on a CI CPU also downloads the cross-encoder
       FASTEMBED_CACHE_PATH: ~/.cache/fastembed
     steps:
       - uses: actions/checkout@v4
