@@ -20,6 +20,9 @@ gptoss)
   run MODEL_PROFILE=open RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/g2 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 1 --tag gptoss_v8
   ;;
 qwen)
+  # decisions after the BidState profile fix (f9badfa); the *_limit50 files without "_fixed" are the pre-fix runs
+  run MODEL_PROFILE=open RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/q0a $PY -m evals.runners.decision_eval --limit 50 --concurrency 3 --tag open_v8_fixed
+  run MODEL_PROFILE=open RAG_VARIANT=v0_naive MCP_STATE_DIR=$TEMP/q0b $PY -m evals.runners.decision_eval --limit 50 --concurrency 3 --tag open_v0_fixed
   run MODEL_PROFILE=open_qwen RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/q1 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 3 --tag qwen_v8
   run MODEL_PROFILE=open_qwen RAG_VARIANT=v0_naive MCP_STATE_DIR=$TEMP/q2 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 3 --tag qwen_v0
   run MODEL_PROFILE=open_qwen RAG_VARIANT=v8_crag WRITER_STRATEGY=writer_plan MCP_STATE_DIR=$TEMP/q3 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 3 --tag qwen_planfirst_v8
