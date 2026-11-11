@@ -7,10 +7,10 @@ proposals grounded in the freelancer's own portfolio. Nothing reaches a client w
 
 | | |
 |---|---|
-| Bid/skip F1 on 150 dev jobs (real open model) | **0.90** (`evals/results/decision_eval_open_v8_limit50.json`) |
+| Bid/skip F1 on 150 dev jobs (real open model) | **0.95** measured, 0.98 at the dev-tuned threshold (`evals/results/decision_eval_open_v8_fixed_limit50.json`) |
 | Scam detection precision / recall | **1.0 / 1.0** (same file) |
 | Evidence Recall@5, shipped retriever (V8) vs naive (V0) | **0.798 vs 0.637** on 450 jobs (`evals/results/rag_variants.json`) |
-| Cost per job analysed | **$0** (open models on a free tier), p95 8.6 s |
+| Cost per job analysed | **$0** (open models on a free tier), p95 12.8 s |
 
 ## What it does
 
@@ -62,15 +62,23 @@ Youden's J: `evals/results/support_threshold.json`.
 
 ### Decisions (B4): real open model (Cerebras), V8, 150 dev jobs
 
-| Persona | Bid/skip F1 | Accuracy | Price in fair band |
+| Persona | Bid/skip F1 (threshold 0.60, measured) | F1 at shipped threshold 0.70 | Price in fair band |
 |---|---|---|---|
-| ml_engineer | 0.871 | 0.84 | 0.63 |
-| fullstack_dev | 0.871 | 0.84 | 0.67 |
-| data_analyst | 0.954 | 0.94 | 0.87 |
-| **All** | **0.900** | **0.873** | **0.73** |
+| ml_engineer | 0.931 | 0.982 | 1.00 |
+| fullstack_dev | 0.915 | 1.000 | 1.00 |
+| data_analyst | 1.000 | 0.967 | 1.00 |
+| **All** | **0.950** | **0.982** | **1.00** |
 
-Scam P/R 1.0/1.0, injected-post flag recall 1.0, p50/p95 5.9 s / 8.6 s per job, ~2,900 tokens per job, 0 errors.
-Source: `evals/results/decision_eval_open_v8_limit50.json`.
+Scam P/R 1.0/1.0, injected-post flag recall 1.0, p50/p95 8.3 s / 12.8 s per job, ~2,700 tokens per job, 0 errors
+(`evals/results/decision_eval_open_v8_fixed_limit50.json`). The 0.70 column is computed exactly from the same rows
+(the decision is deterministic given the fit score) and was **chosen on this dev set**, so it is in-sample
+(`evals/results/decision_threshold_sweep.json`). Same jobs with naive retrieval (V0): F1 0.808, recall 0.69
+(`decision_eval_open_v0_fixed_limit50.json`).
+
+**A bug the evaluation found.** The first run scored F1 0.900 with only 73% of bids inside the fair price band. Failure
+analysis traced both to one line: `profile` was not declared in the LangGraph state, so LangGraph silently dropped it
+and every node saw an empty profile (rate floor 0, default $20 floor). Fixed in `f9badfa` with a regression test; the
+pre-fix files are kept (`decision_eval_open_v8_limit50.json`).
 
 ## Run it
 

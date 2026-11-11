@@ -89,7 +89,7 @@ it ranks the one right item first and retrieves fewer of the others). By persona
 cross-encoder; the supported/unsupported threshold was chosen by Youden's J on labelled pairs (-7.9 logit, AUC
 0.787, `support_threshold.json`). TBD: unsupported claims per proposal before/after from the proposal evals.
 
-**Downstream.** Decisions on the same 150 jobs and model: TBD (post-fix V8 vs V0, `decision_eval_open_*_fixed`).
+**Downstream: decisions.** Same 150 jobs, same model, threshold 0.60: V8 bid/skip F1 **0.950** (P 0.904, R 1.000) vs V0 **0.808** (P 0.967, R 0.694) (`decision_eval_open_v8_fixed_limit50.json`, `decision_eval_open_v0_fixed_limit50.json`). Naive retrieval does not make GigBid reckless, it makes it timid: missed evidence turns good jobs into skips. Price inside the fair band is 1.00 for both after the profile fix (section 8).
 Proposals, judge, reply rate, latency, tokens: TBD (`proposal_eval_qwen_v8_open_qwen`, `proposal_eval_qwen_v0_open_qwen`).
 Judge calibration: TBD (`judge_calibration.json`, 30 items labelled by the author).
 
@@ -115,16 +115,20 @@ TBD: results from `evals/results/ab_test_x2.json`.
 
 ## 8. Failure analysis
 
-The V8 decision eval (`decision_eval_open_v8_limit50_rows.jsonl`, 150 jobs) had **19 wrong decisions, all bids on
-gold-skip jobs**, and 32 of 112 correct bids priced outside the fair band (28 below).
+The first V8 decision eval (`decision_eval_open_v8_limit50_rows.jsonl`, 150 jobs) scored F1 0.900 but had **19 wrong
+decisions, all bids on gold-skip jobs**, and 32 of the correct bids priced outside the fair band (28 below it).
 
 | Category | Jobs (examples) | Cause | Fix tried | Worked? |
 |---|---|---|---|---|
-| Wrong bid: budget below floor | 5 (j-00003 $24/h vs $30 floor; j-00044 $160 vs $300 min) | `profile` missing from `BidState`; LangGraph dropped it, so the floor was 0 | declare `profile` in the state; regression test (commit f9badfa) | TBD |
-| Mispriced (below band) | 28 (j-00008, j-00015, j-00023: $28/h, band from $39) | same bug: pricing used its default $20 floor x 1.4 | same fix | TBD |
-| Wrong bid: over-generous evidence | 9 (j-00005, j-00027, j-00206, j-00227: gold coverage 0.4, predicted 5/7 requirements "supported") | retrieval finds loosely related evidence for missing skills (Next.js, GraphQL, Unity) | none yet; candidate: stricter support threshold on fit | no |
-| Missed evidence | 26 jobs wrong with V0 and right with V8 (8 the other way) | dense retrieval misses paraphrased requirements | V8 corrective RAG | yes (net +18) |
-| TBD | unsupported claims, compliance misses, injection, tool errors | from proposal evals and injection eval | | |
+| Wrong bid: budget below floor | 5 (j-00003 $24/h vs $30 floor; j-00044 $160 vs $300 minimum) | `profile` was not declared in `BidState`, so LangGraph dropped it and `decide` saw a floor of 0 | declare `profile` in the state schema; regression test that fails on the old schema (commit f9badfa) | **yes**: 0 of these left |
+| Mispriced, below band | 28 (j-00008, j-00015, j-00023 bid $28/h, band from $39) | same bug: pricing used its default $20 floor x 1.4 | same fix | **yes**: price in band 0.73 -> 1.00 |
+| Wrong bid: over-generous evidence | 9 (j-00005, j-00027, j-00206, j-00227, j-00245: gold coverage 0.4, fit 0.67) | retrieval finds loosely related evidence for missing skills (Next.js, GraphQL, Unity, dbt) | bid threshold 0.60 -> 0.70 from a dev-set sweep (`decision_threshold_sweep.json`) | **partly**: fixes 8 of 9, loses 2 true bids; F1 0.950 -> 0.982 in-sample only. The real fix (stricter support on the fit side) is not done |
+| Missed evidence | 26 jobs wrong with V0 and right with V8 (pre-fix runs; 8 the other way) | dense retrieval misses paraphrased requirements | V8 corrective RAG | **yes**: recall 0.694 -> 1.000 after the fix |
+
+After the profile fix the measured V8 run has 9 errors, all in the over-generous-evidence category, F1 0.950,
+accuracy 0.94 (`decision_eval_open_v8_fixed_limit50.json`). The bug was invisible in the headline metric (0.900 looks
+good) and in unit tests (the `decide` function was correct); only reading individual failures found it.
+TBD: proposal-level failures (unsupported claims, generic openings, compliance, injection, tool errors).
 
 ## 9. Safety and platform respect
 
