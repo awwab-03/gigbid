@@ -109,7 +109,7 @@ async def main(limit: int | None, personas: list[str], concurrency: int, tag: st
         rows += await asyncio.gather(*(eval_job(graph, p, g, profile, sem) for g in gold))
     from agent.llm import CFG
 
-    out = {"profile": profile_name(), "rag_variant": CFG["rag"]["variant"], "limit_per_persona": limit,
+    out = {"profile": profile_name(), "rag_variant": os.getenv("RAG_VARIANT") or CFG["rag"]["variant"], "limit_per_persona": limit,
            "overall": summarize(rows), "by_persona": {p: summarize([r for r in rows if r["persona"] == p]) for p in personas}}
     RES.mkdir(parents=True, exist_ok=True)
     name = f"decision_eval_{tag or profile_name()}{'_limit' + str(limit) if limit else ''}"
