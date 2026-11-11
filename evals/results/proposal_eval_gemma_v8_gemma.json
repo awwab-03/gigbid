@@ -1,0 +1,80 @@
+{
+  "profile": "gemma",
+  "rag_variant": "v8_crag",
+  "fixed_job_set": "first 10 gold-bid dev jobs per persona",
+  "llm_fallbacks": {
+    "writer:gemma-4-31b-it->gemma-4-26b-a4b-it": 86,
+    "critic:gemma-4-31b-it->gemma-4-26b-a4b-it": 45,
+    "analyst:gemma-4-26b-a4b-it->gemma-4-31b-it": 2
+  },
+  "overall": {
+    "jobs": 30,
+    "drafted": 20,
+    "submitted": 20,
+    "unsupported_before_per_proposal": 1.35,
+    "unsupported_after_per_proposal": 0.1,
+    "unsupported_claim_rate_before": 0.3418,
+    "judge_overall_mean": 3.9,
+    "reply_rate": 0.3,
+    "hire_rate": 0.0,
+    "mean_p_reply": 0.3845,
+    "critic_loops_mean": 1.6,
+    "latency_p50_s": 479.42,
+    "latency_p95_s": 878.05,
+    "cost_per_proposal_usd": 0.0,
+    "tokens_per_proposal": 8369.1
+  },
+  "by_persona": {
+    "ml_engineer": {
+      "jobs": 10,
+      "drafted": 6,
+      "submitted": 6,
+      "unsupported_before_per_proposal": 1.0,
+      "unsupported_after_per_proposal": 0.167,
+      "unsupported_claim_rate_before": 0.2727,
+      "judge_overall_mean": 4.5,
+      "reply_rate": 0.1667,
+      "hire_rate": 0.0,
+      "mean_p_reply": 0.3175,
+      "critic_loops_mean": 1.333,
+      "latency_p50_s": 582.12,
+      "latency_p95_s": 618.3,
+      "cost_per_proposal_usd": 0.0,
+      "tokens_per_proposal": 7801.0
+    },
+    "fullstack_dev": {
+      "jobs": 10,
+      "drafted": 6,
+      "submitted": 6,
+      "unsupported_before_per_proposal": 1.833,
+      "unsupported_after_per_proposal": 0.0,
+      "unsupported_claim_rate_before": 0.4231,
+      "judge_overall_mean": 3.2,
+      "reply_rate": 0.3333,
+      "hire_rate": 0.0,
+      "mean_p_reply": 0.3741,
+      "critic_loops_mean": 2.0,
+      "latency_p50_s": 482.55,
+      "latency_p95_s": 531.06,
+      "cost_per_proposal_usd": 0.0,
+      "tokens_per_proposal": 10388.7
+    },
+    "data_analyst": {
+      "jobs": 10,
+      "drafted": 8,
+      "submitted": 8,
+      "unsupported_before_per_proposal": 1.25,
+      "unsupported_after_per_proposal": 0.125,
+      "unsupported_claim_rate_before": 0.3226,
+      "judge_overall_mean": 4.667,
+      "reply_rate": 0.375,
+      "hire_rate": 0.0,
+      "mean_p_reply": 0.4425,
+      "critic_loops_mean": 1.5,
+      "latency_p50_s": 454.93,
+      "latency_p95_s": 878.05,
+      "cost_per_proposal_usd": 0.0,
+      "tokens_per_proposal": 7280.6
+    }
+  }
+}
