@@ -45,7 +45,8 @@ class Toolbox:
         self.account = account
         self.allowed = set(CFG["tool_allowlist"].get(agent, []))
         self.transport = transport or os.getenv("MCP_TRANSPORT", "http")
-        self.timeout = float(CFG["mcp"]["timeout_s"])
+        # GIGBID_TIMEOUT_SCALE also stretches tool calls on slow hosts (the 1 GB deploy VM runs the cross-encoder on a fraction of a CPU)
+        self.timeout = float(CFG["mcp"]["timeout_s"]) * float(os.getenv("GIGBID_TIMEOUT_SCALE", "1"))
         self.retries = int(CFG["mcp"]["max_retries"])
 
     def allows(self, qualified: str) -> bool:
