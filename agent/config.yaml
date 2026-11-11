@@ -96,7 +96,7 @@ reranker:
   model: Xenova/ms-marco-MiniLM-L-6-v2   # open cross-encoder, CPU (fastembed)
 
 rag:
-  variant: v0_naive                # set by evals/runners/rag_eval.py results; see docs/adr/0004
+  variant: v8_crag                 # best on the full dev set (evals/results/rag_variants.json); see docs/adr/0004
   k: 8
   chunk_size: 700
   chunk_overlap: 100

@@ -1,7 +1,15 @@
-# ADR 0008: Free-tier deployment on a Hugging Face Space + Neon Postgres
+# ADR 0008: Free-tier deployment on an Oracle Cloud Always Free VM
 
-**Decision.** One Docker container on a free HF Space (2 vCPU, 16 GB) runs every service under supervisord;
-Postgres is a free Neon database. **Why.** No budget for a VPS; HF is the only free host with enough RAM for the
-CPU embedding and reranking models plus seven processes. **Risks.** Free Spaces sleep after 48 h idle: a GitHub
-Actions cron pings `/api/health` every 6 h. Cold start is about a minute. `docker compose` remains the reference
-local deployment with separate containers.
+**Decision.** One Always Free `VM.Standard.E2.1.Micro` (1 GB RAM + 4 GB swap, Ubuntu 24.04, Toronto) runs GigBid
+as a single process: GigSim and the API as two systemd services, the three MCP servers in-process
+(`MCP_TRANSPORT=inproc`), jobs and the worker's schedules in-process (`WORKER_MODE=inline`, `INLINE_CRON=1`),
+local Postgres 16 + pgvector, native Caddy with Let's Encrypt on an sslip.io hostname. Files: `infra/deploy/oracle/`.
+
+**Why.** No budget. Hugging Face Docker Spaces turned out to be paid, the Azure student credit is reserved for other
+work, and the Ampere A1 shape had no capacity in the home region. The micro VM never sleeps, so the hidden test run
+after the deadline needs no keep-alive.
+
+**Consequences.** Separate MCP processes, Redis and the Arq worker are only in `infra/docker-compose.yml` (the
+reference multi-container deployment). The VM is slow at embedding, so the portfolio embedding caches are copied
+from a dev machine (same model, same keys). Sync MCP tools run in worker threads so CPU-bound retrieval never blocks
+the API event loop. The HF deploy and keep-alive workflows are unused.
