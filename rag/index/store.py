@@ -155,6 +155,8 @@ class PortfolioIndex:
 
     def reload(self) -> None:
         self.docs = load_portfolio(self.dir)
+        if not self.docs:  # otherwise BM25 divides by zero deep inside the first search
+            raise ValueError(f"no portfolio evidence found in {self.dir} (see mcp_servers/portfolio/README.md for the layout)")
         self.doc_by_id = {d.doc_id: d for d in self.docs}
         rc = CFG["rag"]
         self.fixed = ChunkSet("fixed", fixed_chunks(self.docs, rc["chunk_size"], rc["chunk_overlap"]), self.cache, self.persona)

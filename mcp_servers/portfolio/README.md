@@ -35,7 +35,12 @@ embeds the portfolio once; the embeddings are cached in `<portfolio>/.gigbid_cac
 }
 ```
 
-**MCP Inspector:** `npx @modelcontextprotocol/inspector uvx --from git+https://github.com/awwab-03/gigbid gigbid-portfolio-mcp --stdio --portfolio /path/to/my_portfolio`
+**MCP Inspector:** `npx @modelcontextprotocol/inspector uvx --from git+https://github.com/awwab-03/gigbid gigbid-portfolio-mcp --stdio --portfolio /path/to/my_portfolio`.
+On Windows write the path with forward slashes (`C:/Users/me/portfolio`): the Inspector's argument parser strips
+backslashes, and the server then stops with "portfolio folder not found". Screenshots of the server in the
+Inspector: [tool list](../../docs/images/inspector/01_tools_list.jpg),
+[a structured `search_evidence` call](../../docs/images/inspector/02_search_evidence_call.jpg),
+[input validation](../../docs/images/inspector/03_input_validation.jpg).
 
 **Streamable HTTP** (how GigBid itself runs it): omit `--stdio`; it serves `http://0.0.0.0:8091/mcp` and requires a
 bearer service token signed with `MCP_SHARED_SECRET` (`shared/security.py`); `MCP_AUTH_REQUIRED=0` disables auth

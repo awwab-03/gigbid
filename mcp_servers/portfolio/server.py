@@ -342,6 +342,8 @@ def main() -> None:
                                         "required when installed with uvx/pip, where the repo's sample personas are not present")
     a = ap.parse_args()
     if a.portfolio:
+        if not Path(a.portfolio).is_dir():
+            ap.error(f"portfolio folder not found: {a.portfolio!r} (on Windows prefer forward slashes; some MCP clients strip backslashes)")
         os.environ["PORTFOLIO_DIR"] = str(Path(a.portfolio).resolve())
     from rag.index.store import PERSONA_DIR
 
