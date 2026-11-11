@@ -165,6 +165,13 @@ def _extract_json(text: str) -> Any:
     return json.loads(text[start:end])
 
 
+_REASONING = re.compile(r"<(think|thought)>.*?(</\1>|$)", re.S)
+
+
+def strip_reasoning(text: str) -> str:
+    return _REASONING.sub("", text or "").strip()
+
+
 FALLBACKS: dict[str, int] = {}  # node:primary->fallback -> count, reported by the eval runners
 
 
@@ -188,7 +195,8 @@ async def _invoke(node: str, messages: list[tuple[str, str]]) -> tuple[str, str]
         led = ledger_var.get()
         if led:
             led.add(UsageRecord(node, name, tin, tout, (tin * pr["in"] + tout * pr["out"]) / 1e6, time.perf_counter() - t0))
-        return str(msg.content), name
+        # some open models (Gemma 4 on the Gemini API) always emit visible reasoning: <thought>...</thought> or <think>...</think>
+        return strip_reasoning(str(msg.content)), name
     raise RuntimeError("unreachable")
 
 
