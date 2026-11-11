@@ -1,0 +1,77 @@
+{
+  "n_tasks": 40,
+  "summary": {
+    "gemma-4-31b-it|fine": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 42,
+      "tool_selection_acc": 0.95,
+      "argument_acc": 0.9,
+      "tokens_per_task": 1916.8,
+      "no_tool_call": 0
+    },
+    "gemma-4-31b-it|coarse": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 3,
+      "tool_selection_acc": 0.925,
+      "argument_acc": 0.7,
+      "tokens_per_task": 485.9,
+      "no_tool_call": 0
+    },
+    "gemma-4-31b-it|ours": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 22,
+      "tool_selection_acc": 0.975,
+      "argument_acc": 0.975,
+      "tokens_per_task": 3421.3,
+      "no_tool_call": 0
+    },
+    "gemma-4-31b-it|ours_rw": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 22,
+      "tool_selection_acc": 0.975,
+      "argument_acc": 0.975,
+      "tokens_per_task": 3613.4,
+      "no_tool_call": 0
+    },
+    "gemma-4-26b-a4b-it|fine": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 42,
+      "tool_selection_acc": 0.925,
+      "argument_acc": 0.9,
+      "tokens_per_task": 1916.8,
+      "no_tool_call": 0
+    },
+    "gemma-4-26b-a4b-it|coarse": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 3,
+      "tool_selection_acc": 0.95,
+      "argument_acc": 0.6,
+      "tokens_per_task": 485.2,
+      "no_tool_call": 0
+    },
+    "gemma-4-26b-a4b-it|ours": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 22,
+      "tool_selection_acc": 0.925,
+      "argument_acc": 0.925,
+      "tokens_per_task": 3421.4,
+      "no_tool_call": 0
+    },
+    "gemma-4-26b-a4b-it|ours_rw": {
+      "n_scored": 40,
+      "n_provider_errors": 0,
+      "n_tools": 22,
+      "tool_selection_acc": 0.975,
+      "argument_acc": 0.975,
+      "tokens_per_task": 3613.8,
+      "no_tool_call": 0
+    }
+  }
+}
