@@ -1,0 +1,14 @@
+# Native Caddy on the Oracle VM: HTTPS (Let's Encrypt) for $SITE_ADDRESS, /api -> FastAPI, everything else -> the built SPA.
+{$SITE_ADDRESS} {
+	encode gzip
+	handle_path /api/* {
+		reverse_proxy 127.0.0.1:8000 {
+			flush_interval -1
+		}
+	}
+	handle {
+		root * /srv/gigbid
+		try_files {path} /index.html
+		file_server
+	}
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=GigSim marketplace simulator
+After=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/gigbid
+EnvironmentFile=/home/ubuntu/gigbid.env
+Environment=GIGSIM_DB=/home/ubuntu/state/gigsim.sqlite
+ExecStart=/home/ubuntu/gigbid/.venv/bin/uvicorn gigsim.app:app --host 127.0.0.1 --port 8081
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -13,37 +13,30 @@
 SQLite storage, so a laptop without Docker can run the whole product. Production always uses the
 streamable-HTTP MCP servers, Postgres, Redis and the Arq worker.
 
-## Deploy (free tier: Hugging Face Space + Neon)
+## Deploy (free tier: Oracle Cloud Always Free VM)
 
-The live URL is a free Hugging Face Space (Docker SDK, 2 vCPU / 16 GB) running one container
-(`infra/deploy/hf/Dockerfile`): GigSim, the three MCP servers, API, Arq worker, Redis and Caddy under
-supervisord. Postgres (checkpoints, store, app tables, pgvector) is a free Neon database so state
-survives container restarts.
+The live URL is an Oracle Cloud **Always Free** `VM.Standard.E2.1.Micro` (1 OCPU, 1 GB RAM + 4 GB swap,
+Ubuntu 24.04, Toronto) at `https://40-233-123-21.sslip.io` (sslip.io maps the hostname to the IP, so Caddy
+gets a Let's Encrypt certificate without buying a domain). It never sleeps and costs nothing.
 
-1. **Neon**: create a project, enable the `vector` extension (`CREATE EXTENSION vector;` in the SQL editor), copy the
-   connection string (`postgresql://...?sslmode=require`).
-2. **Hugging Face**: create a Space, SDK **Docker**, hardware **CPU basic (free)**. Name it `gigbid`.
-3. **Space settings, Variables and secrets** (all as *secrets* except where noted):
+To fit 1 GB the deploy is **single-process** (`infra/deploy/oracle/`):
 
-   | Name | Value |
-   |---|---|
-   | `DATABASE_URL` | the Neon connection string |
-   | `APP_SECRET_KEY`, `MCP_SHARED_SECRET`, `GIGSIM_SECRET`, `GIGSIM_ADMIN_TOKEN` | four different long random strings |
-   | `TOKEN_ENCRYPTION_KEY` | `python -c "from cryptography.fernet import Fernet;print(Fernet.generate_key().decode())"` |
-   | `OPEN_LLM_API_KEY` | Cerebras API key (`OPEN_LLM_BASE_URL` defaults to Groq) |
-   | `LANGSMITH_API_KEY` | LangSmith key; also set variable `LANGSMITH_TRACING=true` |
-   | `REVIEWER_EMAIL`, `REVIEWER_PASSWORD` | the reviewer login you will paste in the private Classroom comment |
-   | `WEB_ORIGIN` (variable) | `https://<user>-gigbid.hf.space` |
-   | `UPWORK_OAUTH_REDIRECT_URI` (variable) | `https://<user>-gigbid.hf.space/api/auth/upwork/callback` |
+| Piece | How it runs on the VM |
+|---|---|
+| GigSim | `gigbid-gigsim.service` (uvicorn, SQLite state in `~/state`) |
+| API + 3 MCP servers + worker | `gigbid-api.service`: MCP servers in-process (`MCP_TRANSPORT=inproc`), jobs as asyncio tasks (`WORKER_MODE=inline`), the worker's cron schedules in-process (`INLINE_CRON=1`, `apps/api/main.py:_inline_cron`) |
+| Postgres 16 + pgvector | local apt package: checkpoints, store, app tables, vectors |
+| Web | the built React app served by native Caddy, `/api/*` proxied to the API |
 
-4. **GitHub repo settings**: secret `HF_TOKEN` (a Hugging Face *write* token), variables `HF_SPACE=<user>/gigbid` and
-   `LIVE_URL=https://<user>-gigbid.hf.space`. Every push to `main` then redeploys (`.github/workflows/deploy-hf.yml`),
-   and `.github/workflows/keepalive.yml` pings `/api/health` every 6 hours so the free Space never sleeps
-   (free Spaces sleep after 48 h without traffic, and the hidden test run happens after the deadline).
-5. Open the Space URL, sign in as the reviewer, press **Scout now**.
+The MCP servers keep the same tool code, auth, idempotency and audit log; only the transport changes.
+The Docker compose stack (`infra/docker-compose.yml`) is the multi-process version for machines with more RAM.
 
-Non-secret defaults for the container (Redis on localhost, MCP URLs on localhost, `VECTOR_BACKEND=pgvector`,
-`MODEL_PROFILE=open`) are baked into `infra/deploy/hf/Dockerfile`.
+1. Create the VCN with the **VCN Wizard** (internet connectivity), add an ingress rule for TCP `80,443` from `0.0.0.0/0`.
+2. Create the instance: Ubuntu 24.04, shape `VM.Standard.E2.1.Micro`, public subnet, public IPv4 on, your SSH key.
+3. On the VM: 4 GB swap, open 80/443 in iptables (`netfilter-persistent save`), `git clone` the repo.
+4. Copy `~/gigbid.env` (chmod 600; production overrides of `.env`, never committed) and the built web app
+   (`VITE_API_URL=/api npx vite build`) to `~/web-dist`, then run `infra/deploy/oracle/setup.sh`.
+5. Update: `git pull && sudo systemctl restart gigbid-api gigbid-gigsim`.
 
 ## Schedules and rate limits (E1, A4)
 

@@ -26,10 +26,37 @@ from apps.api.schemas.models import HealthOut  # noqa: E402
 from apps.api.seed import ensure_reviewer  # noqa: E402
 
 
+async def _inline_cron():
+    """Single-process deploy (WORKER_MODE=inline, INLINE_CRON=1): the same schedules as worker/main.py
+    (pipeline sync + degraded retries every 2 min, scouting every SCOUT_EVERY min) without Redis/Arq."""
+    import asyncio
+    import logging
+
+    from worker import tasks
+    from worker.main import SCOUT_EVERY, scout_all
+
+    log = logging.getLogger("inline_cron")
+    minute = 0
+    while True:
+        await asyncio.sleep(120)
+        minute += 2
+        try:
+            await tasks.tick_all({})
+            if minute % SCOUT_EVERY == 0:
+                await scout_all({})
+        except Exception as e:  # keep the scheduler alive; the next tick retries
+            log.exception("inline cron failed: %s", e)
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    import asyncio
+
     ensure_reviewer()
+    cron_task = asyncio.create_task(_inline_cron()) if os.getenv("INLINE_CRON") == "1" else None
     yield
+    if cron_task:
+        cron_task.cancel()
 
 
 app = FastAPI(title="GigBid API", version="1.0.0", lifespan=lifespan,

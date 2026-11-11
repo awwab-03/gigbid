@@ -1,0 +1,15 @@
+[Unit]
+Description=GigBid API (MCP servers in-process, inline worker + scheduler)
+After=network-online.target postgresql.service gigbid-gigsim.service
+Wants=gigbid-gigsim.service
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/gigbid
+EnvironmentFile=/home/ubuntu/gigbid.env
+ExecStart=/home/ubuntu/gigbid/.venv/bin/uvicorn apps.api.main:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
