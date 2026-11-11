@@ -8,14 +8,14 @@ changes, and absorbed it the same way an official one would be.
 **Policy v2** (`gigsim/policy.yaml`): Connects cost x1.5; a flat 2-Connect submission fee per proposal; at most 10
 submissions per day (was 30); cover letters at most 250 words (was 5,000).
 
-**What had to change in GigBid** (commit for this ADR; timed 02:29 to 02:40 PKT, about 10 minutes including the test):
+**What had to change in GigBid** (commit d988242; timed 02:29 to 02:40 PKT, about 10 minutes including the test):
 
 | File | Lines | Why |
 |---|---|---|
-| `gigsim/policy.yaml` | +15 / -9 | the platform's side of the change (the v2 block), plus a deliberate checksum re-freeze |
+| `gigsim/policy.yaml` | +14 / -8 | the platform's side of the change (the v2 block), plus a deliberate checksum re-freeze |
 | `agent/nodes/pricing.py` | +3 / -3 | **the only GigBid code change**: pricing read `connects_multiplier` but ignored `connects_flat_fee`, which the platform already charged |
-| `agent/config.yaml` | 1 | `policy.expected_version: v2` (the UI warns when the platform's version differs) |
-| `tests/integration/test_bid_graph.py` | +25 | `test_policy_v2_change_request_is_absorbed` |
+| `agent/config.yaml` | +1 / -1 | `policy.expected_version: v2` (the UI warns when the platform's version differs) |
+| `tests/integration/test_bid_graph.py` | +23 | `test_policy_v2_change_request_is_absorbed` |
 
 Everything else was absorbed with no edit because it is read at run time from `GET /policy`: the multiplier (Pricing),
 the word cap (Compliance Guard, `agent/nodes/compliance.py:54`) and the daily cap (GigSim returns 429; the marketplace
