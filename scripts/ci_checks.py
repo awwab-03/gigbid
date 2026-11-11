@@ -28,7 +28,9 @@ def tracked() -> list[Path]:
 
 
 def gigsim_files() -> list[Path]:
-    return sorted(p for p in tracked() if p.relative_to(ROOT).parts[0] == "gigsim" and p.name != "CHECKSUMS.sha256" and p.is_file())
+    # explicit key: Windows paths sort case-insensitively, POSIX paths do not, which reordered the frozen file on CI
+    return sorted((p for p in tracked() if p.relative_to(ROOT).parts[0] == "gigsim" and p.name != "CHECKSUMS.sha256" and p.is_file()),
+                  key=lambda p: p.relative_to(ROOT).as_posix())
 
 
 def checksums() -> str:
@@ -42,7 +44,7 @@ def checksums() -> str:
 
 def main() -> int:
     if "--freeze" in sys.argv:
-        (ROOT / "gigsim" / "CHECKSUMS.sha256").write_text(checksums(), encoding="utf-8")
+        (ROOT / "gigsim" / "CHECKSUMS.sha256").write_text(checksums(), encoding="utf-8", newline="\n")
         print("gigsim checksums frozen")
         return 0
     errors = []
@@ -57,7 +59,7 @@ def main() -> int:
         if p.name in (".env",) or (p.name.startswith(".env.") and p.name != ".env.example"):
             errors.append(f"env file committed: {p.relative_to(ROOT)}")
     frozen = ROOT / "gigsim" / "CHECKSUMS.sha256"
-    if not frozen.exists() or frozen.read_text(encoding="utf-8") != checksums():
+    if not frozen.exists() or sorted(frozen.read_text(encoding="utf-8").splitlines()) != sorted(checksums().splitlines()):
         errors.append("gigsim/ changed without a deliberate re-freeze (python scripts/ci_checks.py --freeze)")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     for ref in set(re.findall(r"evals/results/[\w./-]+\.(?:json|csv|jsonl)", readme)):

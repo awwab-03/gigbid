@@ -6,7 +6,7 @@ on:
 
 jobs:
   python:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       MODEL_PROFILE: fake
       FASTEMBED_CACHE_PATH: ~/.cache/fastembed
@@ -24,7 +24,7 @@ jobs:
         run: pytest -q
 
   web:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       MODEL_PROFILE: fake
     steps:

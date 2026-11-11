@@ -5,7 +5,7 @@ on:
 
 jobs:
   smoke:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       # real open model when the secret exists (forks/PRs without secrets fall back to the fake profile;
       # the claim gate only applies to real-model runs)
