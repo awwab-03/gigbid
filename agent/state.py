@@ -25,6 +25,10 @@ class BidState(TypedDict, total=False):
     account: str
     trace_id: str
     autonomy: str
+    # freelancer profile (rate floor, target, name, headline). It MUST be declared here: LangGraph drops undeclared
+    # input keys, which once left decide/pricing/writer with an empty profile (floor 0, default $20 floor).
+    profile: dict[str, Any]
+    skip_dedup: bool
     # job
     job: dict[str, Any]
     client: dict[str, Any]
@@ -66,6 +70,7 @@ class ConversationState(TypedDict, total=False):
     account: str
     trace_id: str
     marketplace_thread_id: str
+    profile: dict[str, Any]
     job: dict[str, Any]
     proposal: dict[str, Any]
     messages: list[dict[str, Any]]

@@ -90,3 +90,16 @@ async def test_reject_keeps_reason(marketplace_mcp, gigsim_client):
     st = await run(g, Command(resume={"action": "reject", "reason": "budget too low"}), cfg)
     assert st.values["status"] == "rejected" and st.values["status_reason"] == "budget too low"
     assert "submission" not in st.values
+
+
+async def test_profile_reaches_decision_and_pricing(marketplace_mcp):
+    """Regression: `profile` was missing from BidState, so LangGraph dropped it and decide/pricing saw {}:
+    budget-below-floor jobs were bid on and hourly bids defaulted to $28. The floor must reach every node."""
+    from agent.graphs.bid_graph import build_bid_graph
+
+    g0 = gold("ml_engineer", lambda r: r["skip_reasons"] == ["budget_below_floor"] and not r["is_scam"])
+    cfg = {"configurable": {"thread_id": "it-floor"}}
+    st = await run(build_bid_graph(checkpointer=InMemorySaver(), stop_before=["writer"]), start(g0["job_id"], "ml_engineer", "it-floor"), cfg)
+    assert st.values["profile"]["hourly_floor"] == 30
+    assert st.values["decision"]["action"] == "skip"
+    assert any("below your floor" in r for r in st.values["decision"]["reasons"])
