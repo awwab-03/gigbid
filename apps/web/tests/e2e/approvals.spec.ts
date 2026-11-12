@@ -18,7 +18,7 @@ test('approving a proposal shows evidence on hover and submits it', async ({ pag
 
 test('rejecting a proposal requires and keeps a reason', async ({ page }) => {
   await register(page)
-  await draftAndOpenStudio(page, 'j-00003')
+  await draftAndOpenStudio(page, 'j-00009')  // j-00003 is correctly skipped since the profile fix
   await page.getByTestId('reject').click()
   await expect(page.getByTestId('confirm-reject')).toBeDisabled()
   await page.getByTestId('reject-reason').fill('client budget too low')
