@@ -116,7 +116,7 @@ both X2 arms). Quadratic-weighted kappa **0.27** (fair), exact agreement 0.22, w
 harsher (mean 3.57 vs 3.87). Six items differ by two or more points in both directions, so the bias is not a simple
 offset. The judge separated the X2 arms more than the author did (3.9 vs 3.3, author 4.0 vs 3.8). **Consequence:** judge
 scores are reported for completeness but no decision rests on them; X2 and the model comparison use the simulated
-client's reply outcome, which is computed from the proposal text by a fixed rule.
+client's reply probability and outcome from GigSim's client model (`gigsim/client_model.py`).
 
 **What ships.** V8 (ADR 0004): best retrieval on every overall metric and on 4+ requirement and injected posts,
 p95 4.1 s vs V3's 7.5 s. The 1 GB live VM runs V2 because V8's cross-encoder overloaded it (measured: 20
