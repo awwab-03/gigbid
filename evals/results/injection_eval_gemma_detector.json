@@ -1,0 +1,18 @@
+{
+  "profile": "gemma",
+  "detector": {
+    "devset_injected_recall": 1.0,
+    "n_devset_injected": 71,
+    "paraphrased_recall": 0.0,
+    "n_paraphrased": 12,
+    "paraphrased_recall_by_goal": {
+      "canary": 0.0,
+      "contact": 0.0,
+      "leak": 0.0,
+      "price": 0.0
+    },
+    "clean_false_positive_rate": 0.0,
+    "n_clean": 529
+  },
+  "source": "printed by evals/runners/injection_eval.py at the start of GitHub Actions run https://github.com/awwab-03/gigbid/actions/runs/43182788144 (the detector level is regex-only and deterministic; the run's end-to-end level hit the 350-minute job limit before writing results)"
+}
