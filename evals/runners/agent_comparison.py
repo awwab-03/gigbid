@@ -196,7 +196,10 @@ async def main(limit: int, designs: list[str], concurrency: int) -> dict:
     jobs = {j["job_id"]: j for j in json.loads((ROOT / "gigsim/data/jobs.json").read_text(encoding="utf-8"))}
     accounts = {a["freelancer_id"]: a for a in json.loads((ROOT / "gigsim/data/accounts.json").read_text(encoding="utf-8"))}
     graph = build_bid_graph(checkpointer=InMemorySaver(), stop_before=["approval"])
-    model = _chat(model_for("writer")[0], 0.2)  # the `large` open model, same client the graph uses
+    # baselines default to the `large` open model; BASELINE_MODEL overrides it (12 Nov: Gemma 31B returned 500/503 on most
+    # multi-turn calls and the baselines have no fallback, so they ran on 26B, the model that makes the graph's decisions)
+    baseline_model = os.getenv("BASELINE_MODEL") or model_for("writer")[0]
+    model = _chat(baseline_model, 0.2)
     sem = asyncio.Semaphore(concurrency)
     rows = []
 
@@ -253,7 +256,7 @@ async def main(limit: int, designs: list[str], concurrency: int) -> dict:
                 "latency_p50_s": sorted(r["latency_s"] for r in rs)[len(rs) // 2] if rs else None,
                 "latency_p95_s": p95([r["latency_s"] for r in rs])}
 
-    out = {"profile": profile_name(), "rag_variant": os.getenv("RAG_VARIANT", "config"), "jobs_per_persona": limit,
+    out = {"profile": profile_name(), "rag_variant": os.getenv("RAG_VARIANT", "config"), "jobs_per_persona": limit, "baseline_model": baseline_model,
            "llm_fallbacks": __import__("agent.llm", fromlist=["FALLBACKS"]).FALLBACKS, "designs": {d: summ([r for r in rows if r["design"] == d]) for d in designs},
            "by_category": {}}
     for d in designs:

@@ -34,7 +34,7 @@ jobs:
       - run: pip install uv==0.7.8 && uv pip install --system -e .
       - name: R&D C, single agent and supervisor (graph arm already in agent_comparison_graph.json)
         if: inputs.run == 'rnd_c_baselines'
-        run: RAG_VARIANT=v8_crag python -m evals.runners.agent_comparison --limit 17 --designs single super --concurrency 2
+        run: RAG_VARIANT=v8_crag BASELINE_MODEL=gemma-4-26b-a4b-it python -m evals.runners.agent_comparison --limit 17 --designs single super --concurrency 2
       - name: X2 arm B (plan-first) and the paired A/B test
         if: inputs.run == 'x2_planfirst'
         run: |
