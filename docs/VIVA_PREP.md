@@ -42,9 +42,16 @@ wired at `bid_graph.py:148`.
 is below the calibrated threshold. The 1 GB live VM runs V2 because the cross-encoder overloaded it (ADR 0004).
 V5 multi-vector did not help.
 
-**Does better retrieval matter downstream?** Decisions: bid/skip F1 0.900 with V8 vs 0.761 with V0, same model and
-jobs (`decision_eval_open_v8_limit50.json`, `decision_eval_open_v0_limit50.json`). Proposals and reply rate: see
-the proposal evals in the report.
+**Does better retrieval matter downstream?** Decisions: bid/skip F1 0.950 with V8 vs 0.808 with V0, same model and
+jobs, after the profile fix (`decision_eval_open_v8_fixed_limit50.json`, `decision_eval_open_v0_fixed_limit50.json`).
+V0 is timid, not reckless: precision 0.97, recall 0.69. Pre-fix runs (0.900 vs 0.761) are kept for the failure story.
+
+**The bug you found?** `profile` was not declared in `BidState` (`agent/state.py`), LangGraph silently dropped it,
+every node saw an empty profile: floor 0 (bids on underpaid jobs), default $20 x 1.4 = $28/h. Found from the error mix
+(all false positives) and price in band 0.73, not from F1. Regression test in `tests/integration/test_bid_graph.py`.
+
+**Tool granularity (R&D A)?** `evals/results/tool_granularity.json`: 3 coarse tools did not help selection and lost
+20-30 points of argument accuracy; our 22 tools with rewritten descriptions scored 0.975 on both Gemma models.
 
 **How does claim verification work?** `rag/verify.py:154` `verify_draft`: split the draft into claims, retrieve
 evidence per claim, score with the cross-encoder; supported / partly / unsupported by a threshold chosen with
