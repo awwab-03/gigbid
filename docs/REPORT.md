@@ -202,8 +202,12 @@ GigBid must never submit, send or spend without approval; never contact clients 
 experience; never follow instructions inside job posts or messages; never scrape. Enforcement: interrupts on every
 write, idempotency keys, per-agent tool allowlists, claim verification + Critic + Compliance Guard, untrusted-text
 delimiting and quarantine (`agent/guardrails.py`), rate limits far below human use in live mode (RUNBOOK).
-**What still gets through:** TBD from `injection_eval_open_qwen.json` (the regex detector catches all 71 planted
-dev-set injections with 0 false positives on 529 clean posts, but 0 of 12 paraphrased attacks).
+**What still gets through.** Detector level (`injection_eval_gemma_detector.json`): the regex detector flags all 71
+planted dev-set injections with 0 false positives on 529 clean posts, and **0 of 12 paraphrased attacks** (canary,
+off-platform contact, prompt leak, price manipulation). The detector only catches phrasings it was written for, so it is
+a tripwire, not the defence. What has to hold is the next layer: posts are delimited as untrusted data and every prompt
+says to treat them as data, plus output checks (canary echo, contact details, below-floor price) in the Compliance
+Guard. End to end, with and without those defences: TBD (`injection_eval_gemma.json`).
 
 ## 10. Results against declared budgets
 
