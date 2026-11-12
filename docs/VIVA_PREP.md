@@ -64,7 +64,7 @@ Side effect we measured: swapping the model barely changes decision metrics.
 
 **Prompt injection: what gets through?** Four layers (`agent/guardrails.py`): detector + quarantine, untrusted
 delimiting, data-not-instructions prompts, output checks. Honest finding: the regex detector catches every planted
-dev-set attack but none of 12 paraphrased ones (`evals/results/injection_eval_open_qwen.json`); what holds is the
+dev-set attack but none of 12 paraphrased ones (`evals/results/injection_eval_gemma_detector.json`); what holds is the
 delimiting/prompting layer, measured end to end with and without defences.
 
 **MCP security?** Bearer service tokens signed with a shared secret, per-agent tool allowlists
