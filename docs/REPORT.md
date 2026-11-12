@@ -125,8 +125,25 @@ cross-encoder pairs 1.5 s, load average 11); claim verification stays on there.
 
 ## 5. R&D question C: single agent vs prebuilt supervisor vs our graph
 
-TBD: setup recap and table from `evals/results/agent_comparison.json` (51 dev jobs, same read-only tools, same
-simulated client scoring, the `gemma` profile for all three).
+**Setup** (`evals/runners/agent_comparison.py`). Three designs on the same 17 non-duplicate dev jobs per persona (51),
+the same read-only MCP tools, the `gemma` profile and the same scoring (gold bid/skip, GigSim's client model for
+replies): a single ReAct agent with all tools, a prebuilt LangGraph supervisor with three ReAct workers, and our graph.
+
+| Design | Jobs | Provider errors | Bid/skip F1 | Proposals | Unsupported claims / proposal | Reply rate | Tokens / job | p95 |
+|---|---|---|---|---|---|---|---|---|
+| Single agent | 51 | 50 | not measurable | 0 | n/a | n/a | n/a | 107 s |
+| Prebuilt supervisor | 51 | 51 | not measurable | 0 | n/a | n/a | n/a | 165 s |
+| **Our graph** | 51 | **0** | **0.963** (P 1.00, R 0.93) | 23 | 0.087 | 0.174 | 3,896 | 919 s |
+
+Source: `agent_comparison_graph.json` and its rows. **Result.** The comparison of answer quality is inconclusive: the
+two baselines failed on 50 and 51 of 51 jobs (429 quota 78, 500/503 17, timeouts 6) while the graph failed on none,
+in the same run on the same key. The difference is structural, not luck: the graph routes each node to its own model,
+paces calls and falls back from 31B to 26B (`llm_fallbacks`: 117 fallbacks in this run), while a prebuilt ReAct agent
+has one model, no fallback and fails the whole task on any provider error. On a free-tier provider that is the
+dominant property. The graph also kept 9 of 11 scam or injected jobs out of bidding and had no policy violations.
+**Deviation.** A rerun of the baselines on 26B alone, with retries and 6 jobs per persona, did not finish before
+submission; if it completes it is committed as `agent_comparison_baselines.json` and merged on shared jobs by
+`evals/runners/agent_comparison_merge.py`. Claims about answer quality of the baselines are not made here.
 
 ## 6. The change request
 
@@ -208,7 +225,9 @@ planted dev-set injections with 0 false positives on 529 clean posts, and **0 of
 off-platform contact, prompt leak, price manipulation). The detector only catches phrasings it was written for, so it is
 a tripwire, not the defence. What has to hold is the next layer: posts are delimited as untrusted data and every prompt
 says to treat them as data, plus output checks (canary echo, contact details, below-floor price) in the Compliance
-Guard. End to end, with and without those defences: TBD (`injection_eval_gemma.json`).
+Guard. **Deviation:** the end-to-end run, with and without those defences, timed out twice on the free tier (288
+trials at 350 minutes, then a rerun on 72); the end-to-end attack success rate is therefore not reported. Beyond the
+detector numbers above, the defence is a design claim, not a measured one.
 
 ## 10. Results against declared budgets
 

@@ -100,6 +100,17 @@ pre-fix files are kept (`decision_eval_open_v8_limit50.json`).
 
 Source: `evals/results/tool_granularity.json`. Coarse tools did not help selection and cost 20-30 points of argument accuracy.
 
+### Multi-agent design (R&D C): 51 dev jobs, same tools, Gemma 4 free tier
+
+| Design | Provider errors | Bid/skip F1 | Proposals |
+|---|---|---|---|
+| Single ReAct agent | 50 / 51 | not measurable | 0 |
+| Prebuilt supervisor | 51 / 51 | not measurable | 0 |
+| **Our graph (ships)** | **0 / 51** | **0.963** | 23 |
+
+Same run, same key: per-node model routing, pacing and 31B→26B fallback kept the graph working where single-model
+prebuilt agents failed. Answer quality of the baselines is not measured. Source: `evals/results/agent_comparison_graph.json`.
+
 ## Run it
 
 | What | Command |
