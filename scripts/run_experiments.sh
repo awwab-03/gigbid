@@ -44,5 +44,15 @@ gemma2)
   run MCP_STATE_DIR=$TEMP/m5 $PY -m evals.runners.tool_granularity --models gemma-4-31b-it gemma-4-26b-a4b-it --concurrency 3
   run RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/m6 $PY -m evals.runners.agent_comparison --limit 17 --concurrency 3
   ;;
+gemma3)
+  # 12 Nov morning: what the overnight queues left. Single and supervisor arms of R&D C failed on shared-quota 429s
+  # (graph arm kept as agent_comparison_graph*.json); queue 1 stopped during the plan-first arm.
+  export MODEL_PROFILE=gemma JUDGE_MODEL=gemma-4-31b-it GIGBID_TIMEOUT_SCALE=4
+  run RAG_VARIANT=v8_crag MCP_STATE_DIR=$TEMP/m7 $PY -m evals.runners.agent_comparison --limit 17 --designs single super --concurrency 2
+  run RAG_VARIANT=v8_crag WRITER_STRATEGY=writer_plan MCP_STATE_DIR=$TEMP/m8 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 2 --tag gemma_planfirst_v8
+  run $PY -m evals.runners.ab_test --a proposal_eval_gemma_v8_gemma --b proposal_eval_gemma_planfirst_v8_gemma
+  run RAG_VARIANT=v0_naive MCP_STATE_DIR=$TEMP/m9 $PY -m evals.runners.proposal_eval --limit 10 --concurrency 2 --tag gemma_v0
+  run MCP_STATE_DIR=$TEMP/m10 $PY -m evals.runners.injection_eval --jobs 4 --concurrency 2
+  ;;
 esac
 echo "=== $(date +%T) done ${1:-qwen}"

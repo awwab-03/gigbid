@@ -1,0 +1,123 @@
+{
+  "profile": "gemma",
+  "rag_variant": "v8_crag",
+  "jobs_per_persona": 17,
+  "llm_fallbacks": {
+    "writer:gemma-4-31b-it->gemma-4-26b-a4b-it": 80,
+    "critic:gemma-4-31b-it->gemma-4-26b-a4b-it": 34,
+    "analyst:gemma-4-26b-a4b-it->gemma-4-31b-it": 2,
+    "risk_assessor:gemma-4-26b-a4b-it->gemma-4-31b-it": 1
+  },
+  "designs": {
+    "single": {
+      "n": 51,
+      "errors": 50,
+      "bid_skip_accuracy": 0.451,
+      "bid_skip": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "proposals": 0,
+      "unsupported_claims_per_proposal": null,
+      "risky_jobs": 11,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": null,
+      "reply_rate": null,
+      "tokens_per_job": 75.8,
+      "latency_p50_s": 2.71,
+      "latency_p95_s": 107.01
+    },
+    "super": {
+      "n": 51,
+      "errors": 51,
+      "bid_skip_accuracy": 0.451,
+      "bid_skip": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "proposals": 0,
+      "unsupported_claims_per_proposal": null,
+      "risky_jobs": 11,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": null,
+      "reply_rate": null,
+      "tokens_per_job": 0.0,
+      "latency_p50_s": 17.31,
+      "latency_p95_s": 164.53
+    },
+    "graph": {
+      "n": 51,
+      "errors": 0,
+      "bid_skip_accuracy": 0.961,
+      "bid_skip": {
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963
+      },
+      "proposals": 23,
+      "unsupported_claims_per_proposal": 0.087,
+      "risky_jobs": 11,
+      "risky_not_bid": 0.818,
+      "proposals_with_violations": 0,
+      "mean_p_reply": 0.3483,
+      "reply_rate": 0.174,
+      "tokens_per_job": 3896.4,
+      "latency_p50_s": 206.63,
+      "latency_p95_s": 918.69
+    }
+  },
+  "by_category": {
+    "single|ai_ml": {
+      "n": 12,
+      "accuracy": 0.417
+    },
+    "single|data_analytics": {
+      "n": 17,
+      "accuracy": 0.235
+    },
+    "single|other": {
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "single|web_dev": {
+      "n": 16,
+      "accuracy": 0.5
+    },
+    "super|ai_ml": {
+      "n": 12,
+      "accuracy": 0.417
+    },
+    "super|data_analytics": {
+      "n": 17,
+      "accuracy": 0.235
+    },
+    "super|other": {
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "super|web_dev": {
+      "n": 16,
+      "accuracy": 0.5
+    },
+    "graph|ai_ml": {
+      "n": 12,
+      "accuracy": 1.0
+    },
+    "graph|data_analytics": {
+      "n": 17,
+      "accuracy": 0.882
+    },
+    "graph|other": {
+      "n": 6,
+      "accuracy": 1.0
+    },
+    "graph|web_dev": {
+      "n": 16,
+      "accuracy": 1.0
+    }
+  }
+}
