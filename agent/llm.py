@@ -108,7 +108,7 @@ def _chat(model: str, temperature: float):
 
         limiter = InMemoryRateLimiter(requests_per_second=float(pace[model]) / 60, check_every_n_seconds=0.5, max_bucket_size=1)
     return ChatOpenAI(model=model, temperature=temperature, base_url=os.getenv(p["base_url_env"]), api_key=os.getenv(p["api_key_env"], "missing"),
-                      timeout=timeout, max_retries=CFG["models"]["max_retries"], rate_limiter=limiter)
+                      timeout=timeout, max_retries=int(os.getenv("LLM_MAX_RETRIES", CFG["models"]["max_retries"])), rate_limiter=limiter)
 
 
 def get_llm(node: str):

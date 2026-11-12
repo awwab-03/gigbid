@@ -34,7 +34,9 @@ jobs:
       - run: pip install uv==0.7.8 && uv pip install --system -e .
       - name: R&D C, single agent and supervisor (graph arm already in agent_comparison_graph.json)
         if: inputs.run == 'rnd_c_baselines'
-        run: RAG_VARIANT=v8_crag BASELINE_MODEL=gemma-4-26b-a4b-it python -m evals.runners.agent_comparison --limit 17 --designs single super --concurrency 2
+        # run alone: two other jobs on the same key exhausted the per-minute quota (12 Nov). 6 jobs per persona;
+        # the graph arm is compared on the same 18 jobs from agent_comparison_graph_rows.jsonl
+        run: RAG_VARIANT=v8_crag BASELINE_MODEL=gemma-4-26b-a4b-it LLM_MAX_RETRIES=10 LLM_PACE=gemma-4-26b-a4b-it=6 python -m evals.runners.agent_comparison --limit 6 --designs single super --concurrency 1
       - name: X2 arm B (plan-first) and the paired A/B test
         if: inputs.run == 'x2_planfirst'
         run: |
