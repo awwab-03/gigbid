@@ -1,0 +1,51 @@
+name: Experiments
+# Real-model R&D runs (Gemma 4 on Google AI Studio). Added 12 Nov 2026 when Windows Application Control started
+# blocking a native dependency on the author's laptop. Results are uploaded as artifacts and committed by hand.
+on:
+  workflow_dispatch:
+    inputs:
+      run:
+        description: "which experiment"
+        type: choice
+        options: [rnd_c_baselines, x2_planfirst, proposals_v0, injection]
+
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      MODEL_PROFILE: gemma
+      OPEN_LLM_API_KEY: ${{ secrets.OPEN_LLM_API_KEY }}
+      OPEN_LLM_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
+      JUDGE_MODEL: gemma-4-31b-it
+      GIGBID_TIMEOUT_SCALE: "4"
+      LLM_PACE: gemma-4-31b-it=12,gemma-4-26b-a4b-it=12   # two jobs at once stay under the free tier's per-minute limits
+      LANGSMITH_TRACING: "false"
+      MCP_TRANSPORT: inproc
+      MARKETPLACE_RPM: "600"
+      PYTHONUNBUFFERED: "1"
+      MCP_STATE_DIR: /tmp/mcp_state
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/fastembed, key: fastembed-bge-small-minilm-v1}
+      - run: pip install uv==0.7.8 && uv pip install --system -e .
+      - name: R&D C, single agent and supervisor (graph arm already in agent_comparison_graph.json)
+        if: inputs.run == 'rnd_c_baselines'
+        run: RAG_VARIANT=v8_crag python -m evals.runners.agent_comparison --limit 17 --designs single super --concurrency 2
+      - name: X2 arm B (plan-first) and the paired A/B test
+        if: inputs.run == 'x2_planfirst'
+        run: |
+          RAG_VARIANT=v8_crag WRITER_STRATEGY=writer_plan python -m evals.runners.proposal_eval --limit 10 --concurrency 2 --tag gemma_planfirst_v8
+          python -m evals.runners.ab_test --a proposal_eval_gemma_v8_gemma --b proposal_eval_gemma_planfirst_v8_gemma
+      - name: Proposals with naive retrieval (V0)
+        if: inputs.run == 'proposals_v0'
+        run: RAG_VARIANT=v0_naive python -m evals.runners.proposal_eval --limit 10 --concurrency 2 --tag gemma_v0
+      - name: Prompt injection, detector and end to end
+        if: inputs.run == 'injection'
+        run: python -m evals.runners.injection_eval --jobs 4 --concurrency 2
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: "results-${{ inputs.run }}", path: evals/results/}

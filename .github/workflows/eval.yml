@@ -13,9 +13,9 @@ jobs:
     env:
       # real open model when the secret exists (forks/PRs without secrets fall back to the fake profile;
       # the claim gate only applies to real-model runs)
-      MODEL_PROFILE: ${{ secrets.OPEN_LLM_API_KEY != '' && 'open' || 'fake' }}
+      MODEL_PROFILE: ${{ secrets.OPEN_LLM_API_KEY != '' && 'gemma' || 'fake' }}
       OPEN_LLM_API_KEY: ${{ secrets.OPEN_LLM_API_KEY }}
-      OPEN_LLM_BASE_URL: https://api.cerebras.ai/v1
+      OPEN_LLM_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
