@@ -1,0 +1,46 @@
+{
+  "arm_A": "proposal_eval_gemma_v8_gemma",
+  "arm_B": "proposal_eval_gemma_planfirst_v8_gemma",
+  "n_pairs": 15,
+  "reply_rate_A": 0.2,
+  "reply_rate_B": 0.1333,
+  "discordant": {
+    "A_only_replied": 2,
+    "B_only_replied": 1
+  },
+  "mcnemar_exact_p": 1.0,
+  "two_proportion_z": -0.49,
+  "two_proportion_p": 0.6242,
+  "mean_p_reply_A": 0.3401,
+  "mean_p_reply_B": 0.3358,
+  "mean_diff_p_reply_B_minus_A": -0.0042,
+  "bootstrap95_ci_diff": [
+    -0.0906,
+    0.0948
+  ],
+  "wilcoxon_p": 0.7213,
+  "min_detectable_reply_diff_80pct_power": 0.381,
+  "by_persona": {
+    "data_analyst": {
+      "n": 4,
+      "reply_A": 0.25,
+      "reply_B": 0.0,
+      "mean_p_reply_A": 0.3407,
+      "mean_p_reply_B": 0.3123
+    },
+    "fullstack_dev": {
+      "n": 5,
+      "reply_A": 0.2,
+      "reply_B": 0.2,
+      "mean_p_reply_A": 0.3667,
+      "mean_p_reply_B": 0.356
+    },
+    "ml_engineer": {
+      "n": 6,
+      "reply_A": 0.167,
+      "reply_B": 0.167,
+      "mean_p_reply_A": 0.3175,
+      "mean_p_reply_B": 0.3347
+    }
+  }
+}
