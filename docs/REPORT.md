@@ -59,11 +59,25 @@ argument errors (one schema for many intents); rewriting our descriptions with "
 most on the ambiguous pairs (search vs match vs verify, client-history facets).
 
 **Setup.** 40 tasks with a known correct first call (`evals/runners/tool_granularity.py`), four surfaces: *fine*
-(~36 narrow tools), *coarse* (3 tools with `action`), *ours* (the real 22 MCP tools, schemas read from the servers)
-and *ours_rw* (same tools, rewritten descriptions). Two models. Scored on the first call: tool-selection accuracy,
-argument accuracy on key arguments, tokens per task (API usage).
+(42 narrow tools), *coarse* (3 tools with `action`), *ours* (the real 22 MCP tools, schemas read from the servers)
+and *ours_rw* (same tools, rewritten descriptions). Two open models, Gemma 4 31B and Gemma 4 26B-A4B, 0 provider
+errors. Scored on the first call: tool-selection accuracy, argument accuracy on key arguments, tokens per task.
 
-TBD: table from `evals/results/tool_granularity.json`, conclusion.
+| Surface (tools) | 31B tool / args | 26B tool / args | Tokens per task |
+|---|---|---|---|
+| fine (42) | 0.950 / 0.900 | 0.925 / 0.900 | 1,917 |
+| coarse (3) | 0.925 / 0.700 | 0.950 / 0.600 | 486 |
+| ours (22) | 0.975 / 0.975 | 0.925 / 0.925 | 3,421 |
+| ours_rw (22) | **0.975 / 0.975** | **0.975 / 0.975** | 3,614 |
+
+*Source: `evals/results/tool_granularity.json`, 40 tasks per cell; one task is 0.025.*
+
+**Finding.** The hypothesis holds for arguments, not for selection. Collapsing to 3 tools did not make choosing
+easier (0.925 to 0.950, within one or two tasks of the others) but cost 20 to 30 points of argument accuracy: with
+one schema for many intents, the model fills the wrong fields for the chosen `action`. The rewritten descriptions
+helped the smaller model most (0.925 to 0.975 on both scores) and changed nothing for the larger one. The cost is
+tokens: our schemas are 7 times the coarse surface per call. **Decision:** keep the 22 tools with rewritten
+descriptions. With 40 tasks, differences under about 0.05 are not distinguishable from noise.
 
 ## 4. R&D question B: RAG variants, claim verification, what ships
 
