@@ -64,8 +64,14 @@ Side effect we measured: swapping the model barely changes decision metrics.
 
 **Prompt injection: what gets through?** Four layers (`agent/guardrails.py`): detector + quarantine, untrusted
 delimiting, data-not-instructions prompts, output checks. Honest finding: the regex detector catches every planted
-dev-set attack but none of 12 paraphrased ones (`evals/results/injection_eval_gemma_detector.json`); what holds is the
-delimiting/prompting layer, measured end to end with and without defences.
+dev-set attack but none of 12 paraphrased ones (`evals/results/injection_eval_gemma_detector.json`); what has to hold is the
+delimiting/prompting layer and the output checks. The end-to-end run timed out on the free tier, so that is a design
+claim, not a measured rate (report section 9).
+
+**Why not a prebuilt supervisor?** Same tools, same jobs: single ReAct agent and prebuilt supervisor failed on 50 and
+51 of 51 jobs, and on 12 and 16 of 18 when rerun alone on 26B with retries; our graph failed on none (F1 0.963) because
+each node has its own model, pacing and a 31B->26B fallback (`agent_comparison_graph.json`, `agent_comparison_matched.json`).
+Their answer quality is not measured.
 
 **MCP security?** Bearer service tokens signed with a shared secret, per-agent tool allowlists
 (`agent/config.yaml: tool_allowlist`), write tools annotated and requiring idempotency keys, append-only hash-chained
