@@ -1,4 +1,4 @@
-# Submission checklist (AI-4016 GigBid, due 12 Nov 2026 23:59 PKT)
+# Submission checklist (AI-4016 GigBid, deadline extended to Sunday 15 Nov 2026; target submission 12 Nov night)
 
 | Deliverable | Where | Status |
 |---|---|---|
