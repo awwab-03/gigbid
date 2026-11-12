@@ -101,11 +101,17 @@ it ranks the one right item first and retrieves fewer of the others). By persona
 
 **Claim verification.** Claims are split from the draft and graded against retrieved evidence with the
 cross-encoder; the supported/unsupported threshold was chosen by Youden's J on labelled pairs (-7.9 logit, AUC
-0.787, `support_threshold.json`). TBD: unsupported claims per proposal before/after from the proposal evals.
+0.787, `support_threshold.json`). On the Gemma V8 proposal run, 34% of drafted claims were unsupported before
+verification (27 of 79 claims, 1.35 per proposal) and 0.10 per proposal after (2 of 20 proposals kept one).
 
 **Downstream: decisions.** Same 150 jobs, same model, threshold 0.60: V8 bid/skip F1 **0.950** (P 0.904, R 1.000) vs V0 **0.808** (P 0.967, R 0.694) (`decision_eval_open_v8_fixed_limit50.json`, `decision_eval_open_v0_fixed_limit50.json`). Naive retrieval does not make GigBid reckless, it makes it timid: missed evidence turns good jobs into skips. Price inside the fair band is 1.00 for both after the profile fix (section 8).
-Proposals, judge, reply rate, latency, tokens: TBD (`proposal_eval_qwen_v8_open_qwen`, `proposal_eval_qwen_v0_open_qwen`).
-Judge calibration: TBD (`judge_calibration.json`, 30 items labelled by the author).
+**Downstream: proposals** (`proposal_eval_gemma_v8_gemma.json`, the first 10 gold-bid dev jobs per persona, `gemma`
+profile). Of 30 jobs, 20 were drafted and submitted to GigSim, 9 ended in `dead_letter` after provider errors (Google
+free-tier 429/500s) and 1 was put on watch. Simulated reply rate **0.30** (6 of 20), hires 0, Critic loops 1.6 on
+average, **8,369 tokens per proposal**, p95 878 s. The large model was often unavailable: the writer fell back from
+31B to 26B 86 times and the Critic 45 times (`llm_fallbacks`), so most drafts were written by the smaller model. The
+LLM judge scored 10 of the 20 (the other judge calls failed) with mean 3.9 of 5. V0 at proposal level: TBD.
+Judge calibration: TBD (`judge_calibration.json`, items labelled by the author).
 
 **What ships.** V8 (ADR 0004): best retrieval on every overall metric and on 4+ requirement and injected posts,
 p95 4.1 s vs V3's 7.5 s. The 1 GB live VM runs V2 because V8's cross-encoder overloaded it (measured: 20
@@ -157,7 +163,14 @@ decisions, all bids on gold-skip jobs**, and 32 of the correct bids priced outsi
 After the profile fix the measured V8 run has 9 errors, all in the over-generous-evidence category, F1 0.950,
 accuracy 0.94 (`decision_eval_open_v8_fixed_limit50.json`). The bug was invisible in the headline metric (0.900 looks
 good) and in unit tests (the `decide` function was correct); only reading individual failures found it.
-TBD: proposal-level failures (unsupported claims, generic openings, compliance, injection, tool errors).
+**Proposal level** (`proposal_eval_gemma_v8_gemma_rows.jsonl`, 20 submitted proposals). *Missing must-haves:* the
+simulated client's main reason for not replying was must-have coverage in the text: replied proposals covered 0.92 of
+the job's must-haves on average, lost ones 0.74, and 8 of 20 covered fewer than all. Drafts are short (43 to 130 words,
+median about 94), so the writer drops requirements the Fit Matcher had found evidence for; the fix is to require
+the writer to mention every must-have the Fit Matcher supported (not done; neither X2 arm enforces it). *Unsupported claims:* 27 of 79, all but
+2 removed by the verifier before submission. *Tool and provider errors:* 9 of 30 runs dead-lettered on Google
+429/500s after retries, which the per-node retry and dead-letter design handled (no crash, no partial submission);
+the fix is pacing (`LLM_PACE`), applied to later runs. No compliance blocks, no injection echoes in these 20.
 
 ## 9. Safety and platform respect
 
@@ -170,5 +183,16 @@ dev-set injections with 0 false positives on 529 clean posts, but 0 of 12 paraph
 
 ## 10. Results against declared budgets
 
-TBD. The hidden test set runs after the deadline; this section reports the dev-set measurements against the
-declared budgets, and the hidden-test numbers when they are released.
+The hidden test set runs after the deadline; these are dev-set measurements against `agent/config.yaml: budgets`.
+
+| Budget | Declared | Measured | Source | Met? |
+|---|---|---|---|---|
+| p95 latency, job analysed | 25 s | 12.8 s (Cerebras `open`) | `decision_eval_open_v8_fixed_limit50.json` | yes |
+| p95 latency, proposal | 90 s | 878 s (Gemma free tier) | `proposal_eval_gemma_v8_gemma.json` | **no** |
+| Tokens per job | 60,000 max | 2,741 per job analysed, 8,369 per proposal | same files | yes |
+| Cost per job / proposal | USD 0.004 / 0.02 | USD 5.27 for all 11 Nov Cerebras runs (promo credit); USD 0 on Gemma | Cerebras billing, section 1 | not separable per run |
+| Critic revisions | 2 max | 1.6 loops on average, never above the cap | proposal eval | yes |
+
+The proposal latency miss is the provider, not the graph: Gemma 4 always emits hidden reasoning, the free tier
+returns frequent 429/500s, and each retry waits. Proposal p50 was 479 s. Meeting 90 s needs a paid or faster endpoint;
+the 12.8 s decision p95 on Cerebras shows the graph itself is not the bottleneck.
