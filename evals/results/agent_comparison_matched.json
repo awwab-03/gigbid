@@ -1,0 +1,66 @@
+{
+  "source": "agent_comparison_graph_rows.jsonl (graph) + agent_comparison_baselines_rows.jsonl (single, super), restricted to shared (persona, job) pairs",
+  "pairs": 18,
+  "designs": {
+    "graph": {
+      "n": 18,
+      "errors": 0,
+      "bid_skip_accuracy": 1.0,
+      "bid_skip": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "proposals": 9,
+      "unsupported_claims_per_proposal": 0.111,
+      "risky_jobs": 5,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": 0.2855,
+      "reply_rate": 0.222,
+      "tokens_per_job": 4001.3,
+      "latency_p50_s": 216.29,
+      "latency_p95_s": 498.65
+    },
+    "single": {
+      "n": 18,
+      "errors": 12,
+      "bid_skip_accuracy": 0.5,
+      "bid_skip": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "proposals": 0,
+      "unsupported_claims_per_proposal": null,
+      "risky_jobs": 5,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": null,
+      "reply_rate": null,
+      "tokens_per_job": 2407.5,
+      "latency_p50_s": 242.24,
+      "latency_p95_s": 477.97
+    },
+    "super": {
+      "n": 18,
+      "errors": 16,
+      "bid_skip_accuracy": 0.5,
+      "bid_skip": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "proposals": 0,
+      "unsupported_claims_per_proposal": null,
+      "risky_jobs": 5,
+      "risky_not_bid": 1.0,
+      "proposals_with_violations": 0,
+      "mean_p_reply": null,
+      "reply_rate": null,
+      "tokens_per_job": 502.3,
+      "latency_p50_s": 374.09,
+      "latency_p95_s": 844.56
+    }
+  }
+}

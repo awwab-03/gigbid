@@ -141,9 +141,13 @@ in the same run on the same key. The difference is structural, not luck: the gra
 paces calls and falls back from 31B to 26B (`llm_fallbacks`: 117 fallbacks in this run), while a prebuilt ReAct agent
 has one model, no fallback and fails the whole task on any provider error. On a free-tier provider that is the
 dominant property. The graph also kept 9 of 11 scam or injected jobs out of bidding and had no policy violations.
-**Deviation.** A rerun of the baselines on 26B alone, with retries and 6 jobs per persona, did not finish before
-submission; if it completes it is committed as `agent_comparison_baselines.json` and merged on shared jobs by
-`evals/runners/agent_comparison_merge.py`. Claims about answer quality of the baselines are not made here.
+**Rerun** (`agent_comparison_baselines.json`, merged on shared jobs in `agent_comparison_matched.json`). To rule out
+quota contention, the baselines were rerun alone on 26B with 10 retries and pacing, on the first 6 of the same jobs
+per persona (18). They still failed on 12 (single: 500s 6, 429s 4, timeouts 2) and 16 (supervisor: timeouts 10,
+500s 6) of 18. The 6 answers the single agent did give were all correct skips; the supervisor answered 2, skipping a
+gold bid. On the same 18 jobs from its own run, the graph had 0 errors, F1 1.00 and 9 proposals (reply rate 0.22).
+The arms ran at different times, so this is not a strictly paired comparison, and the baselines' answer quality is
+still not measured; what is measured, twice, is that single-model prebuilt agents do not survive this provider.
 
 ## 6. The change request
 
