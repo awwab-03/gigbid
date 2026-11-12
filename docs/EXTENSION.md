@@ -42,4 +42,14 @@ python -m evals.runners.ab_test --a proposal_eval_open_v8_open --b proposal_eval
 
 ## Results
 
-Filled in from `evals/results/ab_test_x2.json` after both arms ran.
+Both arms ran on 12 Nov 2026 (arm A on the author's laptop, arm B on a GitHub Actions runner, same code and job set).
+
+* **Pairs:** 15 jobs drafted and submitted in both arms (of 30; the rest were provider dead-letters or a watch).
+* **Reply rate:** A 0.20, B 0.13; McNemar exact p = 1.0 (discordant: 2 A-only, 1 B-only).
+* **Simulated reply probability:** A 0.340, B 0.336, mean paired difference -0.004, bootstrap 95% CI [-0.091, 0.095],
+  Wilcoxon p = 0.72. Minimum detectable reply-rate difference at 80% power: 0.38.
+* **H1 not supported; the prediction (B not better) holds.** With 15 pairs only a large effect could have shown.
+* **Unplanned finding:** unsupported claims before verification were 5.14 per proposal in B vs 1.35 in A.
+
+**Deviations:** model profile `gemma` (Gemma 4 on Google AI Studio) instead of `open`, because the Cerebras credit ran
+out; 15 pairs instead of about 30; the writer fell back from 31B to 26B in both arms (`llm_fallbacks`).

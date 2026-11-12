@@ -146,7 +146,26 @@ enforced only by the platform; GigBid does not yet plan approvals across days.
 
 Arm A evidence-led (shipped writer) vs arm B plan-first (`agent/prompts/writer_plan.md`), same jobs, model,
 retrieval and simulator; hypothesis registered in `docs/EXTENSION.md` before arm B ran (commit d7d6f94).
-TBD: results from `evals/results/ab_test_x2.json`.
+| | Arm A evidence-led | Arm B plan-first |
+|---|---|---|
+| Drafted / 30 jobs | 20 | 21 |
+| Unsupported claims per proposal, before / after verification | 1.35 / 0.10 | **5.14** / 0.24 |
+| LLM judge (judged drafts) | 3.9 (10) | 3.3 (13) |
+| Reply rate, 15 paired jobs | 0.20 | 0.13 |
+| Mean simulated reply probability, paired | 0.340 | 0.336 |
+| Tokens per proposal | 8,369 | 9,671 |
+
+*Sources: `ab_test_x2.json`, `proposal_eval_gemma_v8_gemma.json`, `proposal_eval_gemma_planfirst_v8_gemma.json`.*
+
+**Result.** No detectable difference: paired difference in reply probability B - A = -0.004 (bootstrap 95% CI -0.091
+to 0.095, Wilcoxon p = 0.72); McNemar on replies p = 1.0 (2 pairs only A replied, 1 only B). The pre-registered
+prediction (B not better) holds, but with 15 pairs the minimum detectable reply-rate difference is 0.38, so this is
+"no large effect", not "no effect". The clearer finding is a side effect: plan-first drafts made **almost four times
+as many unsupported claims** before verification (73% of claims vs 34%), because a delivery plan invites statements
+about the freelancer's process that the portfolio does not record. The verifier removed most of them, at the cost of
+more Critic loops (1.95 vs 1.6). **Deviations from the registration:** the `gemma` profile instead of `open`
+(Cerebras credit ran out), 15 pairs instead of about 30 (provider dead-letters in both arms), and the writer fell
+back from 31B to 26B in both arms (86 and 88 times), so both arms were largely written by the same smaller model.
 
 ## 8. Failure analysis
 
