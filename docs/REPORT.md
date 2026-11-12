@@ -111,7 +111,12 @@ free-tier 429/500s) and 1 was put on watch. Simulated reply rate **0.30** (6 of 
 average, **8,369 tokens per proposal**, p95 878 s. The large model was often unavailable: the writer fell back from
 31B to 26B 86 times and the Critic 45 times (`llm_fallbacks`), so most drafts were written by the smaller model. The
 LLM judge scored 10 of the 20 (the other judge calls failed) with mean 3.9 of 5. V0 at proposal level: TBD.
-Judge calibration: TBD (`judge_calibration.json`, items labelled by the author).
+**Judge calibration** (`judge_calibration.json`): the author labelled 23 drafts blind (stratified by judge score,
+both X2 arms). Quadratic-weighted kappa **0.27** (fair), exact agreement 0.22, within one point 0.74; the judge is
+harsher (mean 3.57 vs 3.87). Six items differ by two or more points in both directions, so the bias is not a simple
+offset. The judge separated the X2 arms more than the author did (3.9 vs 3.3, author 4.0 vs 3.8). **Consequence:** judge
+scores are reported for completeness but no decision rests on them; X2 and the model comparison use the simulated
+client's reply outcome, which is computed from the proposal text by a fixed rule.
 
 **What ships.** V8 (ADR 0004): best retrieval on every overall metric and on 4+ requirement and injected posts,
 p95 4.1 s vs V3's 7.5 s. The 1 GB live VM runs V2 because V8's cross-encoder overloaded it (measured: 20

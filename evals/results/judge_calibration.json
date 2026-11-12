@@ -1,0 +1,9 @@
+{
+  "n": 23,
+  "quadratic_weighted_kappa": 0.273,
+  "unweighted_kappa": 0.0,
+  "exact_agreement": 0.217,
+  "within_one": 0.739,
+  "mean_human": 3.87,
+  "mean_judge": 3.57
+}

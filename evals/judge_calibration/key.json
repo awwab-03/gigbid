@@ -1,0 +1,163 @@
+[
+  {
+    "item": 1,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00001",
+    "judge": 4
+  },
+  {
+    "item": 2,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "data_analyst",
+    "job_id": "j-00406",
+    "judge": 3
+  },
+  {
+    "item": 3,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00215",
+    "judge": 3
+  },
+  {
+    "item": 4,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00219",
+    "judge": 3
+  },
+  {
+    "item": 5,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00020",
+    "judge": 4
+  },
+  {
+    "item": 6,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00216",
+    "judge": 4
+  },
+  {
+    "item": 7,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "data_analyst",
+    "job_id": "j-00408",
+    "judge": 5
+  },
+  {
+    "item": 8,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "data_analyst",
+    "job_id": "j-00410",
+    "judge": 3
+  },
+  {
+    "item": 9,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00213",
+    "judge": 3
+  },
+  {
+    "item": 10,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00018",
+    "judge": 4
+  },
+  {
+    "item": 11,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00017",
+    "judge": 2
+  },
+  {
+    "item": 12,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "data_analyst",
+    "job_id": "j-00403",
+    "judge": 4
+  },
+  {
+    "item": 13,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00216",
+    "judge": 3
+  },
+  {
+    "item": 14,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00212",
+    "judge": 2
+  },
+  {
+    "item": 15,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00001",
+    "judge": 4
+  },
+  {
+    "item": 16,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00203",
+    "judge": 3
+  },
+  {
+    "item": 17,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "data_analyst",
+    "job_id": "j-00405",
+    "judge": 4
+  },
+  {
+    "item": 18,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00009",
+    "judge": 4
+  },
+  {
+    "item": 19,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00209",
+    "judge": 3
+  },
+  {
+    "item": 20,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "data_analyst",
+    "job_id": "j-00401",
+    "judge": 5
+  },
+  {
+    "item": 21,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "ml_engineer",
+    "job_id": "j-00017",
+    "judge": 5
+  },
+  {
+    "item": 22,
+    "src": "proposal_eval_gemma_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00221",
+    "judge": 4
+  },
+  {
+    "item": 23,
+    "src": "proposal_eval_gemma_planfirst_v8_gemma_rows",
+    "persona": "fullstack_dev",
+    "job_id": "j-00208",
+    "judge": 3
+  }
+]
