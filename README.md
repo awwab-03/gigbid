@@ -80,6 +80,26 @@ analysis traced both to one line: `profile` was not declared in the LangGraph st
 and every node saw an empty profile (rate floor 0, default $20 floor). Fixed in `f9badfa` with a regression test; the
 pre-fix files are kept (`decision_eval_open_v8_limit50.json`).
 
+### Proposals (B5): Gemma 4, V8, first 10 gold-bid dev jobs per persona
+
+| Drafted / jobs | Unsupported claims per proposal (before → after verification) | LLM judge (1-5) | Simulated reply rate | Tokens per proposal | p95 |
+|---|---|---|---|---|---|
+| 20 / 30 | 1.35 → 0.10 | 3.9 (10 judged) | 0.30 | 8,369 | 878 s |
+
+9 runs ended in `dead_letter` on Google free-tier 429/500s; the writer often fell back from 31B to 26B (counted in
+`llm_fallbacks`). Source: `evals/results/proposal_eval_gemma_v8_gemma.json`. Report section 4 has the caveats.
+
+### Tool granularity (R&D A): 40 tasks, first call scored
+
+| Surface (tools) | Gemma 31B tool / args | Gemma 26B tool / args | Tokens per task |
+|---|---|---|---|
+| fine (42) | 0.950 / 0.900 | 0.925 / 0.900 | 1,917 |
+| coarse (3) | 0.925 / 0.700 | 0.950 / 0.600 | 486 |
+| ours (22) | 0.975 / 0.975 | 0.925 / 0.925 | 3,421 |
+| **ours, rewritten descriptions (ships)** | **0.975 / 0.975** | **0.975 / 0.975** | 3,614 |
+
+Source: `evals/results/tool_granularity.json`. Coarse tools did not help selection and cost 20-30 points of argument accuracy.
+
 ## Run it
 
 | What | Command |
