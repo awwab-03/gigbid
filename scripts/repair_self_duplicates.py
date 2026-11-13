@@ -22,13 +22,18 @@ async def main(apply: bool) -> None:
     with db.engine.begin() as c:
         rows = c.execute(select(db.jobs.c.user_id, db.jobs.c.job_id, db.jobs.c.thread_id)
                          .where(db.jobs.c.reason == "duplicate of " + db.jobs.c.job_id)).all()
+        # first pass of this script restored paused jobs as "drafting"; their run says awaiting_approval
+        rows += c.execute(select(db.jobs.c.user_id, db.jobs.c.job_id, db.jobs.c.thread_id)
+                          .join(db.runs, db.runs.c.thread_id == db.jobs.c.thread_id)
+                          .where(db.jobs.c.status == "drafting", db.runs.c.status == "awaiting_approval")).all()
     restored = reset = 0
     for user_id, job_id, thread_id in rows:
-        state = (await g.aget_state({"configurable": {"thread_id": thread_id}})).values if thread_id else {}
+        snap = await g.aget_state({"configurable": {"thread_id": thread_id}}) if thread_id else None
+        state = snap.values if snap else {}
         if state.get("job"):
             restored += 1
-            if apply:
-                runner._index_job(user_id, state)
+            if apply:  # same status rule as runner._drive: a paused thread is awaiting approval
+                runner._index_job(user_id, {**state, "status": "awaiting_approval" if snap.next else state.get("status", "done")})
         else:
             reset += 1
             if apply:
