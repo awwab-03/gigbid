@@ -1,4 +1,4 @@
-# Runbook
+﻿# Runbook
 
 ## Run locally
 
@@ -35,7 +35,7 @@ The Docker compose stack (`infra/docker-compose.yml`) is the multi-process versi
 2. Create the instance: Ubuntu 24.04, shape `VM.Standard.E2.1.Micro`, public subnet, public IPv4 on, your SSH key.
 3. On the VM: 4 GB swap, open 80/443 in iptables (`netfilter-persistent save`), `git clone` the repo.
 4. Copy `~/gigbid.env` (chmod 600; production overrides of `.env`, never committed) and the built web app
-   (`VITE_API_URL=/api npx vite build`) to `~/web-dist`, then run `infra/deploy/oracle/setup.sh`.
+   (`VITE_API_URL=/api npx vite build`, from PowerShell or with `MSYS_NO_PATHCONV=1`: Git Bash rewrites `/api` to `C:/Program Files/Git/api` and every API call then hits the SPA fallback) to `~/web-dist`, then run `infra/deploy/oracle/setup.sh`.
 5. `~/gigbid.env` also sets `RAG_VARIANT=v2_hybrid` and `GIGBID_TIMEOUT_SCALE=5` for this slow CPU (ADR 0004).
 6. Update: `git pull && sudo systemctl restart gigbid-api gigbid-gigsim`. A restart re-queues interrupted runs,
    which resume from their checkpoint within 2 minutes.

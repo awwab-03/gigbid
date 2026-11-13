@@ -25,17 +25,22 @@ export default function LoginPage() {
   if (user) return <Navigate to="/inbox" replace />
   const submit = async (e: FormEvent) => {
     e.preventDefault(); setBusy(true); setErr(null)
-    const res = mode === 'login'
-      ? await api.POST('/auth/login', { body: { email, password } })
-      : await api.POST('/auth/register', { body: { email, password, name, account } })
-    if (res.error || !res.data) { setBusy(false); setErr(errorText(res.error)); return }
-    signIn(res.data.access_token, res.data.user)
-    if (mode === 'register') {
-      await api.PUT('/settings', { body: { autonomy: 'suggest', marketplace_mode: 'gigsim', weekly_connects_budget: Number(budget) || 80,
-        hourly_floor: floor ? Number(floor) : null, saved_searches: [{ query: '', category: null, limit: 20 }], timezone: 'Asia/Karachi' } })
+    try {
+      const res = mode === 'login'
+        ? await api.POST('/auth/login', { body: { email, password } })
+        : await api.POST('/auth/register', { body: { email, password, name, account } })
+      if (res.error || !res.data) { setBusy(false); setErr(errorText(res.error)); return }
+      signIn(res.data.access_token, res.data.user)
+      if (mode === 'register') {
+        await api.PUT('/settings', { body: { autonomy: 'suggest', marketplace_mode: 'gigsim', weekly_connects_budget: Number(budget) || 80,
+          hourly_floor: floor ? Number(floor) : null, saved_searches: [{ query: '', category: null, limit: 20 }], timezone: 'Asia/Karachi' } })
+      }
+      nav('/inbox')
+    } catch {
+      setErr('Could not reach the GigBid API. Check your connection and try again.')
+    } finally {
+      setBusy(false)
     }
-    setBusy(false)
-    nav('/inbox')
   }
   return (
     <div className="flex min-h-full items-center justify-center p-4">
