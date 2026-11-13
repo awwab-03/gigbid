@@ -53,6 +53,8 @@ async def scout(user_id: str, account: str, searches: list[dict], posted_after: 
                 continue
             seen_ids.add(job["job_id"])
             dup = find_duplicate(user_id, job)
+            if dup == job["job_id"]:
+                continue  # seen in an earlier scout: neither new nor a repost (was re-marked "duplicate of itself")
             if dup:
                 dups.append({"job_id": job["job_id"], "duplicate_of": dup})
                 continue
